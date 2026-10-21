@@ -965,24 +965,61 @@ Object.assign(__ds_scope, { Input });
 
 // components/forms/NewsletterForm.jsx
 try { (() => {
+/* Newsletter signup. Settings live in content.js (window.TMS.NEWSLETTER): endpoint, emailField,
+   extraFields and the copy. Empty endpoint = nothing is sent (placeholder mode). Posts urlencoded
+   and reads the provider's JSON reply (Kit allows CORS). */
 function NewsletterForm({
-  title = 'Get the weekly edit',
-  text = 'One short email every Sunday. New finds, nothing else.',
+  title,
+  text,
+  button,
   variant = 'block',
   action,
   onSubscribe,
   style
 }) {
+  const cfg = typeof window !== 'undefined' && window.TMS && window.TMS.NEWSLETTER || {};
+  const endpoint = action || cfg.endpoint || '';
+  const heading = title || cfg.title || 'Get the weekly edit';
+  const blurb = text || cfg.text || 'One short email every Sunday. New finds, nothing else.';
+  const label = button || cfg.button || 'Subscribe';
   const [email, setEmail] = React.useState('');
-  const [done, setDone] = React.useState(false);
-  const submit = e => {
-    if (action) return; // real provider form posts normally
+  const [trap, setTrap] = React.useState('');
+  const [status, setStatus] = React.useState('idle'); // idle | sending | done | error | invalid
+  const submit = async e => {
     e.preventDefault();
-    if (!email.includes('@')) return;
-    onSubscribe && onSubscribe(email);
-    setDone(true);
+    if (status === 'sending') return;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.trim())) return setStatus('invalid');
+    if (trap) return setStatus('done'); // bot filled the hidden field
+    if (!endpoint) {
+      onSubscribe && onSubscribe(email);
+      return setStatus('done');
+    }
+    setStatus('sending');
+    const body = new URLSearchParams(); // urlencoded, like a plain HTML form post
+    body.append(cfg.emailField || 'email', email.trim());
+    Object.keys(cfg.extraFields || {}).forEach(k => body.append(k, cfg.extraFields[k]));
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        body,
+        headers: { Accept: 'application/json' }
+      });
+      let data = {};
+      try { data = await res.json(); } catch (err) {}
+      if (!res.ok || data.status === 'failed') throw new Error('signup failed');
+      if (data.status === 'quarantined' && data.url) {
+        window.location.href = data.url; // Kit's bot check; it confirms the signup from there
+        return;
+      }
+      try { localStorage.setItem('tms_subscribed', '1'); } catch (err) {}
+      onSubscribe && onSubscribe(email);
+      setStatus('done');
+    } catch (err) {
+      setStatus('error');
+    }
   };
   const block = variant === 'block';
+  const note = status === 'invalid' ? 'Please enter a valid email address.' : status === 'error' ? 'Something went wrong. Please try again in a minute.' : cfg.note || '';
   return /*#__PURE__*/React.createElement("section", {
     style: {
       background: block ? 'var(--white)' : 'transparent',
@@ -997,9 +1034,10 @@ function NewsletterForm({
       fontWeight: 400,
       fontSize: block ? 'clamp(28px, 4vw, 36px)' : 24,
       lineHeight: 1.15,
-      margin: 0
+      margin: block ? '0 auto' : 0,
+      maxWidth: 560
     }
-  }, title), block && /*#__PURE__*/React.createElement("div", {
+  }, heading), block && /*#__PURE__*/React.createElement("div", {
     style: {
       width: 48,
       height: 1,
@@ -1011,18 +1049,20 @@ function NewsletterForm({
       fontSize: 15,
       color: 'var(--text-secondary)',
       margin: block ? '0 auto 24px' : '8px 0 16px',
-      maxWidth: 420
+      maxWidth: 440
     }
-  }, text), done ? /*#__PURE__*/React.createElement("p", {
+  }, blurb), status === 'done' ? /*#__PURE__*/React.createElement("p", {
+    role: "status",
     style: {
       fontFamily: 'var(--font-accent)',
       fontStyle: 'italic',
-      fontSize: 18
+      fontSize: 18,
+      margin: block ? '0 auto' : 0,
+      maxWidth: 440
     }
-  }, "You're on the list. See you Sunday.") : /*#__PURE__*/React.createElement("form", {
-    action: action,
-    method: action ? 'post' : undefined,
+  }, cfg.success || "You're on the list. See you Sunday.") : /*#__PURE__*/React.createElement("form", {
     onSubmit: submit,
+    noValidate: true,
     style: {
       display: 'flex',
       flexWrap: 'wrap',
@@ -1030,23 +1070,51 @@ function NewsletterForm({
       maxWidth: 460,
       margin: block ? '0 auto' : 0
     }
-  }, /*#__PURE__*/React.createElement(__ds_scope.Input, {
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "text",
+    name: "website",
+    tabIndex: -1,
+    autoComplete: "off",
+    "aria-hidden": "true",
+    value: trap,
+    onChange: e => setTrap(e.target.value),
+    style: {
+      position: 'absolute',
+      left: '-9999px',
+      width: 1,
+      height: 1,
+      opacity: 0
+    }
+  }), /*#__PURE__*/React.createElement(__ds_scope.Input, {
     type: "email",
     name: "email",
     required: true,
     placeholder: "Your email address",
     "aria-label": "Email address",
     value: email,
-    onChange: e => setEmail(e.target.value),
+    onChange: e => {
+      setEmail(e.target.value);
+      if (status === 'invalid' || status === 'error') setStatus('idle');
+    },
     style: {
       flex: '1 1 220px'
     }
   }), /*#__PURE__*/React.createElement(__ds_scope.Button, {
     type: "submit",
+    disabled: status === 'sending',
     style: {
-      flex: '0 0 auto'
+      flex: '0 0 auto',
+      opacity: status === 'sending' ? 0.6 : 1
     }
-  }, "Subscribe")));
+  }, status === 'sending' ? 'Sending…' : label)), status !== 'done' && note && /*#__PURE__*/React.createElement("p", {
+    role: status === 'invalid' || status === 'error' ? 'alert' : undefined,
+    style: {
+      fontSize: 12,
+      letterSpacing: '0.02em',
+      color: status === 'invalid' || status === 'error' ? 'var(--espresso)' : 'var(--text-muted)',
+      margin: block ? '14px auto 0' : '10px 0 0'
+    }
+  }, note));
 }
 Object.assign(__ds_scope, { NewsletterForm });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/forms/NewsletterForm.jsx", error: String((e && e.message) || e) }); }
