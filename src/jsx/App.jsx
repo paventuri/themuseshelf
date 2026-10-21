@@ -6,6 +6,7 @@ const PAGES = {
   about: { title: 'About | The Muse Shelf', description: 'Who curates The Muse Shelf, and why: affordable Amazon home and beauty finds that look expensive.', C: () => <AboutScreen /> },
   disclosure: { title: 'Affiliate Disclosure | The Muse Shelf', description: 'The Muse Shelf participates in the Amazon Services LLC Associates Program.', C: () => <DisclosureScreen /> },
   privacy: { title: 'Privacy Policy | The Muse Shelf', description: 'How The Muse Shelf handles analytics, cookies, affiliate links and newsletter data.', C: () => <PrivacyScreen /> },
+  shop: { title: 'Shop our Instagram | The Muse Shelf', description: 'Every Instagram post from @themuseshelf. Tap a photo to see every piece.', noindex: true, C: () => <ShopScreen /> },
   contact: { title: 'Contact | The Muse Shelf', description: 'Get in touch with The Muse Shelf at hello.themuseshelf@gmail.com.', C: () => <ContactScreen /> },
 };
 
@@ -28,7 +29,7 @@ function resolve(slug) {
   const post = TMS.POSTS.find((p) => p.slug === slug);
   if (post) return { key: slug, kind: 'post', post, title: seoTitle(post), description: post.description || post.intro || post.title, type: 'article', image: post.image, published: post.date, el: <PostScreen post={post} /> };
   const pg = PAGES[slug];
-  if (pg) return { key: slug, kind: 'page', title: pg.title, description: pg.description, type: 'website', el: pg.C() };
+  if (pg) return { key: slug, kind: 'page', title: pg.title, description: pg.description, type: 'website', noindex: !!pg.noindex, el: pg.C() };
   return { key: '404', kind: '404', title: 'Not found | The Muse Shelf', el: <main className="wrap page-head"><h1 className="tms-h1">This shelf is empty.</h1><ADS.Button href="/">Back home</ADS.Button></main> };
 }
 
@@ -81,7 +82,7 @@ function setMeta(r, slug) {
   const set = (attr, key, val) => { let m = document.head.querySelector(`meta[${attr}="${key}"]`); if (!val) { m && m.remove(); return; } if (!m) { m = document.createElement('meta'); m.setAttribute(attr, key); document.head.appendChild(m); } m.setAttribute('content', val); };
   const image = r.image || (is404 ? null : 'assets/logo-stacked.png');
   set('name', 'description', r.description);
-  set('name', 'robots', is404 ? 'noindex' : null);
+  set('name', 'robots', is404 || r.noindex ? 'noindex' : null);
   set('property', 'og:title', r.title);
   set('property', 'og:description', r.description);
   set('property', 'og:type', r.type);

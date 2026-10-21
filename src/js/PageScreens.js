@@ -17,6 +17,57 @@ function PageHead({
     variant: "oak"
   }), children);
 }
+
+/* Link-in-bio page (/shop/): the Instagram grid. Each photo opens its edit on the site, tagged as Instagram traffic.
+   Tiles come from TMS.IG_POSTS (tools/ig_shop_sync.py) and show once their scheduled time has passed. */
+function ShopScreen() {
+  const now = Date.now();
+  const items = (TMS.IG_POSTS || []).filter(i => Date.parse(i.at) <= now);
+  return /*#__PURE__*/React.createElement("main", {
+    className: "wrap",
+    style: {
+      paddingBottom: 'var(--section-gap)'
+    }
+  }, /*#__PURE__*/React.createElement(PageHead, {
+    kicker: "@themuseshelf",
+    title: "Shop our Instagram"
+  }, /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 15,
+      color: 'var(--text-secondary)'
+    }
+  }, "Tap a photo to see every piece.")), /*#__PURE__*/React.createElement("div", {
+    className: "ig-grid"
+  }, items.map(i => /*#__PURE__*/React.createElement("a", {
+    key: i.image,
+    className: "ig-tile",
+    href: tmsPath(i.slug) + '?utm_source=instagram&utm_medium=bio'
+  }, /*#__PURE__*/React.createElement("img", {
+    src: window.asset(i.image),
+    alt: i.alt,
+    loading: "lazy",
+    width: "540",
+    height: "675"
+  }), i.reel && /*#__PURE__*/React.createElement("span", {
+    className: "ig-tile__reel",
+    "aria-hidden": "true"
+  }, "\u25B6")))), !items.length && /*#__PURE__*/React.createElement("p", {
+    className: "tms-accent",
+    style: {
+      textAlign: 'center',
+      fontSize: 18
+    }
+  }, "New finds are on their way."), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'center',
+      marginTop: 40
+    }
+  }, /*#__PURE__*/React.createElement(PDS.Button, {
+    href: "/"
+  }, "Browse all edits")));
+}
 function AboutScreen() {
   return /*#__PURE__*/React.createElement("main", {
     className: "wrap",

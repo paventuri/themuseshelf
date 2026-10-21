@@ -54,7 +54,7 @@ const server = http.createServer((req, res) => {
     await sleep(300);
     return '<!DOCTYPE html>\n' + fix(await page.evaluate(() => document.documentElement.outerHTML));
   };
-  for (const r of routes) {
+  for (const r of routes.concat(['shop'])) {  // shop = link-in-bio page: prerendered, noindex, not in the sitemap
     const html = await render(r);
     const dir = path.join(DIST, r); fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'index.html'), html);

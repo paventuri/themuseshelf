@@ -13,6 +13,32 @@ function PageHead({ kicker, title, children }) {
   );
 }
 
+/* Link-in-bio page (/shop/): the Instagram grid. Each photo opens its edit on the site, tagged as Instagram traffic.
+   Tiles come from TMS.IG_POSTS (tools/ig_shop_sync.py) and show once their scheduled time has passed. */
+function ShopScreen() {
+  const now = Date.now();
+  const items = (TMS.IG_POSTS || []).filter((i) => Date.parse(i.at) <= now);
+  return (
+    <main className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
+      <PageHead kicker="@themuseshelf" title="Shop our Instagram">
+        <p style={{ margin: 0, fontSize: 15, color: 'var(--text-secondary)' }}>Tap a photo to see every piece.</p>
+      </PageHead>
+      <div className="ig-grid">
+        {items.map((i) => (
+          <a key={i.image} className="ig-tile" href={tmsPath(i.slug) + '?utm_source=instagram&utm_medium=bio'}>
+            <img src={window.asset(i.image)} alt={i.alt} loading="lazy" width="540" height="675" />
+            {i.reel && <span className="ig-tile__reel" aria-hidden="true">&#9654;</span>}
+          </a>
+        ))}
+      </div>
+      {!items.length && <p className="tms-accent" style={{ textAlign: 'center', fontSize: 18 }}>New finds are on their way.</p>}
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: 40 }}>
+        <PDS.Button href="/">Browse all edits</PDS.Button>
+      </div>
+    </main>
+  );
+}
+
 function AboutScreen() {
   return (
     <main className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>

@@ -20,6 +20,12 @@ const PAGES = {
     description: 'How The Muse Shelf handles analytics, cookies, affiliate links and newsletter data.',
     C: () => /*#__PURE__*/React.createElement(PrivacyScreen, null)
   },
+  shop: {
+    title: 'Shop our Instagram | The Muse Shelf',
+    description: 'Every Instagram post from @themuseshelf. Tap a photo to see every piece.',
+    noindex: true,
+    C: () => /*#__PURE__*/React.createElement(ShopScreen, null)
+  },
   contact: {
     title: 'Contact | The Muse Shelf',
     description: 'Get in touch with The Muse Shelf at hello.themuseshelf@gmail.com.',
@@ -82,6 +88,7 @@ function resolve(slug) {
     title: pg.title,
     description: pg.description,
     type: 'website',
+    noindex: !!pg.noindex,
     el: pg.C()
   };
   return {
@@ -241,7 +248,7 @@ function setMeta(r, slug) {
   };
   const image = r.image || (is404 ? null : 'assets/logo-stacked.png');
   set('name', 'description', r.description);
-  set('name', 'robots', is404 ? 'noindex' : null);
+  set('name', 'robots', is404 || r.noindex ? 'noindex' : null);
   set('property', 'og:title', r.title);
   set('property', 'og:description', r.description);
   set('property', 'og:type', r.type);
