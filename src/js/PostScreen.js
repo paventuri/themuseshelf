@@ -38,6 +38,7 @@ function richText(s) {
 
 /* "1 hr 5 min" from minutes */
 function fmtMin(m) {
+  if (!m) return 'None';
   const h = Math.floor(m / 60),
     r = m % 60;
   return (h ? h + ' hr' : '') + (h && r ? ' ' : '') + (r ? r + ' min' : '');
@@ -59,7 +60,7 @@ function RecipeCard({
     className: "recipe-summary"
   }, r.summary), /*#__PURE__*/React.createElement("dl", {
     className: "recipe-meta"
-  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Serves"), /*#__PURE__*/React.createElement("dd", null, r.yieldLabel || r.yield)), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Prep"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.prepMin))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Cook"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.cookMin))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Total"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.totalMin)))), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, r.yieldTitle || 'Serves'), /*#__PURE__*/React.createElement("dd", null, r.yieldLabel || r.yield)), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Prep"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.prepMin))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Cook"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.cookMin))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("dt", null, "Total"), /*#__PURE__*/React.createElement("dd", null, fmtMin(r.totalMin)))), /*#__PURE__*/React.createElement("div", {
     className: "recipe-cols"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", null, "Ingredients"), /*#__PURE__*/React.createElement("ul", {
     className: "recipe-ing"

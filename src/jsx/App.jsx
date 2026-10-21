@@ -50,7 +50,7 @@ function structuredData(r, url) {
     const crumbList = crumbs([['Home', '/']].concat(cat ? [[cat.name, tmsPath(cat.slug)]] : [], [[p.title, tmsPath(p.slug)]]));
     if (p.recipe) {
       /* Recipe posts: Recipe + BreadcrumbList. No aggregateRating/review: we never show or invent ratings. */
-      const rc = p.recipe, iso = (m) => 'PT' + (Math.floor(m / 60) ? Math.floor(m / 60) + 'H' : '') + (m % 60 ? (m % 60) + 'M' : '');
+      const rc = p.recipe, iso = (m) => !m ? 'PT0M' : 'PT' + (Math.floor(m / 60) ? Math.floor(m / 60) + 'H' : '') + (m % 60 ? (m % 60) + 'M' : '');
       const plain = (s) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*(.+?)\*\*/g, '$1');
       return [
         { '@type': 'Recipe', '@id': url + '#recipe', mainEntityOfPage: url, url, name: rc.name, description: r.description,

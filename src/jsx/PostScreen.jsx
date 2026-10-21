@@ -15,7 +15,7 @@ function richText(s) {
 }
 
 /* "1 hr 5 min" from minutes */
-function fmtMin(m) { const h = Math.floor(m / 60), r = m % 60; return (h ? h + ' hr' : '') + (h && r ? ' ' : '') + (r ? r + ' min' : ''); }
+function fmtMin(m) { if (!m) return 'None'; const h = Math.floor(m / 60), r = m % 60; return (h ? h + ' hr' : '') + (h && r ? ' ' : '') + (r ? r + ' min' : ''); }
 
 /* Recipe card (post.recipe): yield + times, ingredients, numbered steps, notes. id="recipe" is the jump target. */
 function RecipeCard({ r }) {
@@ -25,7 +25,7 @@ function RecipeCard({ r }) {
       <h2 id="recipe-h">{r.name}</h2>
       {r.summary && <p className="recipe-summary">{r.summary}</p>}
       <dl className="recipe-meta">
-        <div><dt>Serves</dt><dd>{r.yieldLabel || r.yield}</dd></div>
+        <div><dt>{r.yieldTitle || 'Serves'}</dt><dd>{r.yieldLabel || r.yield}</dd></div>
         <div><dt>Prep</dt><dd>{fmtMin(r.prepMin)}</dd></div>
         <div><dt>Cook</dt><dd>{fmtMin(r.cookMin)}</dd></div>
         <div><dt>Total</dt><dd>{fmtMin(r.totalMin)}</dd></div>

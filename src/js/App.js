@@ -164,7 +164,7 @@ function structuredData(r, url) {
     if (p.recipe) {
       /* Recipe posts: Recipe + BreadcrumbList. No aggregateRating/review: we never show or invent ratings. */
       const rc = p.recipe,
-        iso = m => 'PT' + (Math.floor(m / 60) ? Math.floor(m / 60) + 'H' : '') + (m % 60 ? m % 60 + 'M' : '');
+        iso = m => !m ? 'PT0M' : 'PT' + (Math.floor(m / 60) ? Math.floor(m / 60) + 'H' : '') + (m % 60 ? m % 60 + 'M' : '');
       const plain = s => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*(.+?)\*\*/g, '$1');
       return [{
         '@type': 'Recipe',

@@ -46,6 +46,410 @@ var CATEGORIES = [
 var POSTS = [
   // ---------------------------------------------------------------- RECIPE (draft)
   {
+    "slug": "butter-board-with-honey-and-flaky-salt",
+    "guide": true,
+    "title": "Butter Board with Honey, Lemon and Flaky Salt",
+    "seoTitle": "Butter Board Recipe: Small, Easy and Holiday-Ready",
+    "category": "hosting-recipes",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "A small butter board on marble: soft butter, honey, lemon zest, herbs and flaky salt. A 10-minute holiday appetizer, plus a Butter Bell trick for soft butter.",
+    "intro": "A butter board is the lowest-effort appetizer that still looks like a styled table: soft butter, a few toppings and warm bread. We make ours small, on an 8-inch marble board, and keep a Butter Bell on the counter so there's always soft butter ready.",
+    "image": "assets/pins/butter-board-with-honey-and-flaky-salt.jpg",
+    "imageAlt": "Small butter board on a round white marble board: soft butter swoops with honey, lemon zest, pistachios, thyme and chili flakes, a gold spreader with a marble handle, an ivory Butter Bell crock, a glass honey pot and sliced baguette on a linen napkin",
+    "related": [
+      "baked-brie-with-honey-and-figs",
+      "hostess-gifts-under-30",
+      "housewarming-gifts-that-look-expensive"
+    ],
+    "products": [
+      {
+        "name": "Round white marble board, 8 inch",
+        "note": "Just big enough for one stick of butter with an inch of marble showing around it, which is what makes it look deliberate.",
+        "image": "assets/products/B01DPLTJWK.jpg",
+        "link": "B01DPLTJWK"
+      },
+      {
+        "name": "Butter Bell crock, ivory matte",
+        "note": "Keeps about a stick of butter soft on the counter, sealed by a little cold water in the base, so the board takes ten minutes, not an hour.",
+        "image": "assets/products/B000H47H0A.jpg",
+        "link": "B000H47H0A"
+      },
+      {
+        "name": "Marble handle cheese knife set of 6",
+        "note": "Gold blades and white marble handles. The small spreader is the butter knife.",
+        "image": "assets/products/B091F3XX21.jpg",
+        "link": "B091F3XX21"
+      },
+      {
+        "name": "Kilner glass honey pot with dipper",
+        "note": "For extra honey at the table. The ribbed glass catches the light.",
+        "image": "assets/products/B00TYL2VB2.jpg",
+        "link": "B00TYL2VB2"
+      },
+      {
+        "name": "White linen cocktail napkins, set of 12",
+        "note": "Hemstitched 6-inch linen squares: under the bread, then in every guest's hand.",
+        "image": "assets/products/B00RA53R9O.jpg",
+        "link": "B00RA53R9O"
+      }
+    ],
+    "sections": [
+      {
+        "h": "Why a small board",
+        "body": [
+          "A big butter board looks great for five minutes and then turns into a smeared mess. An 8-inch round holds one stick, which is about right for 4 to 6 people with bread, and it looks deliberate instead of leftover: swoops of butter, a few toppings and a lot of white marble showing."
+        ]
+      },
+      {
+        "h": "How to style it",
+        "body": [
+          "Think of it as a still life you can eat."
+        ],
+        "list": [
+          "**Leave a border.** Keep the butter an inch in from the edge so the marble frames it.",
+          "**Top in layers, not piles:** honey first, then zest, then herbs, then salt last so it stays crunchy.",
+          "**Bread on the side,** on a linen napkin or in a basket, not on the board.",
+          "**Put the Butter Bell next to it** with plain butter for refills. It also tells guests the butter is meant to be shared."
+        ],
+        "image": {
+          "src": "assets/recipes/butter-board-with-honey-and-flaky-salt-overhead.jpg",
+          "w": 1000,
+          "h": 1250,
+          "alt": "Overhead view of a butter board on a round white marble board with honey, lemon zest, pistachios, thyme and chili flakes, toasted baguette slices on a linen napkin, a glass honey pot and an ivory butter crock",
+          "caption": "Butter in loose swoops, bread on the side, the Butter Bell ready for refills."
+        }
+      }
+    ],
+    "recipe": {
+      "name": "Butter Board with Honey, Lemon and Flaky Salt",
+      "summary": "One stick of soft butter on an 8-inch marble board, topped with honey, lemon zest, pistachios and herbs. Serves 4 to 6 with warm bread.",
+      "yield": "4 to 6 servings",
+      "yieldLabel": "4 to 6",
+      "prepMin": 10,
+      "cookMin": 0,
+      "totalMin": 10,
+      "category": "Appetizer",
+      "cuisine": "American",
+      "keywords": "butter board, butter board recipe, holiday appetizer, easy appetizer, butter board ideas",
+      "images": [
+        "assets/recipes/butter-board-with-honey-and-flaky-salt-hero.jpg",
+        "assets/recipes/butter-board-with-honey-and-flaky-salt-overhead.jpg"
+      ],
+      "ingredients": [
+        "1/2 cup (1 stick) good salted butter, softened",
+        "1 tablespoon honey (or hot honey)",
+        "Finely grated zest of 1/2 lemon",
+        "1 tablespoon shelled pistachios, toasted and chopped",
+        "1 teaspoon fresh thyme leaves or finely chopped chives",
+        "Pinch of crushed red pepper flakes",
+        "1/2 teaspoon flaky sea salt",
+        "Warm baguette or crusty bread, sliced, for serving"
+      ],
+      "equipment": [
+        "8-inch round marble board",
+        "Small offset spatula or the back of a spoon",
+        "Butter Bell crock (optional, for soft butter on demand)"
+      ],
+      "steps": [
+        "Soften the butter until it spreads easily: 30 to 60 minutes on the counter, or use butter that's been living in a Butter Bell.",
+        "Spoon the butter onto the board and spread it in loose swoops with the back of a spoon, leaving about an inch of marble showing around the edge.",
+        "Drizzle with the honey, then zest the lemon right over the top.",
+        "Scatter the pistachios, herbs and red pepper flakes. Finish with the flaky salt.",
+        "Serve right away with warm bread and a small spreader, with the Butter Bell alongside for refills."
+      ],
+      "notes": [
+        "**Butter Bell.** The crock holds about one stick (125 g). Pour 1/3 cup of cold water into the base, pack the bell-shaped lid firmly with softened butter and set it back in the base. Butter Bell says to change the water every 2 to 3 days.",
+        "**Protect the marble.** Marble is porous: butter can leave dark spots and lemon juice can etch it. Zest only (no juice on the board), and wash the board with warm soapy water as soon as the party's over, or line it with a round of parchment.",
+        "**Make ahead.** Toast the nuts up to 3 days ahead. Spread and top the butter no more than an hour before guests arrive.",
+        "**Leftovers.** Plan for it to be eaten within about 2 hours. Throw away butter that's been on the board (bread has been through it); don't scrape it back into the crock."
+      ],
+      "used": [
+        "B01DPLTJWK",
+        "B000H47H0A",
+        "B091F3XX21",
+        "B00TYL2VB2",
+        "B00RA53R9O"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Is a butter board sanitary?",
+        "a": "It is if guests use the spreader instead of swiping bread through the butter. Set out sliced bread and a small knife, keep the board small so it's finished in one sitting, and don't save what's left."
+      },
+      {
+        "q": "Salted or unsalted butter?",
+        "a": "Salted, or unsalted plus a little extra flaky salt. A cultured, European-style butter tastes best here."
+      },
+      {
+        "q": "How far ahead can I make it?",
+        "a": "Up to an hour. Any longer and the toppings sink into the butter and the zest dries out."
+      }
+    ],
+    "note": "The Muse Shelf is not affiliated with Butter Bell or Kilner."
+  },
+  // ---------------------------------------------------------------- RECIPE (draft)
+  {
+    "slug": "infused-olive-oil-hostess-gift",
+    "guide": true,
+    "title": "Rosemary Chili Olive Oil: A Homemade Hostess Gift (Made Safely)",
+    "seoTitle": "Homemade Infused Olive Oil Gift (Safe Method)",
+    "category": "hosting-recipes",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "Rosemary chili olive oil as a hostess gift: dried aromatics, a marble mortar, a ceramic bottle and the food-safety rules most recipes skip.",
+    "intro": "A bottle of homemade rosemary chili oil is a lovely hostess gift, as long as it's made safely. The CDC says homemade oils made with garlic or herbs belong in the fridge and should be thrown away after 4 days, so we make a small batch, tag it clearly, and offer a longer-lasting kit version too.",
+    "image": "assets/pins/infused-olive-oil-hostess-gift.jpg",
+    "imageAlt": "Cream speckled ceramic olive oil bottle with a steel pour spout, a white linen napkin tied at the neck with twine, a dried rosemary sprig and a blank kraft tag, next to a small marble mortar of crushed dried herbs and a dish of olive oil with bread",
+    "related": [
+      "hostess-gifts-under-30",
+      "kitchen-counter-decor-that-looks-expensive",
+      "housewarming-gifts-that-look-expensive"
+    ],
+    "products": [
+      {
+        "name": "Cream ceramic olive oil bottle, 20 oz",
+        "note": "Opaque glazed ceramic keeps light off the oil, and the drip-free steel spout keeps the counter clean. Holds up to 2 1/2 cups.",
+        "image": "assets/products/B0DZFHMT3W.jpg",
+        "link": "B0DZFHMT3W"
+      },
+      {
+        "name": "White marble mortar and pestle, 4 inch",
+        "note": "A small 4-inch bowl with an unpolished inside that grips: right for cracking a tablespoon or two of dried herbs and spices.",
+        "image": "assets/products/B0000VLP7Q.jpg",
+        "link": "B0000VLP7Q"
+      },
+      {
+        "name": "White linen cocktail napkins, set of 12",
+        "note": "Wrap one around the bottle neck and tie it with twine: instant gift wrap.",
+        "image": "assets/products/B00RA53R9O.jpg",
+        "link": "B00RA53R9O"
+      }
+    ],
+    "sections": [
+      {
+        "h": "Read this first: the safety part",
+        "body": [
+          "Homemade herb and garlic oils are a known botulism risk. The [CDC](https://www.cdc.gov/botulism/prevention/index.html) lists chopped garlic in oil among the sources of botulism, and its advice is simple: refrigerate homemade oils made with garlic or herbs and throw them away after 4 days.",
+          "Warming the oil for a few minutes doesn't change that rule, and neither does using dried herbs. So we treat this as a fresh gift: a small batch, the fridge, and a use-by date on the tag."
+        ],
+        "list": [
+          "**Dried aromatics only.** No fresh garlic, fresh herbs or fresh chiles in the bottle.",
+          "**Strain them out** before bottling.",
+          "**Refrigerate and use within 4 days.** Write it on the tag.",
+          "**Want a gift that keeps?** Give the kit: plain olive oil in the bottle plus a little jar of the dried blend to stir into a dish of oil at the table."
+        ]
+      },
+      {
+        "h": "How to wrap it",
+        "body": [
+          "Cream ceramic bottle, a linen cocktail napkin wrapped around the neck and tied with kitchen twine, a sprig of dried rosemary tucked into the knot on the outside, and a plain tag: \"Rosemary chili oil. Keep refrigerated. Use by (date).\" It looks like a shop gift, and the tag does the safety talk for you.",
+          "For the kit, fill the bottle with plain extra-virgin olive oil and tie on a small jar of the crushed dried blend with its own tag: \"Stir 1/2 teaspoon into a dish of oil, add flaky salt, dip bread.\""
+        ],
+        "image": {
+          "src": "assets/recipes/infused-olive-oil-hostess-gift-overhead.jpg",
+          "w": 1000,
+          "h": 1250,
+          "alt": "Overhead view of an olive oil gift kit: cream ceramic oil bottle wrapped with a linen napkin and twine, a cork-stoppered jar of dried herb and chili blend, a blank kraft tag, a marble mortar with the crushed blend and a dish of olive oil with bread",
+          "caption": "The kit version: plain oil in the bottle, the dried blend in a jar, bread for dipping."
+        }
+      }
+    ],
+    "recipe": {
+      "name": "Rosemary Chili Olive Oil",
+      "summary": "A small batch of rosemary chili oil made with dried aromatics, strained and kept in the fridge. Use it within 4 days, or give the kit version.",
+      "yieldTitle": "Makes",
+      "yield": "About 1 cup",
+      "yieldLabel": "1 cup",
+      "prepMin": 10,
+      "cookMin": 5,
+      "totalMin": 45,
+      "category": "Condiment",
+      "cuisine": "Mediterranean",
+      "keywords": "infused olive oil, rosemary chili oil, homemade hostess gift, diy food gift, flavored olive oil",
+      "images": [
+        "assets/recipes/infused-olive-oil-hostess-gift-hero.jpg",
+        "assets/recipes/infused-olive-oil-hostess-gift-overhead.jpg"
+      ],
+      "ingredients": [
+        "1 cup extra-virgin olive oil",
+        "2 teaspoons dried rosemary",
+        "1 teaspoon crushed red pepper flakes",
+        "1 teaspoon black peppercorns",
+        "1/2 teaspoon fennel seeds (optional)"
+      ],
+      "equipment": [
+        "Small marble mortar and pestle",
+        "Small saucepan",
+        "Fine-mesh strainer and a coffee filter",
+        "Small funnel",
+        "20-ounce ceramic oil bottle, washed and completely dry"
+      ],
+      "steps": [
+        "Wash the bottle and pourer the day before and let them dry completely.",
+        "Lightly crush the rosemary, pepper flakes, peppercorns and fennel in the mortar, just enough to crack them and release the smell. A 4-inch mortar takes this amount in one go.",
+        "Warm the oil and the crushed aromatics in a small saucepan over low heat for about 5 minutes, until tiny bubbles form around the herbs. Don't let it smoke or sizzle.",
+        "Take it off the heat and let it steep for 30 minutes, until cool.",
+        "Strain through a fine-mesh strainer lined with a coffee filter, then funnel into the bottle. Cap it, tag it with a use-by date 4 days out and refrigerate."
+      ],
+      "notes": [
+        "**Storage.** Keep it in the fridge and use it within 4 days ([CDC guidance](https://www.cdc.gov/botulism/prevention/index.html) for homemade oils made with garlic or herbs). Olive oil turns cloudy and thick when cold; 20 minutes on the counter brings it back.",
+        "**Why only 1 cup?** It has to be used within 4 days, so a small batch is the right size. The 20-ounce bottle holds up to 2 1/2 cups, plenty for the kit version.",
+        "**The kit version (keeps longer).** Fill the bottle with plain extra-virgin olive oil. Crush a double batch of the dried blend in the mortar and pack it in a small airtight jar with a tag: \"Stir 1/2 teaspoon into a dish of oil, add flaky salt, dip bread.\" Unopened store-bought olive oil keeps to its best-by date in a cool, dark cupboard.",
+        "**Never** add fresh garlic, fresh herbs or fresh chiles to oil you keep at room temperature, and don't top up the bottle with more aromatics later.",
+        "**Hand-wash the bottle** and let it air-dry completely before refilling."
+      ],
+      "used": [
+        "B0DZFHMT3W",
+        "B0000VLP7Q",
+        "B00RA53R9O"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Can I leave a rosemary sprig in the bottle? It looks so pretty.",
+        "a": "Only if the oil lives in the fridge and is used within 4 days, the same rule as the rest of the batch. For a gift, tuck the sprig into the twine on the outside instead."
+      },
+      {
+        "q": "Can I use fresh garlic?",
+        "a": "Only in oil you'll use right away or keep in the fridge for up to 4 days. Never store garlic in oil at room temperature."
+      },
+      {
+        "q": "How long does the kit last?",
+        "a": "Sealed olive oil keeps until its best-by date in a cool, dark cupboard. The dried blend keeps its flavor for several months in an airtight jar."
+      }
+    ],
+    "note": "Food-safety guidance from the CDC (Botulism Prevention). The Muse Shelf is not affiliated with vancasso or Fox Run."
+  },
+  // ---------------------------------------------------------------- RECIPE (draft)
+  {
+    "slug": "homemade-herb-salt",
+    "guide": true,
+    "title": "Homemade Herb Salt with Rosemary, Thyme and Lemon",
+    "seoTitle": "Homemade Herb Salt Recipe (Rosemary, Thyme, Lemon)",
+    "category": "hosting-recipes",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "Homemade herb salt with rosemary, thyme, sage and lemon zest, pounded in a marble mortar and kept in a marble salt cellar. Ten minutes, plus drying time.",
+    "intro": "Herb salt is the easiest way to make a weeknight dinner taste like a restaurant one, and a marble salt cellar by the stove makes it the prettiest thing on the counter. Pound fresh herbs into coarse salt, let it dry, and it keeps for up to 2 months.",
+    "image": "assets/pins/homemade-herb-salt.jpg",
+    "imageAlt": "White marble salt cellar filled with coarse green herb salt, its lid beside it, a small marble mortar and pestle with pounded herbs and salt, fresh rosemary, thyme and sage, half a lemon and a linen napkin on an oak board",
+    "related": [
+      "kitchen-counter-decor-that-looks-expensive",
+      "hostess-gifts-under-30",
+      "infused-olive-oil-hostess-gift"
+    ],
+    "products": [
+      {
+        "name": "Marble salt cellar with lid, 3 inch",
+        "note": "3 inches across and 3 inches tall with a lid: a small, solid marble cellar for herb salt by the stove.",
+        "image": "assets/products/B0BH8XG2Y3.jpg",
+        "link": "B0BH8XG2Y3"
+      },
+      {
+        "name": "White marble mortar and pestle, 4 inch",
+        "note": "Its unpolished inside grips herbs and salt, and it's heavy enough not to slide while you pound.",
+        "image": "assets/products/B0000VLP7Q.jpg",
+        "link": "B0000VLP7Q"
+      },
+      {
+        "name": "White linen cocktail napkins, set of 12",
+        "note": "Tie one around a jar of herb salt for a hostess gift.",
+        "image": "assets/products/B00RA53R9O.jpg",
+        "link": "B00RA53R9O"
+      }
+    ],
+    "sections": [
+      {
+        "h": "Why make it by hand",
+        "body": [
+          "The mortar bruises the herbs into the salt so their oils tint it pale green and flavor every grain. A food processor is faster, but a 4-inch mortar is the right size for a small batch, and a small batch is about what a 3-inch salt cellar holds."
+        ]
+      },
+      {
+        "h": "Where to use it",
+        "list": [
+          "On roast chicken, potatoes and vegetables before they go in the oven.",
+          "Pinched over sliced tomatoes, avocado toast or fried eggs.",
+          "On the rim of a Bloody Mary.",
+          "As a hostess gift: a small jar with a linen napkin tied around the lid."
+        ],
+        "image": {
+          "src": "assets/recipes/homemade-herb-salt-overhead.jpg",
+          "w": 1000,
+          "h": 1250,
+          "alt": "Overhead view of herb salt being made: green herb salt drying on a parchment-lined tray, a marble mortar with herbs pounded into coarse salt, a marble salt cellar filled with herb salt, a bowl of kosher salt, lemon zest and fresh herbs",
+          "caption": "Pound, mix, spread out to dry, then fill the cellar."
+        }
+      }
+    ],
+    "recipe": {
+      "name": "Homemade Herb Salt",
+      "summary": "Fresh rosemary, thyme and sage pounded into coarse salt with lemon zest, then air-dried for 1 to 2 days. Enough to fill a 3-inch salt cellar, with a little left for a jar.",
+      "yieldTitle": "Makes",
+      "yield": "About 1/2 cup",
+      "yieldLabel": "1/2 cup",
+      "prepMin": 10,
+      "cookMin": 0,
+      "totalMin": 10,
+      "category": "Condiment",
+      "cuisine": "Italian",
+      "keywords": "herb salt, homemade herb salt, rosemary salt, Tuscan herb salt, diy food gift",
+      "images": [
+        "assets/recipes/homemade-herb-salt-hero.jpg",
+        "assets/recipes/homemade-herb-salt-overhead.jpg"
+      ],
+      "ingredients": [
+        "1/2 cup coarse kosher salt or coarse sea salt",
+        "2 tablespoons fresh rosemary leaves",
+        "1 tablespoon fresh thyme leaves",
+        "4 fresh sage leaves",
+        "Finely grated zest of 1 lemon",
+        "1/4 teaspoon freshly ground black pepper"
+      ],
+      "equipment": [
+        "4-inch marble mortar and pestle",
+        "Small mixing bowl",
+        "Rimmed baking sheet and parchment",
+        "Marble salt cellar and a small airtight jar"
+      ],
+      "steps": [
+        "Chop the rosemary, thyme and sage roughly with a knife.",
+        "Put half the herbs in the mortar with 1 tablespoon of the salt and pound until the salt turns green and the herbs are fine. Tip into a small bowl and repeat with the rest of the herbs and another tablespoon of salt (a 4-inch mortar works best in two small batches).",
+        "Stir the rest of the salt, the lemon zest and the pepper into the bowl.",
+        "Spread the salt thinly on a parchment-lined baking sheet and let it air-dry for 1 to 2 days, stirring now and then, until completely dry. In a hurry? Dry it in the oven at its lowest setting, stirring every 10 minutes, until it feels dry to the touch.",
+        "Break up any clumps with the pestle. Fill the salt cellar and keep the rest in an airtight jar."
+      ],
+      "notes": [
+        "**Storage.** Keep the dried salt airtight at room temperature and use it within about 2 months (the window Bon Appetit gives for its fresh-herb salt). The color fades before the flavor does.",
+        "**The cellar isn't airtight.** It holds about 3 1/2 ounces, so keep a small amount in it and refill from the jar, so humidity doesn't clump the whole batch.",
+        "**Dried-herb shortcut.** Make it with dried rosemary, thyme or oregano instead: no drying needed, and Bon Appetit's dried-herb version keeps for about 6 months.",
+        "**Marble care.** Wipe the mortar right away: herb oils can stain marble and lemon can etch it."
+      ],
+      "used": [
+        "B0BH8XG2Y3",
+        "B0000VLP7Q",
+        "B00RA53R9O"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Why does it need to dry?",
+        "a": "Fresh herbs and zest add moisture. Drying keeps the salt from clumping and helps it hold its color and flavor."
+      },
+      {
+        "q": "Which salt works best?",
+        "a": "Coarse kosher or flaky sea salt. Fine table salt turns pasty."
+      },
+      {
+        "q": "Can I add garlic?",
+        "a": "Use 1/2 teaspoon garlic powder, not fresh garlic, so the salt stays dry."
+      }
+    ],
+    "note": "Adapted from Bon Appetit's herb salts. The Muse Shelf is not affiliated with Marblous Krafts or Fox Run."
+  },
+  // ---------------------------------------------------------------- RECIPE (draft)
+  {
     "slug": "baked-brie-with-honey-and-figs",
     "guide": true,
     "title": "Baked Brie with Honey and Figs",
