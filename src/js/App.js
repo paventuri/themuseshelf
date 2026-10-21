@@ -160,6 +160,41 @@ function structuredData(r, url) {
       url: home,
       logo
     };
+    const crumbList = crumbs([['Home', '/']].concat(cat ? [[cat.name, tmsPath(cat.slug)]] : [], [[p.title, tmsPath(p.slug)]]));
+    if (p.recipe) {
+      /* Recipe posts: Recipe + BreadcrumbList. No aggregateRating/review: we never show or invent ratings. */
+      const rc = p.recipe,
+        iso = m => 'PT' + (Math.floor(m / 60) ? Math.floor(m / 60) + 'H' : '') + (m % 60 ? m % 60 + 'M' : '');
+      const plain = s => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*(.+?)\*\*/g, '$1');
+      return [{
+        '@type': 'Recipe',
+        '@id': url + '#recipe',
+        mainEntityOfPage: url,
+        url,
+        name: rc.name,
+        description: r.description,
+        image: [S.url + '/' + p.image].concat((rc.images || []).map(i => S.url + '/' + i)),
+        author: brand,
+        publisher: brand,
+        datePublished: p.date + 'T08:00:00-05:00',
+        dateModified: (p.updated || p.date) + 'T08:00:00-05:00',
+        prepTime: iso(rc.prepMin),
+        cookTime: iso(rc.cookMin),
+        totalTime: iso(rc.totalMin),
+        recipeYield: rc.yield,
+        recipeCategory: rc.category,
+        recipeCuisine: rc.cuisine,
+        keywords: rc.keywords,
+        recipeIngredient: rc.ingredients.map(plain),
+        recipeInstructions: rc.steps.map((s, i) => ({
+          '@type': 'HowToStep',
+          position: i + 1,
+          text: plain(s),
+          url: url + '#recipe'
+        })),
+        inLanguage: 'en-US'
+      }, crumbList];
+    }
     return [{
       '@type': 'Article',
       '@id': url + '#article',
@@ -174,7 +209,7 @@ function structuredData(r, url) {
       publisher: brand,
       articleSection: cat ? cat.name : undefined,
       inLanguage: 'en-US'
-    }, crumbs([['Home', '/']].concat(cat ? [[cat.name, tmsPath(cat.slug)]] : [], [[p.title, tmsPath(p.slug)]])), {
+    }, crumbList, {
       '@type': 'ItemList',
       name: p.title,
       numberOfItems: (p.products || []).length,

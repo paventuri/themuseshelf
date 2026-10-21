@@ -32,6 +32,7 @@ var CATEGORIES = [
   { slug: 'boho-dupes', name: 'Boho & Dupes', intro: 'The Anthropologie look, found on Amazon for a lot less.', image: 'assets/products/10-wood-bead-garland.png' },
   { slug: 'gift-guides', name: 'Gift Guides', intro: 'Thoughtful, good-looking gifts for everyone on your list.', image: 'assets/products/09-marble-coasters-brass-inlay.png' },
   { slug: 'under-50', name: 'Under $50', intro: 'Every find in these edits comes in under fifty dollars.', image: 'assets/products/13-romano-travertine-tray.png' },
+  { slug: 'hosting-recipes', name: 'Hosting & Recipes', intro: 'Easy recipes and hosting ideas, made and served with the pieces we already love.', image: 'assets/products/B08M5YNHGK.jpg' },
   { slug: 'beauty-finds', name: 'Beauty Finds', intro: 'Clean-girl essentials and vanity pieces worth the counter space.', image: 'assets/products/B08NTNQMZ5.jpg' }
 ];
 
@@ -43,6 +44,150 @@ var CATEGORIES = [
       - products: name, note (one sentence), image (square, on white), link (ASIN or full Amazon URL).
       Never add prices. Put a price range only in the title ("Under $50"). */
 var POSTS = [
+  // ---------------------------------------------------------------- RECIPE (draft)
+  {
+    "slug": "baked-brie-with-honey-and-figs",
+    "guide": true,
+    "title": "Baked Brie with Honey and Figs",
+    "seoTitle": "Baked Brie with Honey and Figs (Mini Cocotte Recipe)",
+    "category": "hosting-recipes",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "Baked brie with honey and figs, made in a Le Creuset mini cocotte: a 20-minute holiday appetizer that looks catered. Recipe, make-ahead tips and styling.",
+    "intro": "A small brie baked in a mini cocotte is the easiest appetizer we know that still looks styled. The dish keeps the cheese molten and in one neat pool, so it holds up on the table instead of sliding across a board. Twenty minutes, start to finish.",
+    "image": "assets/pins/baked-brie-with-honey-and-figs.jpg",
+    "imageAlt": "Baked brie with honey, fresh figs, walnuts and thyme in a pale blue-green Le Creuset mini cocotte on a round white marble board, with crackers, toasted baguette, a glass honey pot and a white linen cocktail napkin",
+    "related": [
+      "hostess-gifts-under-30",
+      "thanksgiving-table-decor-from-amazon",
+      "kitchen-counter-decor-that-looks-expensive"
+    ],
+    "products": [
+      {
+        "name": "Le Creuset stoneware mini cocotte, 8 oz",
+        "note": "Holds a mini brie with a little room to spare and goes straight from the oven to the table. Stoneware holds heat, so the cheese stays soft longer. Shown in Sea Salt.",
+        "image": "assets/products/B08M5YNHGK.jpg",
+        "link": "B08M5YNHGK"
+      },
+      {
+        "name": "Round white marble board, 8 inch",
+        "note": "Just big enough for the cocotte and a handful of crackers. Real marble with soft gray veining, and it stays put under a hot dish.",
+        "image": "assets/products/B01DPLTJWK.jpg",
+        "link": "B01DPLTJWK"
+      },
+      {
+        "name": "Kilner glass honey pot with dipper",
+        "note": "Put it on the table so guests can add more honey as they go. The ribbed glass looks lovely catching the light.",
+        "image": "assets/products/B00TYL2VB2.jpg",
+        "link": "B00TYL2VB2"
+      },
+      {
+        "name": "Marble handle cheese knife set of 6",
+        "note": "Gold spreaders and cutters with white marble handles. The small spreader is the one for baked brie.",
+        "image": "assets/products/B091F3XX21.jpg",
+        "link": "B091F3XX21"
+      },
+      {
+        "name": "White linen cocktail napkins, set of 12",
+        "note": "Hemstitched 6-inch linen squares. Honey happens, and these wash well.",
+        "image": "assets/products/B00RA53R9O.jpg",
+        "link": "B00RA53R9O"
+      }
+    ],
+    "sections": [
+      {
+        "h": "Why bake it in a mini cocotte",
+        "body": [
+          "Baked brie is at its best in the first few minutes out of the oven, and at its worst after it has slumped across a sheet pan. Baking a small wheel in the dish you serve it in solves both problems. Stoneware holds heat, so the cheese stays scoopable longer, and the walls keep it in one neat, glossy pool.",
+          "Size matters here. The Le Creuset mini cocotte holds 8 ounces and measures 5 1/2 inches across including the handles, so the bowl itself is only about 3 1/2 inches wide. That's right for a mini brie (4 to 4 1/2 ounces, about 125 grams), not a standard 8-ounce wheel. If you only find larger wheels, cut a wedge and trim it to fit."
+        ]
+      },
+      {
+        "h": "How to style the board",
+        "body": [
+          "Treat it like a still life: one hero, a few supporting pieces and some empty space."
+        ],
+        "list": [
+          "**Set the cocotte slightly off center** on a small round marble board and tuck crackers and toasted baguette into the gap on one side. A crowded board reads busy. A half-empty one reads intentional.",
+          "**Keep the palette quiet.** The cocotte's pale sea-salt glaze, the gray veining in the marble and white linen do the calm part; figs and honey bring the only warm notes.",
+          "**Put the honey on the table,** not just on the cheese. A glass honey pot with a dipper lets guests add more and catches the light.",
+          "**One small knife, handle out,** and a stack of cocktail napkins nearby. Then step away from the board."
+        ],
+        "image": {
+          "src": "assets/recipes/baked-brie-with-honey-and-figs-overhead.jpg",
+          "w": 1000,
+          "h": 1250,
+          "alt": "Overhead view of baked brie with figs and honey in a pale blue-green mini cocotte on a white marble board, surrounded by crackers, toasted baguette slices, a glass honey pot, gold cheese knives and a linen napkin",
+          "caption": "Crackers on one side, baguette on the other, honey within reach."
+        }
+      }
+    ],
+    "recipe": {
+      "name": "Baked Brie with Honey and Figs",
+      "summary": "One mini brie, baked in a mini cocotte and topped with figs, walnuts and thyme. Make one for every 2 to 4 guests.",
+      "yield": "2 to 4 servings",
+      "yieldLabel": "2 to 4",
+      "prepMin": 5,
+      "cookMin": 15,
+      "totalMin": 20,
+      "category": "Appetizer",
+      "cuisine": "American",
+      "keywords": "baked brie, baked brie with honey, baked brie with figs, mini cocotte recipe, holiday appetizer, easy party appetizer",
+      "images": [
+        "assets/recipes/baked-brie-with-honey-and-figs-hero.jpg",
+        "assets/recipes/baked-brie-with-honey-and-figs-overhead.jpg"
+      ],
+      "ingredients": [
+        "1 mini brie, 4 to 4 1/2 ounces (about 125 g), cold from the fridge",
+        "1 1/2 tablespoons honey, divided, plus more for serving",
+        "2 fresh figs, quartered (or 3 dried figs, sliced)",
+        "1 tablespoon walnuts or pecans, toasted and chopped",
+        "2 or 3 small sprigs fresh thyme",
+        "Flaky sea salt and freshly ground black pepper",
+        "Crackers and toasted baguette slices, for serving"
+      ],
+      "equipment": [
+        "8-ounce stoneware mini cocotte",
+        "Small baking sheet"
+      ],
+      "steps": [
+        "Heat the oven to 350°F. Unwrap the brie and set it in the mini cocotte. It should sit flat with a little room around the edge; if it's snug, trim the side.",
+        "With a small sharp knife, score a shallow crosshatch into the top rind, cutting just through the rind. Drizzle with 1 teaspoon of the honey.",
+        "Set the cocotte, lid off, on a small baking sheet and bake for 12 to 15 minutes, until the edges bubble and the center feels very soft when you press it gently with a spoon.",
+        "Let it rest for 3 minutes. Top with the figs and nuts, drizzle with the rest of the honey, then add thyme leaves, a pinch of flaky salt and a little pepper.",
+        "Set the cocotte on a marble board with crackers and baguette slices around it and the honey pot alongside. Serve right away, and warn guests that the dish is hot."
+      ],
+      "notes": [
+        "**Size check.** The 8-ounce mini cocotte is about 3 1/2 inches across inside. A mini brie fits; a standard 8-ounce wheel (about 4 1/2 inches) doesn't. For a bigger wheel, bake it on a parchment-lined sheet pan or in a small baking dish just wider than the cheese, at 350°F, until the center is very soft (about 10 minutes on a sheet pan, 15 to 20 in a dish).",
+        "**Make ahead.** Up to 1 day ahead, score the brie, set it in the cocotte, cover with the lid and refrigerate. Let the dish sit on the counter while the oven heats, then bake as written, adding 2 to 3 minutes. Toast the nuts and the baguette slices up to 2 days ahead and keep them airtight.",
+        "**For a crowd.** Bake one cocotte for every 2 to 4 guests, all on the same sheet pan. The timing doesn't change.",
+        "**Keeping it warm.** It stays scoopable for about 15 minutes. To rewarm, return the cocotte to a 350°F oven for 3 to 5 minutes.",
+        "**Food safety.** Don't leave it out for more than 2 hours. Cover leftovers with the lid, refrigerate and eat within 3 to 4 days."
+      ],
+      "used": [
+        "B08M5YNHGK",
+        "B01DPLTJWK",
+        "B00TYL2VB2",
+        "B091F3XX21",
+        "B00RA53R9O"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Can I use a regular 8-ounce brie?",
+        "a": "Not in this dish. An 8-ounce wheel is about 4 1/2 inches across and won't fit the 8-ounce mini cocotte. Bake it on a parchment-lined sheet pan (about 10 minutes at 350°F) or in a small baking dish just wider than the cheese (15 to 20 minutes), then add the same toppings."
+      },
+      {
+        "q": "Do you eat the rind?",
+        "a": "Yes, the rind is edible. Scoring it just makes the cheese easier to scoop. If you want a fully open top, put the brie in the freezer for 20 to 30 minutes first and slice the top rind off; it comes away cleanly when the cheese is very cold."
+      },
+      {
+        "q": "What can I use instead of fresh figs?",
+        "a": "Fresh figs are easiest to find in late summer and fall. Around the holidays, use 3 or 4 dried figs, sliced, or spread a spoonful of fig jam over the brie before it bakes. Thin pear slices are good too."
+      }
+    ],
+    "note": "The Muse Shelf is not affiliated with Le Creuset or Kilner."
+  },
   // ---------------------------------------------------------------- GUIDE (draft)
   {
     "slug": "pottery-barn-christmas-dupes",

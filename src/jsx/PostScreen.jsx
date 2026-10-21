@@ -14,11 +14,50 @@ function richText(s) {
   return out;
 }
 
-/* Long-form guide: same header + sticky pin as a post, with advice sections and the product cards inside them. */
+/* "1 hr 5 min" from minutes */
+function fmtMin(m) { const h = Math.floor(m / 60), r = m % 60; return (h ? h + ' hr' : '') + (h && r ? ' ' : '') + (r ? r + ' min' : ''); }
+
+/* Recipe card (post.recipe): yield + times, ingredients, numbered steps, notes. id="recipe" is the jump target. */
+function RecipeCard({ r }) {
+  return (
+    <section id="recipe" className="recipe-card" aria-labelledby="recipe-h">
+      <p className="recipe-kicker">The recipe</p>
+      <h2 id="recipe-h">{r.name}</h2>
+      {r.summary && <p className="recipe-summary">{r.summary}</p>}
+      <dl className="recipe-meta">
+        <div><dt>Serves</dt><dd>{r.yieldLabel || r.yield}</dd></div>
+        <div><dt>Prep</dt><dd>{fmtMin(r.prepMin)}</dd></div>
+        <div><dt>Cook</dt><dd>{fmtMin(r.cookMin)}</dd></div>
+        <div><dt>Total</dt><dd>{fmtMin(r.totalMin)}</dd></div>
+      </dl>
+      <div className="recipe-cols">
+        <div>
+          <h3>Ingredients</h3>
+          <ul className="recipe-ing">{r.ingredients.map((x, i) => <li key={i}>{richText(x)}</li>)}</ul>
+          {r.equipment && <><h3>You'll need</h3><ul className="recipe-ing">{r.equipment.map((x, i) => <li key={i}>{richText(x)}</li>)}</ul></>}
+        </div>
+        <div>
+          <h3>Method</h3>
+          <ol className="recipe-steps">{r.steps.map((x, i) => <li key={i}><span className="recipe-n" aria-hidden="true">{i + 1}</span><p>{richText(x)}</p></li>)}</ol>
+        </div>
+      </div>
+      {r.notes && (
+        <div className="recipe-notes">
+          <h3>Notes</h3>
+          {r.notes.map((x, i) => <p key={i}>{richText(x)}</p>)}
+        </div>
+      )}
+    </section>
+  );
+}
+
+/* Long-form guide: same header + sticky pin as a post, with advice sections and the product cards inside them.
+   Recipe variant (post.recipe): Jump to recipe link, recipe card after the sections, then "What we used". */
 function GuideScreen({ post }) {
   const cat = TMS.CATEGORIES.find((c) => c.slug === post.category);
   const byAsin = {}; post.products.forEach((pr) => { byAsin[pr.link] = pr; });
   const related = (post.related || []).map((s) => TMS.POSTS.find((p) => p.slug === s)).filter(Boolean).slice(0, 3);
+  const jump = (e) => { const el = document.getElementById('recipe'); if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth', block: 'start' }); } };
   let n = 0;
   return (
     <main>
@@ -30,6 +69,7 @@ function GuideScreen({ post }) {
           <DS.Disclosure href="/disclosure/" align="center" style={{ maxWidth: 440 }} />
           <DS.Divider variant="oak" spacing={4} />
           {post.intro && <p style={{ fontSize: 17, lineHeight: 1.75, maxWidth: 600, color: 'var(--text-secondary)' }}>{post.intro}</p>}
+          {post.recipe && <DS.Button variant="secondary" size="sm" href="#recipe" onClick={jump}>Jump to recipe</DS.Button>}
         </header>
         <div className="post-body">
           <div className="post-pin">
@@ -55,8 +95,25 @@ function GuideScreen({ post }) {
                   </ol>
                 )}
                 {(s.after || []).map((x, i) => <p key={'a' + i}>{richText(x)}</p>)}
+                {s.image && (
+                  <figure className="guide-fig">
+                    <img src={window.asset(s.image.src)} alt={s.image.alt} width={s.image.w} height={s.image.h} loading="lazy" decoding="async" />
+                    {s.image.caption && <figcaption>{s.image.caption}</figcaption>}
+                  </figure>
+                )}
               </section>
             ))}
+            {post.recipe && <RecipeCard r={post.recipe} />}
+            {post.recipe && post.recipe.used && (
+              <section>
+                <h2>What we used</h2>
+                <ol className="products" style={{ listStyle: 'none', padding: 0 }} aria-label="What we used">
+                  {post.recipe.used.map((a) => { const pr = byAsin[a]; n += 1; return (
+                    <li key={a}><DS.ProductCard number={n} name={pr.name} note={pr.note} image={pr.image ? window.asset(pr.image) : undefined} imageAlt={pr.name} href={TMS.amazon(pr.link)} /></li>
+                  ); })}
+                </ol>
+              </section>
+            )}
             {post.faq && (
               <section>
                 <h2>Questions people ask</h2>
@@ -125,5 +182,5 @@ function PostScreen({ post }) {
   );
 }
 
-Object.assign(window, { PostScreen, GuideScreen, formatDate });
+Object.assign(window, { PostScreen, GuideScreen, RecipeCard, formatDate });
 
