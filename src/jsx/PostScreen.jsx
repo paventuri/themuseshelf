@@ -71,9 +71,9 @@ function GuideScreen({ post }) {
         <DS.SectionHeader title="Related edits" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
         <DS.PostGrid columns={3}>{related.map((p) => <DS.PostCard {...postCardProps(p)} />)}</DS.PostGrid>
       </section>
-      <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
+      {TMS.NEWSLETTER_ON && <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
         <DS.NewsletterForm />
-      </section>
+      </section>}
     </main>
   );
 }
@@ -118,9 +118,9 @@ function PostScreen({ post }) {
         <DS.SectionHeader title="More edits" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
         <DS.PostGrid columns={3}>{more.map((p) => <DS.PostCard {...postCardProps(p)} />)}</DS.PostGrid>
       </section>
-      <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
+      {TMS.NEWSLETTER_ON && <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
         <DS.NewsletterForm />
-      </section>
+      </section>}
     </main>
   );
 }

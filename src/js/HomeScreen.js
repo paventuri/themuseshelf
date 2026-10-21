@@ -107,7 +107,7 @@ function HomeScreen() {
     imageAlt: c.name + ' edits',
     href: tmsPath(c.slug),
     placeholderIcon: window.asset('assets/icon.png')
-  })))), /*#__PURE__*/React.createElement("section", {
+  })))), TMS.NEWSLETTER_ON && /*#__PURE__*/React.createElement("section", {
     className: "wrap",
     style: {
       paddingBottom: 'var(--section-gap)'

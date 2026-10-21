@@ -39,9 +39,9 @@ function HomeScreen() {
           {TMS.CATEGORIES.map((c) => <CategoryTile key={c.slug} label={c.name} image={c.image ? window.asset(c.image) : undefined} imageAlt={c.name + ' edits'} href={tmsPath(c.slug)} placeholderIcon={window.asset('assets/icon.png')} />)}
         </div>
       </section>
-      <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
+      {TMS.NEWSLETTER_ON && <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
         <NewsletterForm />
-      </section>
+      </section>}
     </main>
   );
 }

@@ -137,7 +137,7 @@ function GuideScreen({
     }
   }), /*#__PURE__*/React.createElement(DS.PostGrid, {
     columns: 3
-  }, related.map(p => /*#__PURE__*/React.createElement(DS.PostCard, postCardProps(p))))), /*#__PURE__*/React.createElement("section", {
+  }, related.map(p => /*#__PURE__*/React.createElement(DS.PostCard, postCardProps(p))))), TMS.NEWSLETTER_ON && /*#__PURE__*/React.createElement("section", {
     className: "wrap",
     style: {
       paddingBottom: 'var(--section-gap)'
@@ -235,7 +235,7 @@ function PostScreen({
     }
   }), /*#__PURE__*/React.createElement(DS.PostGrid, {
     columns: 3
-  }, more.map(p => /*#__PURE__*/React.createElement(DS.PostCard, postCardProps(p))))), /*#__PURE__*/React.createElement("section", {
+  }, more.map(p => /*#__PURE__*/React.createElement(DS.PostCard, postCardProps(p))))), TMS.NEWSLETTER_ON && /*#__PURE__*/React.createElement("section", {
     className: "wrap",
     style: {
       paddingBottom: 'var(--section-gap)'

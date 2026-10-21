@@ -1175,4 +1175,6 @@ var SITE = {
   email: 'hello.themuseshelf@gmail.com'
 };
 
-window.TMS = { AFFILIATE_TAG: AFFILIATE_TAG, amazon: amazon, CATEGORIES: CATEGORIES, POSTS: POSTS, SITE: SITE };
+/* Newsletter blocks stay hidden until a provider (Kit) is connected; the placeholder form dropped signups. */
+var NEWSLETTER_ON = false;
+window.TMS = { NEWSLETTER_ON: NEWSLETTER_ON, AFFILIATE_TAG: AFFILIATE_TAG, amazon: amazon, CATEGORIES: CATEGORIES, POSTS: POSTS, SITE: SITE };
