@@ -268,7 +268,9 @@ function CategoryTile({
     style: {
       width: '100%',
       height: '100%',
-      objectFit: 'cover'
+      objectFit: 'contain',
+      padding: '10%',
+      boxSizing: 'border-box'
     }
   })) : /*#__PURE__*/React.createElement(__ds_scope.Placeholder, {
     ratio: "4 / 5",
@@ -1133,9 +1135,6 @@ const NAV_ITEMS = [{
   label: 'Home Finds',
   href: '/home-finds/'
 }, {
-  label: 'Beauty Finds',
-  href: '/beauty-finds/'
-}, {
   label: 'Boho & Dupes',
   href: '/boho-dupes/'
 }, {
@@ -1144,6 +1143,9 @@ const NAV_ITEMS = [{
 }, {
   label: 'Under $50',
   href: '/under-50/'
+}, {
+  label: 'Beauty Finds',
+  href: '/beauty-finds/'
 }, {
   label: 'About',
   href: '/about/'
