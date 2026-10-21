@@ -2,3 +2,4 @@ tools/node_modules/
 tools/qa/
 dist/
 .DS_Store
+tools/live.png
