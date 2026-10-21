@@ -1131,22 +1131,22 @@ const CSS = `.tms-hdr__nav{display:none}.tms-hdr__burger{display:flex}
 .tms-hdr__icon:hover{color:var(--muted-olive)!important}`;
 const NAV_ITEMS = [{
   label: 'Home Finds',
-  href: '/home-finds'
+  href: '/home-finds/'
 }, {
   label: 'Beauty Finds',
-  href: '/beauty-finds'
+  href: '/beauty-finds/'
 }, {
   label: 'Boho & Dupes',
-  href: '/boho-dupes'
+  href: '/boho-dupes/'
 }, {
   label: 'Gift Guides',
-  href: '/gift-guides'
+  href: '/gift-guides/'
 }, {
   label: 'Under $50',
-  href: '/under-50'
+  href: '/under-50/'
 }, {
   label: 'About',
-  href: '/about'
+  href: '/about/'
 }];
 const iconBtn = {
   background: 'none',
@@ -1307,13 +1307,13 @@ const SOCIAL_LINKS = [{
 }];
 const LEGAL_LINKS = [{
   label: 'Disclosure',
-  href: '/disclosure'
+  href: '/disclosure/'
 }, {
   label: 'Privacy',
-  href: '/privacy'
+  href: '/privacy/'
 }, {
   label: 'Contact',
-  href: '/contact'
+  href: '/contact/'
 }];
 const lbl = {
   fontFamily: 'var(--font-sans)',

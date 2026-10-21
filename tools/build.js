@@ -48,7 +48,8 @@ const server = http.createServer((req, res) => {
   if (QA) fs.mkdirSync(path.join(__dirname, 'qa'), { recursive: true });
   const render = async (route) => {
     cur = '/' + route;
-    await page.goto(LOCAL + '/' + route, { waitUntil: 'networkidle0' });
+    // trailing slash = the URL GitHub Pages serves (/slug -> 301 -> /slug/), so location-based URLs (Pin It) match
+    await page.goto(LOCAL + '/' + route + (route && !route.startsWith('this-page') ? '/' : ''), { waitUntil: 'networkidle0' });
     await page.waitForFunction(() => document.querySelector('#site-root') && document.querySelector('#site-root').children.length > 0, { timeout: 15000 });
     await sleep(300);
     return '<!DOCTYPE html>\n' + fix(await page.evaluate(() => document.documentElement.outerHTML));
@@ -67,9 +68,19 @@ const server = http.createServer((req, res) => {
     console.log('rendered /' + r);
   }
   fs.writeFileSync(path.join(DIST, '404.html'), await render('this-page-does-not-exist'));
-  const today = new Date().toISOString().slice(0, 10);
+  // lastmod: never in the future (local date). Posts = updated/date; home + categories = newest post in them; pages = build date.
+  const today = new Date().toLocaleDateString('en-CA');
+  const clamp = d => (d && d < today ? d : today);
+  const real = TMS.POSTS.filter(p => !p.placeholder);
+  const newest = ps => ps.map(p => p.updated || p.date).sort().pop();
+  const lastmod = r => {
+    const post = real.find(p => p.slug === r); if (post) return clamp(post.updated || post.date);
+    if (!r) return clamp(newest(real));
+    if (TMS.CATEGORIES.some(c => c.slug === r)) return clamp(newest(real.filter(p => p.category === r)));
+    return today;
+  };
   fs.writeFileSync(path.join(DIST, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-    routes.map(r => `  <url><loc>${ORIGIN}/${r}${r ? '/' : ''}</loc><lastmod>${(TMS.POSTS.find(p => p.slug === r) || {}).date || today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
+    routes.map(r => `  <url><loc>${ORIGIN}/${r}${r ? '/' : ''}</loc><lastmod>${lastmod(r)}</lastmod></url>`).join('\n') + '\n</urlset>\n');
   fs.writeFileSync(path.join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${ORIGIN}/sitemap.xml\n`);
   fs.writeFileSync(path.join(DIST, 'CNAME'), 'themuseshelf.com\n');
   fs.writeFileSync(path.join(DIST, '.nojekyll'), '');

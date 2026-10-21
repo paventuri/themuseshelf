@@ -13,10 +13,10 @@ function PostScreen({ post }) {
     <main>
       <article className="wrap">
         <header className="post-head">
-          <DS.Label href={'/' + cat.slug}>{cat.name}</DS.Label>
+          <DS.Label href={tmsPath(cat.slug)}>{cat.name}</DS.Label>
           <h1 className="post-h1">{post.title}</h1>
           <DS.Label tone="muted" as="time" dateTime={post.date}>{formatDate(post.date)}</DS.Label>
-          <DS.Disclosure href="/disclosure" align="center" style={{ maxWidth: 440 }} />
+          <DS.Disclosure href="/disclosure/" align="center" style={{ maxWidth: 440 }} />
           <DS.Divider variant="oak" spacing={4} />
           {post.intro && <p style={{ fontSize: 17, lineHeight: 1.75, maxWidth: 600, color: 'var(--text-secondary)' }}>{post.intro}</p>}
         </header>
@@ -40,7 +40,7 @@ function PostScreen({ post }) {
         )}
       </article>
       <section className="wrap section">
-        <DS.SectionHeader title="More edits" linkLabel={'All ' + cat.name} href={'/' + cat.slug} style={{ marginBottom: 32 }} />
+        <DS.SectionHeader title="More edits" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
         <DS.PostGrid columns={3}>{more.map((p) => <DS.PostCard {...postCardProps(p)} />)}</DS.PostGrid>
       </section>
       <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>

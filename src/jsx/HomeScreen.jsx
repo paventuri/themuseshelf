@@ -1,10 +1,12 @@
 
 window.asset = window.asset || function (p) { var m = window.__ASSET_MAP || {}, id = m[p]; return (id && window.__resources && window.__resources[id]) || ('/' + p); };
+/* Internal URLs always end with a slash: GitHub Pages serves /slug/ and 301s /slug -> /slug/. */
+window.tmsPath = function (slug) { slug = String(slug || '').replace(/^\/+|\/+$/g, ''); return '/' + (slug ? slug + '/' : ''); };
 const { Button, Label, PostCard, PostGrid, CategoryTile, SectionHeader, NewsletterForm, PinImage } = window.TheMuseShelfDesignSystem_f42d04;
 
 function postCardProps(p) {
   const cat = TMS.CATEGORIES.find((c) => c.slug === p.category);
-  return { key: p.slug, title: p.title, category: cat && cat.name, image: p.image ? window.asset(p.image) : undefined, imageAlt: p.imageAlt, href: '/' + p.slug, placeholderIcon: window.asset('assets/icon.png') };
+  return { key: p.slug, title: p.title, category: cat && cat.name, image: p.image ? window.asset(p.image) : undefined, imageAlt: p.imageAlt, href: tmsPath(p.slug), placeholderIcon: window.asset('assets/icon.png') };
 }
 
 function HomeScreen() {
@@ -21,20 +23,20 @@ function HomeScreen() {
             <Button href="#latest" size="lg" style={{ marginTop: 8 }}>Browse the edits</Button>
           </div>
           {feature && (
-            <div className="hero__pin" onClick={(e) => { if (!e.target.closest('a')) location.href = '/' + feature.slug; }} style={{ maxWidth: 360, justifySelf: 'end', width: '100%', cursor: 'pointer' }}>
+            <div className="hero__pin" onClick={(e) => { if (!e.target.closest('a')) location.href = tmsPath(feature.slug); }} style={{ maxWidth: 360, justifySelf: 'end', width: '100%', cursor: 'pointer' }}>
               <PinImage src={window.asset(feature.image)} alt={feature.imageAlt} priority />
             </div>
           )}
         </section>
       </div>
       <section id="latest" className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
-        <SectionHeader title="Latest edits" linkLabel="View all" href="/home-finds" style={{ marginBottom: 32 }} />
+        <SectionHeader title="Latest edits" linkLabel="View all" href="/home-finds/" style={{ marginBottom: 32 }} />
         <PostGrid columns={4}>{latest.map((p) => <PostCard {...postCardProps(p)} />)}</PostGrid>
       </section>
       <section className="wrap section" style={{ borderTop: '1px solid var(--stone)' }}>
         <SectionHeader title="Shop by category" align="center" style={{ marginBottom: 40 }} />
         <div className="cats">
-          {TMS.CATEGORIES.map((c) => <CategoryTile key={c.slug} label={c.name} image={c.image ? window.asset(c.image) : undefined} imageAlt={c.name + ' edits'} href={'/' + c.slug} placeholderIcon={window.asset('assets/icon.png')} />)}
+          {TMS.CATEGORIES.map((c) => <CategoryTile key={c.slug} label={c.name} image={c.image ? window.asset(c.image) : undefined} imageAlt={c.name + ' edits'} href={tmsPath(c.slug)} placeholderIcon={window.asset('assets/icon.png')} />)}
         </div>
       </section>
       <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>

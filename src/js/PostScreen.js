@@ -21,7 +21,7 @@ function PostScreen({
   }, /*#__PURE__*/React.createElement("header", {
     className: "post-head"
   }, /*#__PURE__*/React.createElement(DS.Label, {
-    href: '/' + cat.slug
+    href: tmsPath(cat.slug)
   }, cat.name), /*#__PURE__*/React.createElement("h1", {
     className: "post-h1"
   }, post.title), /*#__PURE__*/React.createElement(DS.Label, {
@@ -29,7 +29,7 @@ function PostScreen({
     as: "time",
     dateTime: post.date
   }, formatDate(post.date)), /*#__PURE__*/React.createElement(DS.Disclosure, {
-    href: "/disclosure",
+    href: "/disclosure/",
     align: "center",
     style: {
       maxWidth: 440
@@ -84,7 +84,7 @@ function PostScreen({
   }, /*#__PURE__*/React.createElement(DS.SectionHeader, {
     title: "More edits",
     linkLabel: 'All ' + cat.name,
-    href: '/' + cat.slug,
+    href: tmsPath(cat.slug),
     style: {
       marginBottom: 32
     }

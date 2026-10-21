@@ -3,6 +3,11 @@ window.asset = window.asset || function (p) {
     id = m[p];
   return id && window.__resources && window.__resources[id] || '/' + p;
 };
+/* Internal URLs always end with a slash: GitHub Pages serves /slug/ and 301s /slug -> /slug/. */
+window.tmsPath = function (slug) {
+  slug = String(slug || '').replace(/^\/+|\/+$/g, '');
+  return '/' + (slug ? slug + '/' : '');
+};
 const {
   Button,
   Label,
@@ -21,7 +26,7 @@ function postCardProps(p) {
     category: cat && cat.name,
     image: p.image ? window.asset(p.image) : undefined,
     imageAlt: p.imageAlt,
-    href: '/' + p.slug,
+    href: tmsPath(p.slug),
     placeholderIcon: window.asset('assets/icon.png')
   };
 }
@@ -55,7 +60,7 @@ function HomeScreen() {
   }, "Browse the edits")), feature && /*#__PURE__*/React.createElement("div", {
     className: "hero__pin",
     onClick: e => {
-      if (!e.target.closest('a')) location.href = '/' + feature.slug;
+      if (!e.target.closest('a')) location.href = tmsPath(feature.slug);
     },
     style: {
       maxWidth: 360,
@@ -76,7 +81,7 @@ function HomeScreen() {
   }, /*#__PURE__*/React.createElement(SectionHeader, {
     title: "Latest edits",
     linkLabel: "View all",
-    href: "/home-finds",
+    href: "/home-finds/",
     style: {
       marginBottom: 32
     }
@@ -100,7 +105,7 @@ function HomeScreen() {
     label: c.name,
     image: c.image ? window.asset(c.image) : undefined,
     imageAlt: c.name + ' edits',
-    href: '/' + c.slug,
+    href: tmsPath(c.slug),
     placeholderIcon: window.asset('assets/icon.png')
   })))), /*#__PURE__*/React.createElement("section", {
     className: "wrap",

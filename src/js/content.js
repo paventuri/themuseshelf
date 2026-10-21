@@ -45,6 +45,144 @@ var CATEGORIES = [
 var POSTS = [
   // ----------------------------------------------------------------
   {
+    slug: 'housewarming-gifts-that-look-expensive',
+    title: 'Housewarming Gifts That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-10-21',
+    description: 'Housewarming gifts that look expensive from Amazon: a travertine tray, reed diffuser, marble bookends, glass cake stand, butter crock and candle.',
+    intro: 'The best housewarming gifts are pieces a new homeowner would pick for themselves. These Amazon finds in travertine, marble, acacia and glass look like they came from a design shop and suit almost any home.',
+    image: 'assets/pins/housewarming-gifts-that-look-expensive.jpg',
+    imageAlt: 'Collage of housewarming gifts from Amazon: Archipelago reed diffuser, travertine tray, marble bookends, glass cake stand, acacia bowl, white ceramic vases and a Thymes Noir candle',
+    products: [
+      { name: 'Glass cake stand with dome', note: 'A footed glass stand and cloche for cakes, pastries or a cheese course.', image: 'assets/products/B01FSID5C8.jpg', link: 'B01FSID5C8' },
+      { name: 'Butter Bell French butter crock', note: 'The original French butter keeper that keeps butter soft and spreadable.', image: 'assets/products/B000H47H0A.jpg', link: 'B000H47H0A' },
+      { name: 'White marble mortar and pestle', note: 'A heavy marble set that looks like a design piece on the counter.', image: 'assets/products/B0000VLP7Q.jpg', link: 'B0000VLP7Q' },
+      { name: 'Archipelago Botanico de Havana diffuser', note: 'An amber glass reed diffuser with a warm, smoky tobacco and vanilla scent.', image: 'assets/products/B003GYMGPE.jpg', link: 'B003GYMGPE' },
+      { name: 'Thymes Noir Woods candle', note: 'A black marbled three-wick candle with evergreen and amber notes.', image: 'assets/products/B0DN2PRLZS.jpg', link: 'B0DN2PRLZS' },
+      { name: 'Real travertine tray', note: 'Natural stone that turns soap, perfume or keys into a styled moment.', image: 'assets/products/B0D4F49TZV.jpg', link: 'B0D4F49TZV' },
+      { name: 'Marble bookends, set of 2', note: 'Heavy stone wedges that hold a stack of books like a designer shelf.', image: 'assets/products/B0FDLJ6Z9N.jpg', link: 'B0FDLJ6Z9N' },
+      { name: 'Black wood salt and pepper mills', note: 'A tall matching pair with adjustable ceramic grinders.', image: 'assets/products/B07Y1Z2CTJ.jpg', link: 'B07Y1Z2CTJ' },
+      { name: 'Acacia wave bowl with servers', note: 'A large sculpted acacia bowl for salads, bread or fruit.', image: 'assets/products/B00MWENGGM.jpg', link: 'B00MWENGGM' },
+      { name: 'Whitewashed wood pedestal bowl', note: 'A footed bowl with a soft limewash finish for a table or console.', image: 'assets/products/B0C2F3BHP2.jpg', link: 'B0C2F3BHP2' },
+      { name: 'White ceramic donut vases, set of 2', note: 'Hollow matte vases that look sculptural with or without stems.', image: 'assets/products/B0C2YLN3H4.jpg', link: 'B0C2YLN3H4' },
+      { name: 'White ceramic pitcher vase', note: 'A farmhouse-style jug for fresh or dried branches.', image: 'assets/products/B0D41FL76W.jpg', link: 'B0D41FL76W' },
+      { name: 'Reactive glaze ceramic bowl', note: 'A deep blue-gray glazed bowl for fruit or a coffee table.', image: 'assets/products/B0F7KWKZ6S.jpg', link: 'B0F7KWKZ6S' },
+      { name: 'Fortessa hobnail glass cake stand', note: 'A vintage-style beaded glass stand in a soft blush tone.', image: 'assets/products/B09RJMXZ53.jpg', link: 'B09RJMXZ53' },
+      { name: 'Wood chain link decor', note: 'A carved wooden link that styles a shelf or coffee table stack.', image: 'assets/products/B0D5CGQ52M.jpg', link: 'B0D5CGQ52M' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'hostess-gifts-under-30',
+    title: 'Hostess Gifts Under $30',
+    category: 'gift-guides',
+    date: '2026-10-21',
+    description: 'Affordable hostess gifts that look expensive: a marble cheese board, gold cheese knives, a Le Creuset mini cocotte, linen napkins and a candle.',
+    intro: 'A hostess gift should feel thoughtful, look beautiful on the counter and still get used after the party. These Amazon finds lean on marble, olive wood, linen and glass, so a small thank-you looks like it came from a boutique.',
+    image: 'assets/pins/hostess-gifts-under-30.jpg',
+    imageAlt: 'Collage of affordable hostess gifts from Amazon: marble cheese board, marble handle cheese knives, Le Creuset mini cocotte, linen cocktail napkins, glass honey pot and a Thymes candle tin',
+    products: [
+      { name: 'White linen cocktail napkins, set of 12', note: 'Hemstitched linen squares that make any drink tray feel like a boutique hotel bar.', image: 'assets/products/B00RA53R9O.jpg', link: 'B00RA53R9O' },
+      { name: 'Kilner glass honey pot with dipper', note: 'A classic beehive jar with a wooden dipper, sweet with a jar of local honey inside.', image: 'assets/products/B00TYL2VB2.jpg', link: 'B00TYL2VB2' },
+      { name: 'Round white marble cheese board', note: 'A solid marble board that serves cheese tonight and styles the counter tomorrow.', image: 'assets/products/B01DPLTJWK.jpg', link: 'B01DPLTJWK' },
+      { name: 'Gold cheese knife set of 5', note: 'Gold-finish knives for soft and hard cheeses that dress up any board.', image: 'assets/products/B0BDZHVRWS.jpg', link: 'B0BDZHVRWS' },
+      { name: 'Marble handle cheese knife set', note: 'Six gold spreaders and cutters with white marble handles.', image: 'assets/products/B091F3XX21.jpg', link: 'B091F3XX21' },
+      { name: 'Marble salt cellar with lid', note: 'A small white stone salt box that lives beautifully by the stove.', image: 'assets/products/B0BH8XG2Y3.jpg', link: 'B0BH8XG2Y3' },
+      { name: 'Le Creuset stoneware mini cocotte', note: 'A tiny lidded cocotte in Sea Salt for salt, butter or a sweet treat.', image: 'assets/products/B08M5YNHGK.jpg', link: 'B08M5YNHGK' },
+      { name: 'Cream ceramic olive oil bottle', note: 'A glazed pour bottle that looks far better on the counter than plastic.', image: 'assets/products/B0DZFHMT3W.jpg', link: 'B0DZFHMT3W' },
+      { name: 'Crystal wine bottle stopper', note: 'A sparkling faceted topper to tie onto a bottle of wine.', image: 'assets/products/B07XW71D9S.jpg', link: 'B07XW71D9S' },
+      { name: 'Travertine coasters, set of 4', note: 'Natural stone coasters with cork backs and a quietly luxe look.', image: 'assets/products/B09L42TT2L.jpg', link: 'B09L42TT2L' },
+      { name: 'Olive wood heart board', note: 'A hand-finished olive wood board with gorgeous grain, sweet for a hostess.', image: 'assets/products/B004IOT97Y.jpg', link: 'B004IOT97Y' },
+      { name: 'Walnut cutting board with handle', note: 'A dark edge-grain walnut board that doubles as a serving paddle.', image: 'assets/products/B093WK1ZMZ.jpg', link: 'B093WK1ZMZ' },
+      { name: 'Stonewashed linen kitchen towels', note: 'Soft flax linen tea towels in a calm natural tone.', image: 'assets/products/B08ZRZRSBY.jpg', link: 'B08ZRZRSBY' },
+      { name: 'White ceramic butter dish', note: 'A simple covered butter dish that makes the table look finished.', image: 'assets/products/B075RJ5B2V.jpg', link: 'B075RJ5B2V' },
+      { name: 'Smoky glass bubble candle dish', note: 'A smoky glass dish with a bubble rim that glows when the candle is lit.', image: 'assets/products/B0FDXY4XS3.jpg', link: 'B0FDXY4XS3' },
+      { name: 'Thymes holiday candle tin', note: 'A lidded travel tin with a crisp fir scent that smells like the holidays.', image: 'assets/products/B07PZF7X3K.jpg', link: 'B07PZF7X3K' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'self-care-gift-ideas-for-her',
+    title: 'Self-Care Gift Ideas for Her',
+    category: 'gift-guides',
+    date: '2026-10-21',
+    description: 'Self-care gift ideas for her from Amazon: a teak bathtub tray, silk sleep mask, French hand cream trio, rose quartz roller and body butter.',
+    intro: 'A self-care gift says take a night off. These Amazon picks turn an ordinary evening into a spa night at home, with a teak bath tray, silky sleep essentials, rich body care and a few cooling skincare tools.',
+    image: 'assets/pins/self-care-gift-ideas-for-her.jpg',
+    imageAlt: 'Collage of self-care gifts for her from Amazon: teak bathtub tray, silk sleep mask, La Chatelaine hand cream trio, rose quartz roller set, body butter, lavender mist and a spa headband',
+    products: [
+      { name: 'Silk sleep mask', note: 'A soft, light-blocking silk mask with an adjustable strap.', image: 'assets/products/B07J41LJJZ.jpg', link: 'B07J41LJJZ' },
+      { name: 'Rose quartz roller and gua sha set', note: 'A pretty facial massage duo that feels like a spa treatment.', image: 'assets/products/B07PHZS8MV.jpg', link: 'B07PHZS8MV' },
+      { name: 'Facial ice globes', note: 'Cooling stainless steel globes that depuff and soothe after a long day.', image: 'assets/products/B0F3869KZH.jpg', link: 'B0F3869KZH' },
+      { name: 'La Chatelaine hand cream trio tin', note: 'Three French hand creams in a gift-ready floral tin.', image: 'assets/products/B07YBJK1HQ.jpg', link: 'B07YBJK1HQ' },
+      { name: 'Inis body butter', note: 'A rich, sea-scented body butter in a clean white jar.', image: 'assets/products/B06XN5QLZS.jpg', link: 'B06XN5QLZS' },
+      { name: 'L\'Occitane almond hair and body mist', note: 'A light almond scent to mist on after a bath.', image: 'assets/products/B0FH7JFSGP.jpg', link: 'B0FH7JFSGP' },
+      { name: 'Aura Cacia lavender mist', note: 'A relaxing lavender spray for pillows, linens or a calm room.', image: 'assets/products/B001E722V8.jpg', link: 'B001E722V8' },
+      { name: 'Teak bathtub tray', note: 'An expandable teak caddy that holds a book, candle and glass in the bath.', image: 'assets/products/B08K7BBWF4.jpg', link: 'B08K7BBWF4' },
+      { name: 'Conair spa headband', note: 'A soft pink puffy headband for skincare and face washing.', image: 'assets/products/B0CJH1RY42.jpg', link: 'B0CJH1RY42' },
+      { name: 'VOLO Hero hair towel', note: 'A super absorbent hair towel that cuts drying time.', image: 'assets/products/B0B6H3B69Y.jpg', link: 'B0B6H3B69Y' },
+      { name: 'Khaki cotton hand towels, 3 pack', note: 'Soft textured towels in a warm, spa-like neutral.', image: 'assets/products/B0C5Q9T6SF.jpg', link: 'B0C5Q9T6SF' },
+      { name: 'Lavender spa gift basket', note: 'A ready-to-give basket of lavender bath and body treats.', image: 'assets/products/B0D9LXZMF1.jpg', link: 'B0D9LXZMF1' },
+      { name: 'Natural spa gift box', note: 'A kraft gift box of candles, bath salts and little self-care extras.', image: 'assets/products/B0DZHGRRDV.jpg', link: 'B0DZHGRRDV' },
+      { name: 'Olay Enrich body oil', note: 'A lightweight oil-serum that leaves skin glowing.', image: 'assets/products/B0H5KTSHN5.jpg', link: 'B0H5KTSHN5' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'cozy-gifts-for-the-homebody',
+    title: 'Cozy Gifts for the Homebody',
+    category: 'gift-guides',
+    date: '2026-10-21',
+    description: 'Cozy gifts for the homebody from Amazon: a faux fur sherpa throw, fluffy slippers, fuzzy socks, a reading pillow, a bed tray and stoneware mugs.',
+    intro: 'For the friend who would rather stay in, the best gift is anything that makes home feel softer. These Amazon finds cover the whole night in: plush throws, slippers, fuzzy socks, a reading pillow, a bed tray and a good mug.',
+    image: 'assets/pins/cozy-gifts-for-the-homebody.jpg',
+    imageAlt: 'Collage of cozy gifts for the homebody from Amazon: faux fur sherpa throw, knit throws, fluffy slippers, fuzzy socks, reading pillow, acacia bed tray, stoneware mugs and a sunrise alarm clock',
+    products: [
+      { name: 'Faux fur sherpa throw blanket', note: 'A plush beige throw that makes any sofa feel like a cozy cabin.', image: 'assets/products/B0CF173VLZ.jpg', link: 'B0CF173VLZ' },
+      { name: 'Beige knit throw blanket', note: 'A soft diamond-knit throw with fringe for an easy neutral look.', image: 'assets/products/B01JEAKSN0.jpg', link: 'B01JEAKSN0' },
+      { name: 'YnM chunky cotton knit throw', note: 'A thick cable knit throw that looks handmade.', image: 'assets/products/B0D3WRPQHX.jpg', link: 'B0D3WRPQHX' },
+      { name: 'Herringbone cotton throw', note: 'A light stone-colored throw with fringe for layering.', image: 'assets/products/B08S1C8GHZ.jpg', link: 'B08S1C8GHZ' },
+      { name: 'Fluffy cross-strap slippers', note: 'Cloud-soft open-toe slippers in creamy white.', image: 'assets/products/B0GVJC2N9C.jpg', link: 'B0GVJC2N9C' },
+      { name: 'Skechers cozy clog slippers', note: 'Suede-look clogs lined with faux fur for errands and lazy mornings.', image: 'assets/products/B0BX274M7P.jpg', link: 'B0BX274M7P' },
+      { name: 'EverFoams memory foam slippers', note: 'Plush gray slippers with a cushioned memory foam sole.', image: 'assets/products/B0CB839PW8.jpg', link: 'B0CB839PW8' },
+      { name: 'UGG fuzzy socks', note: 'Fluffy pink socks that feel like a treat on cold floors.', image: 'assets/products/B073S693BG.jpg', link: 'B073S693BG' },
+      { name: 'Wool blend crew socks, 3 pack', note: 'Warm neutral socks for boots or curling up at home.', image: 'assets/products/B0DDQ4FBDX.jpg', link: 'B0DDQ4FBDX' },
+      { name: 'Sango stoneware mugs, set of 4', note: 'Speckled reactive-glaze mugs in warm earthy tones.', image: 'assets/products/B097NHLL8R.jpg', link: 'B097NHLL8R' },
+      { name: 'Handmade pottery coffee mug', note: 'A large glazed mug with an artisan look.', image: 'assets/products/B091975P73.jpg', link: 'B091975P73' },
+      { name: 'White porcelain mugs, set of 6', note: 'Clean white mugs for coffee, tea or cocoa.', image: 'assets/products/B0F8N74F65.jpg', link: 'B0F8N74F65' },
+      { name: 'Acacia bed tray with folding legs', note: 'A warm wood tray for breakfast in bed or a book and coffee.', image: 'assets/products/B09WMNMJL4.jpg', link: 'B09WMNMJL4' },
+      { name: 'Reading pillow with arms', note: 'A plush backrest pillow for reading or watching movies in bed.', image: 'assets/products/B0CXY131X1.jpg', link: 'B0CXY131X1' },
+      { name: 'Sunrise alarm clock with sound machine', note: 'Wakes her gently with light and soothing sounds.', image: 'assets/products/B0BGS2YL86.jpg', link: 'B0BGS2YL86' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'white-elephant-gifts-under-25',
+    title: 'White Elephant Gifts Under $25',
+    category: 'gift-guides',
+    date: '2026-10-21',
+    description: 'Affordable white elephant gifts people will actually steal: a candle warmer lamp, whiskey glass set, cocktail shaker kit, mug warmer and a milk frother.',
+    intro: 'The best white elephant gifts are the ones people steal. These Amazon finds are useful, giftable and look more expensive than the price limit, from a candle warmer lamp to a whiskey glass set and a rechargeable frother.',
+    image: 'assets/pins/white-elephant-gifts-under-25.jpg',
+    imageAlt: 'Collage of affordable white elephant gifts from Amazon: candle warmer lamp, whiskey glass gift set, cocktail shaker set, mug warmers, milk frother, glass mugs and a travel jewelry box',
+    products: [
+      { name: 'Tovolo sphere ice molds, set of 2', note: 'Big round ice balls that make any drink look like a cocktail bar.', image: 'assets/products/B007ACTN54.jpg', link: 'B007ACTN54' },
+      { name: 'Whiskey glass gift set with chilling stones', note: 'Two glasses, stones and slate coasters in a wooden gift box.', image: 'assets/products/B08F7L8S2R.jpg', link: 'B08F7L8S2R' },
+      { name: 'Cocktail shaker set with bamboo stand', note: 'A 12-piece bar kit that looks great on a counter or bar cart.', image: 'assets/products/B0839HYQQ5.jpg', link: 'B0839HYQQ5' },
+      { name: 'Maestri House rechargeable milk frother', note: 'A sleek frother with a stand for cafe-style lattes at home.', image: 'assets/products/B0BN7M8CH4.jpg', link: 'B0BN7M8CH4' },
+      { name: 'White smart mug warmer', note: 'Keeps coffee warm at the desk and turns off when the mug is lifted.', image: 'assets/products/B07XLL45CH.jpg', link: 'B07XLL45CH' },
+      { name: 'Retro coffee mug warmer', note: 'A wood-look warmer with a vintage dial for coffee or tea.', image: 'assets/products/B0DHRS7Y89.jpg', link: 'B0DHRS7Y89' },
+      { name: 'Flameless LED tea lights, 24 pack', note: 'Flickering battery candles for a warm glow without the flame.', image: 'assets/products/B06XCTP65H.jpg', link: 'B06XCTP65H' },
+      { name: 'Solid oak picture frame', note: 'A simple oak frame with a mat for a favorite photo.', image: 'assets/products/B0DPVB1BFH.jpg', link: 'B0DPVB1BFH' },
+      { name: 'Double wall glass coffee mugs, set of 4', note: 'Insulated glass mugs that make a latte look beautiful.', image: 'assets/products/B0DYTBDPGX.jpg', link: 'B0DYTBDPGX' },
+      { name: 'LED compact mirror', note: 'A slim lighted pocket mirror with magnification for touch-ups.', image: 'assets/products/B08FMNXX68.jpg', link: 'B08FMNXX68' },
+      { name: 'Travel jewelry box', note: 'A small black case that keeps rings and earrings organized on trips.', image: 'assets/products/B08C36CYNW.jpg', link: 'B08C36CYNW' },
+      { name: 'BAGSMART travel jewelry organizer', note: 'A soft pink roll-style case with spots for every piece.', image: 'assets/products/B0DF833LRH.jpg', link: 'B0DF833LRH' },
+      { name: 'Candle warmer lamp', note: 'A dimmable gold lamp that melts candle wax from the top, no flame needed.', image: 'assets/products/B0CCYCBRSK.jpg', link: 'B0CCYCBRSK' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'neutral-christmas-decor-from-amazon',
     title: 'Neutral Christmas Decor From Amazon That Looks Expensive',
     category: 'home-finds',
