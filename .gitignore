@@ -3,3 +3,4 @@ tools/qa/
 dist/
 .DS_Store
 tools/live.png
+tools/qa_b2/

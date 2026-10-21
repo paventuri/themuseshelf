@@ -6,8 +6,8 @@ const puppeteer = require('puppeteer-core'); const sleep = ms => new Promise(r =
   p.on('pageerror', e => console.log('PAGEERR', String(e).slice(0, 300))); p.on('console', m => console.log('CONSOLE', m.type(), m.text().slice(0, 300)));
   p.on('requestfailed', r => console.log('FAILED', r.url().slice(0, 120), r.failure() && r.failure().errorText));
   p.on('response', r => { if (r.status() >= 400) console.log('HTTP', r.status(), r.url().slice(0, 120)); });
-  for (const u of ['http://themuseshelf.com/', 'http://themuseshelf.com/amazon-home-finds-that-look-expensive',
-    'http://themuseshelf.com/anthropologie-dupes-on-amazon', 'http://themuseshelf.com/kitchen-counter-decor-that-looks-expensive']) {
+  for (const u of ['http://themuseshelf.com/', 'http://themuseshelf.com/kitchen-counter-decor-that-looks-expensive'].concat(
+    ['neutral-christmas-decor-from-amazon', 'amazon-christmas-tree-decor-that-looks-expensive', 'thanksgiving-table-decor-from-amazon', 'cozy-fall-decor-from-amazon', 'stocking-stuffers-for-her-under-25', 'gifts-for-mom-under-50', 'beauty-gifts-under-50-from-amazon', 'amazon-entryway-decor-that-looks-expensive', 'cozy-living-room-decor-from-amazon', 'amazon-closet-organization-that-looks-luxe'].map(s => 'http://themuseshelf.com/' + s))) {
     await p.goto(u, { waitUntil: 'networkidle0' }); await sleep(2000);
     console.log(u, '->', p.url(), '| root children:', await p.evaluate(() => (document.querySelector('#site-root') || {}).children?.length), '| text:', (await p.evaluate(() => document.body.innerText)).slice(0, 120).replace(/\n/g, ' / '));
   }
