@@ -43,6 +43,442 @@ var CATEGORIES = [
       - products: name, note (one sentence), image (square, on white), link (ASIN or full Amazon URL).
       Never add prices. Put a price range only in the title ("Under $50"). */
 var POSTS = [
+  // ---------------------------------------------------------------- GUIDE (draft)
+  {
+    "slug": "pottery-barn-christmas-dupes",
+    "guide": true,
+    "title": "Pottery Barn Christmas Dupes That Look Like the Catalog",
+    "seoTitle": "Pottery Barn Christmas Dupes on Amazon (Neutral, Not Cheap)",
+    "category": "home-finds",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "Pottery Barn Christmas dupes on Amazon: velvet stockings, faux cedar garland, mercury glass, brass bells and the styling that makes them look like the catalog.",
+    "intro": "The Pottery Barn Christmas look isn't about one product. It's a formula: layered greenery, velvet, warm brass and a lot of candlelight. Here's how to build it with Amazon pieces, and the styling that makes them look like the catalog instead of a box of decorations.",
+    "image": "assets/pins/pottery-barn-christmas-dupes.jpg",
+    "imageAlt": "Collage of Pottery Barn Christmas dupes from Amazon: cream cable knit and green velvet stockings, cedar garland, pre-lit pine wreath, mercury glass trees and votives, brass bells, brass taper holders, ivory tapers, champagne ornaments and a capiz star topper on a linen background",
+    "related": [
+      "neutral-christmas-decor-from-amazon",
+      "amazon-christmas-tree-decor-that-looks-expensive",
+      "thanksgiving-table-decor-from-amazon"
+    ],
+    "products": [
+      {
+        "name": "Real-touch cedar garland, 9 ft",
+        "note": "Soft, drooping cedar tips that look freshly cut. Buy two for a standard mantel and twist them together.",
+        "image": "assets/products/B0F3CJ8DRZ.jpg",
+        "link": "B0F3CJ8DRZ"
+      },
+      {
+        "name": "Faux pine stems",
+        "note": "Tuck them into thin spots in the garland or the wreath, or put a handful in a vase on the console.",
+        "image": "assets/products/B07HSZWKGP.jpg",
+        "link": "B07HSZWKGP"
+      },
+      {
+        "name": "Green velvet stocking, 20 in",
+        "note": "Deep green velvet with a gold trim: the classic catalog stocking.",
+        "image": "assets/products/B08JKK534W.jpg",
+        "link": "B08JKK534W"
+      },
+      {
+        "name": "Cream cable knit stocking",
+        "note": "Chunky ivory knit to alternate with the velvet ones.",
+        "image": "assets/products/B0D8VK8GG9.jpg",
+        "link": "B0D8VK8GG9"
+      },
+      {
+        "name": "MantleClip stocking holders, 4 pack",
+        "note": "They clip onto mantels up to 3 inches thick and hold full stockings without screws or heavy bases.",
+        "image": "assets/products/B001CEEEN2.jpg",
+        "link": "B001CEEEN2"
+      },
+      {
+        "name": "Champagne ball ornaments, 30 pc",
+        "note": "Shiny, matte and glitter finishes in one color family, so the tree looks planned.",
+        "image": "assets/products/B07QXYN1H6.jpg",
+        "link": "B07QXYN1H6"
+      },
+      {
+        "name": "Dark green velvet ribbon, 1 in",
+        "note": "Ten yards covers ribbon tails on a 7-foot tree. Cut the ends on an angle so they lie flat.",
+        "image": "assets/products/B0FH4Z8PHN.jpg",
+        "link": "B0FH4Z8PHN"
+      },
+      {
+        "name": "Capiz star tree topper",
+        "note": "Lights up with a soft, pearly glow that looks far warmer than glitter.",
+        "image": "assets/products/B003DA5I0Q.jpg",
+        "link": "B003DA5I0Q"
+      },
+      {
+        "name": "Warm white fairy lights, 12 pack",
+        "note": "Battery strands to weave through the garland, the wreath and glass jars, with no cords to hide.",
+        "image": "assets/products/B07WG18RLT.jpg",
+        "link": "B07WG18RLT"
+      },
+      {
+        "name": "Ribbed gold mercury votives, set of 6",
+        "note": "Vintage ribbed glass that throws a warm, flickering pattern. Group them in threes.",
+        "image": "assets/products/B0CBSL1N1R.jpg",
+        "link": "B0CBSL1N1R"
+      },
+      {
+        "name": "Antique brass taper holders, set of 3",
+        "note": "Three heights of aged brass for the table or the mantel.",
+        "image": "assets/products/B0BV9XJF8Q.jpg",
+        "link": "B0BV9XJF8Q"
+      },
+      {
+        "name": "Ivory taper candles, 10 in",
+        "note": "Unscented and dripless, so they won't compete with dinner.",
+        "image": "assets/products/B0FQ34ZLQL.jpg",
+        "link": "B0FQ34ZLQL"
+      },
+      {
+        "name": "Mercury glass trees, set of 5",
+        "note": "Silvery champagne glass trees that add height to a console without clutter.",
+        "image": "assets/products/B0FMRB6MK4.jpg",
+        "link": "B0FMRB6MK4"
+      },
+      {
+        "name": "Brass bells, set of 3",
+        "note": "Rustic bells to hang from the front door handle or the end of a garland.",
+        "image": "assets/products/B0B7M6H1BD.jpg",
+        "link": "B0B7M6H1BD"
+      },
+      {
+        "name": "Pre-lit pine wreath, 24 in",
+        "note": "Full, realistic and already lit. The right size for a standard front door.",
+        "image": "assets/products/B08DP4XHMX.jpg",
+        "link": "B08DP4XHMX"
+      }
+    ],
+    "sections": [
+      {
+        "h": "The Pottery Barn Christmas formula",
+        "body": [
+          "Put a few catalog pages side by side and the same choices repeat. Once you see them, you can shop for the look instead of the label."
+        ],
+        "list": [
+          "**Greenery that looks real:** cedar and pine with soft, drooping tips, layered thick.",
+          "**One rich texture plus one cozy one:** velvet with cream cable knit, or velvet with a simple plaid.",
+          "**Warm metals:** aged brass and mercury glass. Never bright silver tinsel.",
+          "**A small palette:** deep green, cream and gold, with red as a single accent at most.",
+          "**Warm white light everywhere:** fairy lights inside the greenery, candles on every surface."
+        ],
+        "after": [
+          "Everything below fits that formula. If you only buy three things, make them the garland, the stockings and the votives."
+        ]
+      },
+      {
+        "h": "Stockings and the mantel",
+        "body": [
+          "The mantel is where this look lives or dies, and the secret is fullness. One thin garland draped across a mantel always looks store-bought. Two garlands twisted together, with loose stems tucked in, look like the real thing."
+        ],
+        "list": [
+          "Lay the first garland along the mantel and let the ends hang 12 to 18 inches down each side.",
+          "Twist the second one loosely over it so the tips point in different directions.",
+          "Fluff every branch, bending the tips down and out. It takes about 20 minutes and makes the biggest difference of anything on this page.",
+          "Fill thin spots with loose pine stems, then weave fairy lights deep inside the greenery, not on top of it."
+        ],
+        "picks": [
+          "B0F3CJ8DRZ",
+          "B07HSZWKGP",
+          "B08JKK534W",
+          "B0D8VK8GG9",
+          "B001CEEEN2"
+        ],
+        "after": [
+          "For stockings, mix instead of match: velvet and cream knit alternating looks collected over the years. Space them evenly with a hand's width between each. For an all-white version of this mantel, see our [neutral Christmas decor from Amazon](/neutral-christmas-decor-from-amazon/)."
+        ]
+      },
+      {
+        "h": "The tree",
+        "body": [
+          "Catalog trees use a tight palette, usually champagne, cream and gold with one deeper accent. Ribbon does more for a tree than any number of extra ornaments."
+        ],
+        "list": [
+          "Pick two ornament finishes in one color family, like shiny and matte champagne, and add one textured accent.",
+          "Skip tinsel. Cut velvet ribbon into 12 to 18 inch tails and tuck them vertically into the branches, or tie small bows about a foot apart.",
+          "Choose a topper with a glow. A capiz or brass star looks warmer than a glittery plastic one.",
+          "Light from the inside: push each strand toward the trunk so the tree glows instead of looking wrapped."
+        ],
+        "picks": [
+          "B07QXYN1H6",
+          "B0FH4Z8PHN",
+          "B003DA5I0Q",
+          "B07WG18RLT"
+        ],
+        "after": [
+          "More ideas in our [Christmas tree decor that looks expensive](/amazon-christmas-tree-decor-that-looks-expensive/) edit."
+        ]
+      },
+      {
+        "h": "The table and the entry",
+        "body": [
+          "Candlelight is the cheapest way to make a room look like a photo shoot. Group mercury glass votives in odd numbers down the table, add brass taper holders at different heights, and use unscented ivory tapers so the food is what everyone smells.",
+          "Mercury glass trees on a console or sideboard add height without taking up space, and a few brass bells on the front door handle are an old-fashioned touch guests always notice.",
+          "For the door, a 22 to 24 inch wreath suits a standard 36-inch front door. Go bigger only on a double door or a very tall entry, and hang it with the center a little above eye level."
+        ],
+        "picks": [
+          "B0CBSL1N1R",
+          "B0BV9XJF8Q",
+          "B0FQ34ZLQL",
+          "B0FMRB6MK4",
+          "B0B7M6H1BD",
+          "B08DP4XHMX"
+        ],
+        "after": [
+          "Hosting before December? Our [Thanksgiving table decor](/thanksgiving-table-decor-from-amazon/) edit uses the same candles-and-greenery idea for November."
+        ]
+      },
+      {
+        "h": "Buy now or wait?",
+        "body": [
+          "Buy the things that sell out first now. Realistic garlands, velvet stockings and anything in deep green velvet tend to disappear by early December, and restocks often arrive after the holiday. Candles, ornaments and fairy lights are easy to find until the last shipping week.",
+          "Check the delivery date on each listing before you check out. Garlands and wreaths sometimes ship from far away and take longer than two days, so order them by mid-November if you want the mantel done by December 1.",
+          "Shopping for someone else too? Our [gift guides](/gift-guides/) are organized by person and budget."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are these Pottery Barn products?",
+        "a": "No. These are Amazon pieces chosen because they create a similar look. The Muse Shelf isn't affiliated with Pottery Barn."
+      },
+      {
+        "q": "How do I make a cheap garland look full?",
+        "a": "Use two garlands per mantel, twist them together, fluff every tip and tuck in loose stems. Fairy lights woven deep inside hide the wire core."
+      },
+      {
+        "q": "What colors are in the Pottery Barn Christmas look?",
+        "a": "Deep green, cream and warm gold or brass, with natural textures like wood and knit. Red shows up as a single accent, such as a velvet ribbon or berries, not as the main color."
+      }
+    ],
+    "note": "The Muse Shelf is not affiliated with Pottery Barn. Brand names are used only to describe a style."
+  },
+  // ---------------------------------------------------------------- GUIDE (draft)
+  {
+    "slug": "anthropologie-mirror-dupes",
+    "guide": true,
+    "title": "Anthropologie Mirror Dupes That Actually Look Real",
+    "seoTitle": "Anthropologie Mirror Dupes That Actually Look Real (2026)",
+    "category": "boho-dupes",
+    "date": "2026-10-21",
+    "updated": "2026-10-21",
+    "description": "The best Anthropologie mirror dupes on Amazon, judged by a designer: Primrose-style arched gold mirrors, sizes that read luxe, and the details that look cheap.",
+    "intro": "The arched gold mirror with a carved crest is one of the most copied pieces in home decor, and most copies give themselves away. Here is what makes the original look expensive, which Amazon versions get close, and how to hang or lean one so it looks custom.",
+    "image": "assets/pins/anthropologie-mirror-dupes.jpg",
+    "imageAlt": "Collage of Anthropologie mirror dupes from Amazon: two tall arched gold floor mirrors with carved crests, an arched crest wall mirror, three ornate oval gold mirrors and two small vintage tabletop mirrors on a linen background",
+    "related": [
+      "anthropologie-dupes-on-amazon",
+      "amazon-entryway-decor-that-looks-expensive",
+      "boho-bedroom-amazon-finds"
+    ],
+    "products": [
+      {
+        "name": "Baroque floor mirror, 22 x 65 in",
+        "note": "The tallest, slimmest arch here, with a carved crown and a brushed gold frame. Tall enough to lean in a room with standard 8-foot ceilings.",
+        "image": "assets/products/B0D6VP1KM6.jpg",
+        "link": "B0D6VP1KM6"
+      },
+      {
+        "name": "Crowned arch floor mirror, 18 x 53 in",
+        "note": "Narrower and shorter, so it suits a bedroom corner or a hallway. Hang it a few inches off the floor if you want it to read taller.",
+        "image": "assets/products/B0D1C4PXDS.jpg",
+        "link": "B0D1C4PXDS"
+      },
+      {
+        "name": "Arched crest wall mirror",
+        "note": "The closest Primrose-style crest in a wall size, about 18 x 28 inches. Made for the space over a console or a small dresser.",
+        "image": "assets/products/B0BXNFG999.jpg",
+        "link": "B0BXNFG999"
+      },
+      {
+        "name": "Oval scroll mirror, about 20 x 15 in",
+        "note": "A carved resin frame with real depth in the scrollwork. Hang it over a powder room sink or in the middle of a gallery wall.",
+        "image": "assets/products/B0DPQJFC3M.jpg",
+        "link": "B0DPQJFC3M"
+      },
+      {
+        "name": "Antique gold oval scroll mirror",
+        "note": "Open, lacy scrollwork that feels like a French flea-market find. The more romantic choice for a vanity wall.",
+        "image": "assets/products/B0GZN6V7Q6.jpg",
+        "link": "B0GZN6V7Q6"
+      },
+      {
+        "name": "Queen Anne oval gold leaf mirror",
+        "note": "A wood frame finished in gold leaf with a beveled glass edge. Quieter and more traditional than the carved styles, and it reads like an antique.",
+        "image": "assets/products/B004SKOTF0.jpg",
+        "link": "B004SKOTF0"
+      },
+      {
+        "name": "Small vintage gold mirror, 11 x 9.5 in",
+        "note": "Hangs or stands. Prop it on a bookshelf or a bathroom shelf for a small antique moment.",
+        "image": "assets/products/B0DNQFNM2L.jpg",
+        "link": "B0DNQFNM2L"
+      },
+      {
+        "name": "Small arched tabletop mirror",
+        "note": "A crowned vanity mirror on a stand for a dressing table. The frame is lightweight plastic: you are buying the look, not an heirloom.",
+        "image": "assets/products/B0DMSNCG9B.jpg",
+        "link": "B0DMSNCG9B"
+      },
+      {
+        "name": "Gold leaf gilding wax",
+        "note": "A fingertip of wax worked into the carving warms up gold that looks too bright and hides small scuffs.",
+        "image": "assets/products/B00081HYDC.jpg",
+        "link": "B00081HYDC"
+      },
+      {
+        "name": "Gold leafing pen",
+        "note": "For quick touch-ups on frame edges after shipping or a move.",
+        "image": "assets/products/B003ZTNENS.jpg",
+        "link": "B003ZTNENS"
+      },
+      {
+        "name": "French cleat hanger, 100 lb",
+        "note": "Holds a heavy mirror flat against the wall and perfectly level. Far more secure than a wire on a nail.",
+        "image": "assets/products/B005PUC4KE.jpg",
+        "link": "B005PUC4KE"
+      },
+      {
+        "name": "Anti-tip furniture straps",
+        "note": "Tether a leaning floor mirror to the wall. Invisible from the front, and worth it in any home with kids or pets.",
+        "image": "assets/products/B086ZS4D3D.jpg",
+        "link": "B086ZS4D3D"
+      }
+    ],
+    "sections": [
+      {
+        "h": "What makes the Primrose mirror look expensive",
+        "body": [
+          "Before you shop, it helps to know exactly what you're looking at. The Anthropologie Gleaming Primrose mirror works because of four details, and every dupe on this page is judged against them."
+        ],
+        "list": [
+          "**The crest.** A carved, scrolling crown sits on top of the arch and breaks the outline. Flat, stamped crests look like stickers; you want depth you can see from across the room.",
+          "**The finish.** Antiqued gold with darker recesses, not a flat yellow metallic. Brushed or aged gold reads like old brass. Shiny gold reads like plastic.",
+          "**The frame.** Slim, but with some depth. A frame that's too thin looks flimsy, and one that's too chunky looks like a hotel lobby.",
+          "**The proportion.** A tall, narrow arch, close to three times taller than it is wide on the floor version. Wider, squatter arches look like a different (and cheaper) mirror."
+        ],
+        "after": [
+          "Glass matters too. Look for reviews that mention a clear, undistorted reflection. Wavy glass is the fastest way to spot a cheap mirror in person."
+        ]
+      },
+      {
+        "h": "The best Primrose-style floor mirrors",
+        "body": [
+          "These two come closest to the full-length look. Both have the crowned arch; the difference is height and how much space you have."
+        ],
+        "picks": [
+          "B0D6VP1KM6",
+          "B0D1C4PXDS"
+        ],
+        "after": [
+          "If you only buy one piece from this guide, make it the floor mirror. It's the first thing people notice when they walk into the room, and the money you save can go toward a good rug or framed art."
+        ]
+      },
+      {
+        "h": "Wall and vanity versions for smaller spaces",
+        "body": [
+          "Not every wall has room for a full-length arch. In an entry, a powder room or over a dresser, these give you the same carved-gold feeling at a smaller scale. Pick one shape per room: an arch and an oval side by side compete with each other."
+        ],
+        "picks": [
+          "B0BXNFG999",
+          "B0DPQJFC3M",
+          "B0GZN6V7Q6",
+          "B004SKOTF0",
+          "B0DNQFNM2L",
+          "B0DMSNCG9B"
+        ]
+      },
+      {
+        "h": "Sizes that read luxe",
+        "body": [
+          "Scale is where most dupes go wrong, and it usually isn't the mirror's fault. These are the rules designers use when placing a mirror in a client's home."
+        ],
+        "table": {
+          "head": [
+            "Where it goes",
+            "Size that looks right",
+            "Look for"
+          ],
+          "rows": [
+            [
+              "Leaning on the floor",
+              "60 to 65 in tall or more with 8 ft ceilings",
+              "Baroque floor mirror"
+            ],
+            [
+              "Over a dresser or console",
+              "About two-thirds of the furniture width",
+              "Arched crest wall mirror"
+            ],
+            [
+              "Over a bathroom sink",
+              "The width of the sink area, not the whole counter",
+              "Oval scroll mirror"
+            ],
+            [
+              "Shelf, desk or dressing table",
+              "Under 12 in",
+              "Small vintage or tabletop mirror"
+            ]
+          ]
+        },
+        "list": [
+          "Hang a mirror over furniture so its bottom edge sits 6 to 10 inches above the surface. Higher than that and it floats.",
+          "Over a vanity, keep the top of the crest below the light fixture so the two don't collide.",
+          "A small mirror alone on a big wall looks lost. Give it company: a sconce on each side, or art in the same frame color."
+        ]
+      },
+      {
+        "h": "How to make a dupe look like the real thing",
+        "body": [
+          "A few small fixes make an affordable mirror look like it came from an antique shop."
+        ],
+        "list": [
+          "**Warm up the gold.** If the finish looks too bright, rub a little gilding wax into the crest with a soft cloth and buff it off. It settles into the carving and adds the depth the photos promised.",
+          "**Hide shipping chips.** A leafing pen covers small scuffs on the frame edge in seconds.",
+          "**Hang it like it weighs more than it does.** A French cleat keeps a wall mirror flat and level, which is what makes a mirror look installed instead of hung on a nail.",
+          "**Anchor a leaning mirror.** Any floor mirror in a home with kids, pets or a busy hallway should be strapped to the wall. Nobody sees the strap.",
+          "**Style the floor around it, not in front of it.** A small stool, a basket or a potted olive tree to one side is plenty."
+        ],
+        "picks": [
+          "B00081HYDC",
+          "B003ZTNENS",
+          "B005PUC4KE",
+          "B086ZS4D3D"
+        ],
+        "after": [
+          "For the rest of the look, see our [Anthropologie dupes on Amazon](/anthropologie-dupes-on-amazon/) edit, and for a mirror-over-console setup, our [entryway decor that looks expensive](/amazon-entryway-decor-that-looks-expensive/). An oval scroll mirror also works beautifully in a [boho bedroom](/boho-bedroom-amazon-finds/)."
+        ]
+      },
+      {
+        "h": "Amazon vs. Hobby Lobby vs. Target dupes",
+        "body": [
+          "People ask where to buy a Primrose dupe, and the honest answer depends on what matters most to you.",
+          "Hobby Lobby is the better choice if you want to see the gold in person before you buy, and a big floor mirror is easier to carry out of a store than to send back by mail. Target leans toward simpler arched mirrors with thin frames and no crest: a cleaner, more modern take, but not really the Primrose look. Amazon has the widest range of crested baroque styles and sizes, and customer photos are the best way to judge the color of the gold before it arrives.",
+          "Wherever you shop, check three things: the frame material (metal and resin hold carving detail better than thin plastic), the weight (heavier usually means real glass) and at least one customer photo taken in daylight."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is the Anthropologie Primrose mirror worth it?",
+        "a": "If it's going in a forever spot and you love it, it's a beautiful piece. If you rent, move often or are decorating a guest room, a well-chosen dupe gives you most of the effect, and nobody can tell from across the room."
+      },
+      {
+        "q": "How heavy is a floor mirror, and how do I keep it from tipping?",
+        "a": "A full-length glass mirror can easily weigh 20 pounds or more. Lean it at a slight angle on a non-slip pad and strap the top to a stud with an anti-tip strap. If you hang it instead, use a French cleat rated well above the mirror's weight."
+      },
+      {
+        "q": "Glass or acrylic?",
+        "a": "Glass. Acrylic mirrors are lighter and won't shatter, which is useful in a kid's room, but they flex slightly and give a soft, wavy reflection. If a listing doesn't say glass, check the Q&A or the reviews before buying."
+      }
+    ],
+    "note": "The Muse Shelf is not affiliated with Anthropologie, Hobby Lobby or Target. Brand names are used only to describe a style."
+  },
   // ----------------------------------------------------------------
   {
     slug: 'housewarming-gifts-that-look-expensive',
