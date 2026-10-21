@@ -1321,8 +1321,8 @@ var SITE = {
 };
 
 /* 5. Newsletter signup (home page + end of every post), provider = Kit (free plan).
-   Form "Site signup - Designer Tricks guide" (id 10078821): double opt-in; the confirmation email's
-   button confirms and downloads the PDF guide. The form posts urlencoded email_address and reads Kit's
+   Form "Site signup - Designer Tricks guide" (id 10078821): single opt-in (auto-confirm); the welcome
+   email's button downloads the PDF guide. The form posts urlencoded email_address and reads Kit's
    JSON reply (CORS ok); status 'quarantined' = Kit's bot check, the visitor is sent to its page.
    NEWSLETTER_ON = false hides every newsletter block. */
 var NEWSLETTER_ON = true;
@@ -1334,6 +1334,6 @@ var NEWSLETTER = {
   text: 'Get our free guide, 10 Designer Tricks to Make Your Home Look Expensive, plus The Weekly Edit: one short email every Sunday.',
   button: 'Send me the guide',
   note: 'Free. One email a week. Unsubscribe anytime.',
-  success: "Almost there! Check your inbox and tap Confirm to get your guide (peek in Promotions or Spam, just in case)."
+  success: "You're in! Your free guide is on its way to your inbox (peek in Promotions, just in case)."
 };
 window.TMS = { NEWSLETTER_ON: NEWSLETTER_ON, NEWSLETTER: NEWSLETTER, AFFILIATE_TAG: AFFILIATE_TAG, amazon: amazon, CATEGORIES: CATEGORIES, POSTS: POSTS, SITE: SITE };
