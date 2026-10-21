@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),http=require('http');const puppeteer=require('puppeteer-core');
+const SRC=path.resolve(__dirname,'../src'); const DEV={'/js/react.production.min.js':process.env.HOME+'/CamillaAmazon/site_src/x/assets/c0df4873_c0df4873.js','/js/react-dom.production.min.js':process.env.HOME+'/CamillaAmazon/site_src/x/assets/316ec702_316ec702.js'};
+const srv=http.createServer((q,r)=>{const u=q.url.split('?')[0]; if(DEV[u]){r.writeHead(200,{'content-type':'text/javascript'});return r.end(fs.readFileSync(DEV[u]));} const f=path.join(SRC,u); if(path.extname(u)&&fs.existsSync(f)){r.writeHead(200);return fs.createReadStream(f).pipe(r);} if(path.extname(u)){r.writeHead(404);return r.end();} r.writeHead(200,{'content-type':'text/html'}); r.end(fs.readFileSync(path.join(SRC,'shell.html')));});
+(async()=>{await new Promise(r=>srv.listen(0,r)); const L='http://localhost:'+srv.address().port;
+const b=await puppeteer.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:'new',userDataDir:process.env.HOME+'/.hermes/cache/scratch/chrome-tms-dbg'});
+const p=await b.newPage(); p.on('pageerror',e=>console.log('PAGEERR',String(e).slice(0,600))); p.on('console',m=>{if(m.type()==='error'||m.type()==='warning')console.log('CONSOLE',m.type(),m.text().slice(0,600));});
+for (const vp of [{width:1440,height:900},{width:390,height:844,isMobile:true}]) { await p.setViewport(vp); await p.goto(L+'/'+process.argv[2],{waitUntil:'networkidle0'}); await new Promise(r=>setTimeout(r,1500)); console.log('vp',vp.width,'children',await p.evaluate(()=>document.querySelector('#site-root').children.length)); }
+await b.close(); srv.close();})();
