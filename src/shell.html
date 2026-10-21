@@ -174,7 +174,8 @@ p{margin:0;text-wrap:pretty}
 .hero__h{font-family:var(--font-display);font-size:clamp(38px,7.2vw,64px);line-height:1.04;letter-spacing:-.01em;margin:0}
 .cats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 16px}
 .cats>:last-child:nth-child(odd){grid-column:1/-1;max-width:calc(50% - 8px);justify-self:center;width:100%}
-@media(min-width:760px){.cats{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}.cats>:last-child:nth-child(odd){grid-column:auto;max-width:none}}
+@media(min-width:760px){.cats{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.cats>:last-child:nth-child(odd){grid-column:auto;max-width:none}}
+@media(min-width:1100px){.cats{grid-template-columns:repeat(6,minmax(0,1fr))}}
 .post-head{max-width:760px;margin:0 auto;text-align:center;padding:40px 0 32px;display:flex;flex-direction:column;align-items:center;gap:16px}
 @media(min-width:900px){.post-head{padding:72px 0 48px}}
 .post-h1{font-family:var(--font-display);font-size:clamp(34px,6vw,60px);line-height:1.06;margin:0}
@@ -202,11 +203,37 @@ p{margin:0;text-wrap:pretty}
 .guide-table th{font-family:var(--font-sans);font-weight:500;font-size:11px;letter-spacing:.15em;text-transform:uppercase;text-align:left;border-bottom:1px solid var(--espresso);padding:8px 10px}
 .guide-table td{border-bottom:1px solid var(--stone);padding:10px;vertical-align:top}
 .guide-note{font-size:13px;color:var(--text-muted);border-top:1px solid var(--stone);padding-top:16px;margin-top:32px}
+.guide-fig{margin:28px 0 8px}
+.guide-fig img{display:block;width:100%;height:auto;background:var(--surface-image)}
+.guide-fig figcaption{font-size:13px;color:var(--text-muted);margin-top:10px;line-height:1.5}
+.recipe-card{scroll-margin-top:96px;background:var(--white);border:1px solid var(--stone);padding:32px 22px 28px;margin:48px 0 8px}
+@media(min-width:700px){.recipe-card{padding:44px 48px 36px}}
+.recipe-kicker{font-family:var(--font-sans);font-weight:500;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted-olive);margin:0 0 8px!important}
+.guide .recipe-card h2{margin:0 0 10px}
+.recipe-summary{color:var(--text-secondary)}
+.recipe-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:20px 0 8px;border-top:1px solid var(--stone);border-bottom:1px solid var(--stone)}
+@media(min-width:560px){.recipe-meta{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.recipe-meta div{padding:14px 12px;text-align:center}
+.recipe-meta div+div{border-left:1px solid var(--stone)}
+@media(max-width:559px){.recipe-meta div:nth-child(3){border-left:0}.recipe-meta div:nth-child(n+3){border-top:1px solid var(--stone)}}
+.recipe-meta dt{font-family:var(--font-sans);font-weight:500;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted)}
+.recipe-meta dd{margin:4px 0 0;font-family:var(--font-display);font-size:20px;line-height:1.2}
+.recipe-cols{display:grid;gap:8px}
+.guide .recipe-card h3{font-family:var(--font-sans);font-weight:500;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;margin:28px 0 10px}
+.guide .recipe-ing{list-style:none;padding:0;margin:0}
+.guide .recipe-ing li{padding:9px 0 9px 18px;margin:0;border-bottom:1px solid var(--stone);position:relative;line-height:1.55}
+.recipe-ing li:before{content:"";position:absolute;left:0;top:19px;width:6px;height:6px;border-radius:50%;background:var(--pale-oak)}
+.recipe-steps{list-style:none;padding:0;margin:0}
+.recipe-steps li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:8px;margin:0 0 14px}
+.recipe-n{font-family:var(--font-display);font-size:30px;line-height:1;color:var(--pale-oak);padding-top:2px}
+.recipe-steps p{margin:0!important;line-height:1.7}
+.recipe-notes{border-top:1px solid var(--stone);margin-top:22px}
+.recipe-notes p{font-size:15px;line-height:1.7}
 @media(min-width:900px){.guide h2{font-size:32px}}
 .about{display:grid;gap:40px;max-width:960px;margin:0 auto;align-items:center}
 @media(min-width:800px){.about{grid-template-columns:1fr 1fr;gap:72px}}
 </style>
-<style id="tms-fixes">.wrap.section{padding-left:var(--gutter);padding-right:var(--gutter)}@media(min-width:900px){.wrap.section{padding-left:var(--gutter-lg);padding-right:var(--gutter-lg)}}</style>
+<style id="tms-fixes">@media(min-width:1200px){.tms-hdr__nav{gap:20px!important}.tms-hdr__link{letter-spacing:.16em!important}}.wrap.section{padding-left:var(--gutter);padding-right:var(--gutter)}@media(min-width:900px){.wrap.section{padding-left:var(--gutter-lg);padding-right:var(--gutter-lg)}}</style>
 </head>
 <body>
 
