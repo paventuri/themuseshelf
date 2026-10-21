@@ -5,13 +5,25 @@
    1. Your Amazon Associates tag. Change it once here and every product
       link on the site updates.
    ===================================================================== */
-var AFFILIATE_TAG = 'themuseshel01-20';
+var AFFILIATE_TAG = 'musesite-20';
+
+/* Channel tags: visitors keep the tag of the channel that brought them (utm_source), for the whole visit. */
+var CHANNEL_TAGS = { pinterest: 'musepin-20', instagram: 'museig-20', tiktok: 'musetok-20' };
+function channelTag() {
+  try {
+    var q = new URLSearchParams(location.search).get('utm_source');
+    if (q) sessionStorage.setItem('tms_src', q.toLowerCase());
+    var s = sessionStorage.getItem('tms_src');
+    return (s && CHANNEL_TAGS[s]) || AFFILIATE_TAG;
+  } catch (e) { return AFFILIATE_TAG; }
+}
 
 /* Builds the full Amazon link. Use: amazon('B0GYQT74HH') */
 function amazon(asinOrUrl) {
   var url = asinOrUrl.indexOf('http') === 0 ? asinOrUrl : 'https://www.amazon.com/dp/' + asinOrUrl;
-  if (!AFFILIATE_TAG) return url;
-  return url + (url.indexOf('?') === -1 ? '?' : '&') + 'tag=' + AFFILIATE_TAG;
+  var tag = channelTag();
+  if (!tag) return url;
+  return url + (url.indexOf('?') === -1 ? '?' : '&') + 'tag=' + tag;
 }
 
 /* 2. Categories (nav order). slug = the URL, e.g. themuseshelf.com/home-finds */
