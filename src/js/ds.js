@@ -2140,7 +2140,7 @@ try { (() => {
    1. Your Amazon Associates tag. Change it once here and every product
       link on the site updates.
    ===================================================================== */
-var AFFILIATE_TAG = 'themuseshelf-20';
+var AFFILIATE_TAG = 'themuseshel01-20';
 
 /* Builds the full Amazon link. Use: amazon('B0GYQT74HH') */
 function amazon(asinOrUrl) {
