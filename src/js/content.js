@@ -44,6 +44,257 @@ var CATEGORIES = [
       - products: name, note (one sentence), image (square, on white), link (ASIN or full Amazon URL).
       Never add prices. Put a price range only in the title ("Under $50"). */
 var POSTS = [
+  // ---------------------------------------------------------------- STYLING GUIDE
+  {
+    "slug": "how-to-style-a-coffee-table",
+    "guide": true,
+    "title": "How to Style a Coffee Table 3 Ways, Like a Designer",
+    "category": "home-finds",
+    "date": "2026-10-23",
+    "updated": "2026-10-23",
+    "description": "A simple 5-step designer formula for coffee table decor, plus one table styled 3 ways for everyday, fall and Christmas with Amazon finds that look expensive.",
+    "intro": "A styled coffee table looks expensive because it follows a formula, not because every piece costs a lot. Here is the one designers use: a tray to anchor, books for height, one tall organic piece, one low sculptural piece and candles for glow. We styled the same table three ways, everyday, fall and Christmas, by keeping the base and swapping only two or three seasonal finds. Books are plain hardcovers you already own; everything else is linked below.",
+    "image": "assets/pins/how-to-style-a-coffee-table.jpg",
+    "imageAlt": "How to style a coffee table like a designer: a white oak coffee table in front of a cream linen sofa, styled with an acacia wood tray holding a white wave candle holder with ivory tapers and a wood chain link, a rustic cream vase of olive branches, a fluted bowl on two linen books and travertine coasters.",
+    "related": [
+      "cozy-living-room-decor-from-amazon",
+      "cozy-fall-decor-from-amazon",
+      "neutral-christmas-decor-from-amazon"
+    ],
+    "products": [
+      {
+        "name": "Acacia wood serving tray",
+        "note": "Step 1, the anchor: warm grain and cutout handles corral the small pieces.",
+        "image": "assets/products/B08M68WY4F.jpg",
+        "link": "B08M68WY4F"
+      },
+      {
+        "name": "Rustic cream ceramic vase",
+        "note": "Step 3: a wide, chalky vase that looks like an antique find and holds every season's stems.",
+        "image": "assets/products/B0D4V62XSN.jpg",
+        "link": "B0D4V62XSN"
+      },
+      {
+        "name": "Faux olive branches",
+        "note": "The everyday stems: airy and gray-green, they give the table its tallest point.",
+        "image": "assets/products/B07R21HCMT.jpg",
+        "link": "B07R21HCMT"
+      },
+      {
+        "name": "Fluted decorative bowl",
+        "note": "Step 4: a scalloped, sculptural bowl that looks best left empty on a stack of books.",
+        "image": "assets/products/B0D3HH27MW.jpg",
+        "link": "B0D3HH27MW"
+      },
+      {
+        "name": "Wood chain link decor",
+        "note": "The everyday object on the tray: a carved wood link that adds a soft curve.",
+        "image": "assets/products/B0D5CGQ52M.jpg",
+        "link": "B0D5CGQ52M"
+      },
+      {
+        "name": "Marble wave taper candle holder",
+        "note": "Step 5: a sculptural wave that holds two tapers like a gallery piece.",
+        "image": "assets/products/B0DLKKJYMB.jpg",
+        "link": "B0DLKKJYMB"
+      },
+      {
+        "name": "Ivory taper candles",
+        "note": "Plain ivory tapers for the wave holder; light them for fall and the holidays.",
+        "image": "assets/products/B0FFW8WPNJ.jpg",
+        "link": "B0FFW8WPNJ"
+      },
+      {
+        "name": "Travertine coasters, set of 4",
+        "note": "Natural stone texture in the corner of the table, and useful too.",
+        "image": "assets/products/B09L42TT2L.jpg",
+        "link": "B09L42TT2L"
+      },
+      {
+        "name": "Cream faux pumpkins, set of 7",
+        "note": "Fall swap: three on the tray in place of the wood link, one tiny one beside it.",
+        "image": "assets/products/B0C6GGX5QV.jpg",
+        "link": "B0C6GGX5QV"
+      },
+      {
+        "name": "Natural dried wheat bundles",
+        "note": "Fall swap: golden wheat in the same vase instead of the olive branches.",
+        "image": "assets/products/B0CYLYT469.jpg",
+        "link": "B0CYLYT469"
+      },
+      {
+        "name": "Cotton cable knit throw blanket",
+        "note": "Fall swap: an ivory knit draped over the sofa arm warms up the whole scene.",
+        "image": "assets/products/B07TFDLKSX.jpg",
+        "link": "B07TFDLKSX"
+      },
+      {
+        "name": "Faux pine stems",
+        "note": "Holiday swap: soft pine sprigs in the vase instead of the olive branches.",
+        "image": "assets/products/B07HSZWKGP.jpg",
+        "link": "B07HSZWKGP"
+      },
+      {
+        "name": "Mini bottle brush trees",
+        "note": "Holiday swap: three cream trees in three heights on the tray.",
+        "image": "assets/products/B081H3GQWV.jpg",
+        "link": "B081H3GQWV"
+      },
+      {
+        "name": "Wood bead garland",
+        "note": "Holiday swap: one loose loop across the tray, trailing over the table edge.",
+        "image": "assets/products/B08JHWSCRW.jpg",
+        "link": "B08JHWSCRW"
+      },
+      {
+        "name": "Brass bells, set of 3",
+        "note": "Holiday swap: three sizes grouped in front of the books for a warm metal note.",
+        "image": "assets/products/B0B7M6H1BD.jpg",
+        "link": "B0B7M6H1BD"
+      }
+    ],
+    "sections": [
+      {
+        "h": "Step 1: Anchor with a tray",
+        "body": [
+          "Start in the middle of the table with a wood tray. It gathers the small pieces into one group, so the table reads calm instead of cluttered, and you can lift everything off in one move."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-step1.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Close-up of the acacia wood tray on the oak coffee table, holding a white wave candle holder with two ivory tapers, with a wood chain link and travertine coasters beside it"
+        }
+      },
+      {
+        "h": "Step 2: Stack books for height",
+        "body": [
+          "Two or three plain hardcover books (linen or cream covers, spines turned in) create a second level. Set a bowl or small object on top so your eye moves up and down the table."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-step2.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Close-up of two linen-covered hardcover books stacked on the coffee table with an empty fluted bowl on top and travertine coasters beside them"
+        }
+      },
+      {
+        "h": "Step 3: Add one tall organic piece",
+        "body": [
+          "One wide vase with loose branches gives the table its tallest point. Keep it to one side and let the stems lean a little: real-looking faux branches last all year."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-step3.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Close-up of a rustic cream ceramic vase with loose faux olive branches at one end of the coffee table"
+        }
+      },
+      {
+        "h": "Step 4: Set a low sculptural piece",
+        "body": [
+          "A fluted bowl or a carved wood link adds shape without blocking the view across the sofa. Leave the bowl empty: the ribs are the decoration."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-step4.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Close-up of the fluted bowl on a stack of books with a carved wood chain link and travertine coasters on the tabletop"
+        }
+      },
+      {
+        "h": "Step 5: Add candles and texture",
+        "body": [
+          "Taper candles in a stone holder add height and glow, and travertine coasters bring a natural, tactile finish. Then check the rules: vary heights, group in odd numbers, mix wood, stone and ceramic."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-step5.jpg",
+          "w": 1200,
+          "h": 800,
+          "alt": "Close-up of a white wave taper candle holder with two ivory tapers on the wood tray, with travertine coasters at the front of the table"
+        }
+      },
+      {
+        "h": "Way 1: Everyday",
+        "body": [
+          "Here is the same table three ways. Keep the tray, vase, fluted bowl, candle holder and tapers all year, and swap only two or three seasonal pieces.",
+          "The base look: olive branches in the vase, the wood chain link on the tray, unlit ivory tapers, the fluted bowl on two books and travertine coasters in the corner."
+        ],
+        "list": [
+          "**The everyday pieces:** faux olive branches, wood chain link decor, travertine coasters."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-everyday.jpg",
+          "w": 1200,
+          "h": 1324,
+          "alt": "A white oak coffee table in front of a cream linen sofa, styled with an acacia wood tray holding a white wave candle holder with ivory tapers and a wood chain link, a rustic cream vase of olive branches, a fluted bowl on two linen books and travertine coasters."
+        }
+      },
+      {
+        "h": "Way 2: Fall",
+        "body": [
+          "Keep the tray, vase, bowl and candles. Swap the olive branches for dried wheat, put three cream pumpkins on the tray in place of the wood link, light the tapers and drape a knit throw over the sofa arm."
+        ],
+        "list": [
+          "**Swap in:** natural dried wheat bundles, cream faux pumpkins, cotton cable knit throw blanket."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-fall.jpg",
+          "w": 1200,
+          "h": 1324,
+          "alt": "The same coffee table styled for fall with dried wheat in the cream vase, cream pumpkins on the wood tray, lit ivory tapers and a cable knit throw on the sofa arm."
+        }
+      },
+      {
+        "h": "Way 3: Holiday",
+        "body": [
+          "Same base again. Pine stems go in the vase, three bottle brush trees take the tray, a wood bead garland loops across the front and brass bells sit in front of the books."
+        ],
+        "list": [
+          "**Swap in:** faux pine stems, mini bottle brush trees, wood bead garland, brass bells."
+        ],
+        "image": {
+          "src": "assets/styling/how-to-style-a-coffee-table-holiday.jpg",
+          "w": 1200,
+          "h": 1324,
+          "alt": "The same coffee table styled for Christmas with pine stems in the cream vase, cream bottle brush trees on the wood tray, a wood bead garland, brass bells and lit ivory tapers."
+        }
+      },
+      {
+        "h": "What we used",
+        "body": [
+          "The base set first, then the fall and holiday swaps. The books are plain hardcovers you already own, so they are not linked."
+        ],
+        "picks": [
+          "B08M68WY4F",
+          "B0D4V62XSN",
+          "B07R21HCMT",
+          "B0D3HH27MW",
+          "B0D5CGQ52M",
+          "B0DLKKJYMB",
+          "B0FFW8WPNJ",
+          "B09L42TT2L"
+        ]
+      },
+      {
+        "h": "The fall swaps",
+        "picks": [
+          "B0CYLYT469",
+          "B0C6GGX5QV",
+          "B07TFDLKSX"
+        ]
+      },
+      {
+        "h": "The holiday swaps",
+        "picks": [
+          "B07HSZWKGP",
+          "B081H3GQWV",
+          "B08JHWSCRW",
+          "B0B7M6H1BD"
+        ]
+      }
+    ]
+  },
   // ----------------------------------------------------------------
   {
     slug: 'christmas-mantle-decor-that-looks-expensive',
@@ -1521,6 +1772,20 @@ var NEWSLETTER = {
    do not edit by hand. A tile shows once its scheduled time (at) has passed. */
 var IG_POSTS = [
  {
+  "at": "2026-10-29T19:00:00-05:00",
+  "slug": "how-to-style-a-coffee-table",
+  "image": "assets/ig/2026-10-21-week1_18.jpg",
+  "alt": "How to style a coffee table like a designer, in 5 steps. Comment LINK and we'll DM you every piece, from the tray to the",
+  "reel": false
+ },
+ {
+  "at": "2026-10-28T19:00:00-05:00",
+  "slug": "boho-bedroom-amazon-finds",
+  "image": "assets/ig/2026-10-21-week1_5.jpg",
+  "alt": "The boho bedroom you'll never want to leave.",
+  "reel": true
+ },
+ {
   "at": "2026-10-28T12:00:00-05:00",
   "slug": "neutral-bathroom-finds-that-look-high-end",
   "image": "assets/ig/2026-10-21-week1_13.jpg",
@@ -1532,6 +1797,13 @@ var IG_POSTS = [
   "slug": "neutral-christmas-decor-from-amazon",
   "image": "assets/ig/2026-10-21-week1_17.jpg",
   "alt": "This ceramic tree looks like a vintage find. It's from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-10-27T15:00:00-05:00",
+  "slug": "clean-girl-amazon-must-haves",
+  "image": "assets/ig/2026-10-21-week1_12.jpg",
+  "alt": "Clean girl essentials that make mornings feel easy.",
   "reel": true
  },
  {
@@ -1602,6 +1874,13 @@ var IG_POSTS = [
   "slug": "amazon-home-finds-that-look-expensive",
   "image": "assets/ig/2026-10-21-week1_14.jpg",
   "alt": "Rooms that look expensive. All from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-10-22T15:00:00-05:00",
+  "slug": "neutral-bathroom-finds-that-look-high-end",
+  "image": "assets/ig/2026-10-21-week1_3.jpg",
+  "alt": "Your bathroom, but make it boutique hotel.",
   "reel": true
  },
  {

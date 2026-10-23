@@ -36,7 +36,9 @@ def when(batch, date, time):
 def main():
     content = SITE / 'src/js/content.js'
     js = content.read_text()
-    slugs = set(re.findall(r"slug:\s*'([^']+)'", js))
+    # both post styles: slug: '...' and JSON-style "slug": "..." (guides, recipes); skip the generated IG block
+    body = re.sub(re.escape(BEGIN) + r'.*?' + re.escape(END), '', js, flags=re.S)
+    slugs = set(re.findall(r"""["']?slug["']?\s*:\s*["']([^"']+)["']""", body))
     out_dir = SITE / 'src/assets/ig'
     out_dir.mkdir(parents=True, exist_ok=True)
     items, problems = [], []
