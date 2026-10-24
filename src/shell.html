@@ -4,6 +4,30 @@
 <meta name="google-site-verification" content="70mHPvZd6xQRZoDIBbI1QavMQAoZKODahFJbWnF-J7E">
 <meta name="impact-site-verification" value="077464d0-c8c1-4744-961a-117f50ae061d">
 <meta name="p:domain_verify" content="ec6e4dfb9ab6bb0b5e372390f56bb72c">
+<!-- Google tag (gtag.js), GA4 property themuseshelf.com. Hits are sent only on the real host (no localhost/QA noise);
+     tools/build.js stubs googletagmanager.com while prerendering, so dist keeps exactly this one loader. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8LQRVJNESZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  if (/(^|\.)themuseshelf\.com$/.test(location.hostname)) gtag('config', 'G-8LQRVJNESZ');
+</script>
+<script>
+  // Outbound Amazon clicks -> GA4 event amazon_click (tag = Associates tracking ID in the link's tag param).
+  (function () {
+    function track(e) {
+      if (e.type === 'auxclick' && e.button !== 1) return;
+      var a = e.target && e.target.closest ? e.target.closest('a[href*="amazon.com"]') : null;
+      if (!a || typeof gtag !== 'function') return;
+      var tag = '';
+      try { tag = new URL(a.href, location.href).searchParams.get('tag') || ''; } catch (err) {}
+      gtag('event', 'amazon_click', { link_url: a.href, tag: tag, page_path: location.pathname, transport_type: 'beacon' });
+    }
+    document.addEventListener('click', track, true);
+    document.addEventListener('auxclick', track, true);
+  })();
+</script>
 
 
 

@@ -44,6 +44,11 @@ const server = http.createServer((req, res) => {
   const browser = await puppeteer.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: 'new',
     userDataDir: path.join(process.env.HOME, '.hermes/cache/scratch/chrome-tms-build'), args: ['--no-first-run'] });
   const page = await browser.newPage(); await page.setViewport({ width: 1440, height: 900 });
+  // Stub Google Analytics while prerendering: no fake hits from localhost and gtag.js can't inject extra tags
+  // into the captured DOM (dist must keep exactly the one loader from shell.html).
+  await page.setRequestInterception(true);
+  page.on('request', req => /googletagmanager\.com|google-analytics\.com/.test(req.url())
+    ? req.respond({ status: 200, contentType: 'text/javascript', body: '' }) : req.continue());
   const errors = []; let cur = ''; page.on('pageerror', e => errors.push(cur + ': ' + String(e).slice(0, 160))); page.on('console', m => { if (m.type() === 'error') errors.push(cur + ': ' + m.text().slice(0, 160)); });
   if (QA) fs.mkdirSync(path.join(__dirname, 'qa'), { recursive: true });
   const render = async (route) => {
