@@ -2755,6 +2755,27 @@ var IG_POSTS = [
   "reel": false
  },
  {
+  "at": "2026-11-01T12:00:00-06:00",
+  "slug": "gifts-for-mom-under-50",
+  "image": "assets/ig/2026-10-30-gap_3.jpg",
+  "alt": "Gifts for Mom under $50 that look far more expensive.",
+  "reel": false
+ },
+ {
+  "at": "2026-10-31T12:00:00-05:00",
+  "slug": "stocking-stuffers-for-her-under-25",
+  "image": "assets/ig/2026-10-30-gap_2.jpg",
+  "alt": "Stocking stuffers for her under $25 that feel like little luxuries.",
+  "reel": false
+ },
+ {
+  "at": "2026-10-30T12:00:00-05:00",
+  "slug": "thanksgiving-table-decor-from-amazon",
+  "image": "assets/ig/2026-10-30-gap_1.jpg",
+  "alt": "A Thanksgiving table that looks magazine-ready.",
+  "reel": false
+ },
+ {
   "at": "2026-10-29T19:00:00-05:00",
   "slug": "how-to-style-a-coffee-table",
   "image": "assets/ig/2026-10-21-week1_18.jpg",
