@@ -38,7 +38,13 @@ const server = http.createServer((req, res) => {
 (async () => {
   await new Promise(r => server.listen(0, r));
   const LOCAL = 'http://localhost:' + server.address().port;
-  const fix = html => html.split(LOCAL).join(ORIGIN).split(encodeURIComponent(LOCAL)).join(encodeURIComponent(ORIGIN));
+  // Version /js/ URLs with a content hash: Googlebot's renderer caches scripts by URL, and a stale content.js made new
+  // posts render as 404 + noindex (Search Console "Excluded by 'noindex' tag", Oct 2026).
+  const crypto = require('crypto'), JSV = {};
+  for (const f of fs.readdirSync(path.join(SRC, 'js'))) if (f.endsWith('.js'))
+    JSV[f] = crypto.createHash('sha1').update(fs.readFileSync(path.join(SRC, 'js', f))).digest('hex').slice(0, 10);
+  const verJs = html => html.replace(/(src="\/js\/)([\w.-]+\.js)"/g, (m, a, f) => JSV[f] ? `${a}${f}?v=${JSV[f]}"` : m);
+  const fix = html => verJs(html.split(LOCAL).join(ORIGIN).split(encodeURIComponent(LOCAL)).join(encodeURIComponent(ORIGIN)));
   fs.rmSync(DIST, { recursive: true, force: true }); fs.mkdirSync(DIST, { recursive: true });
   for (const d of ['js', 'fonts', 'assets']) fs.cpSync(path.join(SRC, d), path.join(DIST, d), { recursive: true });
   const browser = await puppeteer.launch({ executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', headless: 'new',

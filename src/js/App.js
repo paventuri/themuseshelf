@@ -399,7 +399,18 @@ function App() {
     onClose: () => setSearch(false)
   }));
 }
+
+/* Stale-script guard: a prerendered page whose slug this copy of content.js doesn't know (Googlebot or a CDN serving a
+   cached content.js right after a deploy) must keep its static HTML. Mounting would swap it for the 404 view and
+   inject robots noindex (Search Console "Excluded by 'noindex' tag", Oct 2026). build.js also versions /js/ URLs. */
 if (!window.__tmsMounted) {
   window.__tmsMounted = true;
-  ReactDOM.createRoot(document.getElementById('site-root')).render(/*#__PURE__*/React.createElement(App, null));
+  const root = document.getElementById('site-root');
+  const pre = root.querySelector('[data-screen-label]');
+  const slug0 = location.pathname.replace(/^\/+|\/+$/g, '').replace(/\/index\.html$/, '');
+  if (pre && pre.getAttribute('data-screen-label') !== '404' && resolve(slug0).kind === '404') {
+    window.__tmsStaticOnly = true;
+  } else {
+    ReactDOM.createRoot(root).render(/*#__PURE__*/React.createElement(App, null));
+  }
 }
