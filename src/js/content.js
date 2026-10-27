@@ -1070,6 +1070,13 @@ var POSTS = [
         "Scatter the pistachios, herbs and red pepper flakes. Finish with the flaky salt.",
         "Serve right away with warm bread and a small spreader, with the Butter Bell alongside for refills."
       ],
+      "stepNames": [
+        "Soften the butter",
+        "Spread the butter on the board",
+        "Add the honey and lemon zest",
+        "Add the toppings and flaky salt",
+        "Serve with warm bread"
+      ],
       "notes": [
         "**Butter Bell.** The crock holds about one stick (125 g). Pour 1/3 cup of cold water into the base, pack the bell-shaped lid firmly with softened butter and set it back in the base. Butter Bell says to change the water every 2 to 3 days.",
         "**Protect the marble.** Marble is porous: butter can leave dark spots and lemon juice can etch it. Zest only (no juice on the board), and wash the board with warm soapy water as soon as the party's over, or line it with a round of parchment.",
@@ -1204,6 +1211,13 @@ var POSTS = [
         "Take it off the heat and let it steep for 30 minutes, until cool.",
         "Strain through a fine-mesh strainer lined with a coffee filter, then funnel into the bottle. Cap it, tag it with a use-by date 4 days out and refrigerate."
       ],
+      "stepNames": [
+        "Clean and dry the bottle",
+        "Crush the aromatics",
+        "Warm the oil with the aromatics",
+        "Steep until cool",
+        "Strain, bottle and refrigerate"
+      ],
       "notes": [
         "**Storage.** Keep it in the fridge and use it within 4 days ([CDC guidance](https://www.cdc.gov/botulism/prevention/index.html) for homemade oils made with garlic or herbs). Olive oil turns cloudy and thick when cold; 20 minutes on the counter brings it back.",
         "**Why only 1 cup?** It has to be used within 4 days, so a small batch is the right size. The 20-ounce bottle holds up to 2 1/2 cups, plenty for the kit version.",
@@ -1331,6 +1345,13 @@ var POSTS = [
         "Stir the rest of the salt, the lemon zest and the pepper into the bowl.",
         "Spread the salt thinly on a parchment-lined baking sheet and let it air-dry for 1 to 2 days, stirring now and then, until completely dry. In a hurry? Dry it in the oven at its lowest setting, stirring every 10 minutes, until it feels dry to the touch.",
         "Break up any clumps with the pestle. Fill the salt cellar and keep the rest in an airtight jar."
+      ],
+      "stepNames": [
+        "Chop the herbs",
+        "Pound the herbs with salt",
+        "Stir in the zest and pepper",
+        "Dry the herb salt",
+        "Break up clumps and store"
       ],
       "notes": [
         "**Storage.** Keep the dried salt airtight at room temperature and use it within about 2 months (the window Bon Appetit gives for its fresh-herb salt). The color fades before the flavor does.",
@@ -1472,6 +1493,13 @@ var POSTS = [
         "Set the cocotte, lid off, on a small baking sheet and bake for 12 to 15 minutes, until the edges bubble and the center feels very soft when you press it gently with a spoon.",
         "Let it rest for 3 minutes. Top with the figs and nuts, drizzle with the rest of the honey, then add thyme leaves, a pinch of flaky salt and a little pepper.",
         "Set the cocotte on a marble board with crackers and baguette slices around it and the honey pot alongside. Serve right away, and warn guests that the dish is hot."
+      ],
+      "stepNames": [
+        "Heat the oven and prep the brie",
+        "Score the rind and drizzle with honey",
+        "Bake until soft",
+        "Rest and add the toppings",
+        "Serve hot"
       ],
       "notes": [
         "**Size check.** The 8-ounce mini cocotte is about 3 1/2 inches across inside. A mini brie fits; a standard 8-ounce wheel (about 4 1/2 inches) doesn't. For a bigger wheel, bake it on a parchment-lined sheet pan or in a small baking dish just wider than the cheese, at 350°F, until the center is very soft (about 10 minutes on a sheet pan, 15 to 20 in a dish).",

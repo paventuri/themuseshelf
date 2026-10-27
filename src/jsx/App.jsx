@@ -60,7 +60,7 @@ function structuredData(r, url) {
           prepTime: iso(rc.prepMin), cookTime: iso(rc.cookMin), totalTime: iso(rc.totalMin), recipeYield: rc.yield,
           recipeCategory: rc.category, recipeCuisine: rc.cuisine, keywords: rc.keywords,
           recipeIngredient: rc.ingredients.map(plain),
-          recipeInstructions: rc.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, text: plain(s), url: url + '#recipe' })),
+          recipeInstructions: rc.steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: (rc.stepNames || [])[i], text: plain(s), url: url + '#recipe' })),
           inLanguage: 'en-US' },
         crumbList];
     }

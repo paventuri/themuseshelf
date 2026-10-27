@@ -196,6 +196,7 @@ function structuredData(r, url) {
         recipeInstructions: rc.steps.map((s, i) => ({
           '@type': 'HowToStep',
           position: i + 1,
+          name: (rc.stepNames || [])[i],
           text: plain(s),
           url: url + '#recipe'
         })),
