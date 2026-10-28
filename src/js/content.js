@@ -2692,13 +2692,6 @@ var IG_POSTS = [
   "reel": true
  },
  {
-  "at": "2026-11-08T12:00:00-06:00",
-  "slug": "christmas-bedroom-decor-ideas",
-  "image": "assets/ig/2026-11-02-week2_13.jpg",
-  "alt": "A Christmas bedroom that feels like a cozy hotel.",
-  "reel": false
- },
- {
   "at": "2026-11-07T19:00:00-06:00",
   "slug": "ralph-lauren-christmas-tree-look-for-less",
   "image": "assets/ig/2026-11-02-week2_12.jpg",
@@ -2706,25 +2699,11 @@ var IG_POSTS = [
   "reel": true
  },
  {
-  "at": "2026-11-07T12:00:00-06:00",
-  "slug": "coffee-bar-ideas",
-  "image": "assets/ig/2026-11-02-week2_11.jpg",
-  "alt": "A coffee bar that feels like your favorite café.",
-  "reel": false
- },
- {
   "at": "2026-11-06T19:00:00-06:00",
   "slug": "hostess-gifts-under-30",
   "image": "assets/ig/2026-11-02-week2_10.jpg",
   "alt": "This looks way more expensive than it is.",
   "reel": true
- },
- {
-  "at": "2026-11-06T12:00:00-06:00",
-  "slug": "red-and-gold-christmas-tree-ideas",
-  "image": "assets/ig/2026-11-02-week2_9.jpg",
-  "alt": "The red and gold tree that looks old-money.",
-  "reel": false
  },
  {
   "at": "2026-11-05T19:00:00-06:00",
@@ -2748,25 +2727,11 @@ var IG_POSTS = [
   "reel": true
  },
  {
-  "at": "2026-11-04T12:00:00-06:00",
-  "slug": "christmas-entryway-table-decor",
-  "image": "assets/ig/2026-11-02-week2_5.jpg",
-  "alt": "A Christmas entryway that looks designer-styled.",
-  "reel": false
- },
- {
   "at": "2026-11-03T19:00:00-06:00",
   "slug": "christmas-mantle-decor-that-looks-expensive",
   "image": "assets/ig/2026-11-02-week2_4.jpg",
   "alt": "These brass candlesticks make a mantel look expensive.",
   "reel": true
- },
- {
-  "at": "2026-11-03T12:00:00-06:00",
-  "slug": "advent-calendar-ideas",
-  "image": "assets/ig/2026-11-02-week2_3.jpg",
-  "alt": "Advent calendars for grown-ups, the kind you keep every year.",
-  "reel": false
  },
  {
   "at": "2026-11-02T19:00:00-06:00",
@@ -2783,34 +2748,6 @@ var IG_POSTS = [
   "reel": false
  },
  {
-  "at": "2026-11-01T12:00:00-06:00",
-  "slug": "gifts-for-mom-under-50",
-  "image": "assets/ig/2026-10-30-gap_3.jpg",
-  "alt": "Gifts for Mom under $50 that look far more expensive.",
-  "reel": false
- },
- {
-  "at": "2026-10-31T12:00:00-05:00",
-  "slug": "stocking-stuffers-for-her-under-25",
-  "image": "assets/ig/2026-10-30-gap_2.jpg",
-  "alt": "Stocking stuffers for her under $25 that feel like little luxuries.",
-  "reel": false
- },
- {
-  "at": "2026-10-30T12:00:00-05:00",
-  "slug": "thanksgiving-table-decor-from-amazon",
-  "image": "assets/ig/2026-10-30-gap_1.jpg",
-  "alt": "A Thanksgiving table that looks magazine-ready.",
-  "reel": false
- },
- {
-  "at": "2026-10-29T19:00:00-05:00",
-  "slug": "how-to-style-a-coffee-table",
-  "image": "assets/ig/2026-10-21-week1_18.jpg",
-  "alt": "How to style a coffee table like a designer, in 5 steps. Comment LINK and we'll DM you every piece, from the tray to the",
-  "reel": false
- },
- {
   "at": "2026-10-28T19:00:00-05:00",
   "slug": "boho-bedroom-amazon-finds",
   "image": "assets/ig/2026-10-21-week1_5.jpg",
@@ -2818,14 +2755,7 @@ var IG_POSTS = [
   "reel": true
  },
  {
-  "at": "2026-10-28T12:00:00-05:00",
-  "slug": "neutral-bathroom-finds-that-look-high-end",
-  "image": "assets/ig/2026-10-21-week1_13.jpg",
-  "alt": "A bathroom that feels like a five-star hotel stay.",
-  "reel": false
- },
- {
-  "at": "2026-10-27T19:00:00-05:00",
+  "at": "2026-10-28T15:00:00-05:00",
   "slug": "neutral-christmas-decor-from-amazon",
   "image": "assets/ig/2026-10-21-week1_17.jpg",
   "alt": "This ceramic tree looks like a vintage find. It's from Amazon.",
