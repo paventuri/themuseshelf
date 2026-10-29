@@ -1341,7 +1341,8 @@ const CSS = `.tms-hdr__nav{display:none}.tms-hdr__burger{display:flex}
 @media(min-width:1200px){.tms-hdr__nav{display:flex}.tms-hdr__burger{display:none}}
 .tms-hdr__link{position:relative}.tms-hdr__link::after{content:"";position:absolute;left:0;right:.2em;bottom:-6px;height:1px;background:var(--pale-oak);transform:scaleX(0);transition:transform var(--dur-base) var(--ease-out)}
 .tms-hdr__link:hover::after,.tms-hdr__link[aria-current=page]::after{transform:scaleX(1)}
-.tms-hdr__icon:hover{color:var(--muted-olive)!important}`;
+.tms-hdr__icon:hover{color:var(--muted-olive)!important}
+@media(min-width:1200px) and (max-width:1499px){.tms-hdr__nav{gap:16px!important}.tms-hdr__link{letter-spacing:.12em!important}}`;
 const NAV_ITEMS = [{
   label: 'Home Finds',
   href: '/home-finds/'
