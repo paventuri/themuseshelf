@@ -1343,7 +1343,7 @@ const CSS = `.tms-hdr__nav{display:none}.tms-hdr__burger{display:flex}
 .tms-hdr__link:hover::after,.tms-hdr__link[aria-current=page]::after{transform:scaleX(1)}
 .tms-hdr__icon:hover{color:var(--muted-olive)!important}
 @media(min-width:1200px) and (max-width:1439px){.tms-hdr__nav{display:none!important}}
-@media(min-width:1440px) and (max-width:1599px){.tms-hdr__nav{gap:16px!important}.tms-hdr__link{letter-spacing:.12em!important}}`;
+@media(min-width:1440px){.tms-hdr__nav{gap:16px!important}.tms-hdr__link{letter-spacing:.12em!important}}`;
 const NAV_ITEMS = [{
   label: 'Home Finds',
   href: '/home-finds/'
