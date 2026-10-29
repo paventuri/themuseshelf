@@ -79,6 +79,30 @@ var POSTS = [
   },
   // ----------------------------------------------------------------
   {
+    slug: 'the-muse-shelf-gift-edit',
+    title: 'The Muse Shelf Gift Edit',
+    category: 'gift-guides',
+    date: '2026-10-28',
+    shopOnly: true,
+    description: 'The Muse Shelf Gift Edit: eight gifts from our own shop, from faux fur slippers and a gold glass jewelry box to marble orbs and a soy candle.',
+    intro: 'This edit comes from our own shop. Eight gifts we would be glad to give or get: small, good-looking pieces for the dresser, the vanity and the coffee table, plus a few things to wear. Every one ships from the US.',
+    image: 'assets/pins/the-muse-shelf-gift-edit.jpg',
+    imageAlt: 'The Muse Shelf Gift Edit: faux fur slippers, a gold glass jewelry box, an amber soy candle, beige marble orbs, gold zircon hoop earrings, a ribbed bud vase, a gold linked ring necklace and a ceramic trinket dish',
+    products: [],
+    shopPicks: [
+      { handle: 'weeboo-thick-bottom-fur-trim-snow-slippers', note: 'Soft faux fur cuffs on a thick, grippy sole: the pair she will actually wear every morning.' },
+      { handle: 'gold-glass-two-section-jewelry-box-10-in', note: 'Ribbed glass with a thin gold frame, two sections for everyday pieces, and pretty enough to leave out on the dresser.' },
+      { handle: 'amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid', note: 'Warm amber and creamy sandalwood in an amber glass jar, hand poured in small batches.' },
+      { handle: 'trinket-dish-moonburn-creations', note: 'A small handmade ceramic dish with a pressed rosemary sprig, for rings by the sink or the bedside.' },
+      { handle: 'stainless-steel-inlaid-zircon-c-hoop-earrings', note: 'Gold C-hoops lined with tiny zircon stones: dressy enough for dinner, easy enough for every day.' },
+      { handle: 'linked-ring-pendant-chain-necklace', note: 'Two interlocked gold rings on a fine chain, an easy gift for a sister, a best friend or a mom.' },
+      { handle: 'beige-marble-decorative-orbs-set-of-2', note: 'A pair of polished beige marble orbs for a coffee table or bookshelf: a quiet gift for someone who loves her home.' },
+      { handle: 'sand-ribbed-ceramic-bud-vase-6-in', note: 'A small ribbed bud vase in warm sand, made for a single stem or a dried branch on a nightstand.' }
+    ],
+    shopMore: { label: 'See all gifts in the shop', href: 'https://shop.themuseshelf.com/collections/gifts?utm_source=site&utm_medium=post&utm_campaign=gift-edit' }
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'christmas-front-porch-decor-ideas',
     title: 'Christmas Front Porch Decor Ideas',
     category: 'home-finds',
@@ -2862,4 +2886,44 @@ var IG_POSTS = [
 ];
 /* IG_SHOP:END */
 
-window.TMS = { IG_POSTS: IG_POSTS, NEWSLETTER_ON: NEWSLETTER_ON, NEWSLETTER: NEWSLETTER, AFFILIATE_TAG: AFFILIATE_TAG, amazon: amazon, CATEGORIES: CATEGORIES, POSTS: POSTS, SITE: SITE };
+
+/* 4. Our shop (shop.themuseshelf.com, Shopify dropship store). These are OUR products at OUR prices, so the
+      "From our shop" blocks may show prices. They never replace the Amazon picks, links, tags or disclosure.
+      SHOP_IN_POSTS: post slug -> 2-4 shop handles shown under that post's Amazon list. */
+var SHOP_URL = 'https://shop.themuseshelf.com';
+var SHOP_ITEMS = {
+  'linked-ring-pendant-chain-necklace': { name: 'Linked ring pendant necklace, gold', price: '$19', image: 'assets/shop/linked-ring-pendant-chain-necklace.jpg' },
+  'stainless-steel-inlaid-zircon-c-hoop-earrings': { name: 'Zircon C-hoop earrings, gold', price: '$19', image: 'assets/shop/stainless-steel-inlaid-zircon-c-hoop-earrings.jpg' },
+  'weeboo-thick-bottom-fur-trim-snow-slippers': { name: 'Faux fur trim snow slippers', price: '$42', image: 'assets/shop/weeboo-thick-bottom-fur-trim-snow-slippers.jpg' },
+  'scalloped-marble-trinket-tray-6-in': { name: 'Scalloped marble trinket tray, 6 in', price: '$94', image: 'assets/shop/scalloped-marble-trinket-tray-6-in.jpg' },
+  'gold-glass-two-section-jewelry-box-10-in': { name: 'Gold glass two-section jewelry box', price: '$69', image: 'assets/shop/gold-glass-two-section-jewelry-box-10-in.jpg' },
+  'beige-marble-decorative-orbs-set-of-2': { name: 'Beige marble decorative orbs, set of 2', price: '$69', image: 'assets/shop/beige-marble-decorative-orbs-set-of-2.jpg' },
+  'beige-ribbed-cotton-pillows-with-fringe-set-of-2': { name: 'Ribbed cotton fringe pillows, set of 2', price: '$79', image: 'assets/shop/beige-ribbed-cotton-pillows-with-fringe-set-of-2.jpg' },
+  'gold-arch-wall-mirror-35-in': { name: 'Gold arch wall mirror, 35 in', price: '$89', image: 'assets/shop/gold-arch-wall-mirror-35-in.jpg' },
+  'antiqued-brass-taper-candlestick-10-in': { name: 'Antiqued brass taper candlestick', price: '$69', image: 'assets/shop/antiqued-brass-taper-candlestick-10-in.jpg' },
+  'white-marble-round-bowl-7-in': { name: 'White marble round bowl, 7 in', price: '$86', image: 'assets/shop/white-marble-round-bowl-7-in.jpg' },
+  'cream-ceramic-pedestal-bowl-12-in': { name: 'Cream ceramic pedestal bowl, 12 in', price: '$84', image: 'assets/shop/cream-ceramic-pedestal-bowl-12-in.jpg' },
+  'cream-ceramic-table-vase-10-in': { name: 'Cream ceramic table vase, 10 in', price: '$49', image: 'assets/shop/cream-ceramic-table-vase-10-in.jpg' },
+  'sand-ribbed-ceramic-bud-vase-6-in': { name: 'Sand ribbed ceramic bud vase', price: '$49', image: 'assets/shop/sand-ribbed-ceramic-bud-vase-6-in.jpg' },
+  'cream-ceramic-beehive-table-lamp-17-in': { name: 'Cream ceramic beehive table lamp', price: '$79', image: 'assets/shop/cream-ceramic-beehive-table-lamp-17-in.jpg' },
+  'trinket-dish-moonburn-creations': { name: 'Handmade ceramic trinket dish', price: '$16', image: 'assets/shop/trinket-dish-moonburn-creations.jpg' },
+  'amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid': { name: 'Amber Santal soy candle', price: '$19', image: 'assets/shop/amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid.jpg' }
+};
+var SHOP_IN_POSTS = {
+  'christmas-entryway-table-decor': ['gold-arch-wall-mirror-35-in', 'antiqued-brass-taper-candlestick-10-in', 'cream-ceramic-table-vase-10-in', 'cream-ceramic-beehive-table-lamp-17-in'],
+  'how-to-style-a-coffee-table': ['beige-marble-decorative-orbs-set-of-2', 'cream-ceramic-pedestal-bowl-12-in', 'sand-ribbed-ceramic-bud-vase-6-in', 'antiqued-brass-taper-candlestick-10-in'],
+  'christmas-mantle-decor-that-looks-expensive': ['gold-arch-wall-mirror-35-in', 'antiqued-brass-taper-candlestick-10-in', 'cream-ceramic-table-vase-10-in', 'beige-marble-decorative-orbs-set-of-2'],
+  'christmas-table-decor-ideas': ['antiqued-brass-taper-candlestick-10-in', 'cream-ceramic-pedestal-bowl-12-in', 'white-marble-round-bowl-7-in', 'amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid'],
+  'greenery-bedroom-ideas': ['beige-ribbed-cotton-pillows-with-fringe-set-of-2', 'cream-ceramic-beehive-table-lamp-17-in', 'sand-ribbed-ceramic-bud-vase-6-in', 'cream-ceramic-table-vase-10-in'],
+  'neutral-bathroom-finds-that-look-high-end': ['scalloped-marble-trinket-tray-6-in', 'white-marble-round-bowl-7-in', 'trinket-dish-moonburn-creations', 'amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid'],
+  'vanity-organization-finds-that-look-luxe': ['gold-glass-two-section-jewelry-box-10-in', 'scalloped-marble-trinket-tray-6-in', 'trinket-dish-moonburn-creations'],
+  'gift-ideas-for-her-under-50': ['linked-ring-pendant-chain-necklace', 'stainless-steel-inlaid-zircon-c-hoop-earrings', 'weeboo-thick-bottom-fur-trim-snow-slippers', 'amber-santal-soy-blend-candle-sweet-amber-creamy-sandalwood-vanilla-orchid'],
+  'housewarming-gifts-that-look-expensive': ['beige-marble-decorative-orbs-set-of-2', 'cream-ceramic-table-vase-10-in', 'antiqued-brass-taper-candlestick-10-in', 'white-marble-round-bowl-7-in'],
+  'anthropologie-mirror-dupes': ['gold-arch-wall-mirror-35-in', 'antiqued-brass-taper-candlestick-10-in', 'cream-ceramic-table-vase-10-in']
+};
+function shopLink(handle, campaign) {
+  return SHOP_URL + '/products/' + handle + '?utm_source=site&utm_medium=post&utm_campaign=' + encodeURIComponent(campaign);
+}
+var SHOP = { url: SHOP_URL, nav: SHOP_URL + '/?utm_source=site&utm_medium=nav', items: SHOP_ITEMS, posts: SHOP_IN_POSTS, link: shopLink };
+
+window.TMS = { IG_POSTS: IG_POSTS, NEWSLETTER_ON: NEWSLETTER_ON, NEWSLETTER: NEWSLETTER, AFFILIATE_TAG: AFFILIATE_TAG, amazon: amazon, CATEGORIES: CATEGORIES, POSTS: POSTS, SITE: SITE, SHOP: SHOP };

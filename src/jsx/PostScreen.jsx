@@ -51,6 +51,58 @@ function RecipeCard({ r }) {
   );
 }
 
+/* "From our shop" (shop.themuseshelf.com): 2-4 of our own products under a post's Amazon list (TMS.SHOP.posts).
+   Never replaces Amazon picks, links, tags or the disclosure. */
+function ShopFromPost({ post }) {
+  const S = TMS.SHOP; const hs = S && S.posts[post.slug];
+  if (!hs) return null;
+  const items = hs.filter((h) => S.items[h]).map((h) => ({ name: S.items[h].name, price: S.items[h].price, image: window.asset(S.items[h].image), href: S.link(h, post.slug) }));
+  return <DS.ShopBlock items={items} moreHref={S.url + '/?utm_source=site&utm_medium=post&utm_campaign=' + post.slug} />;
+}
+
+/* Shop-only edit (post.shopOnly): our own products, our prices, same-tab links. No Amazon disclosure (no Amazon links). */
+function ShopEditScreen({ post }) {
+  const S = TMS.SHOP;
+  const cat = TMS.CATEGORIES.find((c) => c.slug === post.category);
+  const more = TMS.POSTS.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 3);
+  return (
+    <main>
+      <article className="wrap">
+        <header className="post-head">
+          <DS.Label href={tmsPath(cat.slug)}>{cat.name}</DS.Label>
+          <h1 className="post-h1">{post.title}</h1>
+          <DS.Label tone="muted" as="time" dateTime={post.date}>{formatDate(post.date)}</DS.Label>
+          <p style={{ fontFamily: 'var(--font-sans)', fontWeight: 300, fontSize: 12, lineHeight: 1.6, color: 'var(--text-muted)', maxWidth: 440, margin: 0, textAlign: 'center' }}>From our own shop. Every piece ships from the US.</p>
+          <DS.Divider variant="oak" spacing={4} />
+          {post.intro && <p style={{ fontSize: 17, lineHeight: 1.75, maxWidth: 600, color: 'var(--text-secondary)' }}>{post.intro}</p>}
+        </header>
+        <div className="post-body">
+          <div className="post-pin">
+            <DS.PinImage src={window.asset(post.image)} alt={post.imageAlt} description={post.title + ' | The Muse Shelf'} priority />
+          </div>
+          <div>
+            <ol className="products" style={{ listStyle: 'none', margin: 0, padding: 0 }} aria-label="Gifts in this edit">
+              {post.shopPicks.filter((x) => S.items[x.handle]).map((x, i) => { const it = S.items[x.handle]; return (
+                <li key={x.handle}>
+                  <DS.ShopProductCard number={i + 1} name={it.name} note={x.note} price={it.price} image={window.asset(it.image)} href={S.link(x.handle, post.shopCampaign || 'gift-edit')} />
+                </li>
+              ); })}
+            </ol>
+            {post.shopMore && <div style={{ marginTop: 32, display: 'flex', justifyContent: 'center' }}><DS.Button href={post.shopMore.href} variant="secondary">{post.shopMore.label}</DS.Button></div>}
+          </div>
+        </div>
+      </article>
+      <section className="wrap section">
+        <DS.SectionHeader title="More gift guides" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
+        <DS.PostGrid columns={3}>{more.map((p) => <DS.PostCard {...postCardProps(p)} />)}</DS.PostGrid>
+      </section>
+      {TMS.NEWSLETTER_ON && <section className="wrap" style={{ paddingBottom: 'var(--section-gap)' }}>
+        <DS.NewsletterForm />
+      </section>}
+    </main>
+  );
+}
+
 /* Long-form guide: same header + sticky pin as a post, with advice sections and the product cards inside them.
    Recipe variant (post.recipe): Jump to recipe link, recipe card after the sections, then "What we used". */
 function GuideScreen({ post }) {
@@ -123,6 +175,7 @@ function GuideScreen({ post }) {
             {post.note && <p className="guide-note">{post.note}</p>}
           </div>
         </div>
+        <ShopFromPost post={post} />
       </article>
       <section className="wrap section">
         <DS.SectionHeader title="Related edits" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
@@ -136,6 +189,7 @@ function GuideScreen({ post }) {
 }
 
 function PostScreen({ post }) {
+  if (post.shopOnly) return <ShopEditScreen post={post} />;
   if (post.guide) return <GuideScreen post={post} />;
   const guides = TMS.POSTS.filter((g) => g.guide && (g.related || []).includes(post.slug));
   const cat = TMS.CATEGORIES.find((c) => c.slug === post.category);
@@ -170,6 +224,7 @@ function PostScreen({ post }) {
             </ol>
           </div>
         )}
+        <ShopFromPost post={post} />
       </article>
       <section className="wrap section">
         <DS.SectionHeader title="More edits" linkLabel={'All ' + cat.name} href={tmsPath(cat.slug)} style={{ marginBottom: 32 }} />
@@ -182,5 +237,5 @@ function PostScreen({ post }) {
   );
 }
 
-Object.assign(window, { PostScreen, GuideScreen, RecipeCard, formatDate });
+Object.assign(window, { PostScreen, GuideScreen, ShopEditScreen, ShopFromPost, RecipeCard, formatDate });
 

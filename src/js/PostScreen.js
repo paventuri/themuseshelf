@@ -84,6 +84,123 @@ function RecipeCard({
   }, richText(x)))));
 }
 
+/* "From our shop" (shop.themuseshelf.com): 2-4 of our own products under a post's Amazon list (TMS.SHOP.posts).
+   Never replaces Amazon picks, links, tags or the disclosure. */
+function ShopFromPost({
+  post
+}) {
+  const S = TMS.SHOP;
+  const hs = S && S.posts[post.slug];
+  if (!hs) return null;
+  const items = hs.filter(h => S.items[h]).map(h => ({
+    name: S.items[h].name,
+    price: S.items[h].price,
+    image: window.asset(S.items[h].image),
+    href: S.link(h, post.slug)
+  }));
+  return /*#__PURE__*/React.createElement(DS.ShopBlock, {
+    items: items,
+    moreHref: S.url + '/?utm_source=site&utm_medium=post&utm_campaign=' + post.slug
+  });
+}
+
+/* Shop-only edit (post.shopOnly): our own products, our prices, same-tab links. No Amazon disclosure (no Amazon links). */
+function ShopEditScreen({
+  post
+}) {
+  const S = TMS.SHOP;
+  const cat = TMS.CATEGORIES.find(c => c.slug === post.category);
+  const more = TMS.POSTS.filter(p => p.slug !== post.slug && p.category === post.category).slice(0, 3);
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement("article", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "post-head"
+  }, /*#__PURE__*/React.createElement(DS.Label, {
+    href: tmsPath(cat.slug)
+  }, cat.name), /*#__PURE__*/React.createElement("h1", {
+    className: "post-h1"
+  }, post.title), /*#__PURE__*/React.createElement(DS.Label, {
+    tone: "muted",
+    as: "time",
+    dateTime: post.date
+  }, formatDate(post.date)), /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontFamily: 'var(--font-sans)',
+      fontWeight: 300,
+      fontSize: 12,
+      lineHeight: 1.6,
+      color: 'var(--text-muted)',
+      maxWidth: 440,
+      margin: 0,
+      textAlign: 'center'
+    }
+  }, "From our own shop. Every piece ships from the US."), /*#__PURE__*/React.createElement(DS.Divider, {
+    variant: "oak",
+    spacing: 4
+  }), post.intro && /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontSize: 17,
+      lineHeight: 1.75,
+      maxWidth: 600,
+      color: 'var(--text-secondary)'
+    }
+  }, post.intro)), /*#__PURE__*/React.createElement("div", {
+    className: "post-body"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "post-pin"
+  }, /*#__PURE__*/React.createElement(DS.PinImage, {
+    src: window.asset(post.image),
+    alt: post.imageAlt,
+    description: post.title + ' | The Muse Shelf',
+    priority: true
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("ol", {
+    className: "products",
+    style: {
+      listStyle: 'none',
+      margin: 0,
+      padding: 0
+    },
+    "aria-label": "Gifts in this edit"
+  }, post.shopPicks.filter(x => S.items[x.handle]).map((x, i) => {
+    const it = S.items[x.handle];
+    return /*#__PURE__*/React.createElement("li", {
+      key: x.handle
+    }, /*#__PURE__*/React.createElement(DS.ShopProductCard, {
+      number: i + 1,
+      name: it.name,
+      note: x.note,
+      price: it.price,
+      image: window.asset(it.image),
+      href: S.link(x.handle, post.shopCampaign || 'gift-edit')
+    }));
+  })), post.shopMore && /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 32,
+      display: 'flex',
+      justifyContent: 'center'
+    }
+  }, /*#__PURE__*/React.createElement(DS.Button, {
+    href: post.shopMore.href,
+    variant: "secondary"
+  }, post.shopMore.label))))), /*#__PURE__*/React.createElement("section", {
+    className: "wrap section"
+  }, /*#__PURE__*/React.createElement(DS.SectionHeader, {
+    title: "More gift guides",
+    linkLabel: 'All ' + cat.name,
+    href: tmsPath(cat.slug),
+    style: {
+      marginBottom: 32
+    }
+  }), /*#__PURE__*/React.createElement(DS.PostGrid, {
+    columns: 3
+  }, more.map(p => /*#__PURE__*/React.createElement(DS.PostCard, postCardProps(p))))), TMS.NEWSLETTER_ON && /*#__PURE__*/React.createElement("section", {
+    className: "wrap",
+    style: {
+      paddingBottom: 'var(--section-gap)'
+    }
+  }, /*#__PURE__*/React.createElement(DS.NewsletterForm, null)));
+}
+
 /* Long-form guide: same header + sticky pin as a post, with advice sections and the product cards inside them.
    Recipe variant (post.recipe): Jump to recipe link, recipe card after the sections, then "What we used". */
 function GuideScreen({
@@ -221,7 +338,9 @@ function GuideScreen({
     key: i
   }, /*#__PURE__*/React.createElement("h3", null, f.q), /*#__PURE__*/React.createElement("p", null, richText(f.a))))), post.note && /*#__PURE__*/React.createElement("p", {
     className: "guide-note"
-  }, post.note)))), /*#__PURE__*/React.createElement("section", {
+  }, post.note))), /*#__PURE__*/React.createElement(ShopFromPost, {
+    post: post
+  })), /*#__PURE__*/React.createElement("section", {
     className: "wrap section"
   }, /*#__PURE__*/React.createElement(DS.SectionHeader, {
     title: "Related edits",
@@ -242,6 +361,9 @@ function GuideScreen({
 function PostScreen({
   post
 }) {
+  if (post.shopOnly) return /*#__PURE__*/React.createElement(ShopEditScreen, {
+    post: post
+  });
   if (post.guide) return /*#__PURE__*/React.createElement(GuideScreen, {
     post: post
   });
@@ -319,7 +441,9 @@ function PostScreen({
     image: pr.image ? window.asset(pr.image) : undefined,
     imageAlt: pr.name,
     href: TMS.amazon(pr.link)
-  })))))), /*#__PURE__*/React.createElement("section", {
+  }))))), /*#__PURE__*/React.createElement(ShopFromPost, {
+    post: post
+  })), /*#__PURE__*/React.createElement("section", {
     className: "wrap section"
   }, /*#__PURE__*/React.createElement(DS.SectionHeader, {
     title: "More edits",
@@ -340,6 +464,8 @@ function PostScreen({
 Object.assign(window, {
   PostScreen,
   GuideScreen,
+  ShopEditScreen,
+  ShopFromPost,
   RecipeCard,
   formatDate
 });

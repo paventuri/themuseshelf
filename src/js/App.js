@@ -220,8 +220,8 @@ function structuredData(r, url) {
     }, crumbList, {
       '@type': 'ItemList',
       name: p.title,
-      numberOfItems: (p.products || []).length,
-      itemListElement: (p.products || []).map((pr, i) => ({
+      numberOfItems: listItems(p).length,
+      itemListElement: listItems(p).map((pr, i) => ({
         '@type': 'ListItem',
         position: i + 1,
         name: pr.name
@@ -229,6 +229,11 @@ function structuredData(r, url) {
     }];
   }
   return null;
+}
+
+/* ItemList names: Amazon products, or our shop picks on a shop-only edit */
+function listItems(p) {
+  return p.shopOnly ? (p.shopPicks || []).map(x => TMS.SHOP.items[x.handle]).filter(Boolean) : p.products || [];
 }
 function setMeta(r, slug) {
   document.title = r.title;
@@ -384,7 +389,7 @@ function App() {
   const r = resolve(slug);
   React.useEffect(() => setMeta(r, slug), [slug]);
   const nav = it => {
-    location.href = '/' + it.href.replace(/^[#/]+/, '');
+    location.href = /^https?:/.test(it.href) ? it.href : '/' + it.href.replace(/^[#/]+/, '');
   };
   return /*#__PURE__*/React.createElement("div", {
     "data-screen-label": r.key

@@ -813,6 +813,149 @@ function ProductCard({
 Object.assign(__ds_scope, { ProductCard });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/ProductCard.jsx", error: String((e && e.message) || e) }); }
 
+// components/content/ShopBlock.jsx
+// "From our shop": our own Shopify products (shop.themuseshelf.com). Same card language as ProductCard (white card,
+// stone border, display-font name) but same-tab links, no sponsored rel, and our own price shown.
+try { (() => {
+function injectCSS(id, css) {
+  if (typeof document === 'undefined' || document.getElementById(id)) return;
+  const s = document.createElement('style');
+  s.id = id;
+  s.textContent = css;
+  document.head.appendChild(s);
+}
+const CSS = `.tms-shop{max-width:1080px;margin:clamp(48px,7vw,72px) auto 0;padding-top:clamp(32px,5vw,48px);border-top:1px solid var(--stone)}
+.tms-shop__head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px;margin-bottom:24px}
+.tms-shop__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;list-style:none;margin:0;padding:0}
+@media(min-width:900px){.tms-shop__grid{grid-template-columns:repeat(var(--tms-shop-cols,4),minmax(0,1fr));gap:20px}}
+.tms-shop__card{height:100%;display:flex;flex-direction:column;gap:10px;background:var(--white);border:1px solid var(--stone);padding:clamp(10px,2vw,18px)}
+.tms-shop__img{display:block;aspect-ratio:1/1;overflow:hidden;background:var(--white)}
+.tms-shop__img img{width:100%;height:100%;object-fit:contain;transition:transform var(--dur-slow) var(--ease-out)}.tms-shop__img:hover img{transform:scale(1.03)}
+.tms-shop__name{font-family:var(--font-display);font-weight:400;font-size:clamp(16px,2vw,19px);line-height:1.25;margin:0;text-wrap:balance}
+.tms-shop__name a{color:var(--espresso);text-decoration:none}
+.tms-shop__price{font-family:var(--font-sans);font-size:14px;letter-spacing:.04em;color:var(--espresso);margin:0}
+.tms-shop-item{container-type:inline-size}
+.tms-shop-item__row{display:grid;grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:16px;align-items:center}
+@container (min-width:600px){.tms-shop-item__row{grid-template-columns:240px minmax(0,1fr);gap:40px}}`;
+const kicker = {
+  fontFamily: 'var(--font-sans)',
+  fontWeight: 500,
+  fontSize: 11,
+  letterSpacing: '0.2em',
+  textTransform: 'uppercase',
+  color: 'var(--muted-olive)',
+  margin: 0
+};
+function shopPad(n) {
+  return String(n).padStart(2, '0');
+}
+function ShopBlock({
+  items = [],
+  title = 'From our shop',
+  note = 'Ships from the US',
+  moreHref,
+  moreLabel = 'Visit the shop',
+  style
+}) {
+  injectCSS('tms-shop-css', CSS);
+  if (!items.length) return null;
+  return /*#__PURE__*/React.createElement("section", {
+    className: "tms-shop",
+    "aria-label": title,
+    style: style
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tms-shop__head"
+  }, /*#__PURE__*/React.createElement("div", {
+    style: { display: 'flex', flexDirection: 'column', gap: 8 }
+  }, /*#__PURE__*/React.createElement("h2", {
+    style: { fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: 'clamp(24px, 3vw, 30px)', lineHeight: 1.15, margin: 0 }
+  }, title), note && /*#__PURE__*/React.createElement("p", {
+    style: kicker
+  }, note)), moreHref && /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    href: moreHref,
+    variant: "text",
+    size: "sm"
+  }, moreLabel)), /*#__PURE__*/React.createElement("ul", {
+    className: "tms-shop__grid",
+    style: { '--tms-shop-cols': Math.min(Math.max(items.length, 2), 4) }
+  }, items.map(it => /*#__PURE__*/React.createElement("li", {
+    key: it.href
+  }, /*#__PURE__*/React.createElement("article", {
+    className: "tms-shop__card"
+  }, /*#__PURE__*/React.createElement("a", {
+    className: "tms-shop__img",
+    href: it.href,
+    tabIndex: -1,
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: it.image,
+    alt: it.name,
+    loading: "lazy",
+    decoding: "async",
+    width: "600",
+    height: "600"
+  })), /*#__PURE__*/React.createElement("h3", {
+    className: "tms-shop__name"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: it.href
+  }, it.name)), it.price && /*#__PURE__*/React.createElement("p", {
+    className: "tms-shop__price"
+  }, it.price), /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    href: it.href,
+    size: "sm",
+    style: { marginTop: 'auto' }
+  }, "Shop now"))))));
+}
+function ShopProductCard({
+  number,
+  name,
+  note,
+  price,
+  image,
+  href,
+  cta = 'Shop now'
+}) {
+  injectCSS('tms-shop-css', CSS);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "tms-shop-item"
+  }, /*#__PURE__*/React.createElement("article", {
+    className: "tms-shop-item__row",
+    style: { background: 'var(--white)', border: '1px solid var(--stone)', padding: 'clamp(12px, 3vw, 24px)' }
+  }, /*#__PURE__*/React.createElement("a", {
+    className: "tms-shop__img",
+    href: href,
+    tabIndex: -1,
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("img", {
+    src: image,
+    alt: name,
+    loading: "lazy",
+    decoding: "async",
+    width: "600",
+    height: "600"
+  })), /*#__PURE__*/React.createElement("div", {
+    style: { display: 'flex', flexDirection: 'column', gap: 'clamp(8px, 1.6vw, 14px)', alignItems: 'flex-start', minWidth: 0 }
+  }, number != null && /*#__PURE__*/React.createElement("div", {
+    style: { display: 'flex', alignItems: 'center', gap: 12 }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: { fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 3vw, 30px)', lineHeight: 1, color: 'var(--espresso)' }
+  }, shopPad(number)), /*#__PURE__*/React.createElement("span", {
+    style: { width: 28, height: 1, background: 'var(--pale-oak)' }
+  })), /*#__PURE__*/React.createElement("h3", {
+    style: { fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: 'clamp(18px, 2.4vw, 24px)', lineHeight: 1.2, margin: 0, textWrap: 'balance' }
+  }, name), note && /*#__PURE__*/React.createElement("p", {
+    style: { fontSize: 'clamp(13px, 1.6vw, 15px)', lineHeight: 1.6, color: 'var(--text-secondary)', margin: 0 }
+  }, note), price && /*#__PURE__*/React.createElement("p", {
+    className: "tms-shop__price"
+  }, price), href && /*#__PURE__*/React.createElement(__ds_scope.Button, {
+    href: href,
+    size: "sm",
+    style: { marginTop: 4 }
+  }, cta))));
+}
+Object.assign(__ds_scope, { ShopBlock, ShopProductCard });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/content/ShopBlock.jsx", error: String((e && e.message) || e) }); }
+
 // components/core/Label.jsx
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -1218,6 +1361,9 @@ const NAV_ITEMS = [{
   label: 'Beauty Finds',
   href: '/beauty-finds/'
 }, {
+  label: 'Shop',
+  href: 'https://shop.themuseshelf.com/?utm_source=site&utm_medium=nav'
+}, {
   label: 'About',
   href: '/about/'
 }];
@@ -1253,7 +1399,7 @@ function SiteHeader({
   injectCSS('tms-hdr-css', CSS);
   const [open, setOpen] = React.useState(false);
   const go = item => e => {
-    if (onNavigate) {
+    if (onNavigate && !/^https?:/.test(item.href)) {
       e.preventDefault();
       onNavigate(item);
     }
@@ -1404,7 +1550,7 @@ function SiteFooter({
   style
 }) {
   const go = it => e => {
-    if (onNavigate) {
+    if (onNavigate && !/^https?:/.test(it.href)) {
       e.preventDefault();
       onNavigate(it);
     }
@@ -2920,6 +3066,10 @@ __ds_ns.PostCard = __ds_scope.PostCard;
 __ds_ns.PostGrid = __ds_scope.PostGrid;
 
 __ds_ns.ProductCard = __ds_scope.ProductCard;
+
+__ds_ns.ShopBlock = __ds_scope.ShopBlock;
+
+__ds_ns.ShopProductCard = __ds_scope.ShopProductCard;
 
 __ds_ns.SectionHeader = __ds_scope.SectionHeader;
 
