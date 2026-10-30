@@ -1337,22 +1337,28 @@ function injectCSS(id, css) {
   s.textContent = css;
   document.head.appendChild(s);
 }
-const CSS = `.tms-hdr__nav{display:none}.tms-hdr__burger{display:flex}
-@media(min-width:1200px){.tms-hdr__nav{display:flex}.tms-hdr__burger{display:none}}
+// Camilla 2026-10-29 ("mt coisa"): the desktop bar shows only the `top` items; the rest live in the drawer + footer.
+const HDR_LAYOUT = 'center';
+const CSS = `.tms-hdr__nav{display:none}.tms-hdr__burger{display:flex}.tms-hdr__menulbl{display:none}
 .tms-hdr__link{position:relative}.tms-hdr__link::after{content:"";position:absolute;left:0;right:.2em;bottom:-6px;height:1px;background:var(--pale-oak);transform:scaleX(0);transition:transform var(--dur-base) var(--ease-out)}
 .tms-hdr__link:hover::after,.tms-hdr__link[aria-current=page]::after{transform:scaleX(1)}
 .tms-hdr__icon:hover{color:var(--muted-olive)!important}
-@media(min-width:1200px) and (max-width:1439px){.tms-hdr__nav{display:none!important}}
-@media(min-width:1440px){.tms-hdr__nav{gap:16px!important}.tms-hdr__link{letter-spacing:.12em!important}}`;
+.tms-hdr__drawer{border-top:1px solid var(--stone);background:var(--linen);padding:8px var(--gutter) 24px}
+.tms-hdr__drawer a{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--stone);font-size:12px!important}
+@media(min-width:1024px){.tms-hdr--split .tms-hdr__nav{display:flex}.tms-hdr--split .tms-hdr__burger{display:none!important}.tms-hdr--split .tms-hdr__row{grid-template-columns:1fr auto!important}
+.tms-hdr--center .tms-hdr__nav{display:flex}.tms-hdr--center .tms-hdr__menulbl{display:inline}
+.tms-hdr__drawer{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 44px;padding:22px var(--gutter)}.tms-hdr__drawer a{padding:0;border:0;font-size:11px!important}.tms-hdr__chev{display:none!important}}`;
 const NAV_ITEMS = [{
   label: 'Home Finds',
-  href: '/home-finds/'
+  href: '/home-finds/',
+  top: true
 }, {
   label: 'Boho & Dupes',
   href: '/boho-dupes/'
 }, {
   label: 'Gift Guides',
-  href: '/gift-guides/'
+  href: '/gift-guides/',
+  top: true
 }, {
   label: 'Under $50',
   href: '/under-50/'
@@ -1361,10 +1367,12 @@ const NAV_ITEMS = [{
   href: '/hosting-recipes/'
 }, {
   label: 'Beauty Finds',
-  href: '/beauty-finds/'
+  href: '/beauty-finds/',
+  top: HDR_LAYOUT === 'split'
 }, {
   label: 'Shop',
-  href: 'https://shop.themuseshelf.com/?utm_source=site&utm_medium=nav'
+  href: 'https://shop.themuseshelf.com/?utm_source=site&utm_medium=nav',
+  top: true
 }, {
   label: 'About',
   href: '/about/'
@@ -1376,7 +1384,8 @@ const iconBtn = {
   margin: -10,
   cursor: 'pointer',
   color: 'var(--espresso)',
-  display: 'flex'
+  alignItems: 'center',
+  gap: 12
 };
 const linkStyle = {
   fontFamily: 'var(--font-sans)',
@@ -1407,39 +1416,25 @@ function SiteHeader({
     }
     setOpen(false);
   };
-  return /*#__PURE__*/React.createElement("header", {
-    style: {
-      position: sticky ? 'sticky' : 'relative',
-      top: 0,
-      zIndex: 20,
-      background: 'var(--linen)',
-      borderBottom: '1px solid var(--stone)',
-      ...style
-    }
-  }, /*#__PURE__*/React.createElement("div", {
-    style: {
-      maxWidth: 'var(--content-max)',
-      margin: '0 auto',
-      height: 64,
-      padding: '0 var(--gutter)',
-      display: 'grid',
-      gridTemplateColumns: 'auto 1fr auto',
-      alignItems: 'center',
-      gap: 24
-    }
-  }, /*#__PURE__*/React.createElement("button", {
+  const center = HDR_LAYOUT === 'center';
+  const topItems = items.filter(it => it.top);
+  const burger = /*#__PURE__*/React.createElement("button", {
     className: "tms-hdr__burger tms-hdr__icon",
-    style: iconBtn,
+    style: { ...iconBtn, justifySelf: 'start' },
     "aria-label": open ? 'Close menu' : 'Open menu',
     "aria-expanded": open,
     onClick: () => setOpen(!open)
   }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: open ? 'x' : 'menu',
     size: 22
-  })), /*#__PURE__*/React.createElement("div", {
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "tms-hdr__menulbl",
+    style: linkStyle
+  }, "Menu"));
+  const brand = /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
-      justifyContent: 'flex-start',
+      justifyContent: center ? 'center' : 'flex-start',
       minWidth: 0
     },
     className: "tms-hdr__brand"
@@ -1454,20 +1449,22 @@ function SiteHeader({
     style: {
       gap: 10
     }
-  })), /*#__PURE__*/React.createElement("div", {
+  }));
+  const right = /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
       alignItems: 'center',
-      gap: 28
+      justifyContent: 'flex-end',
+      gap: center ? 32 : 40
     }
   }, /*#__PURE__*/React.createElement("nav", {
     className: "tms-hdr__nav",
     "aria-label": "Main",
     style: {
-      gap: 26,
+      gap: 34,
       alignItems: 'center'
     }
-  }, items.map(it => /*#__PURE__*/React.createElement("a", {
+  }, topItems.map(it => /*#__PURE__*/React.createElement("a", {
     key: it.href,
     className: "tms-hdr__link",
     href: it.href,
@@ -1476,40 +1473,52 @@ function SiteHeader({
     style: linkStyle
   }, it.label))), /*#__PURE__*/React.createElement("button", {
     className: "tms-hdr__icon",
-    style: iconBtn,
+    style: { ...iconBtn, display: 'flex' },
     "aria-label": "Search",
     onClick: onSearch
   }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: "search",
     size: 20
-  })))), open && /*#__PURE__*/React.createElement("nav", {
-    "aria-label": "Mobile",
+  })));
+  return /*#__PURE__*/React.createElement("header", {
+    className: 'tms-hdr tms-hdr--' + HDR_LAYOUT,
     style: {
-      borderTop: '1px solid var(--stone)',
+      position: sticky ? 'sticky' : 'relative',
+      top: 0,
+      zIndex: 20,
       background: 'var(--linen)',
-      padding: '8px var(--gutter) 24px'
+      borderBottom: '1px solid var(--stone)',
+      ...style
     }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "tms-hdr__row",
+    style: {
+      maxWidth: 'var(--content-max)',
+      margin: '0 auto',
+      height: 64,
+      padding: '0 var(--gutter)',
+      display: 'grid',
+      gridTemplateColumns: center ? '1fr auto 1fr' : 'auto 1fr auto',
+      alignItems: 'center',
+      gap: 24
+    }
+  }, burger, brand, right), open && /*#__PURE__*/React.createElement("nav", {
+    className: "tms-hdr__drawer",
+    "aria-label": "Menu"
   }, items.map(it => /*#__PURE__*/React.createElement("a", {
     key: it.href,
+    className: "tms-hdr__link",
     href: it.href,
     onClick: go(it),
     "aria-current": current === it.href ? 'page' : undefined,
-    style: {
-      ...linkStyle,
-      fontSize: 12,
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: '16px 0',
-      borderBottom: '1px solid var(--stone)'
-    }
-  }, it.label, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    style: linkStyle
+  }, it.label, /*#__PURE__*/React.createElement("span", {
+    className: "tms-hdr__chev",
+    style: { display: 'flex', color: 'var(--pale-oak)' }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
     name: "chevron-right",
-    size: 16,
-    style: {
-      color: 'var(--pale-oak)'
-    }
-  })))));
+    size: 16
+  }))))));
 }
 Object.assign(__ds_scope, { NAV_ITEMS, SiteHeader });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/navigation/SiteHeader.jsx", error: String((e && e.message) || e) }); }
