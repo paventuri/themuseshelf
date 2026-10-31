@@ -2429,6 +2429,366 @@ var CATEGORIES = [{
 var POSTS = [
   // ----------------------------------------------------------------
   {
+    slug: 'christmas-gifts-for-women-that-look-expensive',
+    title: 'Christmas Gifts for Women That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Christmas gifts for women from Amazon that look expensive: a designer fragrance, silk pillowcases, leather jewelry cases, a marble tray and luxe candles.',
+    intro: 'The best gifts look like they came from a boutique, wrapped in tissue. These Amazon finds do exactly that: soft silk, real leather, marble and glass candles that feel like a splurge the moment she opens them. Mix one hero piece with a small extra and she will think you spent far more than you did.',
+    image: 'assets/pins/christmas-gifts-for-women-that-look-expensive.jpg',
+    imageAlt: 'Collage of Christmas gifts for women that look expensive from Amazon: an Armani perfume, a Capri Blue Volcano candle, beige silk pillowcases, a brown leather makeup bag, leather jewelry cases, a pink glass candle, a herringbone cotton blanket, a black marble tray and a ceramic ring dish',
+    products: [
+      { name: 'Capri Blue Volcano glimmer jar candle', note: 'The cult-favorite Volcano scent in a gold-flecked glass jar that looks like a boutique splurge.', image: 'assets/products/B0B5LYW5L4.jpg', link: 'B0B5LYW5L4' },
+      { name: 'Armani Acqua di Gioia eau de parfum', note: 'A fresh, citrusy designer fragrance in a sculpted glass bottle she will keep on her vanity.', image: 'assets/products/B003MUTDUI.jpg', link: 'B003MUTDUI' },
+      { name: 'Gabire mulberry silk pillowcases, set of 2, beige', note: 'Real mulberry silk on both sides, kind to hair and skin and instantly luxe on the bed.', image: 'assets/products/B0GKFVM433.jpg', link: 'B0GKFVM433' },
+      { name: 'Berliner Bags full grain leather makeup bag, brown', note: 'A vintage-style full grain leather pouch that only gets better with every trip.', image: 'assets/products/B0DGTZP4H8.jpg', link: 'B0DGTZP4H8' },
+      { name: 'Lolalet travel jewelry roll pouch, cream', note: 'A soft cream pouch with fold-out pockets that keeps rings and earrings tangle-free on the go.', image: 'assets/products/B0GGZMM8W3.jpg', link: 'B0GGZMM8W3' },
+      { name: 'LA JOLIE MUSE Santal Rose scented candle', note: 'A pink pressed-glass candle with a sandalwood rose scent that reads like a designer gift.', image: 'assets/products/B0BVQBQBPQ.jpg', link: 'B0BVQBQBPQ' },
+      { name: 'Leather travel jewelry case with mirror, sage', note: 'A compact zip case with a built-in mirror and ring rolls, pretty enough to leave out.', image: 'assets/products/B0F8ZCMFXG.jpg', link: 'B0F8ZCMFXG' },
+      { name: 'BEUNAIZER ceramic petal ring dish', note: 'A small glazed petal-shaped dish for rings and earrings by the sink or the bed.', image: 'assets/products/B0BQRJ8599.jpg', link: 'B0BQRJ8599' },
+      { name: 'Threadmill herringbone cotton blanket, tusk white', note: 'An all-cotton herringbone blanket with the soft, breathable feel of a luxury hotel bed.', image: 'assets/products/B08P8KQQSW.jpg', link: 'B08P8KQQSW' },
+      { name: 'Hatori jewelry box, taupe', note: 'A velvet-lined taupe jewelry box with ring rolls and a lift-up lid for necklaces.', image: 'assets/products/B0D3LX9ZYQ.jpg', link: 'B0D3LX9ZYQ' },
+      { name: 'Black marble vanity tray', note: 'A polished black marble tray that turns perfume and jewelry into a styled vanity moment.', image: 'assets/products/B0FQS3MJ15.jpg', link: 'B0FQS3MJ15' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-coffee-table-decor',
+    title: 'Christmas Coffee Table Decor Ideas',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Christmas coffee table decor from Amazon: a round wood tray, brass cloche lanterns, a fluted wood bowl, mercury glass votives, pine stems and a mini lit tree.',
+    intro: 'The coffee table is the center of every holiday movie night, so it deserves more than a candle. Build it in layers: a tray to ground everything, something tall like a lantern or pine stems, a bowl of moss balls or pinecones and a little glow from mercury glass votives. These Amazon finds keep it warm and festive without clutter.',
+    image: 'assets/pins/christmas-coffee-table-decor.jpg',
+    imageAlt: 'Collage of Christmas coffee table decor from Amazon: brass candle lanterns with glass domes, a gold lantern, round wood trays, a fluted wood bowl, moss and rattan balls, gold mercury glass votives, a mini lit tree, bottle brush trees, Norfolk pine stems and snow-tipped pinecones',
+    products: [
+      { name: 'Brass candle lanterns with glass domes, set of 2', note: 'Two glass cloches on brass bases that turn a pillar candle into a centerpiece.', image: 'assets/products/B0F7R3NH3S.jpg', link: 'B0F7R3NH3S' },
+      { name: 'Round acacia wood tray, 13.8 inch', note: 'A warm wood tray that grounds candles, a bowl and greenery in one tidy spot.', image: 'assets/products/B0CT957L7R.jpg', link: 'B0CT957L7R' },
+      { name: 'Kimona fluted wood bowl, 10 inch', note: 'A carved wood bowl with a white fluted base, perfect filled with moss balls or pinecones.', image: 'assets/products/B0D5GZRF6N.jpg', link: 'B0D5GZRF6N' },
+      { name: 'Moss and rattan decorative balls, 18 pack', note: 'A mix of moss, lichen and twig balls that fills a wood bowl with natural texture.', image: 'assets/products/B0C4F7Y47S.jpg', link: 'B0C4F7Y47S' },
+      { name: 'Gold metal candle lantern, 16 inch', note: 'A tall arched gold lantern that adds height and a warm glow to the table.', image: 'assets/products/B0H7QVKS73.jpg', link: 'B0H7QVKS73' },
+      { name: 'Gold mercury glass votive holders, set of 12', note: 'Speckled gold glass votives that throw warm, flickering light at night.', image: 'assets/products/B07F58TVHZ.jpg', link: 'B07F58TVHZ' },
+      { name: '2 ft pre-lit tabletop Christmas tree', note: 'A small lit tree in a burlap base, sized for a coffee table or side table.', image: 'assets/products/B0HBX4GSW1.jpg', link: 'B0HBX4GSW1' },
+      { name: 'Decorative moss balls, 18 pack', note: 'Soft green moss balls in two sizes to pile into a bowl or tray.', image: 'assets/products/B08YD9632D.jpg', link: 'B08YD9632D' },
+      { name: 'Yahpetes snow-tipped pine cones, 6 pack', note: 'Natural pinecones with frosted tips to scatter around the candles.', image: 'assets/products/B07JFD5RB4.jpg', link: 'B07JFD5RB4' },
+      { name: 'Faux Norfolk pine stems, 36 inch, 4 pack', note: 'Lifelike Norfolk pine branches to drop into a vase for height.', image: 'assets/products/B0D76TB8M9.jpg', link: 'B0D76TB8M9' },
+      { name: 'Hanobe round beaded wood tray, dark brown', note: 'A distressed dark wood tray with a beaded rim that looks like an antique find.', image: 'assets/products/B0CWNC6143.jpg', link: 'B0CWNC6143' },
+      { name: 'Winlyn frosted bottle brush trees, 3 pack', note: 'Three tiny snowy trees with mini baubles for a playful, vintage touch.', image: 'assets/products/B07YSM4C37.jpg', link: 'B07YSM4C37' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'pottery-barn-stocking-dupes',
+    title: 'Pottery Barn Stocking Dupes on Amazon',
+    category: 'boho-dupes',
+    date: '2026-10-31',
+    description: 'Pottery Barn stocking dupes on Amazon: cable knit and faux fur stockings, quilted velvet stockings, an embroidered monogram stocking and brass stocking holders.',
+    intro: 'Pottery Barn stockings are beautiful, and a full set adds up fast. These Amazon stockings copy the details that make them look designer: chunky cable knits, faux fur cuffs, quilted velvet and embroidered monograms. Add a row of brass stocking holders and the mantel looks like the catalog for a fraction of the cost.',
+    image: 'assets/pins/pottery-barn-stocking-dupes.jpg',
+    imageAlt: 'Collage of Pottery Barn stocking dupes from Amazon: velvet stockings in green, burgundy, red and pink, cable knit stockings with faux fur and monogram cuffs, buffalo plaid and faux fur stockings, and brass and bronze stocking holders',
+    products: [
+      { name: 'Ivory cable knit stocking with faux fur cuff', note: 'A chunky ivory cable knit stocking with a gray faux fur cuff and pom poms, very catalog.', image: 'assets/products/B0CGZQK47B.jpg', link: 'B0CGZQK47B' },
+      { name: 'Green quilted velvet stocking', note: 'A deep green quilted velvet stocking with a plush white cuff for a rich, classic mantel.', image: 'assets/products/B0DC4CPJS8.jpg', link: 'B0DC4CPJS8' },
+      { name: 'Pink quilted velvet stocking', note: 'The same quilted velvet stocking in soft pink for a playful, feminine take on the look.', image: 'assets/products/B0DC4F1N2M.jpg', link: 'B0DC4F1N2M' },
+      { name: 'Red velvet stocking with gold trim', note: 'A large red velvet stocking with gold piping and a tassel that reads high end.', image: 'assets/products/B0H29ZWMNX.jpg', link: 'B0H29ZWMNX' },
+      { name: 'Gireshome burgundy and green velvet stockings, set of 2', note: 'Two vintage-style velvet stockings in burgundy and green with gold trim and tassels.', image: 'assets/products/B076F9WYWX.jpg', link: 'B076F9WYWX' },
+      { name: 'AOGU beige faux fur stockings, set of 3', note: 'Shaggy beige faux fur stockings for a soft, neutral mantel with real texture.', image: 'assets/products/B0F5HB7P8B.jpg', link: 'B0F5HB7P8B' },
+      { name: 'ELEGANTPARK monogram knit stocking', note: 'A cream cable knit stocking with an embroidered red initial, the classic personalized look.', image: 'assets/products/B0H6HRZ6YG.jpg', link: 'B0H6HRZ6YG' },
+      { name: 'Khaki and ivory cable knit stockings, set of 4', note: 'A set of chunky cable knit stockings in ivory and khaki for a matching family mantel.', image: 'assets/products/B08L8C6BGP.jpg', link: 'B08L8C6BGP' },
+      { name: 'Nanou green cable knit stocking with ivory cuff', note: 'A forest green cable knit stocking with a fold-over ivory cuff, cozy and traditional.', image: 'assets/products/B0BDDLX37D.jpg', link: 'B0BDDLX37D' },
+      { name: 'Kurt Adler buffalo plaid stocking with faux fur cuff', note: 'A red and black buffalo check stocking with a faux fur cuff for a lodge-style mantel.', image: 'assets/products/B01MTC1APB.jpg', link: 'B01MTC1APB' },
+      { name: 'Palonu brass stocking holders', note: 'Sleek brushed brass stocking holders that hang flat over the mantel edge.', image: 'assets/products/B0DJ734L5G.jpg', link: 'B0DJ734L5G' },
+      { name: 'Haute Decor MantleClip stocking holders, 4 pack', note: 'Low-profile bronze clips that hold stockings securely without nails or heavy weights.', image: 'assets/products/B001P6D5SC.jpg', link: 'B001P6D5SC' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'plaid-christmas-decor-ideas',
+    title: 'Plaid Christmas Decor Ideas',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Plaid Christmas decor from Amazon: Black Watch and crimson tartan ribbon, sherpa plaid throws, burgundy velvet ornaments, tartan bows, Spode napkins and a berry wreath.',
+    intro: 'Plaid is the classic Christmas look that never feels dated: think a lodge, a cozy library and a tree wrapped in tartan ribbon. Pick one or two plaids and repeat them, Black Watch green and navy with crimson, then soften them with sherpa throws, burgundy velvet ornaments and greenery. These Amazon finds make the look easy.',
+    image: 'assets/pins/plaid-christmas-decor-ideas.jpg',
+    imageAlt: 'Collage of plaid Christmas decor from Amazon: Black Watch and crimson tartan wired ribbons, a red plaid sherpa throw, a green tartan sherpa throw, a berry wreath with a buffalo plaid bow, burgundy velvet ornaments, tartan bows, plaid and Spode Christmas Tree napkins, a green check throw and red, green and gold ball ornaments',
+    products: [
+      { name: 'Black Watch tartan wired ribbon, 4 inch', note: 'Wide wired ribbon in navy and green Black Watch tartan that holds its shape on the tree, garland or wreath.', image: 'assets/products/B0GZVXMSQZ.jpg', link: 'B0GZVXMSQZ' },
+      { name: 'Eddie Bauer red plaid sherpa throw', note: 'A soft red and cream plaid throw with a cozy sherpa back to drape over the sofa all season.', image: 'assets/products/B00NA83RYU.jpg', link: 'B00NA83RYU' },
+      { name: 'Burgundy velvet ornaments, 46 pieces', note: 'Flocked burgundy velvet balls and drops in mixed sizes, a rich match for any tartan.', image: 'assets/products/B0F6NG3K9Q.jpg', link: 'B0F6NG3K9Q' },
+      { name: 'Berry wreath with buffalo plaid bow, 20 inch', note: 'A frosted pine wreath with red berries, pinecones, gold balls and a buffalo plaid bow for the front door.', image: 'assets/products/B0DDC7VDL5.jpg', link: 'B0DDC7VDL5' },
+      { name: 'Jetec tartan Christmas bows, 12 pieces', note: 'Red tartan bows in two sizes to clip onto the tree, the garland or gift boxes.', image: 'assets/products/B0CD2FWD2D.jpg', link: 'B0CD2FWD2D' },
+      { name: 'Eddie Bauer green tartan sherpa throw', note: 'A dark green tartan throw with a black sherpa back that looks straight out of a mountain lodge.', image: 'assets/products/B07TZL35QZ.jpg', link: 'B07TZL35QZ' },
+      { name: 'DII green plaid cloth napkins, set of 6', note: 'Dark green plaid cotton napkins that bring the tartan look to the Christmas table.', image: 'assets/products/B00J3H5YP2.jpg', link: 'B00J3H5YP2' },
+      { name: 'Crimson navy plaid wired ribbon, 4 inch', note: 'A classic crimson and navy tartan ribbon with a gold edge for big bows and tree swags.', image: 'assets/products/B0H32D7GDV.jpg', link: 'B0H32D7GDV' },
+      { name: 'Arus Highlands green check throw', note: 'A soft sage green check throw with fringe that layers well with bolder plaids.', image: 'assets/products/B0786KN1TY.jpg', link: 'B0786KN1TY' },
+      { name: 'Spode Christmas Tree cloth napkins, set of 4', note: 'The iconic Spode Christmas Tree print with a plaid border for a heritage holiday table.', image: 'assets/products/B09GW65Y7N.jpg', link: 'B09GW65Y7N' },
+      { name: 'Valery Madelyn classic ball ornaments, 30 pieces', note: 'Red, green and gold ball ornaments with painted patterns, a classic match for a tartan tree.', image: 'assets/products/B01M16NLS5.jpg', link: 'B01M16NLS5' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'cozy-gifts-under-25',
+    title: 'Cozy Gifts Under $25',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Affordable cozy gifts from Amazon: oversized stoneware mugs, fuzzy socks, memory foam slippers, a vanilla candle, a matcha set, hot cocoa and soft throws.',
+    intro: 'Cozy gifts are the ones people use the most: the mug they reach for every morning, the socks they live in all winter, the candle that makes the house smell like a bakery. Everything here is affordable and still looks thoughtful, so it works for friends, coworkers, neighbors and stockings.',
+    image: 'assets/pins/cozy-gifts-under-25.jpg',
+    imageAlt: 'Collage of affordable cozy gifts from Amazon: LANEIGE lip balm, a matcha set, fuzzy slippers, stoneware mugs, a hot chocolate gift set, fuzzy socks, a fleece throw, a coconut vanilla candle and a burnt orange chenille throw',
+    products: [
+      { name: 'Bosmarlin large stoneware mugs, set of 2', note: 'Oversized stoneware mugs in a sandy drip glaze, made for slow mornings and big lattes.', image: 'assets/products/B08HVLJBF6.jpg', link: 'B08HVLJBF6' },
+      { name: 'lifein burnt orange chenille throw', note: 'A chunky ribbed chenille throw with fringe in a warm burnt orange that looks great on any sofa.', image: 'assets/products/B095VYB71Y.jpg', link: 'B095VYB71Y' },
+      { name: 'Coconut vanilla soy candle', note: 'A coconut vanilla soy candle in an amber jar that makes the house smell like a bakery.', image: 'assets/products/B0F4DN7XCR.jpg', link: 'B0F4DN7XCR' },
+      { name: 'EverFoams fuzzy memory foam slippers', note: 'Curly faux shearling slippers with a memory foam footbed and a grippy sole for padding around the house.', image: 'assets/products/B0BYNGK5PZ.jpg', link: 'B0BYNGK5PZ' },
+      { name: 'JBER matcha whisk set', note: 'A complete matcha kit with a bamboo whisk, ceramic bowl and scoop for a calm morning ritual.', image: 'assets/products/B0FM7WBJB4.jpg', link: 'B0FM7WBJB4' },
+      { name: 'LANEIGE Lip Glowy Balm', note: 'A cult-favorite tinted lip balm that keeps lips soft and glossy all winter.', image: 'assets/products/B07DY2QRF6.jpg', link: 'B07DY2QRF6' },
+      { name: 'Fuzzy plush slipper socks, multipack', note: 'Super soft fuzzy socks in neutral shades, an easy stocking stuffer she will wear all season.', image: 'assets/products/B07XLB1L75.jpg', link: 'B07XLB1L75' },
+      { name: 'Hot chocolate gift set with mini flavors', note: 'A gift box of hot cocoa mixes in fun flavors like gingerbread and salted caramel.', image: 'assets/products/B09D3VB4SX.jpg', link: 'B09D3VB4SX' },
+      { name: 'Exclusivo Mezcla ivory checkered fleece throw', note: 'A plush ivory fleece throw with a raised checkered texture for cozy nights on the couch.', image: 'assets/products/B0D25Z18JG.jpg', link: 'B0D25Z18JG' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-bathroom-decor-ideas',
+    title: 'Christmas Bathroom Decor Ideas',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Christmas bathroom decor from Amazon: holiday hand soap, a Christmas candle, Christmas tree hand towels, a berry wreath, pine stems, amber soap dispensers and a mini tree.',
+    intro: 'The bathroom is the one room every holiday guest sees, so a few festive touches go a long way. Swap in Christmas hand towels and a holiday hand soap, add a small wreath or pine stems in a vase and set a candle on a tray. These Amazon finds make a guest bathroom feel ready for the holidays in ten minutes.',
+    image: 'assets/pins/christmas-bathroom-decor-ideas.jpg',
+    imageAlt: 'Collage of Christmas bathroom decor from Amazon: a holiday foaming hand soap, a Christmas candle, green Christmas tree hand towels, a cream towel set with a red border, a small berry wreath, Norfolk pine stems in a vase, amber glass soap dispensers, a gold rail vanity tray, a wood candle tray, a ceramic Christmas tree, a mini tree and a woven toilet paper basket',
+    products: [
+      { name: 'Michel Design Works Holiday Garland foaming hand soap', note: 'A festive shea butter foaming soap in a bottle pretty enough to leave out for guests.', image: 'assets/products/B0FJH795XR.jpg', link: 'B0FJH795XR' },
+      { name: 'Sweet Water Decor Christmas candle', note: 'A holiday candle scented like fresh cut trees, orange and cloves, in a clear jar with a gold lid.', image: 'assets/products/B0774Y6S6W.jpg', link: 'B0774Y6S6W' },
+      { name: 'Madison Park Serene cotton towel set, 6 pieces', note: 'Cream jacquard towels with an embroidered red border that feel festive without a single Santa.', image: 'assets/products/B075SY8W8Y.jpg', link: 'B075SY8W8Y' },
+      { name: 'Jacquotha green Christmas tree hand towels, 2 pack', note: 'Green and white checkered tree hand towels, the easiest swap for a holiday guest bathroom.', image: 'assets/products/B0FRMS81QC.jpg', link: 'B0FRMS81QC' },
+      { name: 'SHACOS small red berry wreath, 14 inch', note: 'A small pine and red berry wreath sized for a bathroom mirror, door or window.', image: 'assets/products/B0C8H9H1RS.jpg', link: 'B0C8H9H1RS' },
+      { name: 'Real touch Norfolk pine stems, 16 pieces', note: 'Lifelike Norfolk pine stems to fill a small vase on the vanity.', image: 'assets/products/B0FJSL388G.jpg', link: 'B0FJSL388G' },
+      { name: 'Amber glass soap dispenser set', note: 'Two amber glass pump bottles with a matching tray for a boutique hotel look at the sink.', image: 'assets/products/B0C3RS77WJ.jpg', link: 'B0C3RS77WJ' },
+      { name: 'Gold rail bathroom vanity tray', note: 'A vanity tray with a gold rail to corral soap, a cotton jar and a bud vase on the counter.', image: 'assets/products/B0F4QD5P8J.jpg', link: 'B0F4QD5P8J' },
+      { name: 'Romadedi wooden candle tray', note: 'A long carved wood tray to style candles, pinecones and berries on the counter or tank.', image: 'assets/products/B0B399RNBV.jpg', link: 'B0B399RNBV' },
+      { name: 'Best Choice Products ceramic Christmas tree, 15 inch', note: 'A prelit hand-painted ceramic tree with multicolor bulbs, the vintage piece everyone loves.', image: 'assets/products/B01N0I95PO.jpg', link: 'B01N0I95PO' },
+      { name: 'efluky water hyacinth toilet paper basket', note: 'A lidded water hyacinth basket that hides spare rolls and adds warm texture.', image: 'assets/products/B0DN646WQ2.jpg', link: 'B0DN646WQ2' },
+      { name: 'Mini tabletop Christmas tree, 3 ft', note: 'A slim 3 ft tree on a stand that fits a bathroom corner or counter.', image: 'assets/products/B0C1SHZB2L.jpg', link: 'B0C1SHZB2L' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-garland-ideas',
+    title: 'Christmas Garland Ideas That Look Expensive',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Christmas garland ideas from Amazon: real-touch cedar and spruce garlands, flocked prelit garland, berry and pinecone garlands, gold bead garland, magnolia leaves and garland ties.',
+    intro: 'A full, layered garland is what makes a mantel or staircase look designer. Start with one good base garland, real-touch cedar or a prelit spruce, then layer in a berry or pinecone garland, a few magnolia leaves and a velvet ribbon. Garland ties keep it neat on a banister. These Amazon finds cover every layer.',
+    image: 'assets/pins/christmas-garland-ideas.jpg',
+    imageAlt: 'Collage of Christmas garland ideas from Amazon: a real touch cedar garland, prelit pine and spruce garlands with berries, a red berry garland, a long needle pine garland, a pinecone garland, gold and natural wood bead garlands, gold twist ties, taupe velvet ribbon and magnolia leaves',
+    products: [
+      { name: 'WBHome real touch cypress cedar garland', note: 'A soft, airy cedar garland with tiny pinecones that drapes naturally over a mantel or banister.', image: 'assets/products/B0CG1H4CKR.jpg', link: 'B0CG1H4CKR' },
+      { name: 'National Tree Company Wintry Pine prelit garland, 9 ft', note: 'A full prelit pine garland with frosted tips, red berries and pinecones, ready to plug in.', image: 'assets/products/B00EJ2E1HI.jpg', link: 'B00EJ2E1HI' },
+      { name: 'National Tree Company Crestwood Spruce prelit garland, 9 ft', note: 'A thick prelit spruce garland with pinecones and red berries, the lush base layer for a mantel.', image: 'assets/products/B00EJ2DFZ2.jpg', link: 'B00EJ2DFZ2' },
+      { name: 'Long needle pine garland with berries, 6 ft', note: 'Long pine needles, red berries and pinecones for a loose, natural layer over a base garland.', image: 'assets/products/B08HS7Z8NW.jpg', link: 'B08HS7Z8NW' },
+      { name: 'Red berry garland with pinecones, 7 ft', note: 'A bright red berry and holly leaf garland to weave through greenery for a pop of color.', image: 'assets/products/B07XY335K6.jpg', link: 'B07XY335K6' },
+      { name: 'Supla natural pinecone garland, 55 inch', note: 'Dried natural pinecones on a twig strand for a rustic, woodland layer.', image: 'assets/products/B07H9R7WKV.jpg', link: 'B07H9R7WKV' },
+      { name: 'WILLBOND gold wood bead garland, 16 ft', note: 'A long strand of gold wooden beads to swag across a mantel garland or the tree.', image: 'assets/products/B08JJ2D7XH.jpg', link: 'B08JJ2D7XH' },
+      { name: 'Meplait wood bead garland with tassels', note: 'Natural and coffee-tone wood beads with jute tassels for a soft farmhouse accent.', image: 'assets/products/B0CC4FV83J.jpg', link: 'B0CC4FV83J' },
+      { name: 'Haute Decor gold garland twist ties, 6 pack', note: 'Gold rope ties that hold garland on a staircase banister without wire or damage.', image: 'assets/products/B002DZTG0A.jpg', link: 'B002DZTG0A' },
+      { name: 'Taupe thin velvet ribbon, 3/8 inch', note: 'A thin taupe velvet ribbon to tie into small bows or let trail from the garland.', image: 'assets/products/B0FFH14JGX.jpg', link: 'B0FFH14JGX' },
+      { name: 'Green magnolia leaves, 40 pieces', note: 'Glossy faux magnolia leaves to tuck into a garland for that designer Southern look.', image: 'assets/products/B09NKVVZ3S.jpg', link: 'B09NKVVZ3S' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-gifts-for-grandma',
+    title: 'Christmas Gifts for Grandma Under $50',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Thoughtful Christmas gifts for grandma from Amazon: a linen photo album, a tea sampler, cozy slippers, a mug warmer, a soft throw and French hand cream.',
+    intro: 'Grandmas already have everything except more time with you, so the best gifts are the ones that make her everyday rituals feel special: tea in a real pot, a warm mug, a soft throw for the couch and an album ready for this year\'s photos. Every gift here is something she will reach for all winter.',
+    image: 'assets/pins/christmas-gifts-for-grandma.jpg',
+    imageAlt: 'Collage of Christmas gifts for grandma from Amazon: a Tea Forte tea sampler, a linen photo album, fuzzy slippers, a glass teapot, a blue mug warmer, a cream throw blanket, stackable cappuccino cups, a black travel jewelry case and a French hand cream tin',
+    products: [
+      { name: 'Tea Forte herbal tea sampler, 20 pyramid infusers', note: 'A gift-boxed tea sampler with pyramid infusers, ready to wrap exactly as it comes.', image: 'assets/products/B01693D6E8.jpg', link: 'B01693D6E8' },
+      { name: 'Linen photo album for 500 4x6 photos', note: 'A linen-covered album with a gold floral stamp, ready for this year\'s family photos.', image: 'assets/products/B0D78XY39C.jpg', link: 'B0D78XY39C' },
+      { name: 'Fuzzy memory foam slippers, chestnut', note: 'Plush faux-fur-lined slippers with memory foam soles for warm feet all winter.', image: 'assets/products/B09JVQ84VG.jpg', link: 'B09JVQ84VG' },
+      { name: 'Hario ChaCha Kyusu Maru glass teapot, 700 ml', note: 'A heatproof glass teapot with a built-in strainer for loose-leaf tea for two.', image: 'assets/products/B0007WTBQ0.jpg', link: 'B0007WTBQ0' },
+      { name: 'VOBAGA mug warmer with auto shut-off, blue', note: 'Keeps her coffee or tea warm on the side table, with three heat settings and an auto shut-off.', image: 'assets/products/B08L91QVDR.jpg', link: 'B08L91QVDR' },
+      { name: 'Textured fleece throw blanket, beige', note: 'A fluffy textured throw in soft cream for her favorite reading chair.', image: 'assets/products/B0DPLYQZBG.jpg', link: 'B0DPLYQZBG' },
+      { name: 'Sweese stackable porcelain cappuccino cups with stand', note: 'White porcelain cups and saucers that stack on a metal stand, a little cafe corner for her counter.', image: 'assets/products/B07QYKJQ1V.jpg', link: 'B07QYKJQ1V' },
+      { name: 'Hatori travel jewelry case, black', note: 'A small zip jewelry case with ring rows and earring holders for weekends with the grandkids.', image: 'assets/products/B0948V24D4.jpg', link: 'B0948V24D4' },
+      { name: 'La Chatelaine French hand cream trio tin', note: 'Three French hand creams in a pretty floral tin, a classic gift for dry winter hands.', image: 'assets/products/B017LJYG66.jpg', link: 'B017LJYG66' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'brown-and-gold-christmas-tree-ideas',
+    title: 'Brown and Gold Christmas Tree Ideas',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Brown and gold Christmas tree ideas from Amazon: brown velvet ornaments and ribbon, copper mercury glass balls, champagne gold baubles, glitter berry picks and a burlap skirt.',
+    intro: 'Brown and gold is the warmest way to do a neutral tree: chocolate velvet, copper glass and champagne gold glow under white lights like a hotel lobby. Start with ribbon and velvet balls, add gold and copper glass for shine, then fill gaps with glitter berry picks and frosted pinecones. These Amazon finds make the whole look come together.',
+    image: 'assets/pins/brown-and-gold-christmas-tree-ideas.jpg',
+    imageAlt: 'Collage of brown and gold Christmas tree decor from Amazon: brown velvet ornaments, brown and copper glass balls, copper mercury glass ornaments, champagne gold baubles, brown velvet and plaid ribbon, gold and brown glitter berry picks, snowy pinecones and a burlap tree skirt',
+    products: [
+      { name: 'Brown velvet Christmas ornaments, 38 pack', note: 'Flocked chocolate velvet balls in mixed sizes that look rich and soft on the tree.', image: 'assets/products/B0FJSFYJ7P.jpg', link: 'B0FJSFYJ7P' },
+      { name: 'Serene Spaces copper mercury glass ornaments, set of 6', note: 'Large copper glass balls with an antique mercury finish.', image: 'assets/products/B08FGC32BY.jpg', link: 'B08FGC32BY' },
+      { name: 'Brown velvet ribbon, 10 yards', note: 'Chocolate velvet ribbon for small bows tied right onto the branches.', image: 'assets/products/B0FH4YD17P.jpg', link: 'B0FH4YD17P' },
+      { name: 'Zomiboo brown glass ornaments, 12 pack', note: 'Glossy brown glass in round, teardrop and onion shapes.', image: 'assets/products/B0D7KX3SYD.jpg', link: 'B0D7KX3SYD' },
+      { name: 'JORNOY champagne gold ball ornaments, 47 pack', note: 'A mix of shiny, matte and glitter champagne gold balls to fill out the tree.', image: 'assets/products/B0GXV4DRTG.jpg', link: 'B0GXV4DRTG' },
+      { name: 'DIYASY gold glitter berry picks, 20 pack', note: 'Gold glitter berry stems to tuck between ornaments for extra sparkle.', image: 'assets/products/B08CVR519Y.jpg', link: 'B08CVR519Y' },
+      { name: 'Serene Spaces mini copper mercury glass ornaments, set of 12', note: 'Small antique-style copper glass shapes that glow under warm white lights.', image: 'assets/products/B07VRKG68P.jpg', link: 'B07VRKG68P' },
+      { name: 'Sea Team flocked velvet ball ornaments, 25 pack', note: 'Velvet balls in brown, beige and cream for a soft neutral layer.', image: 'assets/products/B0CYWZPBMH.jpg', link: 'B0CYWZPBMH' },
+      { name: 'Morex natural plaid ribbon, 22 yards', note: 'A beige check ribbon that adds a classic, tailored note to the tree.', image: 'assets/products/B00F5XW37A.jpg', link: 'B00F5XW37A' },
+      { name: 'Burlap tree skirt with ruffled border, 47 inch', note: 'A natural linen-burlap skirt with a ruffle that finishes the tree in soft tan.', image: 'assets/products/B0BC7DBSFJ.jpg', link: 'B0BC7DBSFJ' },
+      { name: 'Snow-tipped pine cone ornaments, 24 pack', note: 'Natural pinecones with frosted tips and strings, ready to hang.', image: 'assets/products/B08HQCHLKR.jpg', link: 'B08HQCHLKR' },
+      { name: 'DIYASY brown glitter berry picks, 20 pack', note: 'Chocolate glitter berry stems that echo the velvet balls.', image: 'assets/products/B0C5QGP2YL.jpg', link: 'B0C5QGP2YL' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gift-wrapping-ideas-that-look-expensive',
+    title: 'Gift Wrapping Ideas That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Gift wrapping ideas that look expensive: kraft paper, ivory chiffon and velvet ribbon, dried orange slices, brass jingle bells, pine sprigs and gift boxes.',
+    intro: 'Wrapping is the first thing anyone sees under the tree, and the boutique look comes down to a few simple supplies. Start with plain kraft or ivory paper, add a ribbon with texture, then finish with one natural touch: a dried orange slice, a pine sprig or a little brass bell. These Amazon finds make every gift look professionally wrapped.',
+    image: 'assets/pins/gift-wrapping-ideas-that-look-expensive.jpg',
+    imageAlt: 'Collage of gift wrapping supplies from Amazon: ivory embossed wrapping paper, ivory chiffon and white satin ribbon, dusty blue velvet ribbon, a kraft paper roll, jute twine with kraft tags, dried orange slices with cinnamon sticks, brass jingle bells, faux pine sprigs and white and black gift boxes',
+    products: [
+      { name: 'Zoyzoygo ivory gold embossed wrapping paper with ribbon', note: 'Ivory paper with a soft gold texture plus matching chiffon ribbon, so every box looks wrapped by a boutique.', image: 'assets/products/B0H4FGVQ62.jpg', link: 'B0H4FGVQ62' },
+      { name: 'Ribbli ivory fringe chiffon ribbon, 3 rolls', note: 'Frayed-edge chiffon ribbon that ties into soft, floppy bows like a florist\'s.', image: 'assets/products/B0CX1J7S2W.jpg', link: 'B0CX1J7S2W' },
+      { name: 'Ribbli dusty blue velvet ribbon, 25 yards', note: 'A slim velvet ribbon in soft dusty blue that looks lovely on kraft or white paper.', image: 'assets/products/B0D72V264J.jpg', link: 'B0D72V264J' },
+      { name: 'Dried orange slice and cinnamon stick kit', note: 'Dried orange slices and cinnamon sticks to tuck under a bow for a natural, fragrant topper.', image: 'assets/products/B0B6678Y8D.jpg', link: 'B0B6678Y8D' },
+      { name: 'VGOODALL vintage bronze jingle bells, 50 count', note: 'Small antique-brass bells to thread onto twine or ribbon for a vintage finish.', image: 'assets/products/B0C3H77RJ6.jpg', link: 'B0C3H77RJ6' },
+      { name: 'SALLYFASHION kraft gift tags with string, 100 pack', note: 'Scalloped kraft tags with the string included, ready for hand-written names.', image: 'assets/products/B01767EKXC.jpg', link: 'B01767EKXC' },
+      { name: 'White gift box with lid', note: 'A sturdy white box with a fold-over lid that makes even a small gift feel luxe.', image: 'assets/products/B09KLY7Z1V.jpg', link: 'B09KLY7Z1V' },
+      { name: 'Black gift boxes with lids, 5 pack', note: 'Matte black boxes with fold-over lids for a sleek, high-contrast gift stack.', image: 'assets/products/B0BDLHWX7N.jpg', link: 'B0BDLHWX7N' },
+      { name: 'Brown kraft paper roll, 100 ft', note: 'A big roll of plain kraft paper, the base of every designer-looking wrap.', image: 'assets/products/B07KKP6D3Z.jpg', link: 'B07KKP6D3Z' },
+      { name: 'Hananona artificial pine stems, 50 pack', note: 'Short faux pine sprigs to slip under a ribbon for a fresh, wintry touch.', image: 'assets/products/B0C624QLG5.jpg', link: 'B0C624QLG5' },
+      { name: 'Natural jute twine with kraft gift tags', note: '300 feet of jute twine plus 100 kraft tags for a simple, rustic wrap.', image: 'assets/products/B01LZBECKU.jpg', link: 'B01LZBECKU' },
+      { name: 'Ribbli white double-faced satin ribbon, 1 inch', note: 'A glossy white satin ribbon that ties crisp bows on kraft paper or black boxes.', image: 'assets/products/B091GPVGYX.jpg', link: 'B091GPVGYX' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-sister-under-50',
+    title: 'Gifts for Your Sister Under $50',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Affordable gifts for your sister from Amazon: dainty initial necklaces, a jewelry box, gold claw clips, silk scrunchies, a quilted makeup bag and a trek tumbler.',
+    intro: 'Shopping for a sister is easy and impossible at the same time: you know her taste, so the bar is high. These Amazon finds hit the sweet spot of pretty and useful, from a dainty initial necklace to a quilted makeup bag and the tumbler she will carry everywhere. Pair two small ones for a stocking she will actually love.',
+    image: 'assets/pins/gifts-for-sister-under-50.jpg',
+    imageAlt: 'Collage of gifts for your sister from Amazon: gold initial necklaces, a blush jewelry box, gold claw clips, an initial claw clip, satin scrunchies, a blue floral quilted makeup bag, makeup brushes, satin sleep masks, a travel jewelry organizer and a cream tumbler',
+    products: [
+      { name: 'kate spade initial pendant necklace, gold', note: 'A dainty gold disc necklace with her initial, from a designer name she will recognize.', image: 'assets/products/B08BHN1JWS.jpg', link: 'B08BHN1JWS' },
+      { name: 'SONGMICS two-tier jewelry box, blush', note: 'A blush two-tier box with a lift-out tray for rings, earrings and a watch.', image: 'assets/products/B0D12L74P8.jpg', link: 'B0D12L74P8' },
+      { name: 'LUKACY gold metal claw clips, 6 pack', note: 'Six gold metal claw clips in different shapes, packed in a pink gift box.', image: 'assets/products/B091N923Y9.jpg', link: 'B091N923Y9' },
+      { name: 'PAVOI gold initial disc necklace', note: 'A bold gold initial disc on a sturdy chain, the easiest personalized gift.', image: 'assets/products/B07MB963TG.jpg', link: 'B07MB963TG' },
+      { name: 'Simple Modern Trek 40 oz tumbler, cream', note: 'The handle tumbler she will carry everywhere, in a soft neutral cream.', image: 'assets/products/B0BHBP1X1B.jpg', link: 'B0BHBP1X1B' },
+      { name: 'Quilted floral makeup bag, blue', note: 'A roomy quilted cotton makeup bag in a blue floral print, the cottagecore favorite.', image: 'assets/products/B0CL3BT4GL.jpg', link: 'B0CL3BT4GL' },
+      { name: 'Laura Geller full face brush set, 5 pieces', note: 'Five black and gold brushes for foundation, powder and eyes, a vanity upgrade she will use daily.', image: 'assets/products/B0FJPS25NB.jpg', link: 'B0FJPS25NB' },
+      { name: 'Satin sleep masks, 4 pack, blush', note: 'Silky blush eye masks, one for her and three to share with the girls.', image: 'assets/products/B0G12TQWGX.jpg', link: 'B0G12TQWGX' },
+      { name: 'Satin scrunchies, 12 pack', note: 'Twelve silky scrunchies in jewel and neutral tones that are gentle on her hair.', image: 'assets/products/B0B28BQB64.jpg', link: 'B0B28BQB64' },
+      { name: 'NISHEL travel jewelry organizer, blush', note: 'A padded travel case with necklace loops and ring rolls so nothing tangles in her suitcase.', image: 'assets/products/B09PNBY3W7.jpg', link: 'B09PNBY3W7' },
+      { name: 'Initial acrylic claw clip, cream', note: 'A cream marble-look claw clip with her gold initial, boxed and ready to give.', image: 'assets/products/B0DXYYVWSR.jpg', link: 'B0DXYYVWSR' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-mother-in-law-that-look-expensive',
+    title: 'Gifts for Your Mother-in-Law That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-10-31',
+    description: 'Elegant gifts for your mother-in-law from Amazon: a NEST candle, an olive wood board, a crystal vase, a leather tray, a brass dish and a gold branch frame.',
+    intro: 'A mother-in-law gift has to look thoughtful and polished without trying too hard. These pieces lean classic and hostess-ready: crystal, olive wood, brass and a candle from a brand she will recognize. Each one looks like it came from a home boutique and works in any style of house.',
+    image: 'assets/pins/gifts-for-mother-in-law-that-look-expensive.jpg',
+    imageAlt: 'Collage of elegant gifts for a mother-in-law from Amazon: a NEST candle, a crystal vase, a gold branch picture frame, glass cylinder vases, a knit throw, a brass clawfoot dish, a ceramic bowl, a marble towel tray, a leather serving tray, an olive wood board and a carved wood bowl',
+    products: [
+      { name: 'NEST New York Himalayan Salt and Rosewater candle', note: 'A blush NEST candle in a gift-ready box, the kind of brand name she will recognize on her coffee table.', image: 'assets/products/B09TRTKHKQ.jpg', link: 'B09TRTKHKQ' },
+      { name: 'Thirteen Chefs olive wood cheese board', note: 'A live-edge olive wood board with rich swirled grain for cheese, bread and holiday appetizers.', image: 'assets/products/B01LXNECKQ.jpg', link: 'B01LXNECKQ' },
+      { name: 'Mikasa Blossom crystal vase, 12 inch', note: 'A tall sculpted crystal vase that makes a grocery store bouquet look like it came from a florist.', image: 'assets/products/B000S0K1S8.jpg', link: 'B000S0K1S8' },
+      { name: 'Beige leather serving tray with gold handles', note: 'A cream faux leather tray with brushed gold handles for serving drinks or styling an ottoman.', image: 'assets/products/B0BBM6S1SR.jpg', link: 'B0BBM6S1SR' },
+      { name: 'Lawrence Frames gold branch picture frame, 5x7', note: 'A gold twig-style frame that turns a favorite family photo into a keepsake gift.', image: 'assets/products/B071GZRVCP.jpg', link: 'B071GZRVCP' },
+      { name: 'Solid brass clawfoot pedestal dish', note: 'A small antique-look brass dish on claw feet for rings, a candle or wrapped chocolates.', image: 'assets/products/B0CVRV7NGY.jpg', link: 'B0CVRV7NGY' },
+      { name: 'Reactive glaze ceramic decorative bowl', note: 'An organic-edge ceramic bowl with a speckled reactive glaze that looks handmade.', image: 'assets/products/B0FLD6SRLX.jpg', link: 'B0FLD6SRLX' },
+      { name: 'Ivory knit throw blanket', note: 'A soft, airy ivory knit throw that arrives looking like a boutique gift tied with ribbon.', image: 'assets/products/B08TBH8HXL.jpg', link: 'B08TBH8HXL' },
+      { name: 'White marble guest towel tray with gold handles', note: 'A white marble tray with gold handles that dresses up the guest bathroom with paper hand towels.', image: 'assets/products/B0BB85FD2K.jpg', link: 'B0BB85FD2K' },
+      { name: 'Bloomingville hand-carved whitewashed wood bowl', note: 'A chunky hand-carved paulownia wood bowl with a soft whitewashed finish for the dining table.', image: 'assets/products/B07NC7YXTX.jpg', link: 'B07NC7YXTX' },
+      { name: 'Homjoy glass cylinder vases, set of 4', note: 'Four clear cylinder vases in graduated heights for single stems, floating candles or a table runway.', image: 'assets/products/B0CQYQGK5C.jpg', link: 'B0CQYQGK5C' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'hot-chocolate-bar-ideas',
+    title: 'Hot Chocolate Bar Ideas',
+    category: 'hosting-recipes',
+    date: '2026-10-31',
+    description: 'Hot chocolate bar ideas from Amazon: Spode Christmas Tree mugs, a crystal biscuit barrel, glass canisters, a three-tier server, syrup dispensers, a milk frother and wood risers.',
+    intro: 'A hot chocolate bar turns any December evening into a party. Set mugs out on wood risers, fill clear canisters with marshmallows, peppermints and cookies, add syrups in glass bottles and keep a frother ready for foam. These Amazon finds make the station look styled for guests and still work for a cozy night in.',
+    image: 'assets/pins/hot-chocolate-bar-ideas.jpg',
+    imageAlt: 'Collage of hot chocolate bar ideas from Amazon: a cut glass biscuit barrel, glass jars with wood lids, Christmas tree mugs with coasters, wood risers, glass syrup dispensers with gold pumps, a milk frother, a three-tier serving tray, double wall glass mugs, sage ribbed mugs and wooden spoons',
+    products: [
+      { name: 'Pimpernel Christmas Tree mugs and coasters, set of 4', note: 'Classic Christmas tree mugs with matching coasters that make every cup of cocoa feel festive.', image: 'assets/products/B0056W5WZ0.jpg', link: 'B0056W5WZ0' },
+      { name: 'Godinger Dublin cut glass biscuit barrel', note: 'A lidded cut glass jar that shows off marshmallows, peppermints or cookies.', image: 'assets/products/B000RGVI80.jpg', link: 'B000RGVI80' },
+      { name: 'Three-tier porcelain serving tray with gold stand', note: 'Three white porcelain platters on a collapsible gold stand for cookies, candy canes and toppings.', image: 'assets/products/B0BNJ14STJ.jpg', link: 'B0BNJ14STJ' },
+      { name: 'Labina glass jar with wood lid', note: 'An airtight glass canister with a wood lid for cocoa mix or mini marshmallows.', image: 'assets/products/B0BK3H4W2B.jpg', link: 'B0BK3H4W2B' },
+      { name: 'Glass syrup dispensers with gold pumps, set of 4', note: 'Four labeled glass bottles with gold pumps for caramel, vanilla and hazelnut syrups.', image: 'assets/products/B0BZ4FHFV4.jpg', link: 'B0BZ4FHFV4' },
+      { name: 'Maestri House LunaFro rechargeable milk frother', note: 'A rechargeable handheld frother with its own stand that whips milk into cafe-style foam.', image: 'assets/products/B0BN7KWRP1.jpg', link: 'B0BN7KWRP1' },
+      { name: 'Rustic wood display risers, 2 sets', note: 'Tiered wood risers that lift mugs, jars and treats to different heights.', image: 'assets/products/B0F5B3LPSZ.jpg', link: 'B0F5B3LPSZ' },
+      { name: 'CNGLASS double wall glass mugs, 8.5 oz', note: 'Double wall glass mugs that keep cocoa warm and show off every layer of cream.', image: 'assets/products/B0H8NS9PQ8.jpg', link: 'B0H8NS9PQ8' },
+      { name: 'Small wooden spoons, 6 pack', note: 'Little wood spoons for stirring cocoa and scooping toppings.', image: 'assets/products/B07N394W2N.jpg', link: 'B07N394W2N' },
+      { name: 'famiware ribbed ceramic mugs, set of 4', note: 'Sage green ribbed mugs that look like handmade pottery on a holiday tray.', image: 'assets/products/B0F2MW8HDP.jpg', link: 'B0F2MW8HDP' },
+      { name: 'GIRAFFYCO large glass storage jars, 2 pack', note: 'Big glass jars with wood lids for cookies, cocoa bombs or extra marshmallows.', image: 'assets/products/B0FH6JHBPD.jpg', link: 'B0FH6JHBPD' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'amazon-home-finds-under-30',
+    title: 'Amazon Home Finds Under $30 That Look Expensive',
+    category: 'under-50',
+    date: '2026-10-31',
+    description: 'Affordable Amazon home finds that look expensive: travertine coasters and match holders, gold candle holders, amber bud vases, a fluted glass vase and a gold knot sculpture.',
+    intro: 'The fastest way to make a room look expensive is a handful of small pieces in real-looking materials: travertine, brass, amber glass and ribbed ceramic. Every find here is affordable and reads like a design store piece on a shelf, a coffee table or a bathroom counter.',
+    image: 'assets/pins/amazon-home-finds-under-30.jpg',
+    imageAlt: 'Collage of affordable Amazon home finds that look expensive: a white ribbed vase, an amber glass loop vase, a fluted glass vase, gold taper candle holders, faux olive branches, amber bud vases, a faux olive plant, a gold knot sculpture, travertine match holders and travertine coasters',
+    products: [
+      { name: 'Travertine coasters, set of 4', note: 'Beige travertine coasters that add natural stone to a coffee table.', image: 'assets/products/B0FWJMZLGQ.jpg', link: 'B0FWJMZLGQ' },
+      { name: 'Travertine match holders with striker, set of 2', note: 'Two handmade travertine match jars with a striker strip to keep next to a candle.', image: 'assets/products/B0DFLL3LX3.jpg', link: 'B0DFLL3LX3' },
+      { name: 'NIKKY HOME vintage gold taper candle holders, set of 2', note: 'Ornate gold chamberstick holders with a handle and drip tray for an antique look.', image: 'assets/products/B0DYCVC5K8.jpg', link: 'B0DYCVC5K8' },
+      { name: 'Amber glass bud vases, set of 5', note: 'Five small vintage-style bud vases in amber and blush glass for a shelf or table.', image: 'assets/products/B0HGRL2SVH.jpg', link: 'B0HGRL2SVH' },
+      { name: 'Ribbed glass vase', note: 'A fluted clear vase that looks like a design store piece with just a few stems.', image: 'assets/products/B0BL3HHP2D.jpg', link: 'B0BL3HHP2D' },
+      { name: 'Gold knot sculpture', note: 'A gold tabletop knot that adds a sculptural touch to a stack of books.', image: 'assets/products/B0DCP5PF76.jpg', link: 'B0DCP5PF76' },
+      { name: 'Faux olive branches, 6 pack', note: 'Realistic olive stems that fill a vase with greenery all year.', image: 'assets/products/B0D6QZCJW8.jpg', link: 'B0D6QZCJW8' },
+      { name: 'GUKJOB white ribbed ceramic vase', note: 'A small ribbed white vase for pampas, olive stems or a single branch.', image: 'assets/products/B0C6JHS1JL.jpg', link: 'B0C6JHS1JL' },
+      { name: 'Joeyan amber glass loop vase', note: 'A handmade amber glass bud vase with a sculptural loop shape.', image: 'assets/products/B0D7Q1L1BB.jpg', link: 'B0D7Q1L1BB' },
+      { name: 'AlphaAcc faux olive plant in white pot, 13 inch', note: 'A small faux olive tree in a ribbed white pot for a desk or shelf.', image: 'assets/products/B0H9CT3LZ9.jpg', link: 'B0H9CT3LZ9' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'cozy-reading-nook-ideas',
+    title: 'Cozy Reading Nook Ideas',
+    category: 'home-finds',
+    date: '2026-10-31',
+    description: 'Cozy reading nook ideas from Amazon: a brass plug-in wall sconce, a waffle knit throw, a knit pouf, a turned wood drink table, brass bookends and a water hyacinth basket.',
+    intro: 'A reading nook needs only four things: soft light, something warm to wrap up in, a surface for your mug and a place for the next book. A plug-in sconce means no electrician, a knit pouf doubles as a footrest and a basket keeps throws close. These Amazon finds turn any corner into the coziest spot in the house this winter.',
+    image: 'assets/pins/cozy-reading-nook-ideas.jpg',
+    imageAlt: 'Collage of cozy reading nook ideas from Amazon: a turned wood drink table, brass plug-in wall sconces, a cream knit pouf, a tall woven basket, a bamboo book stand, Tree of Life brass bookends, a sage waffle knit throw, scalloped baskets, chess bookends and a walnut page holder',
+    products: [
+      { name: 'TRLIFE plug-in wall sconce, brushed brass', note: 'A swing-arm brass sconce that plugs in, so a reading light needs no electrician.', image: 'assets/products/B0BPHGXD82.jpg', link: 'B0BPHGXD82' },
+      { name: 'Sage green waffle knit throw', note: 'A chunky sage waffle knit throw to keep folded over the arm of a reading chair.', image: 'assets/products/B0G1MK23CM.jpg', link: 'B0G1MK23CM' },
+      { name: 'Casafield cotton knit pouf, natural', note: 'A round knit pouf that works as a footrest or an extra seat.', image: 'assets/products/B0CXTJ51FM.jpg', link: 'B0CXTJ51FM' },
+      { name: 'Round wood drink table', note: 'A slim turned wood side table with just enough room for a mug and a book.', image: 'assets/products/B0FMHZPNMH.jpg', link: 'B0FMHZPNMH' },
+      { name: 'Tall water hyacinth basket with handles', note: 'A tall woven basket that keeps throws and pillows close to the chair.', image: 'assets/products/B00Q7XUUC2.jpg', link: 'B00Q7XUUC2' },
+      { name: 'Tree of Life bookends, antique brass', note: 'Heavy antique brass bookends with a carved tree that look like a vintage find.', image: 'assets/products/B0BXJCYZZR.jpg', link: 'B0BXJCYZZR' },
+      { name: 'Handmade walnut book page holder', note: 'A small walnut page holder that keeps a paperback open while you sip your tea.', image: 'assets/products/B07PGW7C8R.jpg', link: 'B07PGW7C8R' },
+      { name: 'TRLIFE plug-in wall sconces with fabric shades, set of 2', note: 'A pair of brass swing-arm sconces with soft shades to frame a chair or a window seat.', image: 'assets/products/B0BGLDF1KQ.jpg', link: 'B0BGLDF1KQ' },
+      { name: 'Chess piece bookends, black', note: 'Matte black rook and knight bookends that give a shelf a library feel.', image: 'assets/products/B07PF8QW8F.jpg', link: 'B07PF8QW8F' },
+      { name: 'Scalloped water hyacinth baskets, set of 2', note: 'Two scalloped woven baskets for paperbacks, reading glasses and tea.', image: 'assets/products/B0DWJLPNJN.jpg', link: 'B0DWJLPNJN' },
+      { name: 'wishacc bamboo book stand, XL', note: 'An adjustable bamboo stand that holds a heavy book or a tablet at reading angle.', image: 'assets/products/B0897TDWH9.jpg', link: 'B0897TDWH9' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'christmas-entryway-table-decor',
     title: 'Christmas Entryway Table Decor That Looks Expensive',
     category: 'home-finds',
