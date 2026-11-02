@@ -3195,6 +3195,62 @@ var NEWSLETTER = {
    do not edit by hand. A tile shows once its scheduled time (at) has passed. */
 var IG_POSTS = [
  {
+  "at": "2026-11-15T19:00:00-06:00",
+  "slug": "amazon-home-finds-under-30",
+  "image": "assets/ig/2026-11-09-week3_8.jpg",
+  "alt": "This ribbed glass vase looks like it's from a design store.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-13T19:00:00-06:00",
+  "slug": "gifts-for-mother-in-law-that-look-expensive",
+  "image": "assets/ig/2026-11-09-week3_7.jpg",
+  "alt": "This faux leather tray looks like it's from a design store.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-13T12:00:00-06:00",
+  "slug": "ralph-lauren-christmas-tree-look-for-less",
+  "image": "assets/ig/2026-11-09-week3_6.jpg",
+  "alt": "The Ralph Lauren Christmas look, found on Amazon.",
+  "reel": false
+ },
+ {
+  "at": "2026-11-12T19:00:00-06:00",
+  "slug": "christmas-gifts-for-women-that-look-expensive",
+  "image": "assets/ig/2026-11-09-week3_5.jpg",
+  "alt": "The gift that looks expensive: a real marble vanity tray.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-11T19:00:00-06:00",
+  "slug": "cozy-reading-nook-ideas",
+  "image": "assets/ig/2026-11-09-week3_4.jpg",
+  "alt": "This brass sconce looks like it's from a design store. It's from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-10T19:00:00-06:00",
+  "slug": "hot-chocolate-bar-ideas",
+  "image": "assets/ig/2026-11-09-week3_3.jpg",
+  "alt": "A hot cocoa bar that looks catered ☕️",
+  "reel": true
+ },
+ {
+  "at": "2026-11-10T12:00:00-06:00",
+  "slug": "pottery-barn-stocking-dupes",
+  "image": "assets/ig/2026-11-09-week3_2.jpg",
+  "alt": "Pottery Barn stockings or Amazon? Can you tell?",
+  "reel": false
+ },
+ {
+  "at": "2026-11-09T19:00:00-06:00",
+  "slug": "christmas-coffee-table-decor",
+  "image": "assets/ig/2026-11-09-week3_1.jpg",
+  "alt": "These brass lanterns look like they're from a design store.",
+  "reel": true
+ },
+ {
   "at": "2026-11-08T19:00:00-06:00",
   "slug": "cozy-gifts-for-the-homebody",
   "image": "assets/ig/2026-11-02-week2_14.jpg",
