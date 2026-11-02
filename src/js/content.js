@@ -406,6 +406,132 @@ var POSTS = [
   },
   // ----------------------------------------------------------------
   {
+    slug: 'amazon-stone-decor-that-looks-expensive',
+    title: 'Amazon Home Finds That Look Expensive: The Stone Edit',
+    category: 'home-finds',
+    date: '2026-11-01',
+    description: 'Twelve Amazon home finds in travertine, marble and cream ceramic that look like they came from a design store.',
+    intro: 'Stone reads expensive in any room. These twelve Amazon pieces bring travertine, marble and soft cream ceramic to a console, a shelf or a kitchen counter.',
+    image: 'assets/pins/amazon-stone-decor-that-looks-expensive.jpg',
+    imageAlt: 'Collage of neutral Amazon stone decor: alabaster table lamp, travertine coasters and bookends, marble mortar and pestle, cream ceramic vases, ribbed pitcher, marble tray and travertine bowls on a linen background.',
+    products: [
+      { name: 'Alabaster and gold table lamp', note: 'Real alabaster glows when it is lit, with brass accents and a crisp white shade.', image: 'assets/products/B07GY3WZT6.jpg', link: 'B07GY3WZT6' },
+      { name: 'Faux olive branches, 6 pack', note: 'Realistic olive stems that fill a vase with greenery all year.', image: 'assets/products/B0D6QZCJW8.jpg', link: 'B0D6QZCJW8' },
+      { name: 'Travertine bookends', note: 'Weighty natural stone that holds books and doubles as shelf decor.', image: 'assets/products/B0D9VBQ2JH.jpg', link: 'B0D9VBQ2JH' },
+      { name: 'Arched travertine coasters', note: 'Real stone with a soft arch shape, pretty enough to leave out on the table.', image: 'assets/products/B0B5KYMDJP.jpg', link: 'B0B5KYMDJP' },
+      { name: 'Travertine key bowl', note: 'Natural stone makes a catchall for keys feel quietly luxe.', image: 'assets/products/B0D3TG15CY.jpg', link: 'B0D3TG15CY' },
+      { name: 'Rustic cream ceramic vase', note: 'A wide, textured vase that looks like an antique find.', image: 'assets/products/B0D4V62XSN.jpg', link: 'B0D4V62XSN' },
+      { name: 'White ceramic donut vases, set of 2', note: 'Hollow matte vases that look sculptural with or without stems.', image: 'assets/products/B0C2YLN3H4.jpg', link: 'B0C2YLN3H4' },
+      { name: 'Carrara oval marble tray', note: 'A white and gray marble tray that corrals syrups, sugar and spoons.', image: 'assets/products/B0FSZZPD3L.jpg', link: 'B0FSZZPD3L' },
+      { name: 'Travertine match holders with striker, set of 2', note: 'Two handmade travertine match jars with a striker strip to keep next to a candle.', image: 'assets/products/B0DFLL3LX3.jpg', link: 'B0DFLL3LX3' },
+      { name: 'White marble mortar and pestle', note: 'A heavy marble set that looks like a design piece on the counter.', image: 'assets/products/B0000VLP7Q.jpg', link: 'B0000VLP7Q' },
+      { name: 'Marble bowl on acacia pedestal', note: 'A marble and wood fruit bowl that looks like a designer piece.', image: 'assets/products/B0DJTLLX4B.jpg', link: 'B0DJTLLX4B' },
+      { name: 'Ribbed ceramic pitcher', note: 'The distressed ribbed finish looks great with or without stems in it.', image: 'assets/products/B00JZMUI9W.jpg', link: 'B00JZMUI9W' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'amazon-wood-decor-that-looks-expensive',
+    title: 'Amazon Home Finds That Look Expensive: The Warm Wood Edit',
+    category: 'home-finds',
+    date: '2026-11-01',
+    description: 'Twelve Amazon home finds in warm wood, woven texture and linen that make a neutral room feel collected and high-end.',
+    intro: 'Warm wood is the quickest way to make a neutral room feel rich. These twelve Amazon finds mix carved wood, woven baskets and soft linen with a few white ceramic pieces.',
+    image: 'assets/pins/amazon-wood-decor-that-looks-expensive.jpg',
+    imageAlt: 'Collage of warm Amazon home decor: faux olive tree, wood pillar candle holders, acacia salad bowl, pleated mini lamp, water hyacinth basket, pedestal bowl, fluted wood bowl, wood chain link decor, marble and wood bookends and a linen throw on a linen background.',
+    products: [
+      { name: 'Faux olive tree, 5 ft', note: 'A lifelike olive tree in a white pot that softens a bedroom corner instantly.', image: 'assets/products/B0H458P862.jpg', link: 'B0H458P862' },
+      { name: 'Olive green mini lamp with pleated shade', note: 'A tiny glazed lamp with a scalloped shade for a warm side-table glow.', image: 'assets/products/B0DPL93Z47.jpg', link: 'B0DPL93Z47' },
+      { name: 'Wood pillar candle holders, set of 3', note: 'Turned wood at three heights for an easy, layered mantel.', image: 'assets/products/B0BWTP1H5K.jpg', link: 'B0BWTP1H5K' },
+      { name: 'Wood dough bowl', note: 'A long rustic bowl for a bench or console, styled or left empty.', image: 'assets/products/B0BS6L33SF.jpg', link: 'B0BS6L33SF' },
+      { name: 'Whitewashed wood pedestal bowl', note: 'A footed bowl with a soft limewash finish for a table or console.', image: 'assets/products/B0C2F3BHP2.jpg', link: 'B0C2F3BHP2' },
+      { name: 'Wood chain link decor', note: 'A carved wooden link that styles a shelf or coffee table stack.', image: 'assets/products/B0D5CGQ52M.jpg', link: 'B0D5CGQ52M' },
+      { name: 'Scalloped water hyacinth basket', note: 'A woven basket with a scalloped lid, made for blankets.', image: 'assets/products/B0G4SXD85S.jpg', link: 'B0G4SXD85S' },
+      { name: 'D\'vine Dev textured white ceramic vase', note: 'A tall matte vase for a few olive or eucalyptus stems.', image: 'assets/products/B0CHYGZZN8.jpg', link: 'B0CHYGZZN8' },
+      { name: 'Kimona fluted wood bowl, 10 inch', note: 'A carved wood bowl with a white fluted base, perfect filled with moss balls or pinecones.', image: 'assets/products/B0D5GZRF6N.jpg', link: 'B0D5GZRF6N' },
+      { name: 'Marble bookends with wood inlay', note: 'White marble wedges with a warm wood stripe for a stack of books.', image: 'assets/products/B09BCNBNMH.jpg', link: 'B09BCNBNMH' },
+      { name: 'Acacia wave bowl with servers', note: 'A large sculpted acacia bowl for salads, bread or fruit.', image: 'assets/products/B00MWENGGM.jpg', link: 'B00MWENGGM' },
+      { name: 'Natural linen throw blanket', note: 'Washed linen in a flax color for a relaxed, collected look.', image: 'assets/products/B0G3PFD2FS.jpg', link: 'B0G3PFD2FS' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'amazon-brass-glass-decor-that-looks-expensive',
+    title: 'Amazon Home Finds That Look Expensive: The Brass and Glass Edit',
+    seoTitle: 'Amazon Brass and Glass Decor That Looks Expensive',
+    category: 'home-finds',
+    date: '2026-11-01',
+    description: 'Twelve Amazon home finds in antique brass, gold and clear glass that add a little glow to a neutral home.',
+    intro: 'A touch of brass and glass makes a neutral room look styled. These twelve Amazon finds bring a warm metallic glow without tipping into flashy.',
+    image: 'assets/pins/amazon-brass-glass-decor-that-looks-expensive.jpg',
+    imageAlt: 'Collage of Amazon brass and glass decor: ribbed glass vase, faux eucalyptus in a glass vase, brass wall sconce, glass apothecary jars, brass candle holders, gold knot sculpture, glass cloche lanterns, amber bud vases, beaded glass cake stand, brass bookends and travertine coasters on a linen background.',
+    products: [
+      { name: 'TRLIFE plug-in wall sconce, brushed brass', note: 'A swing-arm brass sconce that plugs in, so a reading light needs no electrician.', image: 'assets/products/B0BPHGXD82.jpg', link: 'B0BPHGXD82' },
+      { name: 'Faux eucalyptus in a glass vase', note: 'A ready-made arrangement with faux water, sized for a nightstand.', image: 'assets/products/B0DS7T4JJZ.jpg', link: 'B0DS7T4JJZ' },
+      { name: 'NIKKY HOME vintage gold taper candle holders, set of 2', note: 'Ornate gold chamberstick holders with a handle and drip tray for an antique look.', image: 'assets/products/B0DYCVC5K8.jpg', link: 'B0DYCVC5K8' },
+      { name: 'Amber glass bud vases, set of 5', note: 'Five small vintage-style bud vases in amber and blush glass for a shelf or table.', image: 'assets/products/B0HGRL2SVH.jpg', link: 'B0HGRL2SVH' },
+      { name: 'Gold knot sculpture', note: 'A gold tabletop knot that adds a sculptural touch to a stack of books.', image: 'assets/products/B0DCP5PF76.jpg', link: 'B0DCP5PF76' },
+      { name: 'Ribbed glass vase', note: 'A fluted clear vase that looks like a design store piece with just a few stems.', image: 'assets/products/B0BL3HHP2D.jpg', link: 'B0BL3HHP2D' },
+      { name: 'Brass candle lanterns with glass domes, set of 2', note: 'Two glass cloches on brass bases that turn a pillar candle into a centerpiece.', image: 'assets/products/B0F7R3NH3S.jpg', link: 'B0F7R3NH3S' },
+      { name: 'Travertine coasters, set of 4', note: 'Beige travertine coasters that add natural stone to a coffee table.', image: 'assets/products/B0FWJMZLGQ.jpg', link: 'B0FWJMZLGQ' },
+      { name: 'Real marble tray', note: 'Solid white marble that turns mail, keys and a candle into a styled vignette.', image: 'assets/products/B0D4F55946.jpg', link: 'B0D4F55946' },
+      { name: 'Tree of Life bookends, antique brass', note: 'Heavy antique brass bookends with a carved tree that look like a vintage find.', image: 'assets/products/B0BXJCYZZR.jpg', link: 'B0BXJCYZZR' },
+      { name: 'Beaded glass cake stand', note: 'A beaded edge that gives it a vintage, special-occasion look.', image: 'assets/products/B0CT69Y2VV.jpg', link: 'B0CT69Y2VV' },
+      { name: 'Glass apothecary jars, set of 3', note: 'Classic glass canisters for cotton rounds and swabs, display-worthy.', image: 'assets/products/B07NRJ3R17.jpg', link: 'B07NRJ3R17' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'cozy-amazon-home-finds-that-look-expensive',
+    title: 'Amazon Home Finds That Look Expensive: The Cozy Edit',
+    category: 'home-finds',
+    date: '2026-11-01',
+    description: 'Twelve cozy Amazon home finds, from chunky knits to woven baskets and candlelight, in soft neutrals that look high-end.',
+    intro: 'Cozy can still look expensive. These twelve Amazon finds layer chunky knits, boucle, woven texture and candlelight in soft cream and oat tones.',
+    image: 'assets/pins/cozy-amazon-home-finds-that-look-expensive.jpg',
+    imageAlt: 'Collage of cozy neutral Amazon decor: faux fiddle leaf fig, round wood side table, white pitcher vase, water hyacinth basket, brass cloche lanterns, whitewashed candle holders, knit pouf, boucle pillows, glass candle, marble bookends, chunky knit throw and travertine dish on a linen background.',
+    products: [
+      { name: 'Faux fiddle leaf fig tree, 5 ft', note: 'Big sculptural leaves for a statement corner, no watering needed.', image: 'assets/products/B0FNCPWZ7B.jpg', link: 'B0FNCPWZ7B' },
+      { name: 'Chunky hand-knit throw blanket', note: 'Oversized knit loops in oatmeal that make the sofa look styled and feel cozy.', image: 'assets/products/B0BWHXH13L.jpg', link: 'B0BWHXH13L' },
+      { name: 'Tall water hyacinth basket with handles', note: 'A tall woven basket that keeps throws and pillows close to the chair.', image: 'assets/products/B00Q7XUUC2.jpg', link: 'B00Q7XUUC2' },
+      { name: 'Round wood side table', note: 'A small three-leg table that fits next to any sofa or chair.', image: 'assets/products/B09FJ9KWXF.jpg', link: 'B09FJ9KWXF' },
+      { name: 'Whitewashed wood candle holders, set of 3', note: 'Turned pillar holders with a soft, worn finish.', image: 'assets/products/B0CJJBDP2Y.jpg', link: 'B0CJJBDP2Y' },
+      { name: 'Hotel-inspired scented candle', note: 'A cut-glass jar that brings a hotel lobby scent home.', image: 'assets/products/B0CW5WZHLZ.jpg', link: 'B0CW5WZHLZ' },
+      { name: 'Casafield cotton knit pouf, natural', note: 'A round knit pouf that works as a footrest or an extra seat.', image: 'assets/products/B0CXTJ51FM.jpg', link: 'B0CXTJ51FM' },
+      { name: 'Scalloped travertine trinket dish', note: 'A small stone dish with a wavy edge for rings and earrings.', image: 'assets/products/B0DWWYKC5S.jpg', link: 'B0DWWYKC5S' },
+      { name: 'White ceramic pitcher vase', note: 'A farmhouse-style jug for fresh or dried branches.', image: 'assets/products/B0D41FL76W.jpg', link: 'B0D41FL76W' },
+      { name: 'Marble bookends, set of 2', note: 'Heavy stone wedges that hold a stack of books like a designer shelf.', image: 'assets/products/B0FDLJ6Z9N.jpg', link: 'B0FDLJ6Z9N' },
+      { name: 'Brass and glass candle cloches, set of 2', note: 'Glass domes on brass bases that make a pillar candle look boutique.', image: 'assets/products/B0CP82JRKW.jpg', link: 'B0CP82JRKW' },
+      { name: 'Ivory boucle pillow covers', note: 'Nubby boucle texture that makes a bed look styled.', image: 'assets/products/B0BNVY2JSY.jpg', link: 'B0BNVY2JSY' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'amazon-kitchen-finds-that-look-expensive',
+    title: 'Amazon Home Finds That Look Expensive: The Kitchen Edit',
+    category: 'home-finds',
+    date: '2026-11-01',
+    description: 'Twelve Amazon kitchen finds in cream ceramic, marble and glass that make a counter look like a magazine shoot.',
+    intro: 'The kitchen counter is where cheap decor shows first. These twelve Amazon finds in cream ceramic, marble and glass keep it calm, useful and high-end.',
+    image: 'assets/pins/amazon-kitchen-finds-that-look-expensive.jpg',
+    imageAlt: 'Collage of neutral Amazon kitchen finds: ceramic olive oil bottle, ribbed ceramic vase, butter crock, ceramic canisters, sage utensil crock, glass cake dome, ceramic berry baskets, faux eucalyptus, marble cutting board, scalloped bowl, white cake stand and footed stoneware bowl on a linen background.',
+    products: [
+      { name: 'Glass cake stand with dome', note: 'A footed glass stand and cloche for cakes, pastries or a cheese course.', image: 'assets/products/B01FSID5C8.jpg', link: 'B01FSID5C8' },
+      { name: 'Ceramic canisters with bamboo lids', note: 'Matte two-tone canisters for coffee, sugar and flour.', image: 'assets/products/B0FKB9YCT5.jpg', link: 'B0FKB9YCT5' },
+      { name: 'Carrara marble cutting board', note: 'Real white marble that doubles as a serving board.', image: 'assets/products/B0FVWP57KW.jpg', link: 'B0FVWP57KW' },
+      { name: 'Ceramic olive oil bottle', note: 'A matte white pour bottle that looks nicer than the store bottle.', image: 'assets/products/B0DP622TWP.jpg', link: 'B0DP622TWP' },
+      { name: 'Ribbed ceramic utensil crock', note: 'A sage ribbed crock that keeps spoons and spatulas in reach.', image: 'assets/products/B0CC173TN8.jpg', link: 'B0CC173TN8' },
+      { name: 'Butter Bell French butter crock', note: 'The original French butter keeper that keeps butter soft and spreadable.', image: 'assets/products/B000H47H0A.jpg', link: 'B000H47H0A' },
+      { name: 'Ceramic berry baskets', note: 'Stoneware colanders for rinsing and serving fresh fruit.', image: 'assets/products/B0B7JGCCLP.jpg', link: 'B0B7JGCCLP' },
+      { name: 'GUKJOB white ribbed ceramic vase', note: 'A small ribbed white vase for pampas, olive stems or a single branch.', image: 'assets/products/B0C6JHS1JL.jpg', link: 'B0C6JHS1JL' },
+      { name: 'Fluted decorative bowl', note: 'A scalloped, sculptural bowl that works as a centerpiece on its own.', image: 'assets/products/B0D3HH27MW.jpg', link: 'B0D3HH27MW' },
+      { name: 'Porcelain cake stand', note: 'A clean white pedestal for cakes, pastries or a fruit display.', image: 'assets/products/B07X5S3S1T.jpg', link: 'B07X5S3S1T' },
+      { name: 'Faux eucalyptus stems, 27 inch', note: 'Long stems to fill a floor vase or a tall jug beside the bed.', image: 'assets/products/B0FNJY25DS.jpg', link: 'B0FNJY25DS' },
+      { name: 'White reactive glaze stoneware bowl', note: 'A handmade-looking footed bowl for an entry table or console.', image: 'assets/products/B09B4KP49X.jpg', link: 'B09B4KP49X' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'christmas-entryway-table-decor',
     title: 'Christmas Entryway Table Decor That Looks Expensive',
     category: 'home-finds',
