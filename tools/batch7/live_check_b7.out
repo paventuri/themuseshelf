@@ -1,0 +1,18 @@
+OK   luxury-gifts-for-her-under-100 200 products 12 amazon 24 musesite-20 
+OK   gifts-for-best-friend-under-50 200 products 12 amazon 24 musesite-20 
+OK   gifts-for-wife-that-look-expensive 200 products 12 amazon 24 musesite-20 
+OK   secret-santa-gifts-under-20 200 products 12 amazon 24 musesite-20 
+OK   stocking-stuffers-under-10 200 products 12 amazon 24 musesite-20 
+OK   gifts-for-aunt 200 products 12 amazon 24 musesite-20 
+OK   teacher-gifts-under-25 200 products 12 amazon 24 musesite-20 
+OK   gifts-for-coffee-lovers 200 products 12 amazon 24 musesite-20 
+OK   book-lover-gifts 200 products 12 amazon 24 musesite-20 
+OK   gifts-for-women-in-their-30s 200 products 12 amazon 24 musesite-20 
+OK   stocking-stuffers-for-her-under-25 200 products 13 amazon 26 musesite-20 
+OK   gifts-for-mom-under-50 200 products 14 amazon 28 musesite-20 
+OK   christmas-gifts-for-women-that-look-expensive 200 products 11 amazon 22 musesite-20 
+URLS_OK 13 / 13
+TAGFLOW luxury-gifts-for-her-under-100 pinterest -> musepin-20
+TAGFLOW   then gifts-for-aunt -> musepin-20
+TAGFLOW stocking-stuffers-for-her-under-25 pinterest -> musepin-20
+TAGFLOW   then gifts-for-mom-under-50 -> musepin-20
