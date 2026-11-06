@@ -46,6 +46,256 @@ var CATEGORIES = [
 var POSTS = [
   // ----------------------------------------------------------------
   {
+    slug: 'luxury-gifts-for-her-under-100',
+    title: 'Luxury Gifts for Her Under $100',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Luxury gifts for her from Amazon: Armani My Way, a Kendra Scott necklace, a Mikasa crystal vase, a silk pillowcase, gold hoops and a carved marble tray.',
+    intro: 'Some gifts should feel like a splurge, even when they are not. These Amazon picks bring real designer names, Gucci, Armani and Kendra Scott, plus crystal, marble and silk that look like they came from a department store counter. Wrap one in tissue and she will feel spoiled.',
+    image: 'assets/pins/luxury-gifts-for-her-under-100.jpg',
+    imageAlt: 'Collage of luxury gifts for her from Amazon: Armani My Way perfume, a Mikasa crystal vase, a black leather tote, a Kendra Scott pendant, a carved marble tray, a glass top jewelry box, 14K gold hoops, a silk pillowcase and a marble tray',
+    products: [
+      { name: 'Armani Beauty My Way Eau de Parfum', note: 'Armani My Way eau de parfum in a blush-tinted bottle with a deep blue cap, a true vanity showpiece.', image: 'assets/products/B08DHW4CT9.jpg', link: 'B08DHW4CT9' },
+      { name: 'Mikasa Baron Crystal Vase', note: 'Mikasa crystal vase with crisp angled edges that makes grocery-store tulips look florist-arranged.', image: 'assets/products/B0BM53G1L6.jpg', link: 'B0BM53G1L6' },
+      { name: 'HOXIS oversized vegan leather tote, black', note: 'Oversized black faux leather tote with soft slouchy folds, the minimalist designer look for workdays and weekends.', image: 'assets/products/B09QSVL5LS.jpg', link: 'B09QSVL5LS' },
+      { name: 'Kendra Scott Elisa Pendant Necklace for Women', note: 'The Kendra Scott Elisa pendant in gold with a soft pink stone, a dainty signature piece she will wear daily.', image: 'assets/products/B00RYURH8M.jpg', link: 'B00RYURH8M' },
+      { name: 'Creative Co-Op Minimalist Round Carved Marble Tray or Charcuterie', note: 'Round carved white marble tray from Creative Co-Op, simple enough for a coffee table or cheese night.', image: 'assets/products/B084LLCN3S.jpg', link: 'B084LLCN3S' },
+      { name: 'VLANDO three-drawer jewelry box, glass top', note: 'Taupe three-drawer jewelry box with a glass top and gold pulls, like a boutique case for her pieces.', image: 'assets/products/B0FCYDP63T.jpg', link: 'B0FCYDP63T' },
+      { name: 'Gold Earrings for Women 14K Gold Hoop Earrings for Women', note: 'Braided gold hoops with a twisted rope texture that catch the light and look straight from a jewelry counter.', image: 'assets/products/B0D1XLXXH6.jpg', link: 'B0D1XLXXH6' },
+      { name: '100% Natural Pure Silk Pillowcase for Hair and Skin', note: 'Pure white silk pillowcase with a soft sheen, the bedtime luxury that makes her whole bed look styled.', image: 'assets/products/B06WP3LRT1.jpg', link: 'B06WP3LRT1' },
+      { name: 'African Natural Marble Decorative Tray', note: 'Natural white marble tray in a soft oval shape, cool and weighty under her perfume and rings.', image: 'assets/products/B0CLNYRH68.jpg', link: 'B0CLNYRH68' },
+      { name: 'Gucci Bamboo by Gucci for Women 2.5 oz Eau de Parfum Spray', note: 'Gucci Bamboo eau de parfum in a faceted bottle with a sculpted silver cap, made to sit out on display.', image: 'assets/products/B00ZCIHYRM.jpg', link: 'B00ZCIHYRM' },
+      { name: 'Ivation Wine Gift Set', note: 'Electric wine opener with an aerator, stopper and foil cutter on a sleek black stand for her bar cart.', image: 'assets/products/B07JJS258Y.jpg', link: 'B07JJS258Y' },
+      { name: 'Hot Tools Pro Artist Black Gold Detachable One Step Volumizer and', note: 'Hot Tools Black Gold one-step volumizer dries and styles at once for a salon blowout at home.', image: 'assets/products/B089J5JWPN.jpg', link: 'B089J5JWPN' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-best-friend-under-50',
+    title: 'Gifts for Your Best Friend Under $50',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for your best friend from Amazon: a gold tennis bracelet, teardrop earrings, latte mugs, a marble tray, a travel jewelry case and a BruMate tumbler.',
+    intro: 'The best friend gift should feel like an inside joke you both get: pretty, useful and very her. These Amazon finds cover the little luxuries she would never buy herself, from a gold tennis bracelet to silk pillowcases and the tumbler she will carry everywhere.',
+    image: 'assets/pins/gifts-for-best-friend-under-50.jpg',
+    imageAlt: 'Collage of best friend gifts from Amazon: a gold tennis bracelet, ceramic latte mugs, a makeup bag, gold teardrop earrings, a tumbler, a black marble tray, a lotus ring tray, a pink travel jewelry case and claw clips',
+    products: [
+      { name: 'PAVOI adjustable tennis bracelet, 14K gold plated', note: 'This 14K gold plated tennis bracelet adjusts with a slider and sparkles like a fine jewelry piece.', image: 'assets/products/B082TRCLRN.jpg', link: 'B082TRCLRN' },
+      { name: 'MORA Ceramic Large Latte Mug Set of 4', note: 'Four speckled ceramic latte mugs with raw clay bases, the handmade look for slow weekend coffee.', image: 'assets/products/B09H9ZPGXP.jpg', link: 'B09H9ZPGXP' },
+      { name: 'EACHY Travel Makeup Bag for Women', note: 'Cognac leather-look makeup bag that opens wide with neat dividers inside, like a designer train case for trips.', image: 'assets/products/B0BRR6Q2ZD.jpg', link: 'B0BRR6Q2ZD' },
+      { name: 'PAVOI chunky gold teardrop earrings', note: 'Chunky gold drops that look like a designer pair, the kind of earrings she will wear daily.', image: 'assets/products/B0C8BHH9JG.jpg', link: 'B0C8BHH9JG' },
+      { name: 'BrüMate Era 20 oz Tumbler with Handle and Straw', note: 'Her new daily carry: a soft blue BrüMate Era with a sturdy handle, a straw and a leakproof lid.', image: 'assets/products/B0FXJ1NMBT.jpg', link: 'B0FXJ1NMBT' },
+      { name: 'Real natural black marble tray', note: 'A heavy natural marble tray that makes perfume, candles or keys look like a boutique display.', image: 'assets/products/B0DL5KJ6LS.jpg', link: 'B0DL5KJ6LS' },
+      { name: 'Lotus Leaf Shape Decorative Ring Tray', note: 'Shaped like a lotus leaf, this pale green ceramic dish with a golden edge keeps her rings in one spot.', image: 'assets/products/B0BVLY1T2C.jpg', link: 'B0BVLY1T2C' },
+      { name: 'Small travel jewelry case, pink', note: 'A tiny blush jewelry case with ring rolls and compartments, the gift she will pack on every trip.', image: 'assets/products/B0C32J6L9F.jpg', link: 'B0C32J6L9F' },
+      { name: 'Large Hair Claw Clips for Women Girls', note: 'Eight matte claw clips in creamy neutrals, from oat to espresso, that pass for designer ones.', image: 'assets/products/B0F439VB36.jpg', link: 'B0F439VB36' },
+      { name: 'DKBslik Silk Pillow Cases 2 Pack Standard Size with Hidden Zipper', note: 'Beige silk pillowcases with hidden zippers, smooth on her hair overnight with a glossy, high-end sheen.', image: 'assets/products/B0C6R8DCSD.jpg', link: 'B0C6R8DCSD' },
+      { name: 'Stemless Wine Glasses Set of 2', note: 'A boxed pair of thin stemless wine glasses, made for long wine nights on her couch with you.', image: 'assets/products/B0D7Z83KYC.jpg', link: 'B0D7Z83KYC' },
+      { name: 'Bedsure GentleSoft White Throw Blanket for Couch', note: 'Plush creamy white fleece with soft ribbing, this throw looks like a boutique blanket draped over her sofa.', image: 'assets/products/B0BPLB81LX.jpg', link: 'B0BPLB81LX' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-wife-that-look-expensive',
+    title: 'Gifts for Your Wife That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for your wife that look expensive, from Amazon: a pure cashmere scarf, a cognac leather tote, a leather jewelry case, gold huggies and onyx coasters.',
+    intro: 'The best gift for your wife is an upgrade she would never splurge on herself. Think pure cashmere, real onyx stone, a leather travel jewelry case and a heated eye mask for the nights she needs a reset. Each one looks like it came from a boutique, not a last-minute cart.',
+    image: 'assets/pins/gifts-for-wife-that-look-expensive.jpg',
+    imageAlt: 'Collage of gifts for your wife from Amazon: a cashmere scarf, a brushed gold tray, a cognac leather tote, a bow jewelry tray, a ceramic diffuser, a leather jewelry case, gold huggie hoops, marble coasters and a gold mirror tray',
+    products: [
+      { name: 'Pure 100% Cashmere Scarf with Fringed Edges', note: 'Pure cashmere in soft blush pink with fringed edges, the scarf she will wrap on every cold morning.', image: 'assets/products/B0CC1YGJRK.jpg', link: 'B0CC1YGJRK' },
+      { name: 'FREELOVE brushed gold round tray', note: 'Brushed gold round tray that turns perfume bottles or a bud vase into a styled little vignette.', image: 'assets/products/B09FHPF82P.jpg', link: 'B09FHPF82P' },
+      { name: 'Kattee leather tote bag, cognac', note: 'A structured cognac leather tote that reads boutique, roomy enough for her laptop and everyday things.', image: 'assets/products/B07MT5VRTF.jpg', link: 'B07MT5VRTF' },
+      { name: 'Bow Jewelry Tray', note: 'White tray with gold bow handles and a gilded edge that feels straight out of a Paris boutique.', image: 'assets/products/B08Q2Y9GQS.jpg', link: 'B08Q2Y9GQS' },
+      { name: 'InnoGear 300ml Ceramic Essential Oil Diffuser', note: 'Part diffuser, part sculpture: matte ceramic on a wood-tone base that looks lovely by her bed.', image: 'assets/products/B0DKFK1J9V.jpg', link: 'B0DKFK1J9V' },
+      { name: 'Genuine Leather Travel Jewelry Organizer Case with Mirror for Women', note: 'Blush pink genuine leather jewelry case with a mirror inside, so her rings and pearls travel neatly.', image: 'assets/products/B0F8ZQFYKG.jpg', link: 'B0F8ZQFYKG' },
+      { name: 'PAVOI gold huggie hoop earrings set', note: 'A set of gold huggies she can stack or wear alone, polished enough for every day.', image: 'assets/products/B0B1494KHN.jpg', link: 'B0B1494KHN' },
+      { name: 'Radicaln Round Marble Coasters Set of 6 with Holder', note: 'Six round white onyx coasters with warm caramel veining, stacked in a matching stone holder.', image: 'assets/products/B0FT7MCLPR.jpg', link: 'B0FT7MCLPR' },
+      { name: 'Hipiwe gold mirror glass vanity tray', note: 'Octagonal gold-framed mirror tray that makes her perfume bottles look like a department store display.', image: 'assets/products/B07T4GDPPW.jpg', link: 'B07T4GDPPW' },
+      { name: 'Anydance Cordless Heated Eye Mask', note: 'Cordless heated eye mask with four warmth levels and a timer, made for quiet breaks after long days.', image: 'assets/products/B0HDRSS5K8.jpg', link: 'B0HDRSS5K8' },
+      { name: 'Scented Candles Gift Set', note: 'Eight Warm Woods soy candles in glass jars with black lids, boxed like a candle shop sampler of cozy scents.', image: 'assets/products/B0H6WWXSTY.jpg', link: 'B0H6WWXSTY' },
+      { name: 'Tyler Diva Scented Candle', note: 'Tyler Diva candle in a big glass jar under a playful leopard print lid, a fun touch on her dresser.', image: 'assets/products/B0016R858U.jpg', link: 'B0016R858U' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'secret-santa-gifts-under-20',
+    title: 'Secret Santa Gifts Under $20 That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Secret Santa gifts from Amazon that look expensive: an initial ring dish, a gold mirror tray, marble coasters, espresso cups, fuzzy socks and a cloud dish.',
+    intro: 'Secret Santa is the art of spending little and looking generous. These small Amazon finds feel boutique, from a monogram ring dish to gold bookmarks, satin scrunchies and a beeswax candle set, and they work for coworkers, friends and the in-law you barely know.',
+    image: 'assets/pins/secret-santa-gifts-under-20.jpg',
+    imageAlt: 'Collage of Secret Santa gifts from Amazon: an initial ring dish, white espresso cups, claw clips, an antique gold mirror tray, fuzzy socks, a ceramic mug, marble-look coasters, gold bookmarks and a sage cloud trinket dish',
+    products: [
+      { name: 'ProCase initial ring dish, gold rim', note: 'White ceramic ring dish with her gold initial and a gold rim, personal without a custom order.', image: 'assets/products/B0D1X2NTF6.jpg', link: 'B0D1X2NTF6' },
+      { name: '2.5 oz / 75 ml Pure White Ceramic Espresso Cups', note: 'Small white ceramic espresso cups, a set of two that makes her morning shot feel like a café in Milan.', image: 'assets/products/B0D2CQF6X6.jpg', link: 'B0D2CQF6X6' },
+      { name: '4.3 Inch Hair Claw Clips Large No Slip Big Matte Jaw Butterfly Clip', note: 'Sculptural loop claw clips in matte black, grey, blush and cream that hold a twist without slipping.', image: 'assets/products/B0922YRCMW.jpg', link: 'B0922YRCMW' },
+      { name: 'Antique gold oval mirror tray', note: 'An ornate gold mirror tray that makes a few perfume bottles look like a vintage vanity.', image: 'assets/products/B07DCRFJT1.jpg', link: 'B07DCRFJT1' },
+      { name: 'EBMORE fuzzy cozy socks', note: 'Fuzzy marled socks in grey, charcoal and oatmeal tones, the cozy kind she will live in until spring.', image: 'assets/products/B0FH6B999S.jpg', link: 'B0FH6B999S' },
+      { name: '11 oz Ceramic Coffee Mug', note: 'Wide cream ceramic mug with rust leaf motifs that reads like a hand-painted pottery find.', image: 'assets/products/B0D9BKKP61.jpg', link: 'B0D9BKKP61' },
+      { name: 'White marble-look ceramic coasters, set of 6 with gold holder', note: 'Absorbent marble-look coasters in a gold stand, a small gift that dresses up any coffee table.', image: 'assets/products/B091PYL8BV.jpg', link: 'B091PYL8BV' },
+      { name: '4 Pack Metal Bookmarks with Chain', note: 'Four gold metal bookmarks on dainty chains, cut like flowers and leaves, almost jewelry for her books.', image: 'assets/products/B08NP5HZTB.jpg', link: 'B08NP5HZTB' },
+      { name: 'Ceramic cloud trinket dish, sage', note: 'A soft sage cloud dish for rings and keys, the little ceramic piece every nightstand needs.', image: 'assets/products/B0G6L248K9.jpg', link: 'B0G6L248K9' },
+      { name: 'Pink Silk Pillowcase Standard Size with Hidden Zipper', note: 'Silk in blush pink with a hidden zipper, a pillowcase with a soft, glossy finish she will notice nightly.', image: 'assets/products/B0D1VPCT7T.jpg', link: 'B0D1VPCT7T' },
+      { name: 'LETINE Tealight Candle Holder 12-Pack Clear Glass Votive Holders Bulk', note: 'Twelve clear glass votive holders that turn plain tealights into a warm, candlelit table.', image: 'assets/products/B088F9JMDQ.jpg', link: 'B088F9JMDQ' },
+      { name: 'Mario Badescu Moisturizing Lip Balm for Dry Cracked Lips', note: 'Mario Badescu rose lip balm in a clean white tube, a small spa-brand treat for her bag.', image: 'assets/products/B07QX69FNJ.jpg', link: 'B07QX69FNJ' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'stocking-stuffers-under-10',
+    title: 'Stocking Stuffers for Women Under $10',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Stocking stuffers for women from Amazon: satin scrunchies, small gold hoops, a shell trinket dish, a lighted compact, fuzzy socks and an e.l.f. lip mask.',
+    intro: 'The best stockings are full of tiny luxuries she will use every day. These Amazon finds feel like a beauty counter haul: satin scrunchies, a glass nail file, a hydrating lip mask, eye patches and a lighted compact mirror. Mix five or six and the stocking looks overflowing.',
+    image: 'assets/pins/stocking-stuffers-under-10.jpg',
+    imageAlt: 'Collage of stocking stuffers from Amazon: satin scrunchies, small gold hoops, a shell trinket dish, a green travel jewelry box, fuzzy socks, a lighted compact mirror, a gold oval tray, bamboo hand cream and an e.l.f. lip mask',
+    products: [
+      { name: 'Satin Scrunchies for Women', note: 'Satin scrunchies in a stack of neutrals from blonde to black, gentle on hair and pretty on a wrist.', image: 'assets/products/B0FWQRD374.jpg', link: 'B0FWQRD374' },
+      { name: 'M MOOHAM small gold hoop earrings', note: 'Classic small gold hoops that pass for fine jewelry, an easy stocking stuffer she will wear.', image: 'assets/products/B08NVNNT86.jpg', link: 'B08NVNNT86' },
+      { name: 'NBEADS ceramic shell trinket dish', note: 'Glazed aqua inside, this white ceramic conch shell dish is a breezy coastal touch for her earrings.', image: 'assets/products/B0C74DRMY7.jpg', link: 'B0C74DRMY7' },
+      { name: 'Travel jewelry box with mirror, green', note: 'A tiny emerald jewelry case with a mirror inside, perfect for rings and studs on trips.', image: 'assets/products/B097T1W2KQ.jpg', link: 'B097T1W2KQ' },
+      { name: 'Chalier fuzzy socks, 7 pairs', note: 'Seven pairs of cable-knit fuzzy socks in soft pastels, one for every day of the holiday week.', image: 'assets/products/B07YJH97VC.jpg', link: 'B07YJH97VC' },
+      { name: 'Compact Mirror with Light', note: 'Slim blush compact mirror with LED lights and 3x zoom, for lipstick checks in dim restaurants.', image: 'assets/products/B0CP22Y6HF.jpg', link: 'B0CP22Y6HF' },
+      { name: 'Gold oval trinket tray', note: 'A polished gold oval tray for rings, perfume or lipstick that makes any vanity look styled.', image: 'assets/products/B098NLRZ9F.jpg', link: 'B098NLRZ9F' },
+      { name: 'HARUHARU Black Bamboo Hand & Nail Cream', note: 'HARUHARU black bamboo hand cream in a sleek apothecary-style tube, a K-beauty pick for her nightstand.', image: 'assets/products/B0BT4SVTJQ.jpg', link: 'B0BT4SVTJQ' },
+      { name: 'e.l.f. SKIN Holy Hydration! Lip Mask', note: 'The e.l.f. Holy Hydration lip mask in a sky blue jar with a tiny spatula, for soft lips by morning.', image: 'assets/products/B0B5MGPXPN.jpg', link: 'B0B5MGPXPN' },
+      { name: 'Bona Fide Beauty Czech Glass Nail File (Clear color) with Silver', note: 'Czech glass nail file in a silver hard case that smooths edges gently and looks lovely in a vanity drawer.', image: 'assets/products/B09X6595VN.jpg', link: 'B09X6595VN' },
+      { name: 'Kitsch Mini Hair Clips for Women', note: 'Sixteen Kitsch mini claw clips in black and tortoise, the tiny detail that makes a half-up style look polished.', image: 'assets/products/B09GYPGLZZ.jpg', link: 'B09GYPGLZZ' },
+      { name: 'Small Bathroom Vanity Tray for Countertop Makeup Perfume Jewelry', note: 'Set a candle and bud vase on this matte black vanity tray for a hotel-bathroom moment.', image: 'assets/products/B0CW1Q2MW6.jpg', link: 'B0CW1Q2MW6' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-aunt',
+    title: 'Gifts for Your Aunt She Will Love',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for your aunt from Amazon: a blush tassel throw, a cream jewelry box, a marble tray, a plaid scarf, an aroma stone and ribbed stackable mugs.',
+    intro: 'Aunts are the fun ones, so their gifts should feel a little indulgent. These Amazon finds lean classic and pretty: a mini designer perfume set, gold hoops, a cream jewelry box and crystal glasses for her next dinner party. Each one says you know her taste.',
+    image: 'assets/pins/gifts-for-aunt.jpg',
+    imageAlt: 'Collage of gifts for your aunt from Amazon: a blush throw with tassels, an apricot jewelry box, a Calacatta Viola marble tray, a camel plaid scarf, a ceramic bird aroma stone, a cream initial makeup bag, ribbed mugs, a white enamel frame and marble coasters',
+    products: [
+      { name: 'BATTILO HOME Blush Throw Blanket with Tassels', note: 'Raised diamond knit and long tassels give this blush throw a soft, boho look for her reading chair.', image: 'assets/products/B07XKTR3H1.jpg', link: 'B07XKTR3H1' },
+      { name: 'Voova two-layer jewelry box, apricot', note: 'Soft apricot jewelry box with two layers, ring rolls and necklace hooks, so nothing tangles again.', image: 'assets/products/B0B3RFQRYN.jpg', link: 'B0B3RFQRYN' },
+      { name: 'Calacatta Viola marble oval tray', note: 'Real viola marble with deep plum veining, a tray that looks straight out of a design store.', image: 'assets/products/B0C17MK3QP.jpg', link: 'B0C17MK3QP' },
+      { name: 'Plum Feathers cashmere-feel plaid scarf, camel', note: 'Camel plaid scarf with fringe and a cashmere-soft feel, the classic heritage check she will wear all winter.', image: 'assets/products/B011P4C7U0.jpg', link: 'B011P4C7U0' },
+      { name: 'Ceramic bird aroma stone diffuser, made in Japan', note: 'A matte white ceramic bird that holds a few drops of oil, no cord and no noise.', image: 'assets/products/B0849Z1C9B.jpg', link: 'B0849Z1C9B' },
+      { name: 'Initial vegan leather makeup bag, cream', note: 'A cream initial pouch with a gold charm, personal without any custom order or wait.', image: 'assets/products/B0FZBLHL85.jpg', link: 'B0FZBLHL85' },
+      { name: 'HASENSE ribbed stackable mugs, set of 4, with holder', note: 'Ribbed stackable mugs on a slim metal stand, a pretty coffee station gift for her kitchen.', image: 'assets/products/B0DLB8F5W7.jpg', link: 'B0DLB8F5W7' },
+      { name: 'Laura Ashley 4x6 White Enamel Picture Frame', note: 'Laura Ashley 4x6 frame in white enamel with a thin gold edge, made for that favorite family photo.', image: 'assets/products/B0844MMSM8.jpg', link: 'B0844MMSM8' },
+      { name: 'GoCraft white marble coasters with gold edges, set of 6', note: 'Handcrafted white marble coasters rimmed in gold, a hostess gift that looks far pricier than it is.', image: 'assets/products/B071L64LMW.jpg', link: 'B071L64LMW' },
+      { name: 'Crystal Wine Glasses Set of 6', note: 'Six tall crystal wine glasses with slim stems that make a Tuesday pour feel like a dinner party.', image: 'assets/products/B09MY479ZT.jpg', link: 'B09MY479ZT' },
+      { name: 'PAVOI chunky gold hoop earrings', note: 'Chunky polished gold hoops from PAVOI, lightweight enough for all day, that read designer with any sweater.', image: 'assets/products/B089NZ31C6.jpg', link: 'B089NZ31C6' },
+      { name: 'Michael Kors Mini Perfume Collection for Women', note: 'Michael Kors mini perfume set of five, so she can try each signature scent and keep one in her purse.', image: 'assets/products/B0DK5M4NCX.jpg', link: 'B0DK5M4NCX' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'teacher-gifts-under-25',
+    title: 'Teacher Gifts Under $25 They Will Actually Use',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Teacher gifts from Amazon they will actually use: a leather journal, Aveda hand cream, a pretty mug, a plaid scarf, a valet tray and leather bookmarks.',
+    intro: 'Teachers get a mountain of mugs and candles every December, so the best gifts are the ones that make the school day nicer. These Amazon finds stay useful long after the holidays: rich hand cream, a real leather journal, gold pens and a desk tray that keeps the chaos in check.',
+    image: 'assets/pins/teacher-gifts-under-25.jpg',
+    imageAlt: 'Collage of teacher gifts from Amazon: a leather journal, a blue and gold ceramic mug, a beaded ceramic pot, a beige plaid scarf, Aveda hand cream, a brown leather valet tray, leather heart bookmarks, a glazed pottery mug and a ceramic jewelry dish',
+    products: [
+      { name: 'CooLeathor Leather Journal Writing Notebook', note: 'Rich brown genuine leather journal with a wrap tie and kraft pages, like a find from an old stationery shop.', image: 'assets/products/B07FS3SPCV.jpg', link: 'B07FS3SPCV' },
+      { name: 'Sweet Water Decor Blue Fan Ceramic Mug with Gold Handle', note: 'Pale blue fan-print bone china mug with a gold handle, a pretty break from novelty teacher mugs.', image: 'assets/products/B0FXNTL4LY.jpg', link: 'B0FXNTL4LY' },
+      { name: 'D\'vine Dev beaded ceramic pot with saucer, smoked white', note: 'A beaded white planter with its own saucer, ready for a desk plant that brightens the classroom.', image: 'assets/products/B082KFZZDJ.jpg', link: 'B082KFZZDJ' },
+      { name: 'Calvin and Olivia plaid scarf, beige', note: 'A soft neutral plaid scarf for recess duty and cold mornings, an easy gift that feels thoughtful.', image: 'assets/products/B0FRZLCLKP.jpg', link: 'B0FRZLCLKP' },
+      { name: 'Aveda Hand Relief Moisturizing Creme', note: 'Aveda Hand Relief creme with andiroba oil, a salon-brand treat for hands that wash and write all day.', image: 'assets/products/B0016JA0JA.jpg', link: 'B0016JA0JA' },
+      { name: 'PU leather valet tray, brown', note: 'A snap-corner leather tray that keeps keys, clips and pens tidy on a busy desk.', image: 'assets/products/B09BQ3LFPC.jpg', link: 'B09BQ3LFPC' },
+      { name: '6Pcs Leather Heart Bookmarks', note: 'Six stitched leather heart bookmarks that slip over a page corner, in sage, blush, cognac and more.', image: 'assets/products/B09Y5DJW1B.jpg', link: 'B09Y5DJW1B' },
+      { name: 'Handmade-look glazed pottery coffee mug, 16.5 oz', note: 'A big reactive-glaze mug that looks studio made, for the morning coffee before first bell.', image: 'assets/products/B0919VNX9T.jpg', link: 'B0919VNX9T' },
+      { name: 'Ceramic Jewelry Dish', note: 'Wavy ceramic dish in a pale celadon glaze that looks like studio pottery, sized for rings by the sink.', image: 'assets/products/B0BL7BNMG5.jpg', link: 'B0BL7BNMG5' },
+      { name: 'Janmini 9pcs Fancy Ballpoint Pens Glitter Journaling', note: 'Nine gold ballpoint pens topped with crystals, crowns, hearts and pearls that make grading more glamorous.', image: 'assets/products/B0BQRFZWGD.jpg', link: 'B0BQRFZWGD' },
+      { name: '11"x14" Clear Acrylic Serving Tray with Golden Handles', note: 'Clear acrylic with gold bar handles, this tray corrals her desk clutter and looks like a design-shop piece.', image: 'assets/products/B0BPRQBLJK.jpg', link: 'B0BPRQBLJK' },
+      { name: 'Ello Ava 18oz Glass Tumbler with Straw and Lid for Iced Coffee', note: 'Ribbed glass Ello tumbler with a blush lid and straw, pretty enough for her iced coffee between classes.', image: 'assets/products/B0GL9WS77D.jpg', link: 'B0GL9WS77D' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-coffee-lovers',
+    title: 'Gifts for Coffee Lovers That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for coffee lovers from Amazon: a Bodum French press, a gooseneck kettle, a manual grinder, a pour over set, an Airscape canister and glaze mugs.',
+    intro: 'Every coffee lover has a morning ritual, and the right gift turns it into a little coffee bar moment. These Amazon finds look like they came from a specialty cafe: a glass pour over, a copper-tone Airscape canister, a manual burr grinder and reactive glaze mugs.',
+    image: 'assets/pins/gifts-for-coffee-lovers.jpg',
+    imageAlt: 'Collage of gifts for coffee lovers from Amazon: a Bodum French press, ceramic coffee mugs, a manual coffee grinder, a gooseneck kettle, a marble-look tray, a glass pour over, an Airscape canister, double wall espresso glasses and coffee spoons',
+    products: [
+      { name: 'Bodum 12oz Chambord French Press Coffee Maker', note: 'Bodum\'s classic Chambord French press in polished steel and glass, the café icon that looks great left out.', image: 'assets/products/B00005LM0R.jpg', link: 'B00005LM0R' },
+      { name: 'HASENSE Ceramic Coffee Mugs Set of 4', note: 'Four reactive-glaze mugs in cream, rust and sage, each drip a little different, like small-batch pottery.', image: 'assets/products/B0H4QTL5M9.jpg', link: 'B0H4QTL5M9' },
+      { name: 'KINGrinder P0 Lightweight Manual Coffee Grinder', note: 'Steel burrs inside a matte black body with a wooden knob, so she grinds fresh beans for every cup.', image: 'assets/products/B0CMPT7J26.jpg', link: 'B0CMPT7J26' },
+      { name: 'Coffee Gator Gooseneck Kettle with Thermometer', note: 'Brushed steel gooseneck kettle with a built-in thermometer for slow, barista-style pours at home.', image: 'assets/products/B01E2O21NS.jpg', link: 'B01E2O21NS' },
+      { name: 'WV 17.8 * 11.8" White PU Leather Marble Finish Decorative Tray', note: 'Marble-look white tray with brushed gold handles that turns her coffee station into a styled little bar.', image: 'assets/products/B07K1WRRRL.jpg', link: 'B07K1WRRRL' },
+      { name: 'Pour Over Coffee Maker', note: 'Petal-shaped glass pour-over with a walnut collar and matching carafe, a slow ritual that looks beautiful on the counter.', image: 'assets/products/B0FMYFXVMR.jpg', link: 'B0FMYFXVMR' },
+      { name: 'Planetary Design Airscape Stainless Steel Coffee Canister', note: 'Copper-tone Airscape canister with an inner lid that pushes air out, keeping her beans fresh longer.', image: 'assets/products/B09NP55LSG.jpg', link: 'B09NP55LSG' },
+      { name: 'JoyJolt Stoiva Double Wall Insulated Espresso Glass Cups', note: 'Stackable double-wall espresso glasses that make each shot look suspended in air, just like a coffee bar.', image: 'assets/products/B07ZQT24RQ.jpg', link: 'B07ZQT24RQ' },
+      { name: 'Coffee Spoons', note: 'Walnut wood coffee scoop with a short handle, the kind of detail you see in specialty coffee shops.', image: 'assets/products/B08MDBWG8L.jpg', link: 'B08MDBWG8L' },
+      { name: 'Maestri House LunaFro Lite Rechargeable Milk Frother', note: 'Slim black rechargeable milk frother that whips foam for café-style lattes without a bulky machine.', image: 'assets/products/B0CKP3CYFB.jpg', link: 'B0CKP3CYFB' },
+      { name: '15 oz/450 ml Glass Storage Canister with with Airtight Lid', note: 'Clear glass canister with a wood lid and tiny wooden spoon, made for beans on a styled open shelf.', image: 'assets/products/B08S3JYFCW.jpg', link: 'B08S3JYFCW' },
+      { name: 'HouseGem Large Candle Warmer Plate', note: 'White warming plate with a rose gold ring that keeps her mug warm through a long morning at her desk.', image: 'assets/products/B0D9N7HW86.jpg', link: 'B0D9N7HW86' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'book-lover-gifts',
+    title: 'Gifts for Book Lovers That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for book lovers from Amazon: marble bookends, gold bookmarks, a reading pillow, a bamboo book stand, a daisy book sleeve and a cozy throw.',
+    intro: 'Book lovers want two things: more reading time and a prettier place to do it. These Amazon finds build the dream reading nook, from Calacatta marble bookends and gold bookmarks to a reading pillow, a tea sampler and a throw for the couch. Add her next read and you are done.',
+    image: 'assets/pins/book-lover-gifts.jpg',
+    imageAlt: 'Collage of gifts for book lovers from Amazon: marble bookends, a rust fleece throw, a bamboo book stand, gold tassel bookmarks, a reading pillow, an embroidered daisy book sleeve, latte mugs, a brass ruler bookmark and a thumb page holder',
+    products: [
+      { name: 'Marble Bookends for Heavy Books', note: 'Calacatta marble bookends with gold veining in a sharp wedge shape, sturdy enough for her favorite hardcovers.', image: 'assets/products/B0GC61RS44.jpg', link: 'B0GC61RS44' },
+      { name: 'Rust fleece throw blanket', note: 'A plush rust throw for the reading chair, warm color that makes any nook feel cozy.', image: 'assets/products/B0DPLYNHK5.jpg', link: 'B0DPLYNHK5' },
+      { name: 'Bamboo Book Stand for Reading', note: 'Warm bamboo book stand with page clips that holds cookbooks or novels open hands-free.', image: 'assets/products/B07459P7BF.jpg', link: 'B07459P7BF' },
+      { name: '4 Pack Metal Bookmarks with Tassel', note: 'Gold filigree bookmarks shaped like ginkgo, clover, maple and lotus, with silky tassels peeking out of her book.', image: 'assets/products/B08NPLPWP1.jpg', link: 'B08NPLPWP1' },
+      { name: 'Ivory 18.5" Bed Wedge  Reading  Pillows with Arms For Sitting', note: 'Ivory reading pillow with arms in a textured waffle weave, the cozy backrest for reading in bed.', image: 'assets/products/B0CD7W649C.jpg', link: 'B0CD7W649C' },
+      { name: 'LParkin embroidered daisy book sleeve', note: 'An embroidered daisy sleeve with a zipper that protects her current read inside any tote.', image: 'assets/products/B0C2GKMKZQ.jpg', link: 'B0C2GKMKZQ' },
+      { name: 'Bosmarlin wide latte mugs, set of 2, willow green', note: 'Two wide stoneware latte mugs for tea or coffee during a long reading afternoon.', image: 'assets/products/B0993M36SM.jpg', link: 'B0993M36SM' },
+      { name: 'Ergonflow Gold Brass Ruler', note: 'Two gold brass rulers that mark her page like bookmarks, with the charm of a vintage desk tool.', image: 'assets/products/B079679Y51.jpg', link: 'B079679Y51' },
+      { name: 'Book Page Holder for Thumb', note: 'Two-tone wooden thumb page holder, smooth and sculptural, that keeps paperbacks open one-handed.', image: 'assets/products/B084H3TMFW.jpg', link: 'B084H3TMFW' },
+      { name: 'Snuggle Sac Leopard Throw Blanket for Couch Bed Sofa 50x60 inches', note: 'Buttery plush throw in beige leopard, reversible, with the designer-blanket look for long reading nights.', image: 'assets/products/B0CQX74QC3.jpg', link: 'B0CQX74QC3' },
+      { name: 'Spiral Notebook Journal 8.5” x 11”', note: 'Olive spiral journal with gold corners and an elastic band, made for her book quotes and reading notes.', image: 'assets/products/B0CQ7CSY6Z.jpg', link: 'B0CQ7CSY6Z' },
+      { name: 'Tea Forte Single Steeps Tea Sampler', note: 'Tea Forte Single Steeps sampler of 28 loose leaf pouches in a gift-ready box, a new tea for every chapter.', image: 'assets/products/B01F23O5FA.jpg', link: 'B01F23O5FA' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-women-in-their-30s',
+    title: 'Gifts for Women in Their 30s',
+    category: 'gift-guides',
+    date: '2026-11-06',
+    description: 'Gifts for women in their 30s from Amazon: Stolzle wine glasses, a toiletry bag, a crossbody bag, bubble candles, a marble tray and an initial makeup bag.',
+    intro: 'Your 30s are about better versions of the things you use every day: real crystal wine glasses, a toiletry bag that fits everything and a sleep mask that actually works. These Amazon finds are grown-up, pretty and useful, the gifts she will reach for long after the party.',
+    image: 'assets/pins/gifts-for-women-in-their-30s.jpg',
+    imageAlt: 'Collage of gifts for women in their 30s from Amazon: crystal wine glasses, a toiletry bag, an initial ceramic tray, a crossbody bag, bubble cube candles, a gold jewelry stand, a marble vanity tray, a linen scented candle and an initial makeup bag',
+    products: [
+      { name: 'Stölzle Lausitz Red Wine Glasses Power Set of 4', note: 'Four Stölzle Lausitz red wine glasses with tall, angular bowls that make any bottle feel like a restaurant pour.', image: 'assets/products/B07T1DFK1G.jpg', link: 'B07T1DFK1G' },
+      { name: 'BAGSMART Travel Toiletry Bag', note: 'Sage green puffy toiletry bag with quilted channels and top handles, the cushy travel piece that looks designer.', image: 'assets/products/B0F5311BCF.jpg', link: 'B0F5311BCF' },
+      { name: 'COLLECTIVE HOME initial ceramic jewelry tray', note: 'Her gold initial on a white ceramic tray with a gilded rim, a personal spot for rings on her nightstand.', image: 'assets/products/B09RPL6MKZ.jpg', link: 'B09RPL6MKZ' },
+      { name: 'CLUCI Crossbody Bags for Women Men', note: 'Cream sling bag with cognac trim and a patterned strap, hands-free but polished for errands or travel.', image: 'assets/products/B0C5LC519H.jpg', link: 'B0C5LC519H' },
+      { name: 'Bubble cube candles, set of 2, white and pink', note: 'The sculptural bubble candles from every styled shelf, in soft white and blush soy wax.', image: 'assets/products/B09GJQV3XT.jpg', link: 'B09GJQV3XT' },
+      { name: 'Amazon Basics four-tier jewelry stand, gold', note: 'Gold four-tier jewelry stand on a white base that keeps her necklaces untangled and on display.', image: 'assets/products/B082B466Y2.jpg', link: 'B082B466Y2' },
+      { name: 'Calacatta marble vanity tray', note: 'A natural Calacatta marble tray that turns perfume and skincare into a styled vanity moment.', image: 'assets/products/B0DJ6ZS66H.jpg', link: 'B0DJ6ZS66H' },
+      { name: 'LA JOLIE MUSE Linen Cotton Clean Scented Candles for Home', note: 'La Jolie Muse Linen Cotton candle in an embossed smoky glass jar, like vintage glassware on her shelf.', image: 'assets/products/B0BVQNJJC1.jpg', link: 'B0BVQNJJC1' },
+      { name: 'Initial Makeup Bag Personalized Gift for Women Teen Girls', note: 'Cream makeup bag with a gold initial and zipper charm, the monogram look she can carry every day.', image: 'assets/products/B0F26C8H9W.jpg', link: 'B0F26C8H9W' },
+      { name: 'Oster Cordless Electric Wine Bottle Opener', note: 'Silver Oster cordless wine opener on a rechargeable base, for easy corks at every dinner party.', image: 'assets/products/B003YFI0O6.jpg', link: 'B003YFI0O6' },
+      { name: '4-Tier Clear Makeup Organizer Bathroom Storage', note: 'Clear four-tier makeup organizer with gold posts and drawers, like a beauty counter on her vanity.', image: 'assets/products/B0FHQFBTN8.jpg', link: 'B0FHQFBTN8' },
+      { name: 'nodpod Patented Gentle Pressure Sleep Mask', note: 'The nodpod weighted sleep mask in soft sage, gentle pressure for winding down, packed in a gift-ready tube.', image: 'assets/products/B0B1RWJ4QJ.jpg', link: 'B0B1RWJ4QJ' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'christmas-gifts-for-women-that-look-expensive',
     title: 'Christmas Gifts for Women That Look Expensive',
     category: 'gift-guides',
@@ -57,15 +307,15 @@ var POSTS = [
     products: [
       { name: 'Capri Blue Volcano glimmer jar candle', note: 'The cult-favorite Volcano scent in a gold-flecked glass jar that looks like a boutique splurge.', image: 'assets/products/B0B5LYW5L4.jpg', link: 'B0B5LYW5L4' },
       { name: 'Armani Acqua di Gioia eau de parfum', note: 'A fresh, citrusy designer fragrance in a sculpted glass bottle she will keep on her vanity.', image: 'assets/products/B003MUTDUI.jpg', link: 'B003MUTDUI' },
-      { name: 'Gabire mulberry silk pillowcases, set of 2, beige', note: 'Real mulberry silk on both sides, kind to hair and skin and instantly luxe on the bed.', image: 'assets/products/B0GKFVM433.jpg', link: 'B0GKFVM433' },
       { name: 'Berliner Bags full grain leather makeup bag, brown', note: 'A vintage-style full grain leather pouch that only gets better with every trip.', image: 'assets/products/B0DGTZP4H8.jpg', link: 'B0DGTZP4H8' },
       { name: 'Lolalet travel jewelry roll pouch, cream', note: 'A soft cream pouch with fold-out pockets that keeps rings and earrings tangle-free on the go.', image: 'assets/products/B0GGZMM8W3.jpg', link: 'B0GGZMM8W3' },
       { name: 'LA JOLIE MUSE Santal Rose scented candle', note: 'A pink pressed-glass candle with a sandalwood rose scent that reads like a designer gift.', image: 'assets/products/B0BVQBQBPQ.jpg', link: 'B0BVQBQBPQ' },
       { name: 'Leather travel jewelry case with mirror, sage', note: 'A compact zip case with a built-in mirror and ring rolls, pretty enough to leave out.', image: 'assets/products/B0F8ZCMFXG.jpg', link: 'B0F8ZCMFXG' },
       { name: 'BEUNAIZER ceramic petal ring dish', note: 'A small glazed petal-shaped dish for rings and earrings by the sink or the bed.', image: 'assets/products/B0BQRJ8599.jpg', link: 'B0BQRJ8599' },
-      { name: 'Threadmill herringbone cotton blanket, tusk white', note: 'An all-cotton herringbone blanket with the soft, breathable feel of a luxury hotel bed.', image: 'assets/products/B08P8KQQSW.jpg', link: 'B08P8KQQSW' },
       { name: 'Hatori jewelry box, taupe', note: 'A velvet-lined taupe jewelry box with ring rolls and a lift-up lid for necklaces.', image: 'assets/products/B0D3LX9ZYQ.jpg', link: 'B0D3LX9ZYQ' },
-      { name: 'Black marble vanity tray', note: 'A polished black marble tray that turns perfume and jewelry into a styled vanity moment.', image: 'assets/products/B0FQS3MJ15.jpg', link: 'B0FQS3MJ15' }
+      { name: 'Black marble vanity tray', note: 'A polished black marble tray that turns perfume and jewelry into a styled vanity moment.', image: 'assets/products/B0FQS3MJ15.jpg', link: 'B0FQS3MJ15' },
+      { name: 'Gabire mulberry silk pillowcases, set of 2, beige', note: 'Real mulberry silk on both sides, kind to hair and skin and instantly luxe on the bed.', image: 'assets/products/B0GKFVM433.jpg', link: 'B0GKFVM433' },
+      { name: 'Threadmill herringbone cotton blanket, tusk white', note: 'An all-cotton herringbone blanket with the soft, breathable feel of a luxury hotel bed.', image: 'assets/products/B08P8KQQSW.jpg', link: 'B08P8KQQSW' }
     ]
   },
   // ----------------------------------------------------------------
@@ -2738,19 +2988,17 @@ var POSTS = [
     products: [
       { name: 'Tinted lip balm, 4 pack', note: 'Sheer, natural tints she can keep in every bag.', image: 'assets/products/B09Q59XHMZ.jpg', link: 'B09Q59XHMZ' },
       { name: 'Hydrating lip oil', note: 'A glossy, hydrating lip oil in a soft pink.', image: 'assets/products/B0CLTKPY2N.jpg', link: 'B0CLTKPY2N' },
-      { name: 'Yara roll-on perfume oil', note: 'The viral gourmand scent in a purse-size roller.', image: 'assets/products/B0D9J28R16.jpg', link: 'B0D9J28R16' },
-      { name: 'Rose quartz roller set', note: 'A pretty depuffing roller and gua sha for her morning routine.', image: 'assets/products/B07WWC3T9Q.jpg', link: 'B07WWC3T9Q' },
-      { name: 'Gold under-eye patches', note: 'Gold eye masks for a quick refresh before plans.', image: 'assets/products/B014E2D6BY.jpg', link: 'B014E2D6BY' },
-      { name: 'Volcano mini tin candle', note: 'The cult Capri Blue scent in a small, giftable tin.', image: 'assets/products/B0B5M1Q93F.jpg', link: 'B0B5M1Q93F' },
+      { name: 'Striped hair towel wrap', note: 'A cotton turban that dries hair gently after a shower.', image: 'assets/products/B0GH6S6Q18.jpg', link: 'B0GH6S6Q18' },
       { name: 'Velvet scrunchies, 8 pc', note: 'Soft neutral scrunchies that are gentle on hair.', image: 'assets/products/B07H7YCDR4.jpg', link: 'B07H7YCDR4' },
       { name: 'Polka dot claw clips', note: 'Big acetate clips in a classic black and white print.', image: 'assets/products/B0G93DCPHC.jpg', link: 'B0G93DCPHC' },
       { name: 'Mulberry silk sleep mask', note: 'Smooth silk that feels luxe and blocks out the light.', image: 'assets/products/B07C7Y8QSW.jpg', link: 'B07C7Y8QSW' },
-      { name: 'Manicure set, 30 piece', note: 'A compact nail kit in a neat travel case.', image: 'assets/products/B08T6KX273.jpg', link: 'B08T6KX273' },
-      { name: 'Striped hair towel wrap', note: 'A cotton turban that dries hair gently after a shower.', image: 'assets/products/B0GH6S6Q18.jpg', link: 'B0GH6S6Q18' },
       { name: 'Gold huggie hoops', note: 'Everyday gold huggies in a set of sizes.', image: 'assets/products/B0974YDZSF.jpg', link: 'B0974YDZSF' },
+      { name: 'Manicure set, 30 piece', note: 'A compact nail kit in a neat travel case.', image: 'assets/products/B08T6KX273.jpg', link: 'B08T6KX273' },
       { name: 'Cloud fuzzy socks', note: 'Ultra-soft socks for slow, cozy mornings.', image: 'assets/products/B0DZC4NT9J.jpg', link: 'B0DZC4NT9J' },
-      { name: 'Kate Spade scalloped ring dish', note: 'A pink scalloped dish with a gold bow for rings by the sink.', image: 'assets/products/B0F1W31ZP2.jpg', link: 'B0F1W31ZP2' },
-      { name: 'Hand cream trio', note: 'Three pretty hand cream tins for her bag, desk and nightstand.', image: 'assets/products/B0CGT8F891.jpg', link: 'B0CGT8F891' }
+      { name: 'Yara roll-on perfume oil', note: 'The viral gourmand scent in a purse-size roller.', image: 'assets/products/B0D9J28R16.jpg', link: 'B0D9J28R16' },
+      { name: 'Rose quartz roller set', note: 'A pretty depuffing roller and gua sha for her morning routine.', image: 'assets/products/B07WWC3T9Q.jpg', link: 'B07WWC3T9Q' },
+      { name: 'Gold under-eye patches', note: 'Gold eye masks for a quick refresh before plans.', image: 'assets/products/B014E2D6BY.jpg', link: 'B014E2D6BY' },
+      { name: 'Volcano mini tin candle', note: 'The cult Capri Blue scent in a small, giftable tin.', image: 'assets/products/B0B5M1Q93F.jpg', link: 'B0B5M1Q93F' }
     ]
   },
   // ----------------------------------------------------------------
@@ -2766,18 +3014,18 @@ var POSTS = [
     products: [
       { name: 'Cream jewelry box', note: 'A cream jewelry box with room for rings, necklaces and watches.', image: 'assets/products/B0CLCH13T7.jpg', link: 'B0CLCH13T7' },
       { name: 'Marble wave taper candle holder', note: 'A sculptural white marble wave that holds two tapers like a gallery piece.', image: 'assets/products/B0DLKKJYMB.jpg', link: 'B0DLKKJYMB' },
-      { name: 'Ribbed faux fur throw', note: 'A plush throw she\'ll keep on the sofa all winter.', image: 'assets/products/B0C1YZJJ5L.jpg', link: 'B0C1YZJJ5L' },
-      { name: 'Mulberry silk pillowcase', note: 'Gentle on hair and skin, and it feels like a treat.', image: 'assets/products/B07VKRTKRM.jpg', link: 'B07VKRTKRM' },
       { name: 'Sherpa slippers', note: 'Cushioned, cozy slippers for slow mornings.', image: 'assets/products/B0BYNYWKC7.jpg', link: 'B0BYNYWKC7' },
-      { name: 'Mug warmer', note: 'Keeps her coffee warm while she works or reads.', image: 'assets/products/B0BD98G8DB.jpg', link: 'B0BD98G8DB' },
       { name: 'Cashmere crew socks', note: 'Soft cashmere socks that feel indulgent.', image: 'assets/products/B0CN575572.jpg', link: 'B0CN575572' },
       { name: '4-piece pajama set', note: 'A soft button-down set plus a cami and shorts for lazy weekends.', image: 'assets/products/B0FKG2LXNP.jpg', link: 'B0FKG2LXNP' },
       { name: 'Initial ring dish', note: 'A personal touch: her gold initial on a little white dish.', image: 'assets/products/B0CX1RXZ6N.jpg', link: 'B0CX1RXZ6N' },
-      { name: 'Sunrise alarm clock', note: 'Wakes her with a soft glow and calm sounds instead of a blaring alarm.', image: 'assets/products/B0DRW6TWXS.jpg', link: 'B0DRW6TWXS' },
       { name: 'Leather travel jewelry case', note: 'A compact case with a mirror for trips.', image: 'assets/products/B0F8ZT3D3F.jpg', link: 'B0F8ZT3D3F' },
-      { name: 'Eucalyptus reed diffuser', note: 'A fresh, spa-like scent with no flame.', image: 'assets/products/B0DY7LWDW1.jpg', link: 'B0DY7LWDW1' },
       { name: 'Organic tea sampler box', note: 'Six organic teas in a bamboo presentation box.', image: 'assets/products/B0BFBN81S8.jpg', link: 'B0BFBN81S8' },
-      { name: 'Wine glasses, set of 12', note: 'Classic stemmed glasses for holiday dinners.', image: 'assets/products/B0BQBMHW5T.jpg', link: 'B0BQBMHW5T' }
+      { name: 'Wine glasses, set of 12', note: 'Classic stemmed glasses for holiday dinners.', image: 'assets/products/B0BQBMHW5T.jpg', link: 'B0BQBMHW5T' },
+      { name: 'Ribbed faux fur throw', note: 'A plush throw she\'ll keep on the sofa all winter.', image: 'assets/products/B0C1YZJJ5L.jpg', link: 'B0C1YZJJ5L' },
+      { name: 'Mulberry silk pillowcase', note: 'Gentle on hair and skin, and it feels like a treat.', image: 'assets/products/B07VKRTKRM.jpg', link: 'B07VKRTKRM' },
+      { name: 'Sunrise alarm clock', note: 'Wakes her with a soft glow and calm sounds instead of a blaring alarm.', image: 'assets/products/B0DRW6TWXS.jpg', link: 'B0DRW6TWXS' },
+      { name: 'Eucalyptus reed diffuser', note: 'A fresh, spa-like scent with no flame.', image: 'assets/products/B0DY7LWDW1.jpg', link: 'B0DY7LWDW1' },
+      { name: 'Mug warmer', note: 'Keeps her coffee warm while she works or reads.', image: 'assets/products/B0BD98G8DB.jpg', link: 'B0BD98G8DB' }
     ]
   },
   // ----------------------------------------------------------------
