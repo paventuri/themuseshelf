@@ -46,6 +46,361 @@ var CATEGORIES = [
 var POSTS = [
   // ----------------------------------------------------------------
   {
+    slug: 'christmas-dining-room-decor-ideas',
+    title: 'Christmas Dining Room Decor Ideas That Look Expensive',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Christmas dining room decor ideas from Amazon: gold chargers, Spode tree napkins, stoneware, gold flatware and a glowing garland runner.',
+    intro: 'A classic Christmas table does not need a catalog budget. These Amazon finds give you the traditional holiday look, with gold chargers, cream stoneware, heritage napkins and evergreen, so your dining room feels ready for guests.',
+    image: 'assets/pins/christmas-dining-room-decor-ideas.jpg',
+    imageAlt: 'Collage of Christmas dining room decor on linen: Spode Christmas tree napkins, gold reef chargers, gold flatware, wood place card holders, pine garland, candle ring wreaths, burgundy napkins, cream holiday plates, stoneware plates, plaid napkins and cedar branches.',
+    products: [
+      { name: 'Gold reef charger plates, set of 6', note: 'Sunburst glass chargers that make any plate look like a formal setting.', image: 'assets/products/B07SVCRRPM.jpg', link: 'B07SVCRRPM' },
+      { name: 'AmorArc speckled stoneware dinner plates, set of 6', note: 'Reactive-glaze stoneware with a raw rim, the artisan look of a pricier set.', image: 'assets/products/B0BMFRGF9J.jpg', link: 'B0BMFRGF9J' },
+      { name: 'Spode Christmas Tree cloth napkins, set of 4', note: 'The classic Christmas tree pattern that defines a traditional holiday table.', image: 'assets/products/B0044YEVBC.jpg', link: 'B0044YEVBC' },
+      { name: 'Aisoso gold flatware set, 20 pieces', note: 'Mirror-polished gold cutlery that adds warmth next to ivory and green.', image: 'assets/products/B08CGPFF2F.jpg', link: 'B08CGPFF2F' },
+      { name: 'Valery Madelyn frosted pine garland with lights', note: 'Lay it flat down the table as a glowing champagne-toned runner.', image: 'assets/products/B0D1C3QLYF.jpg', link: 'B0D1C3QLYF' },
+      { name: 'Ruvanti linen-blend napkins in burgundy, set of 12', note: 'Deep burgundy linen reads rich against cream plates and gold.', image: 'assets/products/B0DDCGNHN1.jpg', link: 'B0DDCGNHN1' },
+      { name: 'Cream holiday dinner plates with gold scroll rims', note: 'Embossed rims with a delicate pattern for a heirloom feel.', image: 'assets/products/B0D8J2R7DS.jpg', link: 'B0D8J2R7DS' },
+      { name: 'Pine candle ring wreaths with berries, set of 6', note: 'Slip one around a pillar or taper at each place for a lush centerpiece.', image: 'assets/products/B0FGCNFZR5.jpg', link: 'B0FGCNFZR5' },
+      { name: 'Artificial cedar branches, 12 stems', note: 'Lifelike cedar to tuck along the table or fill a low vase.', image: 'assets/products/B0FFHJ44SM.jpg', link: 'B0FFHJ44SM' },
+      { name: 'Cotton Craft harvest plaid cloth napkins, 12 pack', note: 'Red and green plaid for a cozy, classic country-house table.', image: 'assets/products/B0DX7DGSWL.jpg', link: 'B0DX7DGSWL' },
+      { name: 'WOHENI rustic wood place card holders, 20 pack', note: 'Natural log slices that make simple kraft name cards look styled.', image: 'assets/products/B07SWXGGQQ.jpg', link: 'B07SWXGGQQ' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gifts-for-girlfriend-that-look-expensive',
+    title: 'Gifts for Girlfriend That Look Expensive (Amazon)',
+    category: 'gift-guides',
+    date: '2026-11-09',
+    description: 'Luxe gifts for your girlfriend from Amazon that look expensive: satin pajamas, a velvet jewelry box, a leather bag, cashmere, pearls and a mercury candle.',
+    intro: 'The best gifts for a girlfriend feel indulgent: soft satin, real leather, velvet and a little gold. These Amazon finds look like they came from a boutique, and every one is something she will actually use. Start with one hero piece and add a small extra.',
+    image: 'assets/pins/gifts-for-girlfriend-that-look-expensive.jpg',
+    imageAlt: 'Numbered collage of luxe gifts for her: sage satin pajama set, emerald velvet jewelry box, tan leather hobo bag, mercury jar candle, grey cashmere scarf, blush satin pillowcases, pearl huggie earrings, leather vanity case and velvet travel jewelry case.',
+    products: [
+      { name: 'Women\'s satin pajama set, 5 pieces, sage', note: 'A liquid satin set with shorts, pants and a headband that looks boutique-bought.', image: 'assets/products/B0DK187KRX.jpg', link: 'B0DK187KRX' },
+      { name: 'Emerald velvet jewelry box with drawers', note: 'A rich green velvet box with a drawer and earring rows, very jewelry-store.', image: 'assets/products/B08TVSWV2J.jpg', link: 'B08TVSWV2J' },
+      { name: 'Kattee genuine leather hobo shoulder bag', note: 'Soft tan leather with gold hardware and a crossbody strap, an everyday luxe bag.', image: 'assets/products/B0GHY2P4KJ.jpg', link: 'B0GHY2P4KJ' },
+      { name: 'Capri Blue Holiday mercury jar candle', note: 'A frosted mercury glass jar that looks beautiful on a vanity long after it burns.', image: 'assets/products/B0C2JN5MK6.jpg', link: 'B0C2JN5MK6' },
+      { name: '100% cashmere scarf, grey', note: 'A lightweight pure cashmere wrap in soft grey she will wear all winter.', image: 'assets/products/B0B87RC56K.jpg', link: 'B0B87RC56K' },
+      { name: 'BEDELITE blush satin pillowcases, set of 2', note: 'A blush satin set that feels like a silk-pillow upgrade for hair and skin.', image: 'assets/products/B08R9NGTJJ.jpg', link: 'B08R9NGTJJ' },
+      { name: 'OwMell gold pearl huggie earrings', note: 'Chunky gold hoops with a big glossy pearl that read like fine jewelry.', image: 'assets/products/B087WTKJ9V.jpg', link: 'B087WTKJ9V' },
+      { name: 'Leather two-tier vanity makeup case', note: 'A structured brown case with gold zippers that looks like designer luggage.', image: 'assets/products/B0G7FJ79HN.jpg', link: 'B0G7FJ79HN' },
+      { name: 'Emerald velvet travel jewelry case', note: 'A small velvet case with a mirror and ring rolls for trips and weekends away.', image: 'assets/products/B0CRL5TWV5.jpg', link: 'B0CRL5TWV5' },
+      { name: 'PAVOI 14K gold plated teardrop necklace', note: 'A dainty gold drop pendant she can wear every single day.', image: 'assets/products/B0CQKPYKV4.jpg', link: 'B0CQKPYKV4' },
+      { name: 'PAVOI freshwater pearl stud earrings', note: 'Classic gold-set pearl studs, the gift that always looks expensive.', image: 'assets/products/B01KZPKESM.jpg', link: 'B01KZPKESM' },
+      { name: 'Cream winter scarf with tassels', note: 'A soft cream fringed scarf with a cashmere-like hand.', image: 'assets/products/B0F4KDC9C4.jpg', link: 'B0F4KDC9C4' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'old-money-christmas-decor',
+    title: 'Old Money Christmas Decor Ideas From Amazon',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Old money Christmas decor from Amazon: boxwood wreaths, brass bells, velvet bows, gold frames, pheasant feathers and jewel-tone ornaments.',
+    intro: 'Old money Christmas is quiet, collected and a little worn in. Think preserved boxwood, antique brass bells, burgundy velvet and gilded frames. These Amazon finds bring that traditional look home without the antique shop prices.',
+    image: 'assets/pins/old-money-christmas-decor.jpg',
+    imageAlt: 'Collage of old money Christmas decor on linen: gold bells on jute rope, ornate gold frame, rustic gold cow bells, burgundy velvet ribbon, preserved boxwood wreath, burgundy and green glass ornaments, mercury glass finials, plum sherpa throw, mini boxwood wreaths and pheasant feathers.',
+    products: [
+      { name: 'Preserved boxwood wreath, 16 inch', note: 'Real preserved boxwood, the quiet green that old money homes use all season.', image: 'assets/products/B07S49J9P5.jpg', link: 'B07S49J9P5' },
+      { name: 'Amazon Basics reversible sherpa throw in plum', note: 'A velvety plum throw that brings in the jewel tone of a traditional den.', image: 'assets/products/B0DNQ7K8S1.jpg', link: 'B0DNQ7K8S1' },
+      { name: 'Vintage rustic gold cow bells, set of 3', note: 'Aged brass-look bells with jute loops for a mantel or console.', image: 'assets/products/B0D8GY3G8R.jpg', link: 'B0D8GY3G8R' },
+      { name: 'Valery Madelyn burgundy and green glass ornaments, 10 count', note: 'Harlequin and poinsettia patterns in classic burgundy, green and gold.', image: 'assets/products/B07C1MVD19.jpg', link: 'B07C1MVD19' },
+      { name: 'eletecpro ornate antique gold frame, 5x7', note: 'A baroque gold frame that makes any print look like a collected piece.', image: 'assets/products/B0D9D3CDSH.jpg', link: 'B0D9D3CDSH' },
+      { name: 'Ballinger pheasant and peacock feathers, 15 pieces', note: 'Feathers in a brass vase give a hunting-lodge, heritage feel.', image: 'assets/products/B0F9V6DRRS.jpg', link: 'B0F9V6DRRS' },
+      { name: 'KI Store champagne mercury glass finial ornaments, 4 pcs', note: 'Long ribbed finials with an antique mercury glass finish.', image: 'assets/products/B0B4S57CH9.jpg', link: 'B0B4S57CH9' },
+      { name: 'Burgundy velvet ribbon, 10 yards', note: 'Tie velvet bows on wreaths, garlands and chair backs.', image: 'assets/products/B0FH4ZK5PG.jpg', link: 'B0FH4ZK5PG' },
+      { name: 'Mini preserved boxwood wreaths, 6 inch, set of 3', note: 'Small boxwood wreaths to hang on cabinet knobs, windows or chairs.', image: 'assets/products/B081X6Y3SP.jpg', link: 'B081X6Y3SP' },
+      { name: 'Vintage gold Christmas bells on jute rope', note: 'A cluster of antique-gold bells to hang from a door handle or newel post.', image: 'assets/products/B098P8FRV2.jpg', link: 'B098P8FRV2' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'coworker-gifts-under-25',
+    title: 'Coworker Gifts Under $25 That Look Thoughtful',
+    category: 'gift-guides',
+    date: '2026-11-09',
+    description: 'Coworker gifts that look thoughtful: a leather journal, speckled mug, olive planter, cozy socks, gold desk pieces, tumbler and hand cream.',
+    intro: 'Coworker gifts are tricky: personal enough to feel thoughtful, simple enough for anyone. These Amazon finds look like they came from a design store, from a leather journal to gold desk pieces and cozy socks.',
+    image: 'assets/pins/coworker-gifts-under-25.jpg',
+    imageAlt: 'Numbered collage of coworker gifts on linen: leather journal, speckled heart mug, olive planter, fuzzy socks, gold wire pen holders, navy tumbler, gold mesh desk organizer, rose hand cream and shagreen journals, with a Shop all 11 finds button.',
+    products: [
+      { name: 'Leather journal with deckle edge paper and vintage key', note: 'A handmade-look leather journal that feels like a real keepsake.', image: 'assets/products/B09VDR7CHK.jpg', link: 'B09VDR7CHK' },
+      { name: 'Unboxme speckled heart coffee mug', note: 'A speckled stoneware mug with a tiny gold heart, sweet without being cutesy.', image: 'assets/products/B0DXHLLVXZ.jpg', link: 'B0DXHLLVXZ' },
+      { name: 'D\'vine Dev olive ceramic planter with saucer', note: 'A glossy olive pot that makes a desk plant look intentional.', image: 'assets/products/B0DWZ81W7H.jpg', link: 'B0DWZ81W7H' },
+      { name: 'Fuzzy slipper socks in earth tones, 5 pairs', note: 'Cozy socks in brown and cream that anyone can use.', image: 'assets/products/B0FHK19JZK.jpg', link: 'B0FHK19JZK' },
+      { name: 'Gold wire pen holders, 2 pack', note: 'Open gold wire cups that tidy a desk and look like a design store find.', image: 'assets/products/B0DJKRJQPW.jpg', link: 'B0DJKRJQPW' },
+      { name: 'Insulated travel coffee tumbler in navy, 20 oz', note: 'Keeps coffee hot through the morning meeting.', image: 'assets/products/B0GCGY5Y5Y.jpg', link: 'B0GCGY5Y5Y' },
+      { name: 'BLU MONACO gold mesh desk organizer with drawer', note: 'A champagne-gold caddy that turns a cluttered desk calm.', image: 'assets/products/B082SFB5MP.jpg', link: 'B082SFB5MP' },
+      { name: 'Mario Badescu rose hand cream', note: 'A non-greasy rose hand cream for dry office air.', image: 'assets/products/B07XZVLLTM.jpg', link: 'B07XZVLLTM' },
+      { name: 'Amazon Basics shagreen hardcover journal, 2 pack', note: 'Pebbled-texture notebooks that look far more expensive than they are.', image: 'assets/products/B07YLTKWBY.jpg', link: 'B07YLTKWBY' },
+      { name: 'Green striped ceramic espresso cup', note: 'A hand-painted stripe cup for the coworker who takes an afternoon espresso.', image: 'assets/products/B0FR1FDNSV.jpg', link: 'B0FR1FDNSV' },
+      { name: 'U Brands gold wire letter sorter', note: 'A gold mail sorter that keeps folders and notes upright.', image: 'assets/products/B07XF8W67M.jpg', link: 'B07XF8W67M' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'pink-christmas-decor-ideas',
+    title: 'Pink Christmas Decor Ideas That Look Expensive',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Blush pink Christmas decor that still looks expensive: mercury glass, a blush tree, magnolia wreath, velvet ribbon and gold accents from Amazon.',
+    intro: 'Pink Christmas looks elegant when you keep it soft: blush instead of bright, with cream, champagne gold and real glass. These finds build that look on a tree, a mantel or a console.',
+    image: 'assets/pins/pink-christmas-decor-ideas.jpg',
+    imageAlt: 'Collage of blush pink Christmas decor on a linen background: pink taper candles, a pink and gold nutcracker, a pale pink tabletop tree, a blush magnolia wreath, mercury glass ornaments and finials, vintage pink glass ornaments, velvet ribbon with gold edges, a pink and gold garland and blush pampas grass.',
+    products: [
+      { name: 'Blush pink magnolia wreath with lights, 22 inch', note: 'Blush magnolias, gold leaves and warm lights on a full evergreen base.', image: 'assets/products/B0FJXY9Q96.jpg', link: 'B0FJXY9Q96' },
+      { name: 'Pale pink tabletop Christmas tree, 3 ft', note: 'A slim blush tree that fits a corner, a console or a bedroom.', image: 'assets/products/B0983FW6R2.jpg', link: 'B0983FW6R2' },
+      { name: 'KI Store pink mercury glass ornaments, set of 8', note: 'Rose-gold mercury glass balls and finials with an antique shimmer.', image: 'assets/products/B093381FPR.jpg', link: 'B093381FPR' },
+      { name: 'KI Store pink mercury glass finials, set of 4', note: 'Long glass drops that make a small tree look collected and luxe.', image: 'assets/products/B093387WLM.jpg', link: 'B093387WLM' },
+      { name: 'Pink and gold lighted Christmas garland, 6 ft', note: 'Blush poinsettias, gold leaves and timer lights for a mantel or sideboard.', image: 'assets/products/B0FJXZBNCN.jpg', link: 'B0FJXZBNCN' },
+      { name: 'Pink and gold wooden nutcracker, 12 inch', note: 'A blush, white and gold nutcracker that reads festive, not childish.', image: 'assets/products/B0CGHYZNHG.jpg', link: 'B0CGHYZNHG' },
+      { name: 'Zomiboo vintage pink glass ornaments, set of 12', note: 'Real glass in soft shell pinks, the vintage look for a blush tree.', image: 'assets/products/B0FKT7DKD9.jpg', link: 'B0FKT7DKD9' },
+      { name: 'Blush pink and cream pampas grass stems', note: 'Soft blush and cream plumes that keep a pink scheme airy.', image: 'assets/products/B0CQJJVMMG.jpg', link: 'B0CQJJVMMG' },
+      { name: 'Pink and champagne gold velvet wired ribbon', note: 'Velvet ribbon with gold edges for bows, garlands and gifts.', image: 'assets/products/B0D947BRPF.jpg', link: 'B0D947BRPF' },
+      { name: 'Light pink taper candles, 12 inch', note: 'Tall blush tapers that look elegant in brass candlesticks.', image: 'assets/products/B0C15J68LL.jpg', link: 'B0C15J68LL' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'gold-jewelry-gifts-that-look-expensive',
+    title: 'Gold Jewelry Gifts That Look Expensive',
+    category: 'gift-guides',
+    date: '2026-11-09',
+    description: 'Gold jewelry gifts that look like fine jewelry: hoops, chunky drops, a tennis bracelet, croissant ring, cuff, stackable rings and pearls from Amazon.',
+    intro: 'Gold jewelry is the gift that always looks more expensive than it is, if you pick the right shapes. Chunky drops, polished hoops, a tennis bracelet and a croissant ring read like fine jewelry. Every piece here is a gift she will actually wear.',
+    image: 'assets/pins/gold-jewelry-gifts-that-look-expensive.jpg',
+    imageAlt: 'Numbered collage of gold jewelry gifts on a linen background: chunky drop earrings, croissant ring, tennis bracelet, pearl set in a velvet box, hoops, hammered cuff, paperclip bracelet, filigree hoops and stackable rings',
+    products: [
+      { name: 'Besteel chunky gold teardrop and dome hoop earrings set', note: 'Bold drops and domes that read like a designer statement pair.', image: 'assets/products/B0D47LDXF7.jpg', link: 'B0D47LDXF7' },
+      { name: 'FAMARINE gold croissant dome ring', note: 'A twisted croissant ring that looks like fine jewelry.', image: 'assets/products/B0C4T8PPVB.jpg', link: 'B0C4T8PPVB' },
+      { name: 'PAVOI 14K gold-plated tennis bracelet', note: 'A classic line of sparkling stones for an everyday luxe touch.', image: 'assets/products/B08C5H5YR7.jpg', link: 'B08C5H5YR7' },
+      { name: 'LETURE pearl necklace and bracelet set in a velvet gift box', note: 'Gift-ready pearls that arrive in a cream velvet box.', image: 'assets/products/B0D2QJGKS8.jpg', link: 'B0D2QJGKS8' },
+      { name: 'PAVOI 14K gold-plated hoop earrings', note: 'Lightweight polished hoops she will wear every day.', image: 'assets/products/B07QW1ZX3Z.jpg', link: 'B07QW1ZX3Z' },
+      { name: 'Chunky hammered gold cuff bracelet', note: 'A molten-texture cuff that looks like a gallery piece.', image: 'assets/products/B0CFGGR1P6.jpg', link: 'B0CFGGR1P6' },
+      { name: 'Amazon Essentials gold paperclip chain bracelet', note: 'The paperclip link that pairs with everything.', image: 'assets/products/B0BHDS6GQP.jpg', link: 'B0BHDS6GQP' },
+      { name: 'Amazon Collection gold filigree hoop earrings', note: 'Lacy oval hoops with an heirloom feel.', image: 'assets/products/B00S5VKNJY.jpg', link: 'B00S5VKNJY' },
+      { name: 'Poxtex gold stackable band rings, set of 3', note: 'Three polished bands in graduated widths to stack or wear alone.', image: 'assets/products/B0GQ3ZG2BZ.jpg', link: 'B0GQ3ZG2BZ' },
+      { name: 'Ana Luisa gold huggie hoop earrings', note: 'Chunky huggies from a fine-jewelry-style brand.', image: 'assets/products/B0CGTLXN8L.jpg', link: 'B0CGTLXN8L' },
+      { name: 'Kendra Scott dainty gold pendant necklace', note: 'A fine gold chain with a soft white stone pendant.', image: 'assets/products/B0BSD6J8N3.jpg', link: 'B0BSD6J8N3' },
+      { name: 'PAVOI dainty pearl station necklace', note: 'A fine gold chain dotted with tiny pearl drops.', image: 'assets/products/B08VFY8J69.jpg', link: 'B08VFY8J69' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-window-decor-ideas',
+    title: 'Christmas Window Decor Ideas That Look Expensive',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Christmas window decor that looks custom: window candles, boxwood and berry wreaths, pine garland swags and paper star lanterns from Amazon.',
+    intro: 'A dressed window is the easiest way to make a house look festive from the street and cozy from inside. These are the wreaths, candles, garlands and star lanterns that give windows that classic, expensive look without a designer.',
+    image: 'assets/pins/christmas-window-decor-ideas.jpg',
+    imageAlt: 'Collage of Christmas window decor on a linen background: red velvet bow, paper star lanterns, mini pine wreaths with bells, red berry wreath, bronze suction hook, boxwood wreath, pre-lit garland, kraft star lanterns, Norfolk pine garland, flickering window candles and a poinsettia swag.',
+    products: [
+      { name: 'Flickering window candles with gold bases, set of 6', note: 'Battery candles with a dusk-to-dawn sensor, so every window glows on its own each evening.', image: 'assets/products/B0FFG4XZDZ.jpg', link: 'B0FFG4XZDZ' },
+      { name: 'Lvydec mini boxwood wreath, 10 inch', note: 'A small, full boxwood wreath sized for a single window pane.', image: 'assets/products/B082PX8F8L.jpg', link: 'B082PX8F8L' },
+      { name: 'Red berry wreath, 20 inch', note: 'Dense deep-red berries read classic and rich against white window frames.', image: 'assets/products/B0CF5JKQTP.jpg', link: 'B0CF5JKQTP' },
+      { name: 'Real-touch Norfolk pine garland', note: 'Soft, droopy needles that drape over a sill or window seat like fresh pine.', image: 'assets/products/B0FRF6FBJ2.jpg', link: 'B0FRF6FBJ2' },
+      { name: 'Paper star lanterns, set of 5', note: 'Cream, tan, wine and deep green folded stars to hang in a row of panes.', image: 'assets/products/B0HF4D2XLP.jpg', link: 'B0HF4D2XLP' },
+      { name: 'Red velvet wreath bow with gold edge', note: 'A big wired velvet bow that makes any plain wreath look custom.', image: 'assets/products/B09B7VWWFB.jpg', link: 'B09B7VWWFB' },
+      { name: 'SHACOS poinsettia Christmas swag, 30 inch', note: 'Poinsettias, pine cones and gold accents in one long piece for a sill.', image: 'assets/products/B0C8HHMT72.jpg', link: 'B0C8HHMT72' },
+      { name: 'Sggvecsy mini pine wreaths with bells, set of 6', note: 'Small Norfolk pine wreaths with brass bells for divided window panes.', image: 'assets/products/B0HDLDTXVC.jpg', link: 'B0HDLDTXVC' },
+      { name: 'SUNBEAUTY kraft paper star lantern, 12 inch', note: 'A warm kraft-brown star that looks Scandinavian in a window.', image: 'assets/products/B0B9GSHM3R.jpg', link: 'B0B9GSHM3R' },
+      { name: 'Pre-lit Christmas garland, 9 ft', note: 'A full garland with warm LED lights to frame a window or bay.', image: 'assets/products/B099F23DXW.jpg', link: 'B099F23DXW' },
+      { name: 'Antique gold suction cup wreath hooks, 4 pack', note: 'Hang wreaths straight on the glass, no nails in the frame.', image: 'assets/products/B0180PBKLE.jpg', link: 'B0180PBKLE' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'neighbor-gifts-under-15',
+    title: 'Neighbor Gifts Under $15 That Look Thoughtful',
+    category: 'gift-guides',
+    date: '2026-11-09',
+    description: 'Small Christmas gifts for neighbors that look thoughtful: a snowflake mug, chinoiserie towel, marble coasters, ring dishes and mini wreaths.',
+    intro: 'Neighbor gifts should be small, useful and pretty enough to feel chosen. These are easy to buy in multiples and look like boutique finds once you add twine and a sprig of holly.',
+    image: 'assets/pins/neighbor-gifts-under-15.jpg',
+    imageAlt: 'Numbered collage of neighbor gift ideas on a linen background: snowflake mug, chinoiserie topiary hand towel, blue and white dipping bowls, marble coasters with gold holder, green leaf trinket dish, mini grapevine wreaths, red striped kitchen towels, acacia coasters and lotus ring dishes, with a Shop All 11 Finds button.',
+    products: [
+      { name: 'Karma winter white snowflake mug', note: 'A stoneware mug with a hand-drawn snowflake, ready for cocoa.', image: 'assets/products/B0C7S97WJ3.jpg', link: 'B0C7S97WJ3' },
+      { name: 'Chinoiserie topiary kitchen hand towel', note: 'A blue-and-white ginger jar topiary print that feels like a boutique find.', image: 'assets/products/B0DF71LTW2.jpg', link: 'B0DF71LTW2' },
+      { name: 'Blue and white ceramic dipping bowls, 6 pack', note: 'Small patterned bowls for dips, rings or salt by the stove.', image: 'assets/products/B0BKNYWZ73.jpg', link: 'B0BKNYWZ73' },
+      { name: 'White marble-look ceramic coasters with gold holder', note: 'Absorbent stone coasters that look like a pricier marble set.', image: 'assets/products/B0DG2KQCVS.jpg', link: 'B0DG2KQCVS' },
+      { name: 'Green reactive-glaze leaf trinket dish', note: 'A glossy leaf dish for rings or keys with a handmade feel.', image: 'assets/products/B0D3DZQRBL.jpg', link: 'B0D3DZQRBL' },
+      { name: 'Mini grapevine wreaths, 3 inch, 16 pieces', note: 'Tie one to each cookie tin or gift bag as a natural topper.', image: 'assets/products/B07Z7JPL9Y.jpg', link: 'B07Z7JPL9Y' },
+      { name: 'KitchenAid Albany kitchen towels, red and white, 4 pack', note: 'Classic red stripes that look festive in any kitchen.', image: 'assets/products/B088ZKRQXR.jpg', link: 'B088ZKRQXR' },
+      { name: 'Acacia wood coasters with holder, 4 pack', note: 'Warm wood coasters in an iron caddy that look store-bought pricey.', image: 'assets/products/B0CHP3Z38G.jpg', link: 'B0CHP3Z38G' },
+      { name: 'Lotus leaf ceramic ring dishes, 2 pack', note: 'Scalloped celadon and cream dishes with gold rims, easy to split between two neighbors.', image: 'assets/products/B0C6PZ12J5.jpg', link: 'B0C6PZ12J5' },
+      { name: 'BBTO artificial holly berry picks, 100 pieces', note: 'Tuck a sprig into twine on any small gift for a finished look.', image: 'assets/products/B07YKNMPGH.jpg', link: 'B07YKNMPGH' },
+      { name: 'Ceramic shell ring dish', note: 'A pearly white shell dish for jewelry by the sink.', image: 'assets/products/B0CHW6W31Z.jpg', link: 'B0CHW6W31Z' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'scandinavian-christmas-decor',
+    title: 'Scandinavian Christmas Decor: Calm Nordic Amazon Finds',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Scandinavian Christmas decor from Amazon: white knit stockings, wood bead garland, a gold advent ring, Dala horses and Nordic knit ornaments.',
+    intro: 'A Nordic Christmas is about restraint: white, pale wood, a little red and candlelight. These Amazon finds give you the calm Scandinavian look without hunting through design shops. Mix two or three on a mantel or table and let the space breathe.',
+    image: 'assets/pins/scandinavian-christmas-decor.jpg',
+    imageAlt: 'Collage of Scandinavian Christmas decor: white cable knit stockings, gold advent candle ring, wood bead garland, red Nordic knit ornaments, Dala horses, wooden trees and white velvet ornaments on linen.',
+    products: [
+      { name: 'White cable knit Christmas stockings, set of 2', note: 'Chunky ivory cable knit that reads hand-knit and Nordic on any mantel.', image: 'assets/products/B0B878SB6P.jpg', link: 'B0B878SB6P' },
+      { name: 'Gold advent candle ring for taper candles', note: 'A slim brushed gold ring that turns four plain tapers into a Swedish advent centerpiece.', image: 'assets/products/B0FHWT7QN3.jpg', link: 'B0FHWT7QN3' },
+      { name: 'Meplait natural wood bead garland with tassels', note: 'Pale wood beads and jute tassels for a soft, natural swag.', image: 'assets/products/B09V7HZPY6.jpg', link: 'B09V7HZPY6' },
+      { name: 'WEWILL red Nordic knit ball ornaments, 10 pack', note: 'Fair Isle knit balls that bring the classic red and white Scandi pattern.', image: 'assets/products/B06ZYG4XD2.jpg', link: 'B06ZYG4XD2' },
+      { name: 'Ceramic Dala horse salt and pepper shakers', note: 'The iconic Swedish folk horse, small enough for a shelf or the holiday table.', image: 'assets/products/B009ZXC7L8.jpg', link: 'B009ZXC7L8' },
+      { name: 'Painted wooden Christmas tree trio, 11 inch', note: 'Flat wood trees in white, green and red with gold stars, simple and folk-inspired.', image: 'assets/products/B0F93FPKK3.jpg', link: 'B0F93FPKK3' },
+      { name: 'White velvet Christmas ball ornaments, 12 pack', note: 'Matte white velvet balls that look soft and quiet in a wooden bowl or on the tree.', image: 'assets/products/B0FLXD6XBX.jpg', link: 'B0FLXD6XBX' },
+      { name: 'Traditional evergreen advent wreath candle holder', note: 'A full advent wreath with pinecones and gold candle cups, ready for four candles.', image: 'assets/products/B0178AXZJW.jpg', link: 'B0178AXZJW' },
+      { name: 'Natural wood Christmas ornament shapes, 45 pieces', note: 'Stars, snowflakes and reindeer in plain wood, left natural or painted white.', image: 'assets/products/B0DGPPZTLK.jpg', link: 'B0DGPPZTLK' },
+      { name: 'Cream flocked Christmas ornaments, 28 pieces', note: 'Mixed shapes in soft cream flocking for a calm, tone-on-tone tree or bowl.', image: 'assets/products/B0D7VMTLMQ.jpg', link: 'B0D7VMTLMQ' },
+      { name: 'Cranberry red wooden bead garland', note: 'A deep cranberry garland that adds the one pop of red a Nordic room needs.', image: 'assets/products/B08B8WV6PW.jpg', link: 'B08B8WV6PW' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'last-minute-christmas-gifts-for-her',
+    title: 'Last Minute Christmas Gifts for Her That Feel Thoughtful',
+    category: 'gift-guides',
+    date: '2026-11-09',
+    description: 'Last minute Christmas gifts for her from Amazon that still feel thoughtful: cashmere-feel socks, a travel jewelry case, a glass tumbler and a cozy wrap.',
+    intro: 'Running late on gifts doesn\'t mean settling. These Amazon finds feel chosen, not grabbed: soft socks, a cozy wrap, a travel jewelry case and a few small luxuries she will use every day. Pair one with a candle or her favorite coffee and the gift feels complete.',
+    image: 'assets/pins/last-minute-christmas-gifts-for-her.jpg',
+    imageAlt: 'Numbered collage of last minute Christmas gifts for her: cashmere-feel socks, green travel jewelry case, glass tumbler, green wearable wrap, red wine glasses, sage manicure set, Tyler candle gift set, cream cosmetic bag and grey cozy socks.',
+    products: [
+      { name: 'MELUSA cashmere-feel crew socks, 3 pairs', note: 'Soft ribbed socks in cream, oatmeal and heather grey that feel like a little luxury.', image: 'assets/products/B0CCK55PGG.jpg', link: 'B0CCK55PGG' },
+      { name: 'Dark green travel jewelry case', note: 'A small faux-leather case with blush velvet slots for rings, earrings and necklaces.', image: 'assets/products/B0BVB6ZJQF.jpg', link: 'B0BVB6ZJQF' },
+      { name: 'Tronco 16 oz glass tumbler with bamboo lid and straw', note: 'Her iced coffee, upgraded: clear glass with a soft silicone sleeve and a bamboo lid.', image: 'assets/products/B09QW7PFY2.jpg', link: 'B09QW7PFY2' },
+      { name: 'Forest green wearable blanket wrap with pockets', note: 'A chunky knit-look wrap she can throw on over pajamas all winter.', image: 'assets/products/B0DJ8RLDQ3.jpg', link: 'B0DJ8RLDQ3' },
+      { name: 'Amazon Basics stemmed red wine glasses, set of 4', note: 'Big classic bowls that make a weeknight glass of wine feel like a dinner party.', image: 'assets/products/B0F2J7WNGW.jpg', link: 'B0F2J7WNGW' },
+      { name: 'Sage green 7-piece manicure set in a zip case', note: 'Stainless steel tools in a slim faux-leather case that looks spa-bought.', image: 'assets/products/B0C7H683T1.jpg', link: 'B0C7H683T1' },
+      { name: 'Tyler Candle Glamorous gift set', note: 'The cult-favorite Glamorous scent in gold-printed packaging that looks boutique-bought.', image: 'assets/products/B07WVZ7PXZ.jpg', link: 'B07WVZ7PXZ' },
+      { name: 'Cream double-layer cosmetic bag', note: 'A structured bag with two zip layers that keeps her makeup neat at home or away.', image: 'assets/products/B0CC8VGKPW.jpg', link: 'B0CC8VGKPW' },
+      { name: 'Barefoot Dreams cozy knit socks, heather grey', note: 'The famously soft Barefoot Dreams knit in a pair of fluffy socks.', image: 'assets/products/B0D5P7Y2Q5.jpg', link: 'B0D5P7Y2Q5' },
+      { name: 'Satin scrunchies, 8 pack', note: 'A stack of neutral satin scrunchies, blonde to black, that feel like silk on her hair.', image: 'assets/products/B0FWQRD374.jpg', link: 'B0FWQRD374' },
+      { name: 'Spa Luxetique vanilla bath gift set, 8 pieces', note: 'A ready-to-give vanilla spa set for a slow night in.', image: 'assets/products/B0FJF5X4MJ.jpg', link: 'B0FJF5X4MJ' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'vintage-christmas-decor-ideas',
+    title: 'Vintage Christmas Decor Ideas for a Collected Home',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Vintage Christmas decor ideas from Amazon: a ceramic tree, bottle brush trees, mercury glass, brass bells, a village church and an old-world Santa.',
+    intro: 'The vintage Christmas look feels collected over years, not bought in one trip. These Amazon finds bring the ceramic tree, mercury glass, brass and village pieces that make a home feel warm and nostalgic. Group them on a sideboard or chest and keep the rest of the room simple.',
+    image: 'assets/pins/vintage-christmas-decor-ideas.jpg',
+    imageAlt: 'Collage of vintage Christmas decor: green ceramic Christmas tree, brass hurricane lanterns, gold deer, old-world Santa, holly deer pillow, porcelain village church, bottle brush trees, brass bell, mercury glass finials and glass cloches.',
+    products: [
+      { name: 'Joiedomi 15 inch prelit ceramic Christmas tree', note: 'The nostalgic glazed ceramic tree with little colored bulbs, like the ones grandma had.', image: 'assets/products/B07JHF1WPK.jpg', link: 'B07JHF1WPK' },
+      { name: 'Brass hurricane candle holders, set of 2', note: 'Glass hurricanes with aged brass frames and ring handles for a warm candle glow.', image: 'assets/products/B0FMD975F8.jpg', link: 'B0FMD975F8' },
+      { name: 'Lulu Home gold deer figurines, set of 3', note: 'A faceted antique gold deer family that looks like a vintage store find.', image: 'assets/products/B0D5LYJ1BK.jpg', link: 'B0D5LYJ1BK' },
+      { name: 'RAZ Imports glittered vintage Santa figure, white', note: 'An old-world belsnickel Santa in cream glitter that looks collected, not new.', image: 'assets/products/B0798S1CJP.jpg', link: 'B0798S1CJP' },
+      { name: 'Vintage holly deer Christmas pillow cover', note: 'A forest green velvet-look cover with twin fawns and holly, like a vintage tapestry.', image: 'assets/products/B0FM3S5T2P.jpg', link: 'B0FM3S5T2P' },
+      { name: 'Lemax Little River Church lighted village house', note: 'A porcelain village church with warm glowing windows for a collected vignette.', image: 'assets/products/B004JY709M.jpg', link: 'B004JY709M' },
+      { name: 'RAZ Imports mini decorated bottle brush trees, set of 3', note: 'Frosted bottle brush trees with tiny glass baubles, a true vintage classic.', image: 'assets/products/B07HSTKVCH.jpg', link: 'B07HSTKVCH' },
+      { name: 'Antique brass dinner bell', note: 'An engraved brass bell that adds a little old-world shine to a shelf or tray.', image: 'assets/products/B09YQYZHLS.jpg', link: 'B09YQYZHLS' },
+      { name: 'Silver mercury glass finial ornaments, 12 pieces', note: 'Ribbed mercury glass drops that look heirloom in a footed bowl.', image: 'assets/products/B0CRB3H71R.jpg', link: 'B0CRB3H71R' },
+      { name: 'Glass cloche domes with wooden bases, 2 pack', note: 'Bell jars to show off a tiny tree, a village house or a few ornaments.', image: 'assets/products/B0DQPKS4LK.jpg', link: 'B0DQPKS4LK' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'anthropologie-christmas-dupes',
+    title: 'Anthropologie Christmas Dupes: The Look for Less',
+    category: 'boho-dupes',
+    date: '2026-11-09',
+    description: 'Get the Anthropologie Christmas look for less: jewel-tone glass ornaments, mushroom baubles, wavy tapers, a jadeite cake stand and bead garland from Amazon.',
+    intro: 'Anthropologie holiday decor is all about collected color: glass mushrooms, jewel-tone baubles, sculptural tapers and a little whimsy. These Amazon finds give you the same curated look for less, without tipping into kitsch. Mix two or three on a sideboard and it already feels styled.',
+    image: 'assets/pins/anthropologie-christmas-dupes.jpg',
+    imageAlt: 'Collage of Amazon Christmas decor in jewel tones: ribbed glass ornaments, jadeite cake stand, glass mushroom ornaments, gradient and bubble taper candles, embroidered tree skirt and wood bead garland',
+    products: [
+      { name: 'IndianShelf vintage ribbed glass ball ornaments, set of 12', note: 'Jewel-tone ribbed glass balls that look like a collected heirloom set.', image: 'assets/products/B0BXGTPSYY.jpg', link: 'B0BXGTPSYY' },
+      { name: 'Martha Stewart Highbrook jadeite glass cake stand, 11 inch', note: 'The mint-green milk glass pedestal that makes any holiday display feel curated.', image: 'assets/products/B0BRF6Y2PM.jpg', link: 'B0BRF6Y2PM' },
+      { name: 'Old World Christmas lucky mushroom glass ornament', note: 'A hand-blown red-and-white mushroom with real vintage charm.', image: 'assets/products/B01N9XDMAD.jpg', link: 'B01N9XDMAD' },
+      { name: 'Neutral gradient taper candles', note: 'Blush-to-cocoa tapers that give a table that colorful candle-shop look.', image: 'assets/products/B0FV7YK5CB.jpg', link: 'B0FV7YK5CB' },
+      { name: 'Lillian Vernon glass acorn and mushroom ornaments, set of 12', note: 'Woodland glass ornaments in red and gold for a whimsical tree.', image: 'assets/products/B0D2PCCQVZ.jpg', link: 'B0D2PCCQVZ' },
+      { name: 'Grelucgo embroidered holly tree skirt, 36 inch', note: 'An ivory tree skirt with embroidered holly sprigs and a red trim.', image: 'assets/products/B0774LFLP8.jpg', link: 'B0774LFLP8' },
+      { name: 'Meplait wood bead garland with jute tassels', note: 'Red, green and white beads with tassels for mantels, trays and trees.', image: 'assets/products/B0CHRQNJRT.jpg', link: 'B0CHRQNJRT' },
+      { name: 'Old World Christmas morel mushroom glass ornament', note: 'A textured glass morel that reads like a boutique find.', image: 'assets/products/B015FYT88A.jpg', link: 'B015FYT88A' },
+      { name: 'MAITREYA ivory bubble taper candles', note: 'Sculptural bubble tapers that add a playful designer touch.', image: 'assets/products/B0DGX66TYX.jpg', link: 'B0DGX66TYX' },
+      { name: 'Lillian Vernon gold glass pinecone ornaments', note: 'Glittered gold glass pinecones that warm up any tree.', image: 'assets/products/B09TG6CRKG.jpg', link: 'B09TG6CRKG' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-party-decor-ideas',
+    title: 'Christmas Party Decor Ideas That Look Expensive',
+    category: 'hosting-recipes',
+    date: '2026-11-09',
+    description: 'Christmas party decor ideas that look expensive: ribbed coupes, a tiered dessert stand, marble boards, gold stirrers and a cocktail bar set from Amazon.',
+    intro: 'Hosting a Christmas party at home looks expensive when the serving pieces do the work. Ribbed coupes, a tiered dessert stand, marble boards and a few gold accents turn a sideboard into a party bar. These Amazon finds cover the drinks, the food and the table.',
+    image: 'assets/pins/christmas-party-decor-ideas.jpg',
+    imageAlt: 'Collage of Amazon Christmas party pieces: ribbed coupe glasses, white tiered dessert stand, marble and acacia board, olive scalloped napkins, stainless cocktail bar set on a bamboo stand, gold swizzle sticks, marble lazy susan, velvet wine bags, gold spoons and tiered porcelain trays',
+    products: [
+      { name: 'Ribbed coupe cocktail glasses, set of 4', note: 'Fluted coupes that make champagne and cocktails feel like a hotel bar.', image: 'assets/products/B0F48HS3LR.jpg', link: 'B0F48HS3LR' },
+      { name: 'Sweejar 3-tier ceramic dessert stand', note: 'White scalloped tiers with a gold handle for cookies and petit fours.', image: 'assets/products/B07DQGWY3G.jpg', link: 'B07DQGWY3G' },
+      { name: 'Coloch marble and acacia wood serving board', note: 'A marble-and-wood board that dresses up a simple cheese spread.', image: 'assets/products/B0C23X6FD1.jpg', link: 'B0C23X6FD1' },
+      { name: 'Olive-green scalloped cocktail napkins, 100 pack', note: 'Scalloped edges in muted olive that look custom-made.', image: 'assets/products/B0CZRDR4YK.jpg', link: 'B0CZRDR4YK' },
+      { name: 'Amazon Basics stainless steel cocktail bar set with bamboo stand', note: 'A 10-piece shaker set on a curved bamboo stand that makes a home bar look professional.', image: 'assets/products/B09KH729NX.jpg', link: 'B09KH729NX' },
+      { name: 'Mudder gold ball-top swizzle sticks', note: 'Gold stirrers that make a self-serve cocktail station look styled.', image: 'assets/products/B0G2Y6C233.jpg', link: 'B0G2Y6C233' },
+      { name: 'Marble lazy susan turntable, 12 inch', note: 'A spinning marble tray for appetizers in the middle of the table.', image: 'assets/products/B099WVNWBS.jpg', link: 'B099WVNWBS' },
+      { name: 'Mandala Crafts maroon velvet wine bags', note: 'Velvet drawstring bags for hostess gifts and bottles on the bar.', image: 'assets/products/B0DBMVCB4C.jpg', link: 'B0DBMVCB4C' },
+      { name: 'Gold coffee spoons, set of 6', note: 'Slim gold spoons for desserts, espresso and dips.', image: 'assets/products/B071K1CF33.jpg', link: 'B071K1CF33' },
+      { name: 'MALACASA 3-tier porcelain serving trays', note: 'Stacked white platters on a gold stand for a tall buffet moment.', image: 'assets/products/B0DS59Q4LS.jpg', link: 'B0DS59Q4LS' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'pantry-organization-that-looks-expensive',
+    title: 'Pantry Organization That Looks Expensive: Amazon Finds',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Pantry organization ideas that look expensive: glass jars with bamboo lids, seagrass baskets, a bamboo bread box, olive oil bottles and a wood lazy susan.',
+    intro: 'A January pantry reset is the easiest way to make a kitchen feel calm and expensive. Decant into glass, corral the rest in woven baskets and bring the pretty pieces out on the counter. These Amazon finds do all three without a custom pantry.',
+    image: 'assets/pins/pantry-organization-that-looks-expensive.jpg',
+    imageAlt: 'Collage of pantry organization finds: bamboo bread box, glass jars with bamboo lids, seagrass baskets, glass spice jars, green oil dispenser bottles, bamboo stacking bins, acacia lazy susan, wicker baskets, ceramic egg holder and black wire baskets.',
+    products: [
+      { name: 'BAMBANG bamboo bread box with clear panels', note: 'A farmhouse bread box with a clear ribbed front that keeps loaves fresh and on display.', image: 'assets/products/B0D4TKNG4H.jpg', link: 'B0D4TKNG4H' },
+      { name: 'Glass storage jars with bamboo lids, 2 pack', note: 'Airtight glass canisters for coffee, pasta or snacks that look like a boutique pantry.', image: 'assets/products/B0DFTYFT1L.jpg', link: 'B0DFTYFT1L' },
+      { name: 'StorageWorks seagrass pantry baskets, 2 pack', note: 'Woven seagrass baskets that hide snack clutter and warm up open shelves.', image: 'assets/products/B086947XVS.jpg', link: 'B086947XVS' },
+      { name: 'Kamenstein 12-piece glass spice jar set', note: 'Matching glass spice jars with black lids for a clean, uniform spice shelf.', image: 'assets/products/B07KX8KDP1.jpg', link: 'B07KX8KDP1' },
+      { name: 'Green glass olive oil dispenser bottles, 2 pack', note: 'Olive green glass with gold pour spouts that look like a chef\'s countertop.', image: 'assets/products/B0DYLK19ZC.jpg', link: 'B0DYLK19ZC' },
+      { name: 'Bamboo stackable pantry storage bins, 2 piece', note: 'Open-front bamboo bins for cans, potatoes or onions that stack neatly.', image: 'assets/products/B07WT6GQGC.jpg', link: 'B07WT6GQGC' },
+      { name: 'Rickby acacia wood lazy susan with marble-look glass plate', note: 'A 12 inch turntable that keeps oils and spices easy to reach and pretty to see.', image: 'assets/products/B07XCXD2S9.jpg', link: 'B07XCXD2S9' },
+      { name: 'GRANNY SAYS espresso wicker storage baskets', note: 'Dark woven baskets with handles for produce, snacks or linens.', image: 'assets/products/B093WVY2BN.jpg', link: 'B093WVY2BN' },
+      { name: 'White ceramic egg holder tray', note: 'A scalloped white egg tray that turns plain eggs into counter decor.', image: 'assets/products/B07TH51BJ6.jpg', link: 'B07TH51BJ6' },
+      { name: 'LeleCAT black wire baskets with wooden handles, 2 pack', note: 'Black wire baskets with wood handles for a modern farmhouse pantry.', image: 'assets/products/B0CHBM5NL8.jpg', link: 'B0CHBM5NL8' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'nightstand-decor-ideas',
+    title: 'Nightstand Decor Ideas That Look Expensive (Amazon)',
+    category: 'home-finds',
+    date: '2026-11-09',
+    description: 'Nightstand decor ideas from Amazon that look expensive: a rustic ceramic vase, a travertine tray, a gold floating frame, a flower ring dish and small plants.',
+    intro: 'A styled nightstand is the smallest change that makes a bedroom feel finished. Start with a tray for the everyday things, add one sculptural piece and something green, then stop. These Amazon finds give you a calm, layered bedside without the clutter.',
+    image: 'assets/pins/nightstand-decor-ideas.jpg',
+    imageAlt: 'Collage of nightstand decor: rustic cream ceramic vase, travertine tray, beige ceramic plant pots, gold floating frames, flower ring dish, decorative books, mango wood coasters, mini faux plants, bamboo tray and a cream self-watering planter.',
+    products: [
+      { name: 'Briful rustic ceramic pottery vase, cream white', note: 'A weathered stoneware jar vase that looks like a found antique.', image: 'assets/products/B0D4V3WCQP.jpg', link: 'B0D4V3WCQP' },
+      { name: 'Natural travertine marble tray, 10 x 5 inch', note: 'A real stone tray to corral rings, perfume and lip balm by the bed.', image: 'assets/products/B0DR1FVJM8.jpg', link: 'B0DR1FVJM8' },
+      { name: 'LE TAUCI reactive glaze plant pots, set of 3, beige', note: 'Speckled beige pots with saucers for a small snake plant or pothos.', image: 'assets/products/B08F7TP4TN.jpg', link: 'B08F7TP4TN' },
+      { name: 'Gold floating picture frames, 2 pack', note: 'Slim gold frames for a photo or a pressed leaf, very gallery-shop.', image: 'assets/products/B0D91VPTMZ.jpg', link: 'B0D91VPTMZ' },
+      { name: 'White ceramic flower ring dish', note: 'A tiny flower-shaped dish for the rings and earrings she takes off at night.', image: 'assets/products/B0FF3B6RM7.jpg', link: 'B0FF3B6RM7' },
+      { name: 'Decorative books with storage, set of 3, brown and cream', note: 'Faux books that stack under a vase and hide small things inside.', image: 'assets/products/B0FD4YRF5D.jpg', link: 'B0FD4YRF5D' },
+      { name: 'SAMHITA mango wood coasters with iron holder, set of 4', note: 'Dark wood coasters in a black stand that protect the nightstand in style.', image: 'assets/products/B0BRCL3D38.jpg', link: 'B0BRCL3D38' },
+      { name: 'Der Rose mini faux plants, 3 pack', note: 'Tiny sage green faux plants that add life with zero care.', image: 'assets/products/B07VKJKFN2.jpg', link: 'B07VKJKFN2' },
+      { name: 'Bamboo vanity tray, 11.8 inch', note: 'A slim pale bamboo tray that brings order to a busy nightstand.', image: 'assets/products/B0BPL5MJSP.jpg', link: 'B0BPL5MJSP' },
+      { name: 'Self-watering ceramic plant pot, cream and beige', note: 'A cream wave-textured planter that keeps a small plant watered for you.', image: 'assets/products/B0G39LHY4X.jpg', link: 'B0G39LHY4X' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'luxury-gifts-for-her-under-100',
     title: 'Luxury Gifts for Her Under $100',
     category: 'gift-guides',
