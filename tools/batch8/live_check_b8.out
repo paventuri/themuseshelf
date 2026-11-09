@@ -1,0 +1,20 @@
+OK   christmas-dining-room-decor-ideas 200 products 11 amazon 22 musesite-20 
+OK   gifts-for-girlfriend-that-look-expensive 200 products 12 amazon 24 musesite-20 
+OK   old-money-christmas-decor 200 products 10 amazon 20 musesite-20 
+OK   coworker-gifts-under-25 200 products 11 amazon 22 musesite-20 
+OK   pink-christmas-decor-ideas 200 products 10 amazon 20 musesite-20 
+OK   gold-jewelry-gifts-that-look-expensive 200 products 12 amazon 24 musesite-20 
+OK   christmas-window-decor-ideas 200 products 11 amazon 22 musesite-20 
+OK   neighbor-gifts-under-15 200 products 11 amazon 22 musesite-20 
+OK   scandinavian-christmas-decor 200 products 11 amazon 22 musesite-20 
+OK   last-minute-christmas-gifts-for-her 200 products 11 amazon 22 musesite-20 
+OK   vintage-christmas-decor-ideas 200 products 10 amazon 20 musesite-20 
+OK   anthropologie-christmas-dupes 200 products 10 amazon 20 musesite-20 
+OK   christmas-party-decor-ideas 200 products 10 amazon 20 musesite-20 
+OK   pantry-organization-that-looks-expensive 200 products 10 amazon 20 musesite-20 
+OK   nightstand-decor-ideas 200 products 10 amazon 20 musesite-20 
+URLS_OK 15 / 15
+TAGFLOW christmas-dining-room-decor-ideas pinterest -> musepin-20
+TAGFLOW   then neighbor-gifts-under-15 -> musepin-20
+TAGFLOW last-minute-christmas-gifts-for-her pinterest -> musepin-20
+TAGFLOW   then pantry-organization-that-looks-expensive -> musepin-20
