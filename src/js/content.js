@@ -3798,6 +3798,62 @@ var NEWSLETTER = {
    do not edit by hand. A tile shows once its scheduled time (at) has passed. */
 var IG_POSTS = [
  {
+  "at": "2026-11-22T19:00:00-06:00",
+  "slug": "book-lover-gifts",
+  "image": "assets/ig/2026-11-16-week4_8.jpg",
+  "alt": "These marble bookends look like they're from a design store. They're from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-21T12:00:00-06:00",
+  "slug": "christmas-dining-room-decor-ideas",
+  "image": "assets/ig/2026-11-16-week4_7.jpg",
+  "alt": "The Pottery Barn Christmas table, rebuilt with Amazon finds.",
+  "reel": false
+ },
+ {
+  "at": "2026-11-20T19:00:00-06:00",
+  "slug": "kitchen-counter-decor-that-looks-expensive",
+  "image": "assets/ig/2026-11-16-week4_6.jpg",
+  "alt": "Wait, this marble fruit bowl looks like it's from a design store. It's from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-19T19:00:00-06:00",
+  "slug": "anthropologie-dupes-on-amazon",
+  "image": "assets/ig/2026-11-16-week4_5.jpg",
+  "alt": "Your blank wall is missing this.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-18T19:00:00-06:00",
+  "slug": "luxury-gifts-for-her-under-100",
+  "image": "assets/ig/2026-11-16-week4_4.jpg",
+  "alt": "This jewelry box looks like it's from a design store. It's from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-18T12:00:00-06:00",
+  "slug": "anthropologie-christmas-dupes",
+  "image": "assets/ig/2026-11-16-week4_3.jpg",
+  "alt": "Anthropologie Christmas or Amazon? Look twice.",
+  "reel": false
+ },
+ {
+  "at": "2026-11-17T19:00:00-06:00",
+  "slug": "amazon-entryway-decor-that-looks-expensive",
+  "image": "assets/ig/2026-11-16-week4_2.jpg",
+  "alt": "This alabaster lamp looks like it's from a design store. It's from Amazon.",
+  "reel": true
+ },
+ {
+  "at": "2026-11-16T19:00:00-06:00",
+  "slug": "friendsgiving-table-ideas",
+  "image": "assets/ig/2026-11-16-week4_1.jpg",
+  "alt": "Your Friendsgiving dessert table, done with one cake stand.",
+  "reel": true
+ },
+ {
   "at": "2026-11-15T19:00:00-06:00",
   "slug": "amazon-home-finds-under-30",
   "image": "assets/ig/2026-11-09-week3_8.jpg",
@@ -3858,13 +3914,6 @@ var IG_POSTS = [
   "slug": "cozy-gifts-for-the-homebody",
   "image": "assets/ig/2026-11-02-week2_14.jpg",
   "alt": "The coziest gift for the homebody in your life 🤍",
-  "reel": true
- },
- {
-  "at": "2026-11-07T19:00:00-06:00",
-  "slug": "ralph-lauren-christmas-tree-look-for-less",
-  "image": "assets/ig/2026-11-02-week2_12.jpg",
-  "alt": "The Ralph Lauren tree look, for way less 🎄",
   "reel": true
  },
  {
