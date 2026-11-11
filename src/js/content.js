@@ -44,6 +44,347 @@ var CATEGORIES = [
       - products: name, note (one sentence), image (square, on white), link (ASIN or full Amazon URL).
       Never add prices. Put a price range only in the title ("Under $50"). */
 var POSTS = [
+  // BF-HUB-START (growth/bf/update_hub.py writes this block; edit hub_config.json instead)
+  {
+    "slug": "amazon-black-friday-home-deals",
+    "guide": true,
+    "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
+    "category": "home-finds",
+    "date": "2026-11-11",
+    "updated": "2026-11-11",
+    "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
+    "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
+    "image": "assets/pins/amazon-black-friday-home-deals.jpg",
+    "imageAlt": "Black Friday home deals that look expensive: a collage of neutral Amazon decor on linen, with a beige ceramic vase set, a round wood side table, water hyacinth baskets, a sage waffle knit throw and more pieces on sale.",
+    "related": [
+      "stocking-stuffers-for-her-under-25",
+      "gifts-for-mom-under-50",
+      "christmas-gifts-for-women-that-look-expensive"
+    ],
+    "products": [
+      {
+        "name": "Beige ceramic vase set of 3",
+        "note": "Three matte, sandy shapes that style themselves on a shelf or console.",
+        "image": "assets/products/05-beige-ceramic-vase-set.png",
+        "link": "B09ZL23DWT"
+      },
+      {
+        "name": "Round wood side table",
+        "note": "A small three-leg table that fits next to any sofa or chair.",
+        "image": "assets/products/B09FJ9KWXF.jpg",
+        "link": "B09FJ9KWXF"
+      },
+      {
+        "name": "Water hyacinth baskets, 2 pack",
+        "note": "Woven baskets for rolled towels and extra toilet paper on open shelves.",
+        "image": "assets/products/B07SQ1X4FG.jpg",
+        "link": "B07SQ1X4FG"
+      },
+      {
+        "name": "Sage green waffle knit throw",
+        "note": "A chunky sage waffle knit throw to keep folded over the arm of a reading chair.",
+        "image": "assets/products/B0G1MK23CM.jpg",
+        "link": "B0G1MK23CM"
+      },
+      {
+        "name": "Mid century wood plant stand",
+        "note": "A slim stand with a white top that lifts a plant beside the bed.",
+        "image": "assets/products/B08TQWWS9X.jpg",
+        "link": "B08TQWWS9X"
+      },
+      {
+        "name": "Lawrence Frames gold branch picture frame, 5x7",
+        "note": "A gold twig-style frame that turns a favorite family photo into a keepsake gift.",
+        "image": "assets/products/B071GZRVCP.jpg",
+        "link": "B071GZRVCP"
+      },
+      {
+        "name": "Faux olive tree, 5 ft",
+        "note": "Soft, muted leaves on a slim trunk that fill an empty corner with zero upkeep.",
+        "image": "assets/products/02-faux-olive-tree.png",
+        "link": "B0D5HK2KHW"
+      },
+      {
+        "name": "DUMOS wicker laundry basket with lid, 90L",
+        "note": "A tall woven hamper with a lid and a removable liner.",
+        "image": "assets/products/B0HKSD1P5Z.jpg",
+        "link": "B0HKSD1P5Z"
+      },
+      {
+        "name": "Champagne gold ornaments, 36 pc",
+        "note": "A mixed set of finishes in soft gold and champagne.",
+        "image": "assets/products/B094V6SBF4.jpg",
+        "link": "B094V6SBF4"
+      },
+      {
+        "name": "Lulu Home gold deer figurines, set of 3",
+        "note": "A faceted antique gold deer family that looks like a vintage store find.",
+        "image": "assets/products/B0D5LYJ1BK.jpg",
+        "link": "B0D5LYJ1BK"
+      },
+      {
+        "name": "Red berry garland with pinecones, 7 ft",
+        "note": "A bright red berry and holly leaf garland to weave through greenery for a pop of color.",
+        "image": "assets/products/B07XY335K6.jpg",
+        "link": "B07XY335K6"
+      },
+      {
+        "name": "Homemory window candles with timer, 6 pack",
+        "note": "Battery window candles with a remote, timer and dimmer for renters.",
+        "image": "assets/products/B0C45BPJFC.jpg",
+        "link": "B0C45BPJFC"
+      },
+      {
+        "name": "DecorbyHannah 20 inch Norfolk pine wreath",
+        "note": "A lit Norfolk pine wreath with a natural, airy shape.",
+        "image": "assets/products/B0DXVFT9DF.jpg",
+        "link": "B0DXVFT9DF"
+      },
+      {
+        "name": "White ceramic Christmas tree, pre-lit",
+        "note": "A vintage-style glazed ceramic tree in soft white with tiny glowing bulbs.",
+        "image": "assets/products/B0CKNJNGCJ.jpg",
+        "link": "B0CKNJNGCJ"
+      },
+      {
+        "name": "Gold glitter star topper, 8 inch",
+        "note": "A dimensional gold glitter star topper in a classic shape.",
+        "image": "assets/products/B0F2FDGZ71.jpg",
+        "link": "B0F2FDGZ71"
+      },
+      {
+        "name": "WEMADE pre-lit Christmas garland, 15.4 ft",
+        "note": "A long battery lit garland to frame a window or doorway without outlets.",
+        "image": "assets/products/B0FMF2W44J.jpg",
+        "link": "B0FMF2W44J"
+      },
+      {
+        "name": "Pre-lit Christmas garland, 9 ft",
+        "note": "A full battery-operated garland with ornaments and berries for open shelves or a range hood.",
+        "image": "assets/products/B08HXMBP62.jpg",
+        "link": "B08HXMBP62"
+      },
+      {
+        "name": "Gold reindeer napkin rings, set of 8",
+        "note": "Leaping gold reindeer that add a festive touch to every place setting.",
+        "image": "assets/products/B08HXWSG9P.jpg",
+        "link": "B08HXWSG9P"
+      },
+      {
+        "name": "Warm white fairy lights, 12 pack",
+        "note": "Battery strands to weave through the garland, the wreath and glass jars, with no cords to hide.",
+        "image": "assets/products/B07WG18RLT.jpg",
+        "link": "B07WG18RLT"
+      },
+      {
+        "name": "Amazon Collection gold filigree hoop earrings",
+        "note": "Lacy oval hoops with an heirloom feel.",
+        "image": "assets/products/B00S5VKNJY.jpg",
+        "link": "B00S5VKNJY"
+      },
+      {
+        "name": "Pink Silk Pillowcase Standard Size with Hidden Zipper",
+        "note": "Silk in blush pink with a hidden zipper, a pillowcase with a soft, glossy finish she will notice nightly.",
+        "image": "assets/products/B0D1VPCT7T.jpg",
+        "link": "B0D1VPCT7T"
+      },
+      {
+        "name": "Spa Luxetique vanilla bath gift set, 8 pieces",
+        "note": "A ready-to-give vanilla spa set for a slow night in.",
+        "image": "assets/products/B0FJF5X4MJ.jpg",
+        "link": "B0FJF5X4MJ"
+      },
+      {
+        "name": "HASENSE ribbed stackable mugs, set of 4, with holder",
+        "note": "Ribbed stackable mugs on a slim metal stand, a pretty coffee station gift for her kitchen.",
+        "image": "assets/products/B0DLB8F5W7.jpg",
+        "link": "B0DLB8F5W7"
+      },
+      {
+        "name": "BAGSMART Travel Toiletry Bag",
+        "note": "Sage green puffy toiletry bag with quilted channels and top handles, the cushy travel piece that looks designer.",
+        "image": "assets/products/B0F5311BCF.jpg",
+        "link": "B0F5311BCF"
+      },
+      {
+        "name": "M MOOHAM small gold hoop earrings",
+        "note": "Classic small gold hoops that pass for fine jewelry, an easy stocking stuffer she will wear.",
+        "image": "assets/products/B08NVNNT86.jpg",
+        "link": "B08NVNNT86"
+      },
+      {
+        "name": "White porcelain mugs, set of 6",
+        "note": "Clean white mugs for coffee, tea or cocoa.",
+        "image": "assets/products/B0F8N74F65.jpg",
+        "link": "B0F8N74F65"
+      },
+      {
+        "name": "Spa bow headbands",
+        "note": "Soft headbands that keep hair back during skincare.",
+        "image": "assets/products/B0C1WVGJ5L.jpg",
+        "link": "B0C1WVGJ5L"
+      },
+      {
+        "name": "Crystal heart ring holder",
+        "note": "Cut glass with a ring cone that sparkles on the vanity.",
+        "image": "assets/products/B0DCZ4V4Z1.jpg",
+        "link": "B0DCZ4V4Z1"
+      },
+      {
+        "name": "Small Bathroom Vanity Tray for Countertop Makeup Perfume Jewelry",
+        "note": "Set a candle and bud vase on this matte black vanity tray for a hotel-bathroom moment.",
+        "image": "assets/products/B0CW1Q2MW6.jpg",
+        "link": "B0CW1Q2MW6"
+      },
+      {
+        "name": "Round white marble cheese board",
+        "note": "A solid marble board that serves cheese tonight and styles the counter tomorrow.",
+        "image": "assets/products/B01DPLTJWK.jpg",
+        "link": "B01DPLTJWK"
+      },
+      {
+        "name": "DOWAN oval serving platters, set of 3",
+        "note": "Nesting white platters in three sizes for the turkey, sides and dessert.",
+        "image": "assets/products/B07T7MYF4D.jpg",
+        "link": "B07T7MYF4D"
+      },
+      {
+        "name": "LE TAUCI gravy boat with saucer",
+        "note": "A white ceramic gravy boat with its own saucer to catch drips.",
+        "image": "assets/products/B0B3JBPQ2W.jpg",
+        "link": "B0B3JBPQ2W"
+      },
+      {
+        "name": "Juvale gold leaf placemats, 10 pack",
+        "note": "Cut-out gold leaf placemats for a glamorous table.",
+        "image": "assets/products/B0824DRNS8.jpg",
+        "link": "B0824DRNS8"
+      },
+      {
+        "name": "KitchenAid Albany kitchen towels, 4 pack",
+        "note": "Paprika red and white towels in a crisp stripe that suit the season and beyond.",
+        "image": "assets/products/B09BK667XG.jpg",
+        "link": "B09BK667XG"
+      },
+      {
+        "name": "Carrara marble cutting board",
+        "note": "Real white marble that doubles as a serving board.",
+        "image": "assets/products/B0FVWP57KW.jpg",
+        "link": "B0FVWP57KW"
+      },
+      {
+        "name": "Ribbed ceramic utensil holders, set of 2",
+        "note": "Warm white ribbed crocks for spoons and whisks by the stove.",
+        "image": "assets/products/B0CJ2H9J31.jpg",
+        "link": "B0CJ2H9J31"
+      },
+      {
+        "name": "Cheese knives with wooden handles, 6 pieces",
+        "note": "Mini cheese knives with warm wood handles for every board.",
+        "image": "assets/products/B0C8MYF17X.jpg",
+        "link": "B0C8MYF17X"
+      }
+    ],
+    "sections": [
+      {
+        "h": "When is Amazon Black Friday 2026?",
+        "body": [
+          "Amazon's Black Friday Week starts on **November 19, 2026** and runs through **November 30**, with Cyber Monday deals on the last day. Black Friday itself is November 27. Early Black Friday deals are live now, and new deals drop every day of the event."
+        ]
+      },
+      {
+        "h": "How this list works",
+        "body": [
+          "Every piece below was already picked for one of our edits because it looks more expensive than it is. Each morning we check which of them Amazon has on sale, and only deals with at least 4.3 stars and 100 reviews make the list. When a deal ends, the piece comes off the page."
+        ]
+      },
+      {
+        "h": "Home decor deals that look expensive",
+        "body": [
+          "Vases, throws, baskets and warm wood pieces from our home edits, on sale today."
+        ],
+        "picks": [
+          "B09ZL23DWT",
+          "B09FJ9KWXF",
+          "B07SQ1X4FG",
+          "B0G1MK23CM",
+          "B08TQWWS9X",
+          "B071GZRVCP",
+          "B0D5HK2KHW",
+          "B0HKSD1P5Z"
+        ]
+      },
+      {
+        "h": "Christmas decor deals",
+        "body": [
+          "Garlands, ornaments and mantel pieces, so you can decorate for less this year."
+        ],
+        "picks": [
+          "B094V6SBF4",
+          "B0D5LYJ1BK",
+          "B07XY335K6",
+          "B0C45BPJFC",
+          "B0DXVFT9DF",
+          "B0CKNJNGCJ",
+          "B0F2FDGZ71",
+          "B0FMF2W44J",
+          "B08HXMBP62",
+          "B08HXWSG9P",
+          "B07WG18RLT"
+        ]
+      },
+      {
+        "h": "Gift deals for her",
+        "body": [
+          "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
+        ],
+        "picks": [
+          "B00S5VKNJY",
+          "B0D1VPCT7T",
+          "B0FJF5X4MJ",
+          "B0DLB8F5W7",
+          "B0F5311BCF",
+          "B08NVNNT86",
+          "B0F8N74F65",
+          "B0C1WVGJ5L",
+          "B0DCZ4V4Z1",
+          "B0CW1Q2MW6"
+        ]
+      },
+      {
+        "h": "Hosting and kitchen deals",
+        "body": [
+          "Serveware and kitchen pieces that make holiday hosting look effortless."
+        ],
+        "picks": [
+          "B01DPLTJWK",
+          "B07T7MYF4D",
+          "B0B3JBPQ2W",
+          "B0824DRNS8",
+          "B09BK667XG",
+          "B0FVWP57KW",
+          "B0CJ2H9J31",
+          "B0C8MYF17X"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "When does Amazon Black Friday 2026 start?",
+        "a": "Amazon's Black Friday Week starts November 19, 2026 and runs through November 30, which is also Cyber Monday. Black Friday is November 27."
+      },
+      {
+        "q": "How do you choose these deals?",
+        "a": "Every piece here has already been featured in one of our edits for its look. Each morning we check which of them are on sale on Amazon and keep only well-reviewed ones (4.3 stars and 100 reviews or more)."
+      },
+      {
+        "q": "Why don't you show prices?",
+        "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
+      }
+    ],
+    "note": "Deals were live when we checked on November 11, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+  },
+  // BF-HUB-END
   // ----------------------------------------------------------------
   {
     slug: 'christmas-dining-room-decor-ideas',
