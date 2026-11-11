@@ -4147,9 +4147,9 @@ var IG_POSTS = [
  },
  {
   "at": "2026-11-21T12:00:00-06:00",
-  "slug": "christmas-dining-room-decor-ideas",
+  "slug": "amazon-black-friday-home-deals",
   "image": "assets/ig/2026-11-16-week4_7.jpg",
-  "alt": "The Pottery Barn Christmas table, rebuilt with Amazon finds.",
+  "alt": "Finish her Christmas list during Black Friday.",
   "reel": false
  },
  {
@@ -4175,9 +4175,9 @@ var IG_POSTS = [
  },
  {
   "at": "2026-11-18T12:00:00-06:00",
-  "slug": "anthropologie-christmas-dupes",
+  "slug": "amazon-black-friday-home-deals",
   "image": "assets/ig/2026-11-16-week4_3.jpg",
-  "alt": "Anthropologie Christmas or Amazon? Look twice.",
+  "alt": "The 8 home pieces we're watching for Black Friday.",
   "reel": false
  },
  {
