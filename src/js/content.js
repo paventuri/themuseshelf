@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-11",
+    "updated": "2026-11-14",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -81,12 +81,6 @@ var POSTS = [
         "link": "B07SQ1X4FG"
       },
       {
-        "name": "Sage green waffle knit throw",
-        "note": "A chunky sage waffle knit throw to keep folded over the arm of a reading chair.",
-        "image": "assets/products/B0G1MK23CM.jpg",
-        "link": "B0G1MK23CM"
-      },
-      {
         "name": "Mid century wood plant stand",
         "note": "A slim stand with a white top that lifts a plant beside the bed.",
         "image": "assets/products/B08TQWWS9X.jpg",
@@ -111,10 +105,16 @@ var POSTS = [
         "link": "B0HKSD1P5Z"
       },
       {
-        "name": "Champagne gold ornaments, 36 pc",
-        "note": "A mixed set of finishes in soft gold and champagne.",
-        "image": "assets/products/B094V6SBF4.jpg",
-        "link": "B094V6SBF4"
+        "name": "Madison Park Zuri faux fur throw, snow leopard",
+        "note": "A soft gray and ivory faux fur throw with a subtle snowy pattern.",
+        "image": "assets/products/B07T2Y1QHF.jpg",
+        "link": "B07T2Y1QHF"
+      },
+      {
+        "name": "Eddie Bauer green tartan sherpa throw",
+        "note": "A dark green tartan throw with a black sherpa back that looks straight out of a mountain lodge.",
+        "image": "assets/products/B07TZL35QZ.jpg",
+        "link": "B07TZL35QZ"
       },
       {
         "name": "Lulu Home gold deer figurines, set of 3",
@@ -135,58 +135,28 @@ var POSTS = [
         "link": "B0C45BPJFC"
       },
       {
-        "name": "DecorbyHannah 20 inch Norfolk pine wreath",
-        "note": "A lit Norfolk pine wreath with a natural, airy shape.",
-        "image": "assets/products/B0DXVFT9DF.jpg",
-        "link": "B0DXVFT9DF"
-      },
-      {
-        "name": "White ceramic Christmas tree, pre-lit",
-        "note": "A vintage-style glazed ceramic tree in soft white with tiny glowing bulbs.",
-        "image": "assets/products/B0CKNJNGCJ.jpg",
-        "link": "B0CKNJNGCJ"
-      },
-      {
-        "name": "Gold glitter star topper, 8 inch",
-        "note": "A dimensional gold glitter star topper in a classic shape.",
-        "image": "assets/products/B0F2FDGZ71.jpg",
-        "link": "B0F2FDGZ71"
-      },
-      {
-        "name": "WEMADE pre-lit Christmas garland, 15.4 ft",
-        "note": "A long battery lit garland to frame a window or doorway without outlets.",
-        "image": "assets/products/B0FMF2W44J.jpg",
-        "link": "B0FMF2W44J"
-      },
-      {
-        "name": "Pre-lit Christmas garland, 9 ft",
-        "note": "A full battery-operated garland with ornaments and berries for open shelves or a range hood.",
-        "image": "assets/products/B08HXMBP62.jpg",
-        "link": "B08HXMBP62"
-      },
-      {
         "name": "Gold reindeer napkin rings, set of 8",
         "note": "Leaping gold reindeer that add a festive touch to every place setting.",
         "image": "assets/products/B08HXWSG9P.jpg",
         "link": "B08HXWSG9P"
       },
       {
-        "name": "Warm white fairy lights, 12 pack",
-        "note": "Battery strands to weave through the garland, the wreath and glass jars, with no cords to hide.",
-        "image": "assets/products/B07WG18RLT.jpg",
-        "link": "B07WG18RLT"
+        "name": "National Tree Company Wintry Pine prelit garland, 9 ft",
+        "note": "A full prelit pine garland with frosted tips, red berries and pinecones, ready to plug in.",
+        "image": "assets/products/B00EJ2E1HI.jpg",
+        "link": "B00EJ2E1HI"
       },
       {
-        "name": "Amazon Collection gold filigree hoop earrings",
-        "note": "Lacy oval hoops with an heirloom feel.",
-        "image": "assets/products/B00S5VKNJY.jpg",
-        "link": "B00S5VKNJY"
+        "name": "National Tree Company pre-lit flocked Forestree, 3 ft",
+        "note": "A slim frosted lit tree that fits a planter on either side of the door.",
+        "image": "assets/products/B00MVAE2M4.jpg",
+        "link": "B00MVAE2M4"
       },
       {
-        "name": "Pink Silk Pillowcase Standard Size with Hidden Zipper",
-        "note": "Silk in blush pink with a hidden zipper, a pillowcase with a soft, glossy finish she will notice nightly.",
-        "image": "assets/products/B0D1VPCT7T.jpg",
-        "link": "B0D1VPCT7T"
+        "name": "2 ft pre-lit tabletop Christmas tree",
+        "note": "A small lit tree in a burlap base, sized for a coffee table or side table.",
+        "image": "assets/products/B0HBX4GSW1.jpg",
+        "link": "B0HBX4GSW1"
       },
       {
         "name": "Spa Luxetique vanilla bath gift set, 8 pieces",
@@ -219,22 +189,16 @@ var POSTS = [
         "link": "B0F8N74F65"
       },
       {
-        "name": "Spa bow headbands",
-        "note": "Soft headbands that keep hair back during skincare.",
-        "image": "assets/products/B0C1WVGJ5L.jpg",
-        "link": "B0C1WVGJ5L"
-      },
-      {
         "name": "Crystal heart ring holder",
         "note": "Cut glass with a ring cone that sparkles on the vanity.",
         "image": "assets/products/B0DCZ4V4Z1.jpg",
         "link": "B0DCZ4V4Z1"
       },
       {
-        "name": "Small Bathroom Vanity Tray for Countertop Makeup Perfume Jewelry",
-        "note": "Set a candle and bud vase on this matte black vanity tray for a hotel-bathroom moment.",
-        "image": "assets/products/B0CW1Q2MW6.jpg",
-        "link": "B0CW1Q2MW6"
+        "name": "Conair spa headband",
+        "note": "A soft pink puffy headband for skincare and face washing.",
+        "image": "assets/products/B0CJH1RY42.jpg",
+        "link": "B0CJH1RY42"
       },
       {
         "name": "Round white marble cheese board",
@@ -255,12 +219,6 @@ var POSTS = [
         "link": "B0B3JBPQ2W"
       },
       {
-        "name": "Juvale gold leaf placemats, 10 pack",
-        "note": "Cut-out gold leaf placemats for a glamorous table.",
-        "image": "assets/products/B0824DRNS8.jpg",
-        "link": "B0824DRNS8"
-      },
-      {
         "name": "KitchenAid Albany kitchen towels, 4 pack",
         "note": "Paprika red and white towels in a crisp stripe that suit the season and beyond.",
         "image": "assets/products/B09BK667XG.jpg",
@@ -277,12 +235,6 @@ var POSTS = [
         "note": "Warm white ribbed crocks for spoons and whisks by the stove.",
         "image": "assets/products/B0CJ2H9J31.jpg",
         "link": "B0CJ2H9J31"
-      },
-      {
-        "name": "Cheese knives with wooden handles, 6 pieces",
-        "note": "Mini cheese knives with warm wood handles for every board.",
-        "image": "assets/products/B0C8MYF17X.jpg",
-        "link": "B0C8MYF17X"
       }
     ],
     "sections": [
@@ -307,11 +259,12 @@ var POSTS = [
           "B09ZL23DWT",
           "B09FJ9KWXF",
           "B07SQ1X4FG",
-          "B0G1MK23CM",
           "B08TQWWS9X",
           "B071GZRVCP",
           "B0D5HK2KHW",
-          "B0HKSD1P5Z"
+          "B0HKSD1P5Z",
+          "B07T2Y1QHF",
+          "B07TZL35QZ"
         ]
       },
       {
@@ -320,17 +273,13 @@ var POSTS = [
           "Garlands, ornaments and mantel pieces, so you can decorate for less this year."
         ],
         "picks": [
-          "B094V6SBF4",
           "B0D5LYJ1BK",
           "B07XY335K6",
           "B0C45BPJFC",
-          "B0DXVFT9DF",
-          "B0CKNJNGCJ",
-          "B0F2FDGZ71",
-          "B0FMF2W44J",
-          "B08HXMBP62",
           "B08HXWSG9P",
-          "B07WG18RLT"
+          "B00EJ2E1HI",
+          "B00MVAE2M4",
+          "B0HBX4GSW1"
         ]
       },
       {
@@ -339,16 +288,13 @@ var POSTS = [
           "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
         ],
         "picks": [
-          "B00S5VKNJY",
-          "B0D1VPCT7T",
           "B0FJF5X4MJ",
           "B0DLB8F5W7",
           "B0F5311BCF",
           "B08NVNNT86",
           "B0F8N74F65",
-          "B0C1WVGJ5L",
           "B0DCZ4V4Z1",
-          "B0CW1Q2MW6"
+          "B0CJH1RY42"
         ]
       },
       {
@@ -360,11 +306,9 @@ var POSTS = [
           "B01DPLTJWK",
           "B07T7MYF4D",
           "B0B3JBPQ2W",
-          "B0824DRNS8",
           "B09BK667XG",
           "B0FVWP57KW",
-          "B0CJ2H9J31",
-          "B0C8MYF17X"
+          "B0CJ2H9J31"
         ]
       }
     ],
@@ -382,7 +326,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 11, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 14, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
