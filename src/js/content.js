@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -63,28 +63,10 @@ var POSTS = [
     ],
     "products": [
       {
-        "name": "Beige ceramic vase set of 3",
-        "note": "Three matte, sandy shapes that style themselves on a shelf or console.",
-        "image": "assets/products/05-beige-ceramic-vase-set.png",
-        "link": "B09ZL23DWT"
-      },
-      {
         "name": "Round wood side table",
         "note": "A small three-leg table that fits next to any sofa or chair.",
         "image": "assets/products/B09FJ9KWXF.jpg",
         "link": "B09FJ9KWXF"
-      },
-      {
-        "name": "Water hyacinth baskets, 2 pack",
-        "note": "Woven baskets for rolled towels and extra toilet paper on open shelves.",
-        "image": "assets/products/B07SQ1X4FG.jpg",
-        "link": "B07SQ1X4FG"
-      },
-      {
-        "name": "Mid century wood plant stand",
-        "note": "A slim stand with a white top that lifts a plant beside the bed.",
-        "image": "assets/products/B08TQWWS9X.jpg",
-        "link": "B08TQWWS9X"
       },
       {
         "name": "Lawrence Frames gold branch picture frame, 5x7",
@@ -135,12 +117,6 @@ var POSTS = [
         "link": "B0C45BPJFC"
       },
       {
-        "name": "Gold reindeer napkin rings, set of 8",
-        "note": "Leaping gold reindeer that add a festive touch to every place setting.",
-        "image": "assets/products/B08HXWSG9P.jpg",
-        "link": "B08HXWSG9P"
-      },
-      {
         "name": "National Tree Company Wintry Pine prelit garland, 9 ft",
         "note": "A full prelit pine garland with frosted tips, red berries and pinecones, ready to plug in.",
         "image": "assets/products/B00EJ2E1HI.jpg",
@@ -151,18 +127,6 @@ var POSTS = [
         "note": "A slim frosted lit tree that fits a planter on either side of the door.",
         "image": "assets/products/B00MVAE2M4.jpg",
         "link": "B00MVAE2M4"
-      },
-      {
-        "name": "2 ft pre-lit tabletop Christmas tree",
-        "note": "A small lit tree in a burlap base, sized for a coffee table or side table.",
-        "image": "assets/products/B0HBX4GSW1.jpg",
-        "link": "B0HBX4GSW1"
-      },
-      {
-        "name": "Spa Luxetique vanilla bath gift set, 8 pieces",
-        "note": "A ready-to-give vanilla spa set for a slow night in.",
-        "image": "assets/products/B0FJF5X4MJ.jpg",
-        "link": "B0FJF5X4MJ"
       },
       {
         "name": "HASENSE ribbed stackable mugs, set of 4, with holder",
@@ -199,6 +163,18 @@ var POSTS = [
         "note": "A soft pink puffy headband for skincare and face washing.",
         "image": "assets/products/B0CJH1RY42.jpg",
         "link": "B0CJH1RY42"
+      },
+      {
+        "name": "Simple Modern Trek 40 oz tumbler, cream",
+        "note": "The handle tumbler she will carry everywhere, in a soft neutral cream.",
+        "image": "assets/products/B0BHBP1X1B.jpg",
+        "link": "B0BHBP1X1B"
+      },
+      {
+        "name": "Oster Cordless Electric Wine Bottle Opener",
+        "note": "Silver Oster cordless wine opener on a rechargeable base, for easy corks at every dinner party.",
+        "image": "assets/products/B003YFI0O6.jpg",
+        "link": "B003YFI0O6"
       },
       {
         "name": "Round white marble cheese board",
@@ -256,10 +232,7 @@ var POSTS = [
           "Vases, throws, baskets and warm wood pieces from our home edits, on sale today."
         ],
         "picks": [
-          "B09ZL23DWT",
           "B09FJ9KWXF",
-          "B07SQ1X4FG",
-          "B08TQWWS9X",
           "B071GZRVCP",
           "B0D5HK2KHW",
           "B0HKSD1P5Z",
@@ -276,10 +249,8 @@ var POSTS = [
           "B0D5LYJ1BK",
           "B07XY335K6",
           "B0C45BPJFC",
-          "B08HXWSG9P",
           "B00EJ2E1HI",
-          "B00MVAE2M4",
-          "B0HBX4GSW1"
+          "B00MVAE2M4"
         ]
       },
       {
@@ -288,13 +259,14 @@ var POSTS = [
           "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
         ],
         "picks": [
-          "B0FJF5X4MJ",
           "B0DLB8F5W7",
           "B0F5311BCF",
           "B08NVNNT86",
           "B0F8N74F65",
           "B0DCZ4V4Z1",
-          "B0CJH1RY42"
+          "B0CJH1RY42",
+          "B0BHBP1X1B",
+          "B003YFI0O6"
         ]
       },
       {
@@ -326,7 +298,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 14, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 15, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
