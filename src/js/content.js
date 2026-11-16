@@ -303,6 +303,61 @@ var POSTS = [
   // BF-HUB-END
   // ----------------------------------------------------------------
   {
+    slug: 'vintage-christmas-tree-decorations',
+    title: 'Vintage Christmas Tree Decorations',
+    category: 'home-finds',
+    date: '2026-11-15',
+    description: 'Vintage Christmas tree decorations from Amazon: reflector glass ornaments, popcorn garland, velvet bows, C7 lights and a glass Santa finial topper.',
+    intro: 'A vintage Christmas tree comes down to a few old-fashioned details: glass ornaments with indented reflector centers, strands of glass beads or popcorn and cranberries, big-bulb C7 lights, velvet bows and a blown-glass finial on top. These 14 Amazon finds recreate that classic tree without a hunt through antique shops. Mix bright mid-century glass with a few aged pieces so it looks collected over the years.',
+    image: 'assets/pins/vintage-christmas-tree-decorations.jpg',
+    imageAlt: 'Collage of vintage Christmas tree decorations on linen: a red glass Santa finial topper, a green fir tree, a glass pickle and Santa boot ornament, reflector and red-gold glass ornaments, antique gold balls, popcorn cranberry garland, felt mushrooms, burgundy velvet bows, C7 lights, a glass bead garland and a woven tree collar.',
+    products: [
+      { name: 'Glass reflector ball ornaments, set of 9', note: 'The indented reflector center is the detail that made 1950s Shiny Brite-style glass so collectible, and these jewel tones nail it. They\'re small (about 1.6 in), so cluster three or four near the branch tips instead of spacing them out.', image: 'assets/products/B0DGKYKNZL.jpg', link: 'B0DGKYKNZL' },
+      { name: 'Valery Madelyn red and gold glass ornaments, 10 count', note: 'Mixed shapes (a finial, a teardrop, striped and painted balls) in old-world red and gold make the tree look collected over years, not bought in one box. Hang the finial on a lower branch where it can drop freely.', image: 'assets/products/B072V5N9LD.jpg', link: 'B072V5N9LD' },
+      { name: 'Kurt Adler glass Santa finial tree topper, 16 inch', note: 'A blown-glass finial with a tiny Santa is the classic mid-century topper, and it says vintage before anyone looks at the branches. At 16 inches it needs a sturdy top stem, so check your tree\'s leader before it arrives.', image: 'assets/products/B00S7ZIAP2.jpg', link: 'B00S7ZIAP2' },
+      { name: 'Winlyn popcorn and cranberry garland, 18 ft', note: 'The old-fashioned strung garland, minus the stale popcorn. Drape it in loose swags rather than tight spirals so it reads handmade in the best way.', image: 'assets/products/B08K7GN3KL.jpg', link: 'B08K7GN3KL' },
+      { name: 'AuldHome antique gold distressed ball ornaments, set of 6', note: 'Embossed balls with a worn, antique gold finish bring the weight of old German glass. The aged surface is what keeps them from looking new, so mix them with the brighter glass rather than using them alone.', image: 'assets/products/B07YL8H533.jpg', link: 'B07YL8H533' },
+      { name: 'Small burgundy velvet bows, set of 24', note: 'Deep burgundy velvet reads richer and more old-world than bright red under warm lights. Tie the small bows straight onto the branches to fill gaps between ornaments, spaced evenly so they read as a pattern rather than clusters.', image: 'assets/products/B0D8W9Y6B3.jpg', link: 'B0D8W9Y6B3' },
+      { name: 'Kurt Adler multicolor glass bead garland, 6 ft', note: 'Glass bead strands are the detail people remember from their grandmother\'s tree. Six feet is short, so plan two or three strands and drape them between ornaments instead of circling the trunk.', image: 'assets/products/B002U3F1D6.jpg', link: 'B002U3F1D6' },
+      { name: 'Old World Christmas glass pickle ornament', note: 'Hiding a glass pickle deep in the branches is a tree tradition: whoever finds it first on Christmas morning gets a small extra gift. The hand-painted glass finish looks far better than plastic versions.', image: 'assets/products/B001NDGU3O.jpg', link: 'B001NDGU3O' },
+      { name: 'Old World Christmas Santa boot glass ornament', note: 'Figural blown glass (boots, Santas, birds) is what separates a vintage-feeling tree from a plain ball tree. Put one or two figurals at eye level where they get noticed.', image: 'assets/products/B001580B14.jpg', link: 'B001580B14' },
+      { name: 'C7 multicolor LED string lights, 25 ft', note: 'Big C7 bulbs in red, green, blue and orange give the retro glow that tiny fairy lights can\'t. Weave the green cord deep into the branches so only the bulbs show.', image: 'assets/products/B0B7RFD5JH.jpg', link: 'B0B7RFD5JH' },
+      { name: 'Best Choice Products woven tree collar, 36 inch', note: 'A woven collar hides the stand and gives the tree the tidy, tree-in-a-basket base of an old-fashioned living room. Measure your stand\'s widest point first: 36 inches suits a larger tree.', image: 'assets/products/B0DJG6TTZW.jpg', link: 'B0DJG6TTZW' },
+      { name: 'Tatuo felt mushroom ornaments, set of 12', note: 'Red-and-white mushrooms are an old-world good-luck ornament, and felt adds a soft handmade texture next to all the glass. Tuck them in pairs closer to the trunk where the lights catch them.', image: 'assets/products/B08HN51Z61.jpg', link: 'B08HN51Z61' },
+      { name: 'Puleo 7.5 ft pre-lit Aspen Fir Christmas tree', note: 'A classic fir shape with layered branch tips reads natural rather than perfectly cone-like, which suits heirloom-style ornaments. Leave room for the topper: 7.5 ft plus a tall finial needs a high ceiling.', image: 'assets/products/B01N3QFZHR.jpg', link: 'B01N3QFZHR' },
+      { name: 'Battery clip-on candle lights for the tree, 10 pack', note: 'Clip-on candles are how trees were lit before electric strings, and these flicker with no open flame. Clip them upright on sturdy branch tips; ten is enough to accent a tree that already has string lights.', image: 'assets/products/B0F942CLPP.jpg', link: 'B0F942CLPP' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
+    slug: 'christmas-fireplace-decor-ideas',
+    title: 'Christmas Fireplace Decor Ideas: A Full, Lush Mantel',
+    category: 'home-finds',
+    date: '2026-11-15',
+    description: 'How to style a full, lush Christmas mantel: two layered garlands, magnolia and cedar stems, velvet bows, gold accents and candlelight at every height.',
+    intro: 'A full Christmas fireplace starts with two garlands, not one: a thick pine base, then a softer eucalyptus garland and loose magnolia and cedar stems tucked in for depth. Add velvet bows, a few gold sprays and candlelight at three heights (tall lanterns at the ends, tapers in between, votives in front), then hang matching stockings from weighted holders. These 15 Amazon finds build that layered, abundant look without tipping into clutter.',
+    image: 'assets/pins/christmas-fireplace-decor-ideas.jpg',
+    imageAlt: 'Collage of Christmas fireplace decor on a linen background: green velvet stocking, tall gold lanterns, gold taper candlesticks, a eucalyptus and pine garland with pinecones and red berries, a Norfolk pine garland, a silver dollar eucalyptus garland, red velvet bows, magnolia leaves, gold glitter leaves, red berry stems, gold pillar stands, potted cedar stems, gold mercury glass votives and gold stocking holders.',
+    products: [
+      { name: 'Winlyn eucalyptus and pine garland with pinecones and berries, 6 ft', note: 'The hero layer: eucalyptus, long-needle pine, pinecones and berries come already mixed, so one strand reads like a florist built it. At 6 ft it works best run over a base garland on a wide mantel.', image: 'assets/products/B0BFCSK7QS.jpg', link: 'B0BFCSK7QS' },
+      { name: 'Real-touch Norfolk pine garland', note: 'Soft, drooping Norfolk pine gives the heavy, spilling-over look a full mantel needs. Use it as the base layer, let the ends hang past the mantel edge, and check the listed length against your shelf.', image: 'assets/products/B0FRF6FBJ2.jpg', link: 'B0FRF6FBJ2' },
+      { name: 'Real-touch magnolia leaf stems, 4 pieces', note: 'Glossy green fronts with brown backs are the classic Southern mantel layer. Take the stems out of the vase and tuck them into the garland every 12 to 18 inches for depth.', image: 'assets/products/B0DK5GR8BZ.jpg', link: 'B0DK5GR8BZ' },
+      { name: 'Large red velvet bows with gold edge, 6 pieces', note: 'Velvet with a thin gold edge reads richer than satin. Space the bows along the garland and let the long tails fall over the mantel edge.', image: 'assets/products/B08L8V2H19.jpg', link: 'B08L8V2H19' },
+      { name: 'NUPTIO vintage gold taper candlestick holders', note: 'Three heights in an antique gold finish create the stepped candlelight a lush mantel needs. Group them between the garland swags, tallest at the back.', image: 'assets/products/B08MLGXSPH.jpg', link: 'B08MLGXSPH' },
+      { name: 'HPC Decor tall gold lanterns, 22 and 19 inch', note: 'Oversized lanterns at each end frame the fireplace so the garland doesn\'t just stop. The slim open frame gives you big scale without visual weight.', image: 'assets/products/B0CY299XJH.jpg', link: 'B0CY299XJH' },
+      { name: 'Etistta emerald velvet stocking, 20 inch', note: 'Deep green velvet with a thin gold trim matches the brass and greenery instead of competing with them. One per person in the same color looks calm and custom.', image: 'assets/products/B08JKK534W.jpg', link: 'B08JKK534W' },
+      { name: 'DN DECONATION gold mercury glass votive holders, 8 pieces', note: 'Mixed shapes in speckled gold glass make the low, glowing front layer. Use flameless tea lights anywhere near the greenery.', image: 'assets/products/B098WMQHWJ.jpg', link: 'B098WMQHWJ' },
+      { name: 'Silver dollar eucalyptus and willow garland', note: 'Your second garland: gray-green leaves and trailing willow add softness and movement over the darker pine. Let it drape a little lower than the base so both layers show.', image: 'assets/products/B07YQWC2NR.jpg', link: 'B07YQWC2NR' },
+      { name: 'Gold glitter leaf picks, 20 pieces', note: 'A few gold sprays catch the candlelight and make the garland look finished. Tuck them in small groups; too many and it starts to look like a craft store.', image: 'assets/products/B08KSDN32Q.jpg', link: 'B08KSDN32Q' },
+      { name: 'Red berry stems, 12 pieces', note: 'Berry clusters add color between the greens and echo the velvet bows. Bend the stems so they follow the garland instead of sticking straight out.', image: 'assets/products/B08X1WX2N2.jpg', link: 'B08X1WX2N2' },
+      { name: 'Gold pillar candle stands, set of 3', note: 'Three heights of plain gold plates lift chunky pillars into the middle layer of light. The simple shape keeps everything around them looking intentional.', image: 'assets/products/B07R54X7S8.jpg', link: 'B07R54X7S8' },
+      { name: 'GREENTIME golden berry stems, 6 pieces', note: 'Long gold berry sprays add height above the garland line and fill the gaps beside the lanterns. Six is plenty for a standard mantel.', image: 'assets/products/B0D8Q2D231.jpg', link: 'B0D8Q2D231' },
+      { name: 'Real-touch cedar branches, 12 pieces', note: 'Loose cedar stems are how a garland ends up looking thick: tuck them in wherever the base thins out. The photo shows them potted; on a mantel, use the stems on their own.', image: 'assets/products/B0FFHC9QPC.jpg', link: 'B0FFHC9QPC' },
+      { name: 'Gold weighted stocking holders, 2 pack', note: 'Heavy, plain gold blocks hold a filled stocking without tipping and tuck under the garland. Check that the base fits your mantel depth, and buy enough packs for every stocking.', image: 'assets/products/B0DBZB5HSH.jpg', link: 'B0DBZB5HSH' }
+    ]
+  },
+  // ----------------------------------------------------------------
+  {
     slug: 'christmas-dining-room-decor-ideas',
     title: 'Christmas Dining Room Decor Ideas That Look Expensive',
     category: 'home-finds',
