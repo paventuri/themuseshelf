@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-15",
+    "updated": "2026-11-16",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -63,12 +63,6 @@ var POSTS = [
     ],
     "products": [
       {
-        "name": "Round wood side table",
-        "note": "A small three-leg table that fits next to any sofa or chair.",
-        "image": "assets/products/B09FJ9KWXF.jpg",
-        "link": "B09FJ9KWXF"
-      },
-      {
         "name": "Lawrence Frames gold branch picture frame, 5x7",
         "note": "A gold twig-style frame that turns a favorite family photo into a keepsake gift.",
         "image": "assets/products/B071GZRVCP.jpg",
@@ -79,12 +73,6 @@ var POSTS = [
         "note": "Soft, muted leaves on a slim trunk that fill an empty corner with zero upkeep.",
         "image": "assets/products/02-faux-olive-tree.png",
         "link": "B0D5HK2KHW"
-      },
-      {
-        "name": "DUMOS wicker laundry basket with lid, 90L",
-        "note": "A tall woven hamper with a lid and a removable liner.",
-        "image": "assets/products/B0HKSD1P5Z.jpg",
-        "link": "B0HKSD1P5Z"
       },
       {
         "name": "Madison Park Zuri faux fur throw, snow leopard",
@@ -99,10 +87,16 @@ var POSTS = [
         "link": "B07TZL35QZ"
       },
       {
-        "name": "Lulu Home gold deer figurines, set of 3",
-        "note": "A faceted antique gold deer family that looks like a vintage store find.",
-        "image": "assets/products/B0D5LYJ1BK.jpg",
-        "link": "B0D5LYJ1BK"
+        "name": "Beige ceramic vase set of 3",
+        "note": "Three matte, sandy shapes that style themselves on a shelf or console.",
+        "image": "assets/products/05-beige-ceramic-vase-set.png",
+        "link": "B09ZL23DWT"
+      },
+      {
+        "name": "CHICVITA woven rope basket with leather handles",
+        "note": "A soft rope basket with leather handles for hand-wash items or towels.",
+        "image": "assets/products/B08G4XVJKZ.jpg",
+        "link": "B08G4XVJKZ"
       },
       {
         "name": "Red berry garland with pinecones, 7 ft",
@@ -111,34 +105,22 @@ var POSTS = [
         "link": "B07XY335K6"
       },
       {
-        "name": "Homemory window candles with timer, 6 pack",
-        "note": "Battery window candles with a remote, timer and dimmer for renters.",
-        "image": "assets/products/B0C45BPJFC.jpg",
-        "link": "B0C45BPJFC"
+        "name": "Puleo 7.5 ft pre-lit Aspen Fir Christmas tree",
+        "note": "A classic fir shape with layered branch tips reads natural rather than perfectly cone-like, which suits heirloom-style ornaments. Leave room for the topper: 7.5 ft plus a tall finial needs a high ceiling.",
+        "image": "assets/products/B01N3QFZHR.jpg",
+        "link": "B01N3QFZHR"
       },
       {
-        "name": "National Tree Company Wintry Pine prelit garland, 9 ft",
-        "note": "A full prelit pine garland with frosted tips, red berries and pinecones, ready to plug in.",
-        "image": "assets/products/B00EJ2E1HI.jpg",
-        "link": "B00EJ2E1HI"
+        "name": "Lighted Christmas urn filler, 24 inch",
+        "note": "A tall warm-white lit filler that fills a large porch urn.",
+        "image": "assets/products/B0H4Y2VPQM.jpg",
+        "link": "B0H4Y2VPQM"
       },
       {
-        "name": "National Tree Company pre-lit flocked Forestree, 3 ft",
-        "note": "A slim frosted lit tree that fits a planter on either side of the door.",
-        "image": "assets/products/B00MVAE2M4.jpg",
-        "link": "B00MVAE2M4"
-      },
-      {
-        "name": "HASENSE ribbed stackable mugs, set of 4, with holder",
-        "note": "Ribbed stackable mugs on a slim metal stand, a pretty coffee station gift for her kitchen.",
-        "image": "assets/products/B0DLB8F5W7.jpg",
-        "link": "B0DLB8F5W7"
-      },
-      {
-        "name": "BAGSMART Travel Toiletry Bag",
-        "note": "Sage green puffy toiletry bag with quilted channels and top handles, the cushy travel piece that looks designer.",
-        "image": "assets/products/B0F5311BCF.jpg",
-        "link": "B0F5311BCF"
+        "name": "SHACOS poinsettia Christmas swag, 30 inch",
+        "note": "Poinsettias, pine cones and gold accents in one long piece for a sill.",
+        "image": "assets/products/B0C8HHMT72.jpg",
+        "link": "B0C8HHMT72"
       },
       {
         "name": "M MOOHAM small gold hoop earrings",
@@ -177,16 +159,16 @@ var POSTS = [
         "link": "B003YFI0O6"
       },
       {
+        "name": "Kattee leather tote bag, cognac",
+        "note": "A structured cognac leather tote that reads boutique, roomy enough for her laptop and everyday things.",
+        "image": "assets/products/B07MT5VRTF.jpg",
+        "link": "B07MT5VRTF"
+      },
+      {
         "name": "Round white marble cheese board",
         "note": "A solid marble board that serves cheese tonight and styles the counter tomorrow.",
         "image": "assets/products/B01DPLTJWK.jpg",
         "link": "B01DPLTJWK"
-      },
-      {
-        "name": "DOWAN oval serving platters, set of 3",
-        "note": "Nesting white platters in three sizes for the turkey, sides and dessert.",
-        "image": "assets/products/B07T7MYF4D.jpg",
-        "link": "B07T7MYF4D"
       },
       {
         "name": "LE TAUCI gravy boat with saucer",
@@ -201,16 +183,22 @@ var POSTS = [
         "link": "B09BK667XG"
       },
       {
-        "name": "Carrara marble cutting board",
-        "note": "Real white marble that doubles as a serving board.",
-        "image": "assets/products/B0FVWP57KW.jpg",
-        "link": "B0FVWP57KW"
+        "name": "White porcelain 3 tier serving tray",
+        "note": "A tiered porcelain stand for cookies, coffee bar treats or holiday baking.",
+        "image": "assets/products/B0D2V4XM3D.jpg",
+        "link": "B0D2V4XM3D"
       },
       {
-        "name": "Ribbed ceramic utensil holders, set of 2",
-        "note": "Warm white ribbed crocks for spoons and whisks by the stove.",
-        "image": "assets/products/B0CJ2H9J31.jpg",
-        "link": "B0CJ2H9J31"
+        "name": "MALACASA 3-tier porcelain serving trays",
+        "note": "Stacked white platters on a gold stand for a tall buffet moment.",
+        "image": "assets/products/B0DS59Q4LS.jpg",
+        "link": "B0DS59Q4LS"
+      },
+      {
+        "name": "Snowy bottle brush trees, set of 10",
+        "note": "Four inch frosted trees for a vanity tray or the back of the toilet.",
+        "image": "assets/products/B0B5W95PTR.jpg",
+        "link": "B0B5W95PTR"
       }
     ],
     "sections": [
@@ -232,12 +220,12 @@ var POSTS = [
           "Vases, throws, baskets and warm wood pieces from our home edits, on sale today."
         ],
         "picks": [
-          "B09FJ9KWXF",
           "B071GZRVCP",
           "B0D5HK2KHW",
-          "B0HKSD1P5Z",
           "B07T2Y1QHF",
-          "B07TZL35QZ"
+          "B07TZL35QZ",
+          "B09ZL23DWT",
+          "B08G4XVJKZ"
         ]
       },
       {
@@ -246,11 +234,10 @@ var POSTS = [
           "Garlands, ornaments and mantel pieces, so you can decorate for less this year."
         ],
         "picks": [
-          "B0D5LYJ1BK",
           "B07XY335K6",
-          "B0C45BPJFC",
-          "B00EJ2E1HI",
-          "B00MVAE2M4"
+          "B01N3QFZHR",
+          "B0H4Y2VPQM",
+          "B0C8HHMT72"
         ]
       },
       {
@@ -259,14 +246,13 @@ var POSTS = [
           "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
         ],
         "picks": [
-          "B0DLB8F5W7",
-          "B0F5311BCF",
           "B08NVNNT86",
           "B0F8N74F65",
           "B0DCZ4V4Z1",
           "B0CJH1RY42",
           "B0BHBP1X1B",
-          "B003YFI0O6"
+          "B003YFI0O6",
+          "B07MT5VRTF"
         ]
       },
       {
@@ -276,11 +262,11 @@ var POSTS = [
         ],
         "picks": [
           "B01DPLTJWK",
-          "B07T7MYF4D",
           "B0B3JBPQ2W",
           "B09BK667XG",
-          "B0FVWP57KW",
-          "B0CJ2H9J31"
+          "B0D2V4XM3D",
+          "B0DS59Q4LS",
+          "B0B5W95PTR"
         ]
       }
     ],
@@ -298,7 +284,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 15, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 16, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
