@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-16",
+    "updated": "2026-11-17",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -87,18 +87,6 @@ var POSTS = [
         "link": "B07TZL35QZ"
       },
       {
-        "name": "Beige ceramic vase set of 3",
-        "note": "Three matte, sandy shapes that style themselves on a shelf or console.",
-        "image": "assets/products/05-beige-ceramic-vase-set.png",
-        "link": "B09ZL23DWT"
-      },
-      {
-        "name": "CHICVITA woven rope basket with leather handles",
-        "note": "A soft rope basket with leather handles for hand-wash items or towels.",
-        "image": "assets/products/B08G4XVJKZ.jpg",
-        "link": "B08G4XVJKZ"
-      },
-      {
         "name": "Red berry garland with pinecones, 7 ft",
         "note": "A bright red berry and holly leaf garland to weave through greenery for a pop of color.",
         "image": "assets/products/B07XY335K6.jpg",
@@ -123,10 +111,10 @@ var POSTS = [
         "link": "B0C8HHMT72"
       },
       {
-        "name": "M MOOHAM small gold hoop earrings",
-        "note": "Classic small gold hoops that pass for fine jewelry, an easy stocking stuffer she will wear.",
-        "image": "assets/products/B08NVNNT86.jpg",
-        "link": "B08NVNNT86"
+        "name": "Kurt Adler buffalo plaid stocking with faux fur cuff",
+        "note": "A red and black buffalo check stocking with a faux fur cuff for a lodge-style mantel.",
+        "image": "assets/products/B01MTC1APB.jpg",
+        "link": "B01MTC1APB"
       },
       {
         "name": "White porcelain mugs, set of 6",
@@ -159,10 +147,10 @@ var POSTS = [
         "link": "B003YFI0O6"
       },
       {
-        "name": "Kattee leather tote bag, cognac",
-        "note": "A structured cognac leather tote that reads boutique, roomy enough for her laptop and everyday things.",
-        "image": "assets/products/B07MT5VRTF.jpg",
-        "link": "B07MT5VRTF"
+        "name": "Ello Ava 18oz Glass Tumbler with Straw and Lid for Iced Coffee",
+        "note": "Ribbed glass Ello tumbler with a blush lid and straw, pretty enough for her iced coffee between classes.",
+        "image": "assets/products/B0GL9WS77D.jpg",
+        "link": "B0GL9WS77D"
       },
       {
         "name": "Round white marble cheese board",
@@ -223,9 +211,7 @@ var POSTS = [
           "B071GZRVCP",
           "B0D5HK2KHW",
           "B07T2Y1QHF",
-          "B07TZL35QZ",
-          "B09ZL23DWT",
-          "B08G4XVJKZ"
+          "B07TZL35QZ"
         ]
       },
       {
@@ -237,7 +223,8 @@ var POSTS = [
           "B07XY335K6",
           "B01N3QFZHR",
           "B0H4Y2VPQM",
-          "B0C8HHMT72"
+          "B0C8HHMT72",
+          "B01MTC1APB"
         ]
       },
       {
@@ -246,13 +233,12 @@ var POSTS = [
           "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
         ],
         "picks": [
-          "B08NVNNT86",
           "B0F8N74F65",
           "B0DCZ4V4Z1",
           "B0CJH1RY42",
           "B0BHBP1X1B",
           "B003YFI0O6",
-          "B07MT5VRTF"
+          "B0GL9WS77D"
         ]
       },
       {
@@ -284,7 +270,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 16, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 17, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
