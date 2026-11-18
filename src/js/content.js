@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-17",
+    "updated": "2026-11-18",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -69,12 +69,6 @@ var POSTS = [
         "link": "B071GZRVCP"
       },
       {
-        "name": "Faux olive tree, 5 ft",
-        "note": "Soft, muted leaves on a slim trunk that fill an empty corner with zero upkeep.",
-        "image": "assets/products/02-faux-olive-tree.png",
-        "link": "B0D5HK2KHW"
-      },
-      {
         "name": "Madison Park Zuri faux fur throw, snow leopard",
         "note": "A soft gray and ivory faux fur throw with a subtle snowy pattern.",
         "image": "assets/products/B07T2Y1QHF.jpg",
@@ -85,48 +79,6 @@ var POSTS = [
         "note": "A dark green tartan throw with a black sherpa back that looks straight out of a mountain lodge.",
         "image": "assets/products/B07TZL35QZ.jpg",
         "link": "B07TZL35QZ"
-      },
-      {
-        "name": "Red berry garland with pinecones, 7 ft",
-        "note": "A bright red berry and holly leaf garland to weave through greenery for a pop of color.",
-        "image": "assets/products/B07XY335K6.jpg",
-        "link": "B07XY335K6"
-      },
-      {
-        "name": "Puleo 7.5 ft pre-lit Aspen Fir Christmas tree",
-        "note": "A classic fir shape with layered branch tips reads natural rather than perfectly cone-like, which suits heirloom-style ornaments. Leave room for the topper: 7.5 ft plus a tall finial needs a high ceiling.",
-        "image": "assets/products/B01N3QFZHR.jpg",
-        "link": "B01N3QFZHR"
-      },
-      {
-        "name": "Lighted Christmas urn filler, 24 inch",
-        "note": "A tall warm-white lit filler that fills a large porch urn.",
-        "image": "assets/products/B0H4Y2VPQM.jpg",
-        "link": "B0H4Y2VPQM"
-      },
-      {
-        "name": "SHACOS poinsettia Christmas swag, 30 inch",
-        "note": "Poinsettias, pine cones and gold accents in one long piece for a sill.",
-        "image": "assets/products/B0C8HHMT72.jpg",
-        "link": "B0C8HHMT72"
-      },
-      {
-        "name": "Kurt Adler buffalo plaid stocking with faux fur cuff",
-        "note": "A red and black buffalo check stocking with a faux fur cuff for a lodge-style mantel.",
-        "image": "assets/products/B01MTC1APB.jpg",
-        "link": "B01MTC1APB"
-      },
-      {
-        "name": "White porcelain mugs, set of 6",
-        "note": "Clean white mugs for coffee, tea or cocoa.",
-        "image": "assets/products/B0F8N74F65.jpg",
-        "link": "B0F8N74F65"
-      },
-      {
-        "name": "Crystal heart ring holder",
-        "note": "Cut glass with a ring cone that sparkles on the vanity.",
-        "image": "assets/products/B0DCZ4V4Z1.jpg",
-        "link": "B0DCZ4V4Z1"
       },
       {
         "name": "Conair spa headband",
@@ -153,40 +105,10 @@ var POSTS = [
         "link": "B0GL9WS77D"
       },
       {
-        "name": "Round white marble cheese board",
-        "note": "A solid marble board that serves cheese tonight and styles the counter tomorrow.",
-        "image": "assets/products/B01DPLTJWK.jpg",
-        "link": "B01DPLTJWK"
-      },
-      {
-        "name": "LE TAUCI gravy boat with saucer",
-        "note": "A white ceramic gravy boat with its own saucer to catch drips.",
-        "image": "assets/products/B0B3JBPQ2W.jpg",
-        "link": "B0B3JBPQ2W"
-      },
-      {
-        "name": "KitchenAid Albany kitchen towels, 4 pack",
-        "note": "Paprika red and white towels in a crisp stripe that suit the season and beyond.",
-        "image": "assets/products/B09BK667XG.jpg",
-        "link": "B09BK667XG"
-      },
-      {
-        "name": "White porcelain 3 tier serving tray",
-        "note": "A tiered porcelain stand for cookies, coffee bar treats or holiday baking.",
-        "image": "assets/products/B0D2V4XM3D.jpg",
-        "link": "B0D2V4XM3D"
-      },
-      {
-        "name": "MALACASA 3-tier porcelain serving trays",
-        "note": "Stacked white platters on a gold stand for a tall buffet moment.",
-        "image": "assets/products/B0DS59Q4LS.jpg",
-        "link": "B0DS59Q4LS"
-      },
-      {
-        "name": "Snowy bottle brush trees, set of 10",
-        "note": "Four inch frosted trees for a vanity tray or the back of the toilet.",
-        "image": "assets/products/B0B5W95PTR.jpg",
-        "link": "B0B5W95PTR"
+        "name": "Armani Acqua di Gioia eau de parfum",
+        "note": "A fresh, citrusy designer fragrance in a sculpted glass bottle she will keep on her vanity.",
+        "image": "assets/products/B003MUTDUI.jpg",
+        "link": "B003MUTDUI"
       }
     ],
     "sections": [
@@ -209,22 +131,8 @@ var POSTS = [
         ],
         "picks": [
           "B071GZRVCP",
-          "B0D5HK2KHW",
           "B07T2Y1QHF",
           "B07TZL35QZ"
-        ]
-      },
-      {
-        "h": "Christmas decor deals",
-        "body": [
-          "Garlands, ornaments and mantel pieces, so you can decorate for less this year."
-        ],
-        "picks": [
-          "B07XY335K6",
-          "B01N3QFZHR",
-          "B0H4Y2VPQM",
-          "B0C8HHMT72",
-          "B01MTC1APB"
         ]
       },
       {
@@ -233,26 +141,11 @@ var POSTS = [
           "Cozy, pretty gifts from our gift guides that are on sale right now. Buy now, wrap later."
         ],
         "picks": [
-          "B0F8N74F65",
-          "B0DCZ4V4Z1",
           "B0CJH1RY42",
           "B0BHBP1X1B",
           "B003YFI0O6",
-          "B0GL9WS77D"
-        ]
-      },
-      {
-        "h": "Hosting and kitchen deals",
-        "body": [
-          "Serveware and kitchen pieces that make holiday hosting look effortless."
-        ],
-        "picks": [
-          "B01DPLTJWK",
-          "B0B3JBPQ2W",
-          "B09BK667XG",
-          "B0D2V4XM3D",
-          "B0DS59Q4LS",
-          "B0B5W95PTR"
+          "B0GL9WS77D",
+          "B003MUTDUI"
         ]
       }
     ],
@@ -270,7 +163,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 17, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 18, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
