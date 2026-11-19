@@ -51,7 +51,7 @@ var POSTS = [
     "title": "Amazon Black Friday 2026: Home Deals That Look Expensive",
     "category": "home-finds",
     "date": "2026-11-11",
-    "updated": "2026-11-18",
+    "updated": "2026-11-19",
     "description": "Amazon Black Friday 2026 home deals that look expensive: neutral decor, Christmas pieces, gifts for her and hosting finds on sale today. Updated daily.",
     "intro": "Amazon's Black Friday Week runs November 19 to 30, and early deals are already live. We checked every piece we have featured for its look and kept only the ones on sale today: neutral home decor, Christmas pieces, gifts for her and hosting finds. The list updates every morning, so come back as new deals drop.",
     "image": "assets/pins/amazon-black-friday-home-deals.jpg",
@@ -79,6 +79,132 @@ var POSTS = [
         "note": "A dark green tartan throw with a black sherpa back that looks straight out of a mountain lodge.",
         "image": "assets/products/B07TZL35QZ.jpg",
         "link": "B07TZL35QZ"
+      },
+      {
+        "name": "Der Rose mini faux plants, 3 pack",
+        "note": "Tiny sage green faux plants that add life with zero care.",
+        "image": "assets/products/B07VKJKFN2.jpg",
+        "link": "B07VKJKFN2"
+      },
+      {
+        "name": "Marbled ivory faux fur throw, XL",
+        "note": "A big ivory and taupe faux fur throw that makes any sofa look like a ski lodge.",
+        "image": "assets/products/B07BDPJ3YN.jpg",
+        "link": "B07BDPJ3YN"
+      },
+      {
+        "name": "Bedsure faux fur sherpa throw",
+        "note": "A fluffy cream faux fur throw for a reading chair or the end of the bed.",
+        "image": "assets/products/B07W9C99JH.jpg",
+        "link": "B07W9C99JH"
+      },
+      {
+        "name": "Rustic white wooden pillar candle holders, set of 3",
+        "note": "Whitewashed turned wood holders in three heights for pillar candles.",
+        "image": "assets/products/B097QPND5Z.jpg",
+        "link": "B097QPND5Z"
+      },
+      {
+        "name": "Beautex buffalo plaid sherpa throw",
+        "note": "Red and black buffalo check with a sherpa back for classic cabin warmth.",
+        "image": "assets/products/B08CV9SPPT.jpg",
+        "link": "B08CV9SPPT"
+      },
+      {
+        "name": "Faux eucalyptus in a glass vase",
+        "note": "A ready-made arrangement with faux water, sized for a nightstand.",
+        "image": "assets/products/B0DS7T4JJZ.jpg",
+        "link": "B0DS7T4JJZ"
+      },
+      {
+        "name": "Carrara oval marble tray",
+        "note": "A white and gray marble tray that corrals syrups, sugar and spoons.",
+        "image": "assets/products/B0FSZZPD3L.jpg",
+        "link": "B0FSZZPD3L"
+      },
+      {
+        "name": "Kate Aspen gold ribbed votive holders",
+        "note": "Ribbed gold glass votives that throw a warm flicker across the mantle.",
+        "image": "assets/products/B0CBSL1N1R.jpg",
+        "link": "B0CBSL1N1R"
+      },
+      {
+        "name": "LE TAUCI reactive glaze plant pots, set of 3, beige",
+        "note": "Speckled beige pots with saucers for a small snake plant or pothos.",
+        "image": "assets/products/B08F7TP4TN.jpg",
+        "link": "B08F7TP4TN"
+      },
+      {
+        "name": "Kurt Adler buffalo plaid stocking with faux fur cuff",
+        "note": "A red and black buffalo check stocking with a faux fur cuff for a lodge-style mantel.",
+        "image": "assets/products/B01MTC1APB.jpg",
+        "link": "B01MTC1APB"
+      },
+      {
+        "name": "RAMIRABI natural wood bead garland",
+        "note": "A light wood bead garland to drape across a tray or a stack of books.",
+        "image": "assets/products/B08Y8D23MW.jpg",
+        "link": "B08Y8D23MW"
+      },
+      {
+        "name": "Champagne ball ornaments, 30 pc",
+        "note": "Clear, white and champagne shatterproof balls in one set.",
+        "image": "assets/products/B07QXYN1H6.jpg",
+        "link": "B07QXYN1H6"
+      },
+      {
+        "name": "MantleClip gold stocking holders, 4 pack",
+        "note": "Slim gold clips that grip the mantle edge with no weight on top.",
+        "image": "assets/products/B001CEEEN2.jpg",
+        "link": "B001CEEEN2"
+      },
+      {
+        "name": "Cream knit stocking",
+        "note": "A chunky cream knit with a pom-pom cuff that looks boutique.",
+        "image": "assets/products/B07M8DZXQB.jpg",
+        "link": "B07M8DZXQB"
+      },
+      {
+        "name": "Meplait wood bead garland with tassels",
+        "note": "Natural and coffee-tone wood beads with jute tassels for a soft farmhouse accent.",
+        "image": "assets/products/B0CC4FV83J.jpg",
+        "link": "B0CC4FV83J"
+      },
+      {
+        "name": "Meplait natural wood bead garland with tassels",
+        "note": "Pale wood beads and jute tassels for a soft, natural swag.",
+        "image": "assets/products/B09V7HZPY6.jpg",
+        "link": "B09V7HZPY6"
+      },
+      {
+        "name": "Grelucgo embroidered holly tree skirt, 36 inch",
+        "note": "An ivory tree skirt with embroidered holly sprigs and a red trim.",
+        "image": "assets/products/B0774LFLP8.jpg",
+        "link": "B0774LFLP8"
+      },
+      {
+        "name": "Pimpernel Christmas Tree mugs and coasters, set of 4",
+        "note": "Classic Christmas tree mugs with matching coasters that make every cup of cocoa feel festive.",
+        "image": "assets/products/B0056W5WZ0.jpg",
+        "link": "B0056W5WZ0"
+      },
+      {
+        "name": "Lenox Holiday ornament candy jar",
+        "note": "A cream porcelain ornament-shaped jar with the classic holly band and gold trim.",
+        "image": "assets/products/B088GH7T8P.jpg",
+        "link": "B088GH7T8P"
+      },
+      {
+        "name": "Christmas bubble lights, 9 bulbs",
+        "note": "Traditional bubble lights that glow and bubble like the trees of the 50s and 60s.",
+        "image": "assets/products/B07W727Q21.jpg",
+        "link": "B07W727Q21"
+      },
+      {
+        "name": "Pearl bead garland",
+        "note": "Ivory pearl strands that loop around the branches like jewelry.",
+        "image": "assets/products/B0CXFBQC29.jpg",
+        "link": "B0CXFBQC29"
       },
       {
         "name": "Conair spa headband",
@@ -109,6 +235,120 @@ var POSTS = [
         "note": "A fresh, citrusy designer fragrance in a sculpted glass bottle she will keep on her vanity.",
         "image": "assets/products/B003MUTDUI.jpg",
         "link": "B003MUTDUI"
+      },
+      {
+        "name": "Velvet scrunchies, 8 pc",
+        "note": "Soft neutral scrunchies that are gentle on hair.",
+        "image": "assets/products/B07H7YCDR4.jpg",
+        "link": "B07H7YCDR4"
+      },
+      {
+        "name": "Satin scrunchies, 8 pack",
+        "note": "A stack of neutral satin scrunchies, blonde to black, that feel like silk on her hair.",
+        "image": "assets/products/B0FWQRD374.jpg",
+        "link": "B0FWQRD374"
+      },
+      {
+        "name": "SALLYFASHION kraft gift tags with string, 100 pack",
+        "note": "Scalloped kraft tags with the string included, ready for hand-written names.",
+        "image": "assets/products/B01767EKXC.jpg",
+        "link": "B01767EKXC"
+      },
+      {
+        "name": "CooLeathor Leather Journal Writing Notebook",
+        "note": "Rich brown genuine leather journal with a wrap tie and kraft pages, like a find from an old stationery shop.",
+        "image": "assets/products/B07FS3SPCV.jpg",
+        "link": "B07FS3SPCV"
+      },
+      {
+        "name": "Planetary Design Airscape Stainless Steel Coffee Canister",
+        "note": "Copper-tone Airscape canister with an inner lid that pushes air out, keeping her beans fresh longer.",
+        "image": "assets/products/B09NP55LSG.jpg",
+        "link": "B09NP55LSG"
+      },
+      {
+        "name": "Cream jewelry box",
+        "note": "A cream jewelry box with room for rings, necklaces and watches.",
+        "image": "assets/products/B0CLCH13T7.jpg",
+        "link": "B0CLCH13T7"
+      },
+      {
+        "name": "Bona Fide Beauty Czech Glass Nail File (Clear color) with Silver",
+        "note": "Czech glass nail file in a silver hard case that smooths edges gently and looks lovely in a vanity drawer.",
+        "image": "assets/products/B09X6595VN.jpg",
+        "link": "B09X6595VN"
+      },
+      {
+        "name": "Round white marble cheese board",
+        "note": "A solid marble board that serves cheese tonight and styles the counter tomorrow.",
+        "image": "assets/products/B01DPLTJWK.jpg",
+        "link": "B01DPLTJWK"
+      },
+      {
+        "name": "KitchenAid Albany kitchen towels, 4 pack",
+        "note": "Paprika red and white towels in a crisp stripe that suit the season and beyond.",
+        "image": "assets/products/B09BK667XG.jpg",
+        "link": "B09BK667XG"
+      },
+      {
+        "name": "Ribbed ceramic utensil holders, set of 2",
+        "note": "Warm white ribbed crocks for spoons and whisks by the stove.",
+        "image": "assets/products/B0CJ2H9J31.jpg",
+        "link": "B0CJ2H9J31"
+      },
+      {
+        "name": "Porcelain butter dish",
+        "note": "A lidded white butter dish that keeps butter soft on the counter.",
+        "image": "assets/products/B07SDD12D2.jpg",
+        "link": "B07SDD12D2"
+      },
+      {
+        "name": "LE TAUCI gravy boat with saucer",
+        "note": "A white ceramic gravy boat with its own saucer to catch drips.",
+        "image": "assets/products/B0B3JBPQ2W.jpg",
+        "link": "B0B3JBPQ2W"
+      },
+      {
+        "name": "Small wooden spoons, 6 pack",
+        "note": "Little wood spoons for stirring cocoa and scooping toppings.",
+        "image": "assets/products/B07N394W2N.jpg",
+        "link": "B07N394W2N"
+      },
+      {
+        "name": "Gold leaf placemats",
+        "note": "Metallic round chargers that add a warm glow under each plate.",
+        "image": "assets/products/B09M9YKLQR.jpg",
+        "link": "B09M9YKLQR"
+      },
+      {
+        "name": "Stölzle Lausitz Red Wine Glasses Power Set of 4",
+        "note": "Four Stölzle Lausitz red wine glasses with tall, angular bowls that make any bottle feel like a restaurant pour.",
+        "image": "assets/products/B07T1DFK1G.jpg",
+        "link": "B07T1DFK1G"
+      },
+      {
+        "name": "Gold coffee spoons, set of 6",
+        "note": "Slim gold spoons for desserts, espresso and dips.",
+        "image": "assets/products/B071K1CF33.jpg",
+        "link": "B071K1CF33"
+      },
+      {
+        "name": "Amber glass votives, set of 6",
+        "note": "Vintage amber glass for soft, golden candlelight.",
+        "image": "assets/products/B0BJGXKD9H.jpg",
+        "link": "B0BJGXKD9H"
+      },
+      {
+        "name": "Hanobe round beaded wood tray, dark brown",
+        "note": "A distressed dark wood tray with a beaded rim that looks like an antique find.",
+        "image": "assets/products/B0CWNC6143.jpg",
+        "link": "B0CWNC6143"
+      },
+      {
+        "name": "WOHENI rustic wood place card holders, 20 pack",
+        "note": "Natural log slices that make simple kraft name cards look styled.",
+        "image": "assets/products/B07SWXGGQQ.jpg",
+        "link": "B07SWXGGQQ"
       }
     ],
     "sections": [
@@ -132,7 +372,36 @@ var POSTS = [
         "picks": [
           "B071GZRVCP",
           "B07T2Y1QHF",
-          "B07TZL35QZ"
+          "B07TZL35QZ",
+          "B07VKJKFN2",
+          "B07BDPJ3YN",
+          "B07W9C99JH",
+          "B097QPND5Z",
+          "B08CV9SPPT",
+          "B0DS7T4JJZ",
+          "B0FSZZPD3L",
+          "B0CBSL1N1R",
+          "B08F7TP4TN"
+        ]
+      },
+      {
+        "h": "Christmas decor deals",
+        "body": [
+          "Garlands, ornaments and mantel pieces, so you can decorate for less this year."
+        ],
+        "picks": [
+          "B01MTC1APB",
+          "B08Y8D23MW",
+          "B07QXYN1H6",
+          "B001CEEEN2",
+          "B07M8DZXQB",
+          "B0CC4FV83J",
+          "B09V7HZPY6",
+          "B0774LFLP8",
+          "B0056W5WZ0",
+          "B088GH7T8P",
+          "B07W727Q21",
+          "B0CXFBQC29"
         ]
       },
       {
@@ -145,7 +414,34 @@ var POSTS = [
           "B0BHBP1X1B",
           "B003YFI0O6",
           "B0GL9WS77D",
-          "B003MUTDUI"
+          "B003MUTDUI",
+          "B07H7YCDR4",
+          "B0FWQRD374",
+          "B01767EKXC",
+          "B07FS3SPCV",
+          "B09NP55LSG",
+          "B0CLCH13T7",
+          "B09X6595VN"
+        ]
+      },
+      {
+        "h": "Hosting and kitchen deals",
+        "body": [
+          "Serveware and kitchen pieces that make holiday hosting look effortless."
+        ],
+        "picks": [
+          "B01DPLTJWK",
+          "B09BK667XG",
+          "B0CJ2H9J31",
+          "B07SDD12D2",
+          "B0B3JBPQ2W",
+          "B07N394W2N",
+          "B09M9YKLQR",
+          "B07T1DFK1G",
+          "B071K1CF33",
+          "B0BJGXKD9H",
+          "B0CWNC6143",
+          "B07SWXGGQQ"
         ]
       }
     ],
@@ -163,7 +459,7 @@ var POSTS = [
         "a": "Prices and discounts on Amazon change during the day, so we link straight to each product page, where Amazon shows the current price and deal."
       }
     ],
-    "note": "Deals were live when we checked on November 18, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
+    "note": "Deals were live when we checked on November 19, 2026. Prices and availability change fast on Amazon; the product page always shows the current price."
   },
   // BF-HUB-END
   // ----------------------------------------------------------------
